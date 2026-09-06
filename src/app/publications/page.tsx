@@ -64,6 +64,7 @@ const CATEGORIES: { name: string; blurb: string; items: string[] }[] = [
       "US Reporter",
       "Digital Journal",
       "Success Magazine",
+      "Market Daily",
     ],
   },
   {
@@ -81,7 +82,6 @@ const CATEGORIES: { name: string; blurb: string; items: string[] }[] = [
       "The Chicago Journal",
       "Hudson Weekly",
       "Wall Street Times",
-      "Australian Times",
     ],
   },
   {
@@ -93,6 +93,7 @@ const CATEGORIES: { name: string; blurb: string; items: string[] }[] = [
       "Haute Residence",
       "Law & Crime",
       "Law News Day",
+      "Lawyers Weekly",
       "Women's Journal",
       "Music Observer",
       "Muscle & Fitness",
@@ -117,6 +118,58 @@ const CATEGORIES: { name: string; blurb: string; items: string[] }[] = [
       "Woman's World",
       "Flaunt",
       "Celebrity News",
+      "The Hollywood Reporter",
+      "Artist Weekly",
+      "Famous Times",
+    ],
+  },
+  {
+    name: "United Kingdom",
+    blurb: "UK national media, plus the licensed British editions of international titles.",
+    items: [
+      "The Independent",
+      "Rolling Stone UK",
+      "Elle UK",
+    ],
+  },
+  {
+    name: "Middle East",
+    blurb:
+      "Gulf business and lifestyle media \u2014 useful if your market is the UAE, Saudi Arabia or the wider region.",
+    items: [
+      "Arabian Business",
+      "Gulf News",
+      "Khaleej Times",
+      "Esquire Middle East",
+      "Harper's Bazaar Arabia",
+      "Grazia Middle East",
+      "Dubai Weekly",
+    ],
+  },
+  {
+    name: "Australia",
+    blurb: "Australian mastheads and the licensed Australian editions of global brands.",
+    items: [
+      "Forbes Australia",
+      "Rolling Stone Australia",
+      "Variety Australia",
+      "Men's Health Australia",
+      "Harper's Bazaar Australia",
+      "SmartCompany",
+      "The Canberra Times",
+      "Australian Times",
+    ],
+  },
+  {
+    name: "Canada",
+    blurb: "National business titles and the city papers that carry weight locally.",
+    items: [
+      "Financial Post",
+      "National Post",
+      "Toronto Sun",
+      "Montreal Gazette",
+      "Vancouver Sun",
+      "Elle Canada",
     ],
   },
 ];
