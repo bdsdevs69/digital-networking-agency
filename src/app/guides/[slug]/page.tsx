@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { GUIDES, getGuide } from "@/content/guides";
 import styles from "../guides.module.css";
 import { ProofCards } from "../ProofCards";
+import { clampDescription, clampTitle } from "@/lib/meta";
 
 const SITE = "https://www.digitalnetworkingagency.com";
 const AUTHOR = "Sam Harris";
@@ -39,12 +40,12 @@ export async function generateMetadata({
   const url = `${SITE}/guides/${guide.slug}`;
 
   return {
-    title: guide.title,
-    description: guide.description,
+    title: clampTitle(guide.title),
+    description: clampDescription(guide.description),
     alternates: { canonical: url },
     openGraph: {
-      title: guide.title,
-      description: guide.description,
+      title: clampTitle(guide.title),
+      description: clampDescription(guide.description),
       url,
       siteName: "Digital Networking Agency",
       type: "article",
@@ -52,8 +53,8 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: guide.title,
-      description: guide.description,
+      title: clampTitle(guide.title),
+      description: clampDescription(guide.description),
     },
   };
 }
@@ -111,7 +112,7 @@ export default async function GuidePage({
       "@type": "Article",
       "@id": `${url}#article`,
       headline: guide.h1,
-      description: guide.description,
+      description: clampDescription(guide.description),
       mainEntityOfPage: { "@type": "WebPage", "@id": url },
       datePublished: updated,
       dateModified: updated,

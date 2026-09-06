@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { OUTLETS, getOutlet } from "@/content/outlets";
 import styles from "../getfeatured.module.css";
-import { clampDescription } from "@/lib/meta";
+import { clampDescription, clampTitle } from "@/lib/meta";
 
 const SITE = "https://www.digitalnetworkingagency.com";
 const BOOKING = "/contact";
@@ -25,18 +25,18 @@ export async function generateMetadata({
   const url = `${SITE}/get-featured-in/${o.slug}`;
   const description = clampDescription(`Get featured in ${o.name}. ${o.value}`);
   return {
-    title: o.title,
+    title: clampTitle(o.title),
     description,
     alternates: { canonical: url },
     openGraph: {
-      title: o.title,
+      title: clampTitle(o.title),
       description,
       url,
       siteName: "Digital Networking Agency",
       type: "website",
       locale: "en_US",
     },
-    twitter: { card: "summary_large_image", title: o.title, description },
+    twitter: { card: "summary_large_image", title: clampTitle(o.title), description },
   };
 }
 
