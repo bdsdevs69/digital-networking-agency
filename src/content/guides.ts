@@ -3844,6 +3844,162 @@ export const GUIDES: Guide[] = [
     "A local angle still decides whether a city desk takes a pitch.",
     "Pitch the desk where the story is strongest, and describe coverage that ran across titles as one story."
   ]
+},
+{
+  "slug": "eb1a-published-material-requirement",
+  "h1": "The EB-1A Published Material Criterion, Explained",
+  "title": "The EB-1A Published Material Criterion, Explained | DNA PR",
+  "description": "What USCIS says about published material in EB-1A petitions: material about you, the nature of the publication, and why paid content carries little weight.",
+  "body": "<p>Of the evidentiary criteria listed for EB-1A extraordinary ability petitions, published material about the applicant is the one PR agencies talk about most. It is also the one most often misdescribed.</p>\n<p>Here is what the regulation and USCIS guidance actually say. A note first: Digital Networking Agency is a PR agency, not a law firm. This is general information, not legal or immigration advice, and a qualified immigration attorney should decide what evidence goes into any petition.</p>\n<h2 id=\"where-the-criterion-sits\">Where the criterion sits</h2>\n<p>EB-1A is an immigrant category for people with extraordinary ability in the sciences, arts, education, business or athletics. The regulation defines extraordinary ability as a level of expertise showing the person is among the small percentage who have risen to the very top of their field, and the petition must show sustained national or international acclaim.</p>\n<p>That can be shown through a one-time achievement, meaning a major internationally recognised award, or through evidence meeting at least three of ten listed criteria. Those include lesser recognised prizes, judging the work of others, original contributions of major significance, authorship of scholarly articles, and a leading or critical role for distinguished organisations, among others.</p>\n<p>Published material about the person is one of the ten. Where the criteria do not readily apply to an occupation, the regulation allows comparable evidence, although USCIS guidance says a bare assertion that a criterion does not apply is not enough.</p>\n<h2 id=\"what-the-criterion-asks-for\">What the criterion asks for</h2>\n<p>In plain terms, the criterion looks for material about the person, relating to their work in the field for which they seek classification, published in professional or major trade publications or other major media.</p>\n<p>The regulation also sets documentary requirements: each piece should show its title, date and author, with any necessary translation.</p>\n<p>USCIS guidance gives examples of the media involved: print publications such as newspaper articles, journal articles and books; online publications; and transcripts of professional or major audio or video coverage. The format matters less than the two tests below.</p>\n<h2 id=\"test-one-is-it-about-the-person\">Test one: is it about the person?</h2>\n<p>The guidance says the material should be about the person and their work in the field, not just about their employer or another organisation. That has practical consequences.</p>\n<ul><li><strong>A company announcement that quotes you</strong> is mainly about the company.</li><li><strong>A passing mention</strong> in a longer piece is not coverage of your work.</li><li><strong>A broader article can still be relevant</strong> if it includes a substantial discussion of your work and mentions you in connection with it. The guidance allows for this, including for team work where your role is documented.</li><li><strong>An article you wrote</strong> is by you, not about you. The separate criterion on authorship concerns scholarly articles, which USCIS describes as reporting original research, experimentation or philosophical discourse.</li></ul>\n<h2 id=\"test-two-the-nature-of-the-publication\">Test two: the nature of the publication</h2>\n<p>USCIS guidance names the factors. For professional and major trade publications, the intended audience is relevant. For major trade publications and other major media, relative circulation, readership or viewership is relevant.</p>\n<p>So an outlet's name is only the start. A specialist publication read by practitioners in your field can matter because of who reads it. A general outlet matters because of how many people it reaches. A site that looks like a news brand but has little real readership may satisfy neither. Our guide to <a href=\"/guides/what-counts-as-major-media-for-uscis\">major media for USCIS</a> goes further, and <a href=\"/guides/syndication-vs-original-publication\">syndication vs original publication</a> explains why it matters where a piece first appeared.</p>\n<h2 id=\"paid-and-promotional-material\">Paid and promotional material</h2>\n<p>This is the part most agencies leave out.</p>\n<p>The guidance says marketing material created to sell a person's products or promote their services is generally not considered published material about the person. It specifically includes seemingly objective content in major publications that the person or their employer paid for.</p>\n<p>In practice that covers sponsored articles, advertorials, paid contributor placements, paid list inclusions and press releases distributed on a wire. Each has legitimate uses. None is independent coverage, and an officer may give it little weight or none. If you paid for any piece, tell your attorney. Our guide to <a href=\"/guides/sponsored-vs-branded-vs-advertorial\">sponsored vs branded vs advertorial</a> explains how to recognise those formats.</p>\n<h2 id=\"meeting-a-criterion-is-not-approval\">Meeting a criterion is not approval</h2>\n<p>Even strong published material addresses only one criterion. USCIS guidance describes a two-step review: first, whether the evidence meets the criteria; second, a final merits determination in which the officer considers everything together against the standard for the category. Meeting criteria in the first step does not by itself establish eligibility.</p>\n<p>The guidance also notes that voluminous documentation is not necessarily persuasive. The type and quality of evidence matter more than a thick folder of clippings.</p>\n<p>Where you want us to, we work alongside your attorney on the press side, pitching earned coverage of your real work and keeping records they can review. Your attorney decides what goes in. More on <a href=\"/pr-for-eb1a-o1-visa\">PR for EB-1A and O-1 applicants</a>.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Is an article in a well-known outlet enough?</h3>\n<p>Not automatically. The material has to be about you and your work, and paid or promotional content is generally not considered published material about you, whatever the outlet. Your attorney will assess each item.</p>\n<h3>What about coverage in another language?</h3>\n<p>The regulation expects any necessary translation to accompany the material. Whether a particular publication is professional, major trade or major media is something your attorney will assess.</p>\n<h3>Can a PR agency make me meet this criterion?</h3>\n<p>No. An agency can pitch real stories about your work, but editors decide what runs and USCIS decides how evidence is weighed. Be wary of anyone who says otherwise.</p>",
+  "toc": [
+    {
+      "id": "where-the-criterion-sits",
+      "text": "Where the criterion sits"
+    },
+    {
+      "id": "what-the-criterion-asks-for",
+      "text": "What the criterion asks for"
+    },
+    {
+      "id": "test-one-is-it-about-the-person",
+      "text": "Test one: is it about the person?"
+    },
+    {
+      "id": "test-two-the-nature-of-the-publication",
+      "text": "Test two: the nature of the publication"
+    },
+    {
+      "id": "paid-and-promotional-material",
+      "text": "Paid and promotional material"
+    },
+    {
+      "id": "meeting-a-criterion-is-not-approval",
+      "text": "Meeting a criterion is not approval"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "The criterion concerns material about you and your work in professional or major trade publications or other major media, with title, date, author and any translation.",
+    "USCIS guidance says paid or promotional content, including seemingly objective articles you or your employer paid for, is generally not considered material about you.",
+    "Meeting the criterion is not approval: officers make a final merits determination on all the evidence, and your immigration attorney decides what to submit."
+  ]
+},
+{
+  "slug": "o1-vs-eb1a-press-requirements",
+  "h1": "O-1 vs EB-1A: How Press Requirements Differ",
+  "title": "O-1 vs EB-1A: How Press Requirements Differ | DNA PR",
+  "description": "How press evidence differs between O-1A, O-1B and EB-1A: the standards, the wording of the published material criteria, and why paid content is a poor bet.",
+  "body": "<p>People often research O-1 and EB-1A together. The categories look alike, share some language and are sometimes pursued one after the other. On press, the similarities are real, but so are the differences.</p>\n<p>This guide sets out what USCIS guidance says about published material in each. Digital Networking Agency is a PR agency, not a law firm, and this is not legal or immigration advice. Which category fits you, and what evidence to submit, are questions for a qualified immigration attorney.</p>\n<h2 id=\"two-different-kinds-of-petition\">Two different kinds of petition</h2>\n<p><strong>EB-1A</strong> is an immigrant category, a route towards permanent residence. USCIS guidance says anyone can file the petition, including the applicant themselves, and no job offer is required, although the petition must show the person intends to continue working in their area of expertise.</p>\n<p><strong>O-1</strong> is a temporary nonimmigrant classification. According to USCIS, it is filed by a US employer, a US agent, or a foreign employer through a US agent, and the petition needs a written advisory opinion from a peer group or a person with expertise in the field.</p>\n<p>Those structural differences shape how the whole case is built, including where press sits within it.</p>\n<p>Neither choice is a PR decision. Which category to pursue, and when, depends on your circumstances and on your record as a whole, and that is a question for your attorney.</p>\n<h2 id=\"the-standards-are-not-the-same\">The standards are not the same</h2>\n<ul><li><strong>EB-1A:</strong> the person is among the small percentage who have risen to the very top of their field, with sustained national or international acclaim.</li><li><strong>O-1A</strong> (sciences, education, business, athletics): a similar top-of-the-field standard, again with sustained national or international acclaim.</li><li><strong>O-1B arts:</strong> distinction, which USCIS describes as a high level of achievement in the arts, shown by skill and recognition substantially above that ordinarily encountered.</li><li><strong>O-1B motion picture and television:</strong> extraordinary achievement, shown by skill and recognition significantly above that ordinarily encountered.</li></ul>\n<p>The level of recognition expected differs, so the same body of coverage can sit differently in different petitions. How it sits in yours is for your attorney to judge.</p>\n<h2 id=\"how-the-press-criteria-are-worded\">How the press criteria are worded</h2>\n<p><strong>EB-1A and O-1A</strong> use closely matching language: published material about the person, relating to their work in the field, in professional or major trade publications or major media, showing the title, date and author, with any necessary translation.</p>\n<p><strong>O-1B</strong> is framed differently. One of its criteria looks for national or international recognition shown by critical reviews or other published materials by or about the person in major newspapers, trade journals, magazines or other publications. Reviews are named explicitly, which reflects how recognition tends to work in the arts.</p>\n<p>There is a further difference. USCIS guidance says O-1B petitions for motion picture and television work cannot rely on comparable evidence, while EB-1A, O-1A and O-1B arts petitions may use it where the listed criteria do not readily apply.</p>\n<p>The wording matters for how an attorney frames evidence, but the practical lesson for press is the same in every version. The useful material is coverage that an independent publication chose to run about your work, in a publication whose audience or reach can be shown. Applying the differences to your case is for your attorney.</p>\n<h2 id=\"what-stays-the-same\">What stays the same</h2>\n<p>On the basics, the guidance for both categories points in the same direction.</p>\n<ul><li><strong>It has to be about the person.</strong> The O-1 guidance says a brief citation or passing reference is not material about the beneficiary, while a broader piece with a substantial discussion of their work may be.</li><li><strong>The publication matters.</strong> Both sets of guidance refer to intended audience and to relative circulation, readership or viewership.</li><li><strong>Documentation matters.</strong> Title, date, author and translations.</li><li><strong>Criteria are not the finish line.</strong> For both, USCIS describes weighing the evidence as a whole after the criteria stage. Providing the required evidence does not in itself establish eligibility.</li></ul>\n<p>For more on how publications are assessed, see <a href=\"/guides/what-counts-as-major-media-for-uscis\">major media for USCIS</a>, and for the EB-1A detail, <a href=\"/guides/eb1a-published-material-requirement\">the EB-1A published material criterion</a>.</p>\n<h2 id=\"paid-content-in-either-category\">Paid content in either category</h2>\n<p>The EB-1A guidance says plainly that marketing material, including seemingly objective articles the person or their employer paid for, is generally not considered published material about the person.</p>\n<p>Do not assume paid material fares better in an O-1 petition. An article that exists because someone paid for it does not show that a publication independently chose to cover your work. Treat paid placements as unlikely to carry weight in either category, and let your attorney make the call. Our guide to <a href=\"/guides/what-is-earned-media\">what earned media is</a> explains the distinction.</p>\n<p>If any of your coverage was sponsored, paid for or placed through a contributor programme, tell your attorney before anything is filed.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Can the same coverage go into an O-1 and a later EB-1A?</h3>\n<p>Your attorney decides what goes into each petition. The EB-1A and O-1A press criteria are worded similarly, but the categories and the rest of your record differ, so make no assumption either way.</p>\n<h3>Is press more important for O-1B?</h3>\n<p>O-1B criteria name critical reviews and published materials explicitly, but press is still one type of evidence among several. How much it matters in a particular case is a judgement for your attorney.</p>\n<h3>Can DNA help with either category?</h3>\n<p>We pitch earned coverage of your real work, keep clear records and coordinate with your attorney where you want us to. We do not advise on eligibility. See <a href=\"/pr-for-eb1a-o1-visa\">PR for EB-1A and O-1 applicants</a>.</p>",
+  "toc": [
+    {
+      "id": "two-different-kinds-of-petition",
+      "text": "Two different kinds of petition"
+    },
+    {
+      "id": "the-standards-are-not-the-same",
+      "text": "The standards are not the same"
+    },
+    {
+      "id": "how-the-press-criteria-are-worded",
+      "text": "How the press criteria are worded"
+    },
+    {
+      "id": "what-stays-the-same",
+      "text": "What stays the same"
+    },
+    {
+      "id": "paid-content-in-either-category",
+      "text": "Paid content in either category"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "EB-1A is an immigrant category; O-1 is temporary, filed by an employer or agent with an advisory opinion, and its standards differ, especially for O-1B.",
+    "EB-1A and O-1A look for published material about you; O-1B names critical reviews or other published materials by or about you.",
+    "In both, material must genuinely be about your work, paid content is a poor bet, and your immigration attorney decides what to submit."
+  ]
+},
+{
+  "slug": "what-counts-as-major-media-for-uscis",
+  "h1": "What Counts as Major Media for USCIS?",
+  "title": "What Counts as Major Media for USCIS? | DNA PR",
+  "description": "What USCIS says about professional publications, trade press and major media in extraordinary ability petitions, and which formats carry little weight.",
+  "body": "<p>\"Major media\" is the phrase applicants search for most when they start gathering press for an EB-1A or O-1 petition. Usually they want a list of outlets. There is not one.</p>\n<p>What USCIS guidance offers instead is a set of factors. Here is what they are and how common press formats look against them. Digital Networking Agency is a PR agency, not a law firm, and this is not legal or immigration advice. A qualified immigration attorney should assess any specific publication or article.</p>\n<h2 id=\"three-kinds-of-publication\">Three kinds of publication, not one</h2>\n<p>For EB-1A and O-1A, the criterion refers to professional publications, major trade publications and other major media. They are different things, and the guidance weighs them differently. Roughly speaking:</p>\n<ul><li><strong>Professional publications</strong> are written for practitioners in a field, such as journals and the publications of professional bodies.</li><li><strong>Major trade publications</strong> cover an industry for the people who work in it.</li><li><strong>Other major media</strong> means general outlets with broad reach: national newspapers, large online news publications and broadcasters.</li></ul>\n<p>O-1B uses different wording, referring to major newspapers, trade journals, magazines and other publications. Our guide to <a href=\"/guides/o1-vs-eb1a-press-requirements\">O-1 vs EB-1A press requirements</a> covers that difference.</p>\n<h2 id=\"the-factors-uscis-names\">The factors USCIS names</h2>\n<p>USCIS guidance names two factors for judging whether a publication is a professional publication, a major trade publication or major media.</p>\n<p><strong>Intended audience</strong>, for professional and major trade publications. A publication read by specialists in your field can be relevant because of who reads it, even if it is small by general news standards.</p>\n<p><strong>Relative circulation, readership or viewership</strong>, for major trade publications and other major media. Reach matters, and the word relative suggests it is assessed in context rather than inferred from a brand name.</p>\n<p>The guidance does not set a numeric threshold or publish a list of outlets. That leaves room for judgement, which is exactly why your attorney, not a PR agency, should be the one making the assessment. They may ask for information about a publication's audience alongside the article itself.</p>\n<h2 id=\"format-matters-less-than-substance\">Format matters less than substance</h2>\n<p>The guidance gives examples across print, online and broadcast: newspaper and journal articles, books, online publications, and transcripts of professional or major audio or video coverage. An online article is not inherently weaker than a print one, and a broadcast or podcast interview can be documented through a transcript.</p>\n<p>What matters more is whether the material is about you. The EB-1A guidance distinguishes material about the person and their work from material about their employer, and the O-1 guidance says a brief citation or passing reference is not enough.</p>\n<p>The same logic applies to interviews. A piece in which a journalist examines your work and asks you about it is about you. A piece built mostly from your own promotional statements, with little independent reporting around them, may read as promotion rather than coverage. Your attorney will judge how any piece reads.</p>\n<h2 id=\"press-formats-that-carry-little-weight\">Press formats that carry little weight</h2>\n<p>Whatever the outlet, some formats are unlikely to help because of how they came to exist. The EB-1A guidance says marketing material, including seemingly objective content in major publications that the person or their employer paid for, is generally not considered published material about the person.</p>\n<ul><li><strong>Sponsored, partner and branded content.</strong> Paid for, and usually labelled. See <a href=\"/guides/sponsored-vs-branded-vs-advertorial\">sponsored vs branded vs advertorial</a>.</li><li><strong>Advertorials.</strong> Advertising written in the style of editorial.</li><li><strong>Contributor articles, paid or not.</strong> Written by you or for you under your byline, so not material about you. See <a href=\"/guides/what-is-a-contributor-article\">what a contributor article is</a>.</li><li><strong>Press releases and wire distribution.</strong> Your own announcement, republished. A release that appears on a large site through a wire is still a release.</li><li><strong>Paid list inclusions.</strong> A \"top 10\" feature you paid to appear in is paid content. See <a href=\"/get-featured-in-top-lists\">our page on list features</a>.</li></ul>\n<h2 id=\"where-it-was-first-published\">Where it was first published</h2>\n<p>Syndication complicates the picture. An article published on a small site can be republished on a large aggregator, and the aggregator's name is the one people remember.</p>\n<p>If a piece appears on several sites at once through a distribution network, list each copy separately and note which one is the original.</p>\n<p>Be precise with your attorney about where each piece was originally published, where it was republished, and whether it was paid for. The guidance focuses on the nature of the publication, and an aggregator page can blur that. Our guide to <a href=\"/guides/syndication-vs-original-publication\">syndication vs original publication</a> explains the mechanics, and <a href=\"/guides/tier-1-vs-tier-2-publications\">tier 1 vs tier 2 publications</a> covers how the PR industry ranks outlets, which is not the test USCIS applies.</p>\n<p>Where you want us to, we coordinate with your attorney and supply the publication details they ask for. More on <a href=\"/pr-for-eb1a-o1-visa\">PR for EB-1A and O-1 applicants</a>.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Is there an official list of major media outlets?</h3>\n<p>Not in USCIS guidance. Officers weigh factors such as intended audience and relative circulation, readership or viewership. Your attorney will assess specific publications.</p>\n<h3>Does a well-known logo make an article major media?</h3>\n<p>Not on its own. Where the piece was originally published, whether it is genuinely about your work, and whether it was paid for all matter as much as the brand name.</p>\n<h3>Can DNA tell me whether an outlet is major media?</h3>\n<p>No. That is an assessment for your immigration attorney. We pitch earned coverage of your work, keep records, and coordinate with your attorney where you want us to.</p>",
+  "toc": [
+    {
+      "id": "three-kinds-of-publication",
+      "text": "Three kinds of publication, not one"
+    },
+    {
+      "id": "the-factors-uscis-names",
+      "text": "The factors USCIS names"
+    },
+    {
+      "id": "format-matters-less-than-substance",
+      "text": "Format matters less than substance"
+    },
+    {
+      "id": "press-formats-that-carry-little-weight",
+      "text": "Press formats that carry little weight"
+    },
+    {
+      "id": "where-it-was-first-published",
+      "text": "Where it was first published"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "USCIS guidance publishes no list of major media; it names intended audience and relative circulation, readership or viewership as factors.",
+    "Material must be about you and your work; a passing mention, a press release or content you paid for is unlikely to carry weight.",
+    "Your immigration attorney assesses publications and decides what to submit. A PR agency cannot make that call."
+  ]
+},
+{
+  "slug": "when-to-start-press-for-a-visa-petition",
+  "h1": "When to Start Press for a Visa Petition",
+  "title": "When to Start Press for a Visa Petition | DNA PR",
+  "description": "Planning press for an EB-1A or O-1 petition: see an attorney first, build on real work, accept that earned coverage cannot be scheduled, and keep records.",
+  "body": "<p>Applicants often ask about press late, usually after an attorney has reviewed their evidence and pointed to gaps. By then the question is whether there is time.</p>\n<p>There is no universal answer, and nobody can promise a timeline for earned coverage. But the order in which you do things makes a real difference. Digital Networking Agency is a PR agency, not a law firm, and this is not legal or immigration advice. A qualified immigration attorney should set the plan.</p>\n<h2 id=\"start-with-an-attorney-not-an-agency\">Start with an attorney, not an agency</h2>\n<p>Before anyone pitches anything, have an immigration attorney look at your whole record.</p>\n<p>EB-1A and O-1 petitions rest on several types of evidence, and published material about you is only one of them. An attorney can tell you which category may fit, where your record is strongest, and whether press is worth pursuing at all. For some applicants it is central. For others, time and money are better spent documenting awards, judging, contributions or roles they already have.</p>\n<p>Spending on press first and asking afterwards is the most expensive way round.</p>\n<p>Bring what you already hold to that conversation: existing coverage, awards, invitations to judge, and evidence of your role in significant work. It gives the attorney something concrete to assess, and it stops you paying to chase evidence you may already have.</p>\n<h2 id=\"why-press-cannot-be-rushed\">Why press cannot be rushed</h2>\n<p>Earned coverage runs on other people's schedules. An editor has to find the story relevant, a journalist has to have time, and publication dates move. Lead times vary widely between publications, and print features can be planned well in advance.</p>\n<p>The routes that can be scheduled are the paid ones: sponsored articles, paid contributor slots, pay-to-appear lists and wire releases. For a petition, those are the formats least likely to carry weight. The EB-1A guidance says content the person or their employer paid for is generally not considered published material about the person. Our guide to <a href=\"/guides/is-guaranteed-pr-legit\">guaranteed PR</a> explains why speed and guarantees usually signal a paid route.</p>\n<p>So if a filing deadline is close, do not rely on new earned coverage arriving in time. Ask your attorney what can be done with the evidence you already have.</p>\n<h2 id=\"acclaim-is-a-record-not-a-moment\">Acclaim is a record, not a moment</h2>\n<p>EB-1A and O-1A both refer to sustained national or international acclaim. USCIS guidance says sustained does not imply an age limit, that someone early in their career can still show it, and that there is no definitive time frame for what sustained means.</p>\n<p>So there is no rule that articles must be a certain age. But coverage that follows your work as it develops tells a clearer story than a cluster of pieces that all appeared shortly before filing. The second pattern invites the question of why the coverage exists, and the honest answer should be that your work was newsworthy.</p>\n<p>That is the real argument for starting early: not to game a timeline, but to let the record reflect the work.</p>\n<p>Nor should coverage run ahead of the work. A profile describing achievements you have not yet reached creates a record that your attorney would then have to explain.</p>\n<h2 id=\"a-sensible-order-of-work\">A sensible order of work</h2>\n<ul><li><strong>Attorney review.</strong> Understand where your record stands and whether press is part of the plan.</li><li><strong>Audit what already exists.</strong> Applicants sometimes have coverage they have overlooked, such as trade interviews, conference write-ups or foreign-language articles. Find it and document it.</li><li><strong>Find the genuine stories.</strong> Results, launches, research, productions or recognition that a journalist covering your field would find worth writing about.</li><li><strong>Pitch earned coverage.</strong> To publications whose audience suits your field, with no guarantee of outcome.</li><li><strong>Record as you go.</strong> The details are below.</li></ul>\n<h2 id=\"what-to-record-as-coverage-lands\">What to record as coverage lands</h2>\n<p>The regulation expects published material to show its title, date and author, with any necessary translation. Beyond that, keep:</p>\n<ul><li>The live URL and an archived copy or PDF, in case the page changes or disappears.</li><li>Where the piece was originally published, and anywhere it was syndicated. See <a href=\"/guides/syndication-vs-original-publication\">syndication vs original publication</a>.</li><li>Whatever audience information the publisher makes publicly available.</li><li>A plain note of how the piece came about: pitched and earned, or paid, sponsored or contributor.</li></ul>\n<p>Keep the notes factual. If a piece was paid for, write that down, because clarity early avoids awkward questions later. Share this with your attorney as it builds rather than all at once. Where you want us to, we coordinate with them directly, share what we are pitching and supply the records they ask for. See <a href=\"/pr-for-eb1a-o1-visa\">PR for EB-1A and O-1 applicants</a>, and for what your attorney will be weighing, <a href=\"/guides/what-counts-as-major-media-for-uscis\">major media for USCIS</a>.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>How long before filing should I start press?</h3>\n<p>There is no fixed answer, and earned coverage cannot be scheduled. Speak to your attorney first. If press is part of the plan, starting earlier gives genuine stories time to be covered.</p>\n<h3>Should I delay filing to get more coverage?</h3>\n<p>That is a legal and strategic question for your attorney, who can weigh it against the rest of your record and your circumstances.</p>\n<h3>Can paid placements fill the gap quickly?</h3>\n<p>They can publish quickly, but USCIS guidance for EB-1A says content you paid for is generally not considered published material about you. Discuss any paid piece openly with your attorney.</p>",
+  "toc": [
+    {
+      "id": "start-with-an-attorney-not-an-agency",
+      "text": "Start with an attorney, not an agency"
+    },
+    {
+      "id": "why-press-cannot-be-rushed",
+      "text": "Why press cannot be rushed"
+    },
+    {
+      "id": "acclaim-is-a-record-not-a-moment",
+      "text": "Acclaim is a record, not a moment"
+    },
+    {
+      "id": "a-sensible-order-of-work",
+      "text": "A sensible order of work"
+    },
+    {
+      "id": "what-to-record-as-coverage-lands",
+      "text": "What to record as coverage lands"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Speak to a qualified immigration attorney before spending on press; they decide whether press belongs in your petition at all.",
+    "Earned coverage cannot be scheduled, and the routes that can be are paid ones EB-1A guidance says are generally not considered material about you.",
+    "Document each piece as it lands, including title, date, author, original publication and how it came about, and share it with your attorney."
+  ]
 }
 ];
 

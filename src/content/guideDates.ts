@@ -105,6 +105,10 @@ export const GUIDE_PUBLISHED: Record<string, string> = {
   "pr-for-canadian-small-business": "2026-09-15",
   "australian-trade-publications-for-b2b": "2026-09-15",
   "why-canadian-newspapers-share-content": "2026-09-15",
+  "eb1a-published-material-requirement": "2026-09-15",
+  "o1-vs-eb1a-press-requirements": "2026-09-15",
+  "what-counts-as-major-media-for-uscis": "2026-09-15",
+  "when-to-start-press-for-a-visa-petition": "2026-09-15",
 };
 
 export const GUIDE_UPDATED: Record<string, string> = {};
