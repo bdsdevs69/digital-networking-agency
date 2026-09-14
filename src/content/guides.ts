@@ -2680,6 +2680,1170 @@ export const GUIDES: Guide[] = [
     "Property buyers research people, so a permanent, searchable profile earns its place.",
     "A concrete market view reads as expertise; service claims do not."
   ]
+},
+{
+  "slug": "press-release-vs-feature-article",
+  "h1": "Press Release vs Feature Article",
+  "title": "Press Release vs Feature Article | DNA PR",
+  "description": "What a press release is, what a feature article is, who controls each, how readers treat them, and how to decide which one your business actually needs.",
+  "body": "<p>A press release and a feature article can both end up online with your company name in the headline. They are not the same thing, they are not read the same way, and they do not do the same job.</p>\n<p>Most confusion comes from treating one as a cheaper version of the other. It is more useful to see them as two different tools.</p>\n<h2 id=\"the-short-answer\">The short answer</h2>\n<p>A press release is an announcement you write and distribute yourself. A feature article is a story a publication runs, written by a journalist or published under the publication's editorial standards.</p>\n<p>You control a press release completely. You control a feature article very little, or not at all. That difference in control is exactly what makes a reader trust one more than the other.</p>\n<h2 id=\"what-a-press-release-is\">What a press release is</h2>\n<p>A press release is a formal statement of news from an organisation. A launch, a funding round, a senior hire, a partnership, a result. It follows a recognisable format: a headline, a dateline, a few paragraphs of facts, a quote from someone senior, and a boilerplate paragraph about the company.</p>\n<p>Traditionally it was written for journalists, as raw material they might turn into a story. Today it is often published directly through a wire service, which posts it across a network of news and finance sites.</p>\n<p>That second use is where expectations go wrong. A release on a wire network is still a release. It usually appears in a section or feed marked as press releases, it is attributed to your company, and anyone who reads it can see it was written by the business it describes.</p>\n<p>None of that makes it useless. A release creates a dated, factual, publicly indexed record that something happened. For a funding announcement or a formal disclosure, that record is the point.</p>\n<h2 id=\"what-a-feature-article-is\">What a feature article is</h2>\n<p>A feature article is a longer piece built around a story rather than an announcement. It might profile a founder, examine how a company solved a problem, or use one business to illustrate a wider trend.</p>\n<p>The key question is who decided it should exist. A feature can reach a publication in several ways.</p>\n<p><strong>Earned editorial.</strong> A journalist chose to write it, usually after a pitch. Nobody paid for the decision.</p>\n<p><strong>Contributor or partner content.</strong> The piece runs through a publisher programme, often for a fee, and may carry a label.</p>\n<p><strong>Sponsored content.</strong> A paid product, approved by the brand and labelled as paid by the publication.</p>\n<p>All three can look like a feature on the page. Only the first is earned in the strict sense, and the publication will normally make the paid versions identifiable. Readers often notice, even if they never read the label closely. There is more on that distinction in our guide to <a href=\"/guides/what-is-earned-media\">what earned media is</a>.</p>\n<h2 id=\"the-differences-side-by-side\">The differences side by side</h2>\n<ul><li><strong>Who writes it.</strong> Release: you or your agency. Feature: a journalist, or you under editorial standards.</li><li><strong>Who decides it runs.</strong> Release: you, when you pay for distribution. Feature: an editor, or the publisher's paid programme.</li><li><strong>Tone.</strong> Release: announcement, in the company's voice. Feature: narrative, written for the reader.</li><li><strong>Where it lives.</strong> Release: wire feeds and newsroom pages, often duplicated across many sites. Feature: one publication, usually as an original piece.</li><li><strong>How readers treat it.</strong> Release: as the company's own statement. Feature: as the publication's view, with credibility depending on how it got there.</li><li><strong>Predictability.</strong> Release: high. Earned feature: low. Paid feature: high, with a label.</li></ul>\n<h2 id=\"when-each-one-makes-sense\">When each one makes sense</h2>\n<p>Use a press release when you have genuine news and need an official, dated record of it. Funding, acquisitions, leadership changes, product launches with a real date attached. It also gives journalists something factual to check if they do decide to cover you.</p>\n<p>Pursue a feature when the goal is credibility rather than announcement. Buyers, investors and partners who search your name want to see what others say about you, not what you say about yourself.</p>\n<p>Many businesses need both at different moments. The mistake is expecting a release to do a feature's job, or paying for wire distribution and describing the result as coverage. What happens to a release once it is copied across partner sites is covered in <a href=\"/guides/syndication-vs-original-publication\">syndication vs original publication</a>.</p>\n<h2 id=\"common-mistakes-to-avoid\">Common mistakes to avoid</h2>\n<p><strong>Writing a release that is not news.</strong> A release about a minor website update helps nobody, and journalists learn to ignore senders who do it.</p>\n<p><strong>Pitching a release as a story.</strong> Journalists want an angle, not your announcement pasted into an email. A short note explaining why their readers would care does more than the full release attached.</p>\n<p><strong>Blurring the label.</strong> Showing a paid or wire placement to a prospect as though a journalist chose to write it tends to backfire the moment they click through.</p>\n<p>Digital Networking Agency writes both, and we say plainly which route each piece will take before you commit. We can prepare and distribute a release on a predictable timeline. We cannot promise that a journalist will turn it into a feature, because that decision belongs to the newsroom.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Does a press release count as press coverage?</h3>\n<p>Not in the usual sense. It is your own announcement published through a distribution channel. It is a useful public record, but coverage normally means a publication chose to write about you.</p>\n<h3>Can a press release lead to a feature article?</h3>\n<p>Sometimes. A journalist may see a release and follow up, especially if the news is genuinely relevant to their beat. It is more reliable to pitch the story directly, with an angle built for that writer's readers.</p>\n<h3>Which is better for search visibility?</h3>\n<p>A single original article on a respected publication usually carries more weight than many duplicate copies of a release. A release still helps establish basic facts about your business in public, which is worth having.</p>",
+  "toc": [
+    {
+      "id": "the-short-answer",
+      "text": "The short answer"
+    },
+    {
+      "id": "what-a-press-release-is",
+      "text": "What a press release is"
+    },
+    {
+      "id": "what-a-feature-article-is",
+      "text": "What a feature article is"
+    },
+    {
+      "id": "the-differences-side-by-side",
+      "text": "The differences side by side"
+    },
+    {
+      "id": "when-each-one-makes-sense",
+      "text": "When each one makes sense"
+    },
+    {
+      "id": "common-mistakes-to-avoid",
+      "text": "Common mistakes to avoid"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "A press release is your announcement; a feature is a publication's story.",
+    "Wire distribution creates a record, not editorial coverage.",
+    "Use each for its own job and describe it accurately."
+  ]
+},
+{
+  "slug": "byline-vs-quote-vs-feature",
+  "h1": "Byline vs Quote vs Feature: What You Actually Get",
+  "title": "Byline vs Quote vs Feature | DNA PR",
+  "description": "The difference between writing a byline, being quoted and being featured, what each format gives you, and how to judge what an offer really includes.",
+  "body": "<p>When someone offers to get you into a publication, it helps to know which of three very different things they mean. You might be writing the article, appearing in someone else's article, or being the subject of the article.</p>\n<p>All three are legitimate. They are not interchangeable, and they are not priced, earned or perceived the same way.</p>\n<h2 id=\"three-formats-three-different-assets\">Three formats, three different assets</h2>\n<p>A byline is an article written under your name. A quote is you appearing inside a journalist's article, usually as an expert voice. A feature is an article in which you or your company are the main subject.</p>\n<p>The simplest way to tell them apart is to ask two questions. Whose name sits under the headline? And who is the story actually about?</p>\n<h2 id=\"the-byline\">The byline</h2>\n<p>A bylined article carries your name as author. You share expertise, an opinion or a lesson, and the publication runs it in a section for outside contributors, opinion or thought leadership.</p>\n<p>Bylines usually come through a <a href=\"/guides/what-is-a-contributor-article\">contributor article</a> route. Some are free and competitive, some are part of a paid membership or placement arrangement, and many carry a contributor label on the page.</p>\n<p><strong>What you get:</strong> control over the argument, a permanent article with your name on it, and space to demonstrate how you think.</p>\n<p><strong>What you give up:</strong> independent endorsement. Readers know the author chose the subject. A byline shows expertise; it does not show that someone else vouched for you.</p>\n<p>Most publications also expect bylines to teach rather than sell. Articles that read as product pitches tend to be rejected or heavily edited.</p>\n<h2 id=\"the-quote\">The quote</h2>\n<p>A quote is a sentence or a few paragraphs attributed to you inside a piece a journalist is writing. It might be your view on a market shift, a comment on news in your sector, or a practical tip.</p>\n<p>Quotes are usually earned. The journalist chose you over other sources because your answer was useful, fast and specific. Source-request services and direct relationships with reporters are the common routes in.</p>\n<p>Speed matters more than polish here. Journalists working to deadline tend to use the first clear, relevant answer they receive.</p>\n<p><strong>What you get:</strong> genuine third-party selection on a credible domain, often alongside other recognised names in your field.</p>\n<p><strong>What you give up:</strong> control. You may be cut to one line, placed near the bottom, or quoted without a link. You will rarely see the piece before it runs.</p>\n<h2 id=\"the-feature\">The feature</h2>\n<p>A feature is an article about you: a profile, an interview, a company story or a case study in which your business is the centre of the piece.</p>\n<p>This is where the route matters most, because the same format can arrive in different ways. An earned feature means an editor decided your story was worth telling. A sponsored or partner feature means a paid product, normally labelled by the publication. Both look like a feature. Readers can often tell the difference, and so can anyone who checks the page carefully.</p>\n<p><strong>What you get:</strong> a whole article focused on you, which is the strongest single asset to point people to.</p>\n<p><strong>What you give up:</strong> for earned features, predictability. For paid features, some of the independent credibility the format implies.</p>\n<h2 id=\"how-they-compare\">How they compare</h2>\n<ul><li><strong>Byline.</strong> You write it and you are the author. Usually a contributor route. Good for showing expertise, moderate independent credibility.</li><li><strong>Quote.</strong> A journalist writes it and you are one voice among several. Usually earned. High credibility per line, but very little space.</li><li><strong>Feature.</strong> A journalist or publisher team writes it and you are the subject. Earned or paid. Credibility depends almost entirely on the route.</li></ul>\n<p>If an offer does not make clear which of these you are buying, and which route it uses, ask before you pay. Our checklist on <a href=\"/guides/how-to-vet-a-pr-agency\">how to vet a PR agency</a> covers the exact questions to put in writing.</p>\n<h2 id=\"which-one-to-go-after-first\">Which one to go after first</h2>\n<p>It depends on what you already have.</p>\n<p>If nobody has written about you yet, quotes are often the most realistic start. They build a record of third-party mentions without needing a story big enough to carry a whole article.</p>\n<p>If you have strong opinions and can write clearly, bylines let you show depth on your own terms. They work best when they are genuinely useful to the reader rather than a thinly disguised sales page.</p>\n<p>If you have a real story, such as an unusual result, a clear point of view backed by evidence, or a moment that makes you timely, a feature becomes realistic.</p>\n<p>Digital Networking Agency works across all three, and we tell you which format and route each placement is before anything is agreed. We will not describe a byline as a feature, or promise that a journalist will quote you, because neither would be accurate.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Is a byline the same as a feature?</h3>\n<p>No. A byline is written by you, so it demonstrates expertise. A feature is about you and written by someone else, which is why an earned feature carries more independent weight.</p>\n<h3>Why would a quote be worth more than a byline?</h3>\n<p>Because someone else chose it. A single line selected by a journalist can signal more credibility than a full article you wrote, even though it gives you far less space.</p>\n<h3>Can I approve a quote or feature before it runs?</h3>\n<p>For earned editorial, usually not. Journalists rarely offer copy approval. For bylines and paid features you normally approve the text, which is part of what makes them a different product.</p>",
+  "toc": [
+    {
+      "id": "three-formats-three-different-assets",
+      "text": "Three formats, three different assets"
+    },
+    {
+      "id": "the-byline",
+      "text": "The byline"
+    },
+    {
+      "id": "the-quote",
+      "text": "The quote"
+    },
+    {
+      "id": "the-feature",
+      "text": "The feature"
+    },
+    {
+      "id": "how-they-compare",
+      "text": "How they compare"
+    },
+    {
+      "id": "which-one-to-go-after-first",
+      "text": "Which one to go after first"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "A byline shows expertise, a quote shows selection, a feature shows focus.",
+    "The route matters as much as the format, especially for features.",
+    "Quotes are often the most realistic place to start."
+  ]
+},
+{
+  "slug": "what-is-a-contributor-article",
+  "h1": "What Is a Contributor Article?",
+  "title": "What Is a Contributor Article? | DNA PR",
+  "description": "What a contributor article is, how contributor programmes work, how they differ from editorial and sponsored content, and when they are worth doing.",
+  "body": "<p>A contributor article is a piece published on a publication's website under the name of an outside author rather than a staff journalist. The author is usually a founder, executive or specialist writing about their field.</p>\n<p>It is one of the most useful formats in modern PR, and one of the most frequently mislabelled.</p>\n<h2 id=\"a-plain-definition\">A plain definition</h2>\n<p>The publication provides the platform and the audience. The contributor provides the words. The article runs with the contributor's byline, usually with a short author bio and often a label or section name that shows it did not come from the newsroom.</p>\n<p>The subject is typically advice, analysis or opinion. A good contributor piece teaches the reader something. A weak one reads as a brochure, and most editors will not run it.</p>\n<h2 id=\"how-contributor-programmes-work\">How contributor programmes work</h2>\n<p>Publications handle outside authors in different ways, and the arrangement matters more than the format.</p>\n<ul><li><strong>Open or application-based.</strong> You apply or pitch an idea, an editor reviews it, and there is no fee. These are selective and slow.</li><li><strong>Membership.</strong> You pay to join a group of approved contributors and gain the right to submit articles, usually still subject to editing and guidelines.</li><li><strong>Placement fee.</strong> A fee is paid, often through an intermediary, for a specific article to be published.</li><li><strong>Regular column.</strong> An established expert writes on a recurring basis, sometimes paid by the publication rather than paying it.</li></ul>\n<p>Terms, fees and editorial rules vary by publication and change over time. Ask which arrangement applies before assuming anything about a specific outlet.</p>\n<h2 id=\"how-it-differs-from-editorial-and-sponsored-content\">How it differs from editorial and sponsored content</h2>\n<p>The confusion usually sits here, so it is worth being precise.</p>\n<p><strong>Staff editorial</strong> is written by a journalist who decided independently to cover a subject. You do not write it, pay for it or approve it. That is <a href=\"/guides/what-is-earned-media\">earned media</a>.</p>\n<p><strong>Contributor content</strong> is written by you or on your behalf, published under your name, and sometimes paid for. The publication applies its standards, but it did not seek you out as a news subject.</p>\n<p><strong>Sponsored content</strong> is a formal advertising product. It is paid, approved by the brand and labelled as paid or partner content. Our guide to <a href=\"/guides/sponsored-vs-branded-vs-advertorial\">sponsored, branded and advertorial content</a> covers the variations.</p>\n<p>A contributor article is not earned editorial, even when the publication is highly recognised. It is also not the same as an advert. It sits between the two.</p>\n<h2 id=\"what-it-is-good-for\">What it is good for</h2>\n<p><strong>Showing expertise.</strong> You get space to explain how you think, in depth, on a domain people recognise.</p>\n<p><strong>Building a public record.</strong> The article is indexed, dated and hosted by a third party. When someone searches your name, it gives them something beyond your own website.</p>\n<p><strong>Supporting sales conversations.</strong> A well-argued piece is easy to share with prospects who want to understand your approach before they commit to a call.</p>\n<p><strong>Feeding search and AI systems.</strong> Published articles on established sites are part of the material search engines and AI assistants draw on when describing a business. More on that in <a href=\"/guides/how-ai-engines-choose-sources\">how AI engines choose sources</a>.</p>\n<h2 id=\"where-it-falls-short\">Where it falls short</h2>\n<p>A contributor article does not show that anyone else vouched for you. Readers who notice the byline and label understand that the author chose the topic, and many readers do notice.</p>\n<p>It also depends on the publication's policies. Programmes get paused, restructured or closed, and some publications remove or relabel older contributor content. An article that exists today is not guaranteed to exist in the same form indefinitely.</p>\n<p>Finally, it is only as good as the writing. A thin, promotional piece on a respected domain can do more harm than having nothing there at all.</p>\n<p>There is also a ceiling. A contributor article can support a credible profile, but a profile built only from contributor pieces tends to look thin to anyone who checks closely, because nobody independent appears in it.</p>\n<h2 id=\"how-to-do-one-well\">How to do one well</h2>\n<p>Pick one idea you can defend and teach it clearly. Use real examples from your own work. Leave the sales pitch out; a short author bio does that job.</p>\n<p>Aim for something a reader could act on the same day. Specific advice travels further than general encouragement, and editors are far more likely to accept it.</p>\n<p>Check the publication's rules on authorship. Many expect the named author to stand behind every word, even where an editor or agency helped shape the piece. Read and approve the final text yourself.</p>\n<p>And describe it accurately. Calling a contributor article a feature invites the one question you do not want from a prospect who clicks through and sees the label.</p>\n<p>Digital Networking Agency writes and places contributor articles, and we tell you in advance that this is the route, whether a fee is involved, and whether the page is likely to carry a label. We do not present contributor placements as earned editorial.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Is a contributor article paid?</h3>\n<p>Sometimes. Some programmes are free and selective, others involve a membership or placement fee. Ask directly which applies to the outlet you are considering.</p>\n<h3>Will readers know it is a contributor article?</h3>\n<p>Often, yes. Most publications show the author's name and bio, and many add a contributor label or place the piece in a dedicated section. Assume an attentive reader can tell.</p>\n<h3>Is a contributor article worse than a feature?</h3>\n<p>It is a different asset. An earned feature carries independent endorsement; a contributor article demonstrates expertise in your own words. Many businesses benefit from both, as long as each is described honestly.</p>",
+  "toc": [
+    {
+      "id": "a-plain-definition",
+      "text": "A plain definition"
+    },
+    {
+      "id": "how-contributor-programmes-work",
+      "text": "How contributor programmes work"
+    },
+    {
+      "id": "how-it-differs-from-editorial-and-sponsored-content",
+      "text": "How it differs from editorial and sponsored content"
+    },
+    {
+      "id": "what-it-is-good-for",
+      "text": "What it is good for"
+    },
+    {
+      "id": "where-it-falls-short",
+      "text": "Where it falls short"
+    },
+    {
+      "id": "how-to-do-one-well",
+      "text": "How to do one well"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "A contributor article runs under your byline, not a journalist's.",
+    "It is not earned editorial, and it is sometimes paid.",
+    "Its value depends on useful writing and honest description."
+  ]
+},
+{
+  "slug": "sponsored-vs-branded-vs-advertorial",
+  "h1": "Sponsored vs Branded Content vs Advertorial",
+  "title": "Sponsored vs Branded Content vs Advertorial | DNA PR",
+  "description": "Sponsored content, branded content and advertorial explained in plain English: what each means, how they are labelled, and why readers can often tell.",
+  "body": "<p>Sponsored content, branded content and advertorial all describe paid material that looks more like an article than an advert. The terms are used loosely, sometimes interchangeably, and occasionally to make a paid product sound like something else.</p>\n<p>Here is what each usually means, and what they have in common.</p>\n<h2 id=\"why-the-terms-get-confused\">Why the terms get confused</h2>\n<p>There is no single industry dictionary. Each publisher names its own products, and agencies tend to use whichever term sounds best to the buyer in front of them.</p>\n<p>What does not change is the underlying fact. In all three cases money has changed hands, and the brand has meaningful influence over what gets published. None of them is earned editorial, whatever the page looks like. The wider picture is covered in <a href=\"/guides/earned-vs-paid-vs-sponsored-media\">earned vs paid vs sponsored media</a>.</p>\n<h2 id=\"sponsored-content\">Sponsored content</h2>\n<p>Sponsored content is a paid article or piece of media published by a publication on its own site, in a format designed to sit alongside its normal editorial.</p>\n<p>It may be written by the brand, by the publisher's own content team, or by an agency. The brand normally approves the final version. The publication almost always labels it, with wording such as sponsored, paid post, partner content or presented by.</p>\n<p>The value is placement and audience. You get a publication's design, domain and readership around your message. The trade is that readers are told, directly, that you paid for it.</p>\n<p>Before buying, ask where the piece will sit, how it will be promoted, how long it will stay live, and exactly what the label will say. Those details matter more than whatever name the publisher gives the product.</p>\n<h2 id=\"branded-content\">Branded content</h2>\n<p>Branded content is the broadest of the three terms. It usually describes content funded by a brand that focuses on a theme, a story or a set of values rather than on the product itself.</p>\n<p>A short documentary, a series about an industry problem, or a report on a trend can all be branded content. It might live on the brand's own channels, on a publisher's site as part of a sponsorship, or both.</p>\n<p>Its strength is that it can be genuinely interesting in its own right. Its risk is that the story drifts so far from the brand that nobody remembers who paid for it.</p>\n<p>When a publication runs it, it is effectively sponsored content with a softer, story-led approach. It should still be identified as brand-funded.</p>\n<h2 id=\"advertorial\">Advertorial</h2>\n<p>Advertorial is the oldest of the three terms, and it comes from print. It describes an advertisement written and laid out to resemble an editorial article.</p>\n<p>Advertorials tend to be more direct about the product: benefits, features, a call to action. Publications usually mark them as advertisement or advertorial, and often use slightly different typography so they cannot be mistaken for the title's own journalism.</p>\n<p>Online, the word is used less, but the format has not gone anywhere. Many sponsored posts are advertorials in all but name.</p>\n<p>The distinction from sponsored content is mostly one of tone. Advertorial sells openly. Sponsored content often tries to inform first and sell second, although the payment behind both is the same.</p>\n<h2 id=\"a-quick-comparison\">A quick comparison</h2>\n<ul><li><strong>Sponsored content.</strong> Paid, in the publication's format, approved by the brand, labelled. The focus can be a product or a topic.</li><li><strong>Branded content.</strong> Brand-funded and led by a story or values. May sit on the brand's channels or a publisher's, and should be identified as brand-funded.</li><li><strong>Advertorial.</strong> Paid, product-led, designed to resemble an article, labelled as advertising.</li><li><strong>Contributor article.</strong> Not the same as any of these. Written under your byline through a publication's programme, and sometimes paid. See <a href=\"/guides/what-is-a-contributor-article\">what a contributor article is</a>.</li></ul>\n<h2 id=\"labelling-and-what-readers-notice\">Labelling, and what readers notice</h2>\n<p>Paid content is normally labelled by the publication. Reputable publishers do this as a matter of policy, and advertising standards and consumer protection rules in many countries expect paid material to be clearly identifiable.</p>\n<p>That has two practical consequences.</p>\n<p>First, nobody can honestly promise that a paid placement will appear unlabelled on a publication whose policy is to label it. If someone offers that, treat it as a warning sign. Our guide on <a href=\"/guides/is-guaranteed-pr-legit\">whether guaranteed PR is legit</a> explains why.</p>\n<p>Second, readers can often tell. Labels, section names, a promotional tone and the absence of any critical perspective all give it away. That does not make sponsored content ineffective. It means it works best when the content is genuinely useful and the brand is comfortable being seen to have paid for it.</p>\n<p>A useful rule of thumb is to write paid content as if the label were in large type at the top. If it would still be worth reading, it is probably worth running.</p>\n<p>Digital Networking Agency will tell you whether a placement is sponsored, contributor or earned before you commit, and what label it is likely to carry. We would rather you choose a paid route knowingly than be surprised by it later.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Is sponsored content the same as an advert?</h3>\n<p>It is a form of advertising, presented in an editorial format. The brand pays and usually approves the copy, and the publication labels it so readers know.</p>\n<h3>Does sponsored content still help credibility?</h3>\n<p>It can help with visibility and understanding, especially when the content is useful. It does not carry the independent endorsement of an article a journalist chose to write.</p>\n<h3>Can the sponsored label be removed after publication?</h3>\n<p>Not normally. The label reflects the publication's policy and often its legal obligations. Any change would be the publisher's decision, and a reputable one is unlikely to agree.</p>",
+  "toc": [
+    {
+      "id": "why-the-terms-get-confused",
+      "text": "Why the terms get confused"
+    },
+    {
+      "id": "sponsored-content",
+      "text": "Sponsored content"
+    },
+    {
+      "id": "branded-content",
+      "text": "Branded content"
+    },
+    {
+      "id": "advertorial",
+      "text": "Advertorial"
+    },
+    {
+      "id": "a-quick-comparison",
+      "text": "A quick comparison"
+    },
+    {
+      "id": "labelling-and-what-readers-notice",
+      "text": "Labelling, and what readers notice"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "All three are paid formats that resemble editorial.",
+    "Paid content is normally labelled, and readers can often tell.",
+    "Nobody can honestly promise a paid placement without its label."
+  ]
+},
+{
+  "slug": "earned-vs-paid-vs-sponsored-media",
+  "h1": "Earned vs Paid vs Sponsored Media",
+  "title": "Earned vs Paid vs Sponsored Media | DNA PR",
+  "description": "Earned, paid and sponsored media compared side by side: who decides what runs, how much control you get, how each is labelled, and how to build a mix.",
+  "body": "<p>Earned, paid and sponsored media are three ways of getting your name in front of people. They differ in one thing above all: who decides what gets published, and whether money influenced that decision.</p>\n<p>This guide compares the three directly. For the fuller background on earned coverage itself, start with <a href=\"/guides/what-is-earned-media\">what earned media is</a>.</p>\n<h2 id=\"why-these-three-get-compared\">Why these three get compared</h2>\n<p>The classic model splits media into owned, paid and earned. Sponsored content complicates that model, because it is paid but looks like editorial.</p>\n<p>That is why buyers get confused. A sponsored article on a well-known site can look almost identical to an earned one at first glance. The difference sits in how it got there, and it shows up in the label, the tone and how readers treat it.</p>\n<p>Owned media, meaning your own website, newsletter and social accounts, still matters. It is left out here only because nobody confuses it with the other three.</p>\n<h2 id=\"earned-media-in-brief\">Earned media in brief</h2>\n<p>Earned media is coverage a journalist, editor or producer chose to run without payment. A news story, an expert quote, an interview, a review.</p>\n<p>You cannot buy the decision, and you usually cannot approve the copy. What you can do is make the decision more likely: a strong story, evidence, good timing and a well-targeted pitch.</p>\n<p>Earned coverage also tends to last. An article a journalist wrote about you usually stays online and keeps turning up when people search your name, long after the effort that produced it.</p>\n<p>Its strength is credibility. Its weakness is that it is slow and unpredictable, and nobody can guarantee it.</p>\n<h2 id=\"paid-media-in-brief\">Paid media in brief</h2>\n<p>Paid media is advertising in the ordinary sense: search ads, social ads, display banners, radio spots, print adverts. You pay for space or attention and you control the message.</p>\n<p>Its strength is precision and speed. You choose the audience, the timing and the words, and you can switch it on quickly. Its weakness is that people recognise adverts and discount them accordingly, and the effect usually stops when the spending does.</p>\n<p>Paid media is also the easiest to measure. Clicks, sign-ups and sales can usually be traced to specific spend, which makes it straightforward to judge whether a campaign justified its budget.</p>\n<h2 id=\"where-sponsored-media-sits\">Where sponsored media sits</h2>\n<p>Sponsored media is paid content published in a publication's editorial format. You pay the publisher, you normally approve the content, and the publication labels it as sponsored, partner or paid content.</p>\n<p>It borrows something from each side. From paid media: predictability, control and a price. From earned media: the format of an article and the context of a recognised publication.</p>\n<p>What it does not borrow is independent judgement. Readers can often tell, and the label is there precisely so they can. The different forms are unpacked in <a href=\"/guides/sponsored-vs-branded-vs-advertorial\">sponsored vs branded content vs advertorial</a>.</p>\n<p>Contributor articles sit close by. They are written under your name through a publication's programme, sometimes for a fee, and they are not earned editorial either.</p>\n<h2 id=\"side-by-side\">Side by side</h2>\n<ul><li><strong>Who decides it runs.</strong> Earned: an independent editor. Paid: you. Sponsored: you and the publisher, on commercial terms.</li><li><strong>Control over the message.</strong> Earned: little. Paid: full. Sponsored: high, within publisher guidelines.</li><li><strong>Label.</strong> Earned: none needed. Paid: clearly an advert. Sponsored: normally labelled as paid or partner content.</li><li><strong>Predictability.</strong> Earned: low. Paid: high. Sponsored: high.</li><li><strong>Credibility with readers.</strong> Earned: highest. Paid: lowest. Sponsored: in between, depending on quality and transparency.</li><li><strong>Lifespan.</strong> Earned and sponsored articles can stay online and indexed. Most adverts disappear when the campaign ends.</li></ul>\n<h2 id=\"choosing-a-mix\">Choosing a mix</h2>\n<p>Very few businesses should rely on only one. The useful question is which job each one is doing.</p>\n<p>Use paid media when you need reach on a timetable: a launch, a promotion, a campaign with a deadline.</p>\n<p>Use sponsored or contributor content when you need a predictable, factual article about your business on a recognised site, and you are comfortable with it being labelled.</p>\n<p>Pursue earned media when you need independent credibility, the kind that holds up when an investor, partner or journalist researches you. Accept that it takes longer and cannot be promised.</p>\n<p>In practice these often support each other. A few factual sponsored or contributor articles give journalists something to verify, and earned coverage makes paid campaigns more convincing to the people who click through.</p>\n<p>The mistake to avoid is paying for one and reporting it as another. A sponsored article presented as earned coverage tends to be discovered by exactly the people you most wanted to impress.</p>\n<p>Costs vary widely across all three, and depend on the outlet and the route. Our guide to <a href=\"/guides/how-much-does-it-cost-to-get-featured\">how much it costs to get featured</a> explains what drives the difference.</p>\n<p>Digital Networking Agency works across earned pitching and paid placement. We tell you which route each placement uses before you commit, and we do not sell a sponsored article as an earned one.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Is sponsored media the same as paid media?</h3>\n<p>It is a type of paid media. The difference is format: sponsored content appears as an article within a publication, while most paid media appears as an advert.</p>\n<h3>Which one builds the most trust?</h3>\n<p>Earned media, because an independent party chose to publish it. Sponsored and paid media can still build familiarity and understanding, which matters too.</p>\n<h3>Can an agency turn paid placements into earned coverage?</h3>\n<p>No. An agency can pitch your story to journalists alongside any paid work, which may lead to earned coverage. The paid placement itself stays paid, and should be described that way.</p>",
+  "toc": [
+    {
+      "id": "why-these-three-get-compared",
+      "text": "Why these three get compared"
+    },
+    {
+      "id": "earned-media-in-brief",
+      "text": "Earned media in brief"
+    },
+    {
+      "id": "paid-media-in-brief",
+      "text": "Paid media in brief"
+    },
+    {
+      "id": "where-sponsored-media-sits",
+      "text": "Where sponsored media sits"
+    },
+    {
+      "id": "side-by-side",
+      "text": "Side by side"
+    },
+    {
+      "id": "choosing-a-mix",
+      "text": "Choosing a mix"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "The key difference is who decides what runs.",
+    "Sponsored media is paid, labelled and predictable.",
+    "Earned coverage builds the most trust and cannot be guaranteed."
+  ]
+},
+{
+  "slug": "syndication-vs-original-publication",
+  "h1": "Syndication vs Original Publication",
+  "title": "Syndication vs Original Publication | DNA PR",
+  "description": "What syndication is, how it differs from original publication, why a long list of copies rarely equals wide coverage, and how to read a placement report.",
+  "body": "<p>A placement report that lists dozens of website logos can look impressive. Often, most of those entries are the same article appearing in different places.</p>\n<p>That is syndication. It is not a trick, and it can be useful. But it is worth understanding how it differs from an original article before you judge what you have paid for.</p>\n<h2 id=\"what-each-term-means\">What each term means</h2>\n<p><strong>Original publication</strong> means an article is published first, and in full, by one publication. It was written for that outlet or accepted by its editors, and that site is the source.</p>\n<p><strong>Syndication</strong> means the same content is republished on other sites, after or at the same time as the original. The words are the same, or very nearly. Only the host changes.</p>\n<p>The difference matters because the two are often reported together. A proposal or report may count every copy as a separate placement, which makes one article look like many.</p>\n<h2 id=\"how-syndication-works\">How syndication works</h2>\n<p>Syndication happens through several different mechanisms, and they are worth separating.</p>\n<p><strong>Wire distribution.</strong> A press release is sent through a distribution service and posted across a network of partner sites, often in a press release section or feed. One release, many copies.</p>\n<p><strong>Content partnerships.</strong> Publishers license articles to each other. A piece from one outlet may appear on another site with a credit to the original.</p>\n<p><strong>Aggregators.</strong> News apps and portals pull in articles from partner publishers. Whether a given article is picked up is usually decided by the aggregator or the terms of the partnership, not by you, and not by an agency.</p>\n<p><strong>Networks of related sites.</strong> Some publishers run groups of titles that share content across all of them.</p>\n<p>Each of these produces copies rather than new articles. The mechanism affects how visible those copies are, but not the basic fact that the story was published once and then repeated.</p>\n<h2 id=\"why-the-original-usually-matters-more\">Why the original usually matters more</h2>\n<p>When the same article exists on many sites, search engines generally choose one version to show and filter out the rest. Syndicated copies often point back to the original for exactly this reason. So a long list of copies rarely produces a long list of separate search results.</p>\n<p>Readers behave in a similar way. Someone who searches your name and finds the same release repeated across unfamiliar sites does not read that as widespread coverage. Someone who finds a single original article on a publication they recognise usually does.</p>\n<p>The original is also what a journalist or investor is most likely to look for when checking a claim. Its publication date, author and section tell them how the story came to exist.</p>\n<p>AI assistants and search systems also lean on independent, distinct sources when they build a picture of a business. Ten copies of one article behave more like one source than ten. There is more on this in <a href=\"/guides/how-ai-engines-choose-sources\">how AI engines choose sources</a>.</p>\n<h2 id=\"where-syndication-genuinely-helps\">Where syndication genuinely helps</h2>\n<p>None of this makes syndication worthless.</p>\n<p>It puts a factual account of your news in more places, which helps people find it through the sites and apps they already use. A pickup by a large aggregator can bring real readers who would never have visited the original publication. And for a press release, wide distribution is often the purpose, alongside a clean public record of the announcement.</p>\n<p>The issue is only ever presentation. A syndicated copy should be counted as a copy, and a press release on a partner feed should be described as a release, not as a feature. Our guide on <a href=\"/guides/press-release-vs-feature-article\">press releases vs feature articles</a> covers that distinction in more detail.</p>\n<p>It also helps to know that syndicated copies are less stable than originals. Partner sites change their arrangements, remove old feeds and restructure sections, so some copies quietly disappear over time. The original is the version most likely to last.</p>\n<h2 id=\"how-to-read-a-placement-list\">How to read a placement list</h2>\n<p>When someone sends you a report, or a proposal promising reach, check it this way.</p>\n<ul><li><strong>Count originals, not URLs.</strong> Group identical headlines together. That group is one article.</li><li><strong>Find the source.</strong> Identify which site published first, and whether it is one your audience recognises.</li><li><strong>Check the section.</strong> A press release feed, a partner section and an editorial section are different things.</li><li><strong>Check the label.</strong> See whether the page says press release, sponsored, contributor or nothing at all.</li><li><strong>Ask about pickups in advance.</strong> Aggregator syndication is not normally in anyone's gift, so treat a guarantee of it with caution.</li></ul>\n<p>The wider questions in <a href=\"/guides/how-to-vet-a-pr-agency\">how to vet a PR agency</a> apply here too, particularly the insistence on live links rather than logos.</p>\n<p>Digital Networking Agency tells you before you commit whether a placement is an original article or a distributed release, and which parts of the outcome are within our control. Where a pickup depends on someone else's decision, we say so rather than promise it.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Is syndicated content bad for SEO?</h3>\n<p>Not usually in itself. Search engines generally recognise syndicated copies and show one version. The main effect is that duplicates add far less value than their number suggests.</p>\n<h3>Does a pickup by a large aggregator count as a placement?</h3>\n<p>It is a real way for readers to find the article, and it is worth having. It is still the same article as the original, and it is normally the aggregator's decision whether to carry it.</p>\n<h3>Should I pay for wide press release distribution?</h3>\n<p>If you have genuine news and want a public, dated record of it, distribution can be useful. If the goal is credibility, a single original article on a relevant publication usually does more.</p>",
+  "toc": [
+    {
+      "id": "what-each-term-means",
+      "text": "What each term means"
+    },
+    {
+      "id": "how-syndication-works",
+      "text": "How syndication works"
+    },
+    {
+      "id": "why-the-original-usually-matters-more",
+      "text": "Why the original usually matters more"
+    },
+    {
+      "id": "where-syndication-genuinely-helps",
+      "text": "Where syndication genuinely helps"
+    },
+    {
+      "id": "how-to-read-a-placement-list",
+      "text": "How to read a placement list"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Syndication repeats one article; it does not multiply coverage.",
+    "One original article on a relevant outlet usually carries more weight.",
+    "Count originals, not URLs, when reading a placement report."
+  ]
+},
+{
+  "slug": "tier-1-vs-tier-2-publications",
+  "h1": "Tier 1 vs Tier 2 Publications",
+  "title": "Tier 1 vs Tier 2 Publications | DNA PR",
+  "description": "What tier 1 and tier 2 publications really mean, why there is no official list, and how to judge whether an outlet matters to the people you need to reach.",
+  "body": "<p>Tier 1 is one of the most used phrases in PR, and one of the least defined. It sounds like an official ranking. It is not.</p>\n<p>Understanding what people mean by it, and what they leave out, will help you set sensible goals and judge proposals more accurately.</p>\n<h2 id=\"there-is-no-official-list\">There is no official list</h2>\n<p>No organisation publishes a recognised tier ranking of media outlets. Agencies, marketing teams and clients each draw their own lines, and those lines shift by industry and by country.</p>\n<p>A trade publication that barely registers with the general public may be the most important title in its sector. A household-name newspaper may be irrelevant to a specialist software buyer. So when someone says tier 1, the useful follow-up is always the same: tier 1 for whom?</p>\n<p>Tier labels are also applied inconsistently. One firm may call a site tier 1 because of its audience size, another because of its editorial reputation, and a third because the client has heard of it. Ask what the label is based on.</p>\n<h2 id=\"what-people-usually-mean-by-tier-1\">What people usually mean by tier 1</h2>\n<p>In general use, tier 1 describes the most recognised publications in a market. National newspapers, major broadcasters, the best-known business and technology titles, and the leading global news brands.</p>\n<p>They tend to share a few traits: large audiences, strong editorial reputations, independent newsrooms and intense competition for attention. Journalists at these outlets receive far more pitches than they can use.</p>\n<p>Earned coverage here is valuable and hard to get. Nobody can guarantee it, because staff editorial decisions sit with the newsroom.</p>\n<p>A realistic tier 1 pitch usually needs something only you can offer: proprietary data, a verifiable result, access to a story others do not have, or a well-evidenced view that challenges the consensus.</p>\n<p>Many major brands also run paid products, such as sponsored sections or contributor programmes. Those are different from staff editorial even though they carry the same masthead, and they are normally labelled. Our guide to <a href=\"/guides/get-featured-in-forbes\">getting featured in Forbes</a> shows how one well-known title separates those routes.</p>\n<h2 id=\"what-tier-2-covers\">What tier 2 covers</h2>\n<p>Tier 2 usually means everything recognised and credible that sits below the top names. Regional newspapers, respected trade and industry titles, established digital business publications, finance and news portals, and specialist magazines.</p>\n<p>Some people add a tier 3 for smaller blogs, niche sites and newer outlets. Again, the boundaries are informal and nobody polices them.</p>\n<p>Tier 2 outlets are also where many businesses find journalists who cover their niche closely. Those writers often know the sector well, ask better questions and produce coverage that is more useful to the right reader.</p>\n<p>Tier 2 is where much of the practical work in PR happens. It includes many outlets that run both editorial and paid or contributor content, which means some placements are predictable and some are not. Knowing which route a specific placement uses matters more than the tier label attached to the outlet.</p>\n<h2 id=\"why-tier-2-is-often-the-smarter-start\">Why tier 2 is often the smarter start</h2>\n<p><strong>Coverage tends to follow coverage.</strong> Journalists at the biggest outlets research the people they write about. A record of credible articles makes you easier to verify and easier to say yes to.</p>\n<p><strong>Relevance can beat reach.</strong> A trade title read closely by your buyers can do more for your business than a passing mention in a national paper they skim.</p>\n<p><strong>Your story may not be ready.</strong> Tier 1 editorial usually needs a genuinely newsworthy angle. Tier 2 gives you room to build the story, the evidence and the profile that later support a bigger pitch.</p>\n<p><strong>Predictability.</strong> Where an outlet offers paid or contributor inventory, delivery can be committed to. That is useful for establishing a factual public record quickly, as long as it is described accurately.</p>\n<p>None of this means aiming low for ever. It means sequencing. Build a credible record where your story fits today, then take a stronger story to bigger outlets when you have the evidence to support it.</p>\n<h2 id=\"how-to-judge-a-publication-yourself\">How to judge a publication yourself</h2>\n<p>Rather than relying on a tier label, look at the outlet directly.</p>\n<ul><li><strong>Audience fit.</strong> Would your buyers, investors or partners actually read or recognise it?</li><li><strong>Editorial standards.</strong> Are there named editors, bylined journalists and original reporting?</li><li><strong>Labelling.</strong> Does it clearly mark sponsored, contributor and press release content?</li><li><strong>Search presence.</strong> Do its articles appear when people search for topics in your field?</li><li><strong>Original or copy.</strong> Would your article be published there first, or is it a syndicated version? See <a href=\"/guides/syndication-vs-original-publication\">syndication vs original publication</a>.</li></ul>\n<p>An outlet that scores well on these points is worth pursuing whatever tier someone assigns it. An outlet that scores badly is not made more useful by a famous name on a proposal.</p>\n<p>Our <a href=\"/publications\">publications page</a> lists the outlets we work with, which is a practical place to apply these questions. Digital Networking Agency will tell you which route each outlet uses. We do not promise tier 1 editorial, because no agency controls it.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Is tier 1 coverage always worth more?</h3>\n<p>Not always. It carries more general recognition, but a relevant trade or regional title can matter more to the people you actually need to reach.</p>\n<h3>Can an agency guarantee tier 1 placements?</h3>\n<p>Not for earned editorial at an independent newsroom. Where a major publication sells sponsored or contributor space, that inventory can be bought, but it is a paid route and is normally labelled.</p>\n<h3>How do I know what tier a publication is?</h3>\n<p>There is no official answer. Judge it on audience fit, editorial standards, labelling and whether the people you want to reach recognise it.</p>",
+  "toc": [
+    {
+      "id": "there-is-no-official-list",
+      "text": "There is no official list"
+    },
+    {
+      "id": "what-people-usually-mean-by-tier-1",
+      "text": "What people usually mean by tier 1"
+    },
+    {
+      "id": "what-tier-2-covers",
+      "text": "What tier 2 covers"
+    },
+    {
+      "id": "why-tier-2-is-often-the-smarter-start",
+      "text": "Why tier 2 is often the smarter start"
+    },
+    {
+      "id": "how-to-judge-a-publication-yourself",
+      "text": "How to judge a publication yourself"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "There is no official tier list, so ask: tier 1 for whom?",
+    "Relevant tier 2 coverage often does more than a distant tier 1 mention.",
+    "No agency controls tier 1 editorial decisions."
+  ]
+},
+{
+  "slug": "pr-vs-advertising",
+  "h1": "PR vs Advertising: Which One Do You Need?",
+  "title": "PR vs Advertising: Which One Do You Need? | DNA PR",
+  "description": "PR and advertising compared honestly: control, credibility, speed and measurement, where sponsored content fits in, and how to tell which one you need.",
+  "body": "<p>PR and advertising both aim to get your business noticed. They do it in opposite ways, and most of the confusion between them comes from not seeing that clearly.</p>\n<p>Advertising pays for attention. PR works to earn it, and increasingly includes paid placement routes that sit somewhere in between.</p>\n<h2 id=\"the-core-difference\">The core difference</h2>\n<p>With advertising, you buy space and control what goes in it. The audience knows it is an advert.</p>\n<p>With public relations, you try to influence what others say about you: journalists, editors, podcast hosts, industry commentators. You do not control the outcome, and that lack of control is where the credibility comes from.</p>\n<p>A simple test: if you wrote the words and paid for the space, it is advertising. If someone else chose to say it, it is PR in the traditional sense.</p>\n<p>This is also why the two are measured so differently. Advertising reports what it bought. PR reports what others decided, which is harder to count but also harder to fake.</p>\n<h2 id=\"what-advertising-does-well\">What advertising does well</h2>\n<p><strong>Speed.</strong> A campaign can go live quickly, on a date you choose.</p>\n<p><strong>Control.</strong> You decide the message, the design, the audience and the call to action.</p>\n<p><strong>Measurability.</strong> Digital advertising in particular lets you track clicks, sign-ups and sales against spend with reasonable precision.</p>\n<p><strong>Scale on demand.</strong> Spend more and, within limits, you reach more people.</p>\n<p>The limits are just as clear. People discount adverts because they know who paid for them, and many actively ignore them. When the budget stops, the visibility usually stops with it.</p>\n<p>Advertising also depends on trust built elsewhere. An advert can bring a stranger to your website, but it cannot tell them whether you are any good. That question is usually answered by what they find when they search.</p>\n<h2 id=\"what-pr-does-well\">What PR does well</h2>\n<p><strong>Credibility.</strong> An article a journalist chose to write carries a third party's judgement. Readers treat it differently from anything you publish or pay for.</p>\n<p><strong>Durability.</strong> Articles stay online. When a prospect, investor or partner searches your name months later, published coverage is still there.</p>\n<p><strong>Influence beyond the reader.</strong> Search engines and AI assistants draw heavily on independent published sources when they describe a business. Our guide to <a href=\"/guides/how-ai-engines-choose-sources\">how AI engines choose sources</a> explains why.</p>\n<p><strong>Positioning.</strong> Quotes, bylines and interviews establish you as someone worth listening to in your field, which advertising struggles to do.</p>\n<p>The limits: earned PR is slow, harder to measure and cannot be guaranteed. You can improve the odds with a strong story and good pitching, but the decision always belongs to someone else.</p>\n<p>PR also takes preparation. Journalists need a story, evidence and someone available to talk, and a business without those will struggle regardless of budget.</p>\n<h2 id=\"where-the-lines-blur\">Where the lines blur</h2>\n<p>Modern PR often includes paid routes: sponsored articles, contributor programmes and wire distribution. These use editorial formats, but they are paid, and the publication normally labels them. Readers can often tell.</p>\n<p>That does not make them a bad choice. They offer a predictable, published article on a recognised site, which can be exactly what a business needs. They are simply closer to advertising than to earned coverage, and should be bought and described that way. For the detail, see <a href=\"/guides/earned-vs-paid-vs-sponsored-media\">earned vs paid vs sponsored media</a>.</p>\n<p>The reverse also happens. Advertising often borrows credibility from PR by quoting press coverage or showing publication logos. Those claims are only as strong as the coverage behind them, so they should point to real, live articles.</p>\n<h2 id=\"how-they-compare\">How they compare</h2>\n<ul><li><strong>Control.</strong> Advertising: full. Earned PR: little. Paid PR routes: high.</li><li><strong>Credibility.</strong> Advertising: lowest. Earned PR: highest. Paid PR routes: moderate, depending on quality and labelling.</li><li><strong>Speed.</strong> Advertising: fast. Earned PR: slow. Paid PR routes: fairly predictable.</li><li><strong>Measurement.</strong> Advertising: direct. PR: mostly indirect, through search, reputation and sales conversations.</li><li><strong>Lifespan.</strong> Advertising: usually ends with the budget. PR: articles generally remain online.</li></ul>\n<h2 id=\"which-one-you-need\">Which one you need</h2>\n<p>Start from the problem, not the channel.</p>\n<p>If people already trust you and you need more of them to hear about an offer by a certain date, advertising is usually the more direct tool.</p>\n<p>If people are hearing about you but hesitating, checking you out and not finding much, the gap is credibility. That is a PR problem, and more advertising tends to make the gap more visible rather than closing it.</p>\n<p>If you are launching something genuinely new, you may need both at once: advertising for reach on launch day, and PR for the independent explanation people look for before they buy.</p>\n<p>Many businesses need both, in sequence. A basic public record of credible coverage makes advertising work harder, because the people who click through and then search your name find something reassuring.</p>\n<p>Digital Networking Agency is a PR firm, not an advertising agency. We handle earned pitching and paid placement, and tell you which route each one uses; our <a href=\"/services\">services page</a> sets out what that covers. We will not claim coverage can replace advertising where advertising is the better fit.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Is PR cheaper than advertising?</h3>\n<p>Not necessarily. They are priced differently. Advertising costs tend to scale with reach, while PR is usually priced by the work involved or by placement. Neither is automatically cheaper.</p>\n<h3>Can PR results be measured?</h3>\n<p>Partly. You can track placements, referral traffic and search visibility, but much of the value shows up indirectly, in how prospects and partners respond when they research you.</p>\n<h3>Is sponsored content PR or advertising?</h3>\n<p>It is paid and labelled, so it sits closer to advertising. It is often bought through PR firms because it uses editorial formats and appears on news and business publications.</p>",
+  "toc": [
+    {
+      "id": "the-core-difference",
+      "text": "The core difference"
+    },
+    {
+      "id": "what-advertising-does-well",
+      "text": "What advertising does well"
+    },
+    {
+      "id": "what-pr-does-well",
+      "text": "What PR does well"
+    },
+    {
+      "id": "where-the-lines-blur",
+      "text": "Where the lines blur"
+    },
+    {
+      "id": "how-they-compare",
+      "text": "How they compare"
+    },
+    {
+      "id": "which-one-you-need",
+      "text": "Which one you need"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Advertising buys attention; PR works to earn it.",
+    "Paid PR routes sit closer to advertising and are usually labelled.",
+    "Start from the problem: reach or credibility."
+  ]
+},
+{
+  "slug": "digital-pr-vs-traditional-pr",
+  "h1": "Digital PR vs Traditional PR",
+  "title": "Digital PR vs Traditional PR | DNA PR",
+  "description": "How digital PR differs from traditional PR, what each does well and badly, where paid routes fit in, and how to choose the right mix for your business.",
+  "body": "<p>Digital PR and traditional PR are often presented as rivals, as if one replaced the other. In practice they share the same foundation and differ mostly in where coverage appears and what it is expected to do.</p>\n<p>Knowing the difference helps you judge what a firm is actually offering, and whether it matches what your business needs.</p>\n<h2 id=\"the-difference-is-smaller-than-it-sounds\">The difference is smaller than it sounds</h2>\n<p>Both involve the same core work: finding a story, shaping it for an audience, and persuading someone with a platform to publish it. Both depend on relationships with editors and journalists, and on material genuinely worth covering.</p>\n<p>The split is mainly about channel and measurement. Traditional PR grew up around print, broadcast and in-person media relations. Digital PR focuses on online publications, search visibility, links and, increasingly, how AI assistants describe a business.</p>\n<p>Many firms now do some of both, and the labels are partly marketing. What matters is the work behind them.</p>\n<h2 id=\"what-traditional-pr-means\">What traditional PR means</h2>\n<p>Traditional PR typically covers newspapers, magazines, radio and television, along with press conferences, events, crisis communications and reputation management.</p>\n<p>Its strengths are reach into established media and deep experience with journalists. A broadcast interview or a printed profile in a respected title still carries real weight, particularly in sectors where print trade press and broadcast remain influential.</p>\n<p>Traditional practitioners also tend to be strong on crisis and issues management, where relationships with editors and experience under pressure matter more than any single channel.</p>\n<p>Its weaknesses are measurement and permanence. Print and broadcast coverage can be hard to track, and it does not always leave a searchable record that a prospect can find later.</p>\n<h2 id=\"what-digital-pr-means\">What digital PR means</h2>\n<p>Digital PR focuses on coverage that lives online: articles on news and business sites, expert quotes, contributor pieces, podcasts, and data-led stories designed to interest journalists.</p>\n<p>It pays attention to things traditional PR often did not measure. Whether an article links back to your site. Whether it appears in search. Whether it is the kind of independent source that search engines and AI tools draw on. There is more on that in <a href=\"/guides/how-ai-engines-choose-sources\">how AI engines choose sources</a>.</p>\n<p>It also moves at a different pace. Online publications publish continuously, which creates more opportunities to respond to news in your sector, and more competition for each one.</p>\n<p>Digital PR also includes a wider set of routes. Alongside earned editorial, it often uses contributor programmes, sponsored articles and wire distribution. These are paid, usually labelled by the publication, and readers can often tell. They are useful, but they are not the same as a journalist choosing to write about you.</p>\n<h2 id=\"side-by-side\">Side by side</h2>\n<ul><li><strong>Main channels.</strong> Traditional: print, broadcast, events. Digital: online publications, podcasts, search.</li><li><strong>Measurement.</strong> Traditional: audience estimates and clippings. Digital: live URLs, links, traffic and search visibility.</li><li><strong>Permanence.</strong> Traditional: often short-lived or hard to find later. Digital: usually indexed and searchable.</li><li><strong>Routes.</strong> Traditional: mostly earned. Digital: earned alongside paid and contributor options.</li><li><strong>Speed.</strong> Traditional: tied to print and broadcast schedules. Digital: can be faster, especially for paid routes.</li></ul>\n<h2 id=\"where-each-falls-short\">Where each falls short</h2>\n<p>Traditional PR can produce coverage that is hard to show anyone afterwards. A strong radio segment does little for the prospect who searches your name next quarter.</p>\n<p>Digital PR has its own traps. It can drift towards volume: long lists of syndicated copies, low-quality sites chosen for links rather than readers, and paid placements reported as if they were earned. None of that builds much credibility. Our guide on <a href=\"/guides/how-to-vet-a-pr-agency\">how to vet a PR agency</a> covers how to spot it.</p>\n<p>Digital metrics can also mislead. Traffic estimates, domain scores and reach figures are easy to report and hard to connect to anything a business cares about. Live articles on relevant publications are a better test.</p>\n<p>Both can fall into the same mistake of chasing the biggest possible name rather than the most relevant one. That trade-off is covered in <a href=\"/guides/tier-1-vs-tier-2-publications\">tier 1 vs tier 2 publications</a>.</p>\n<h2 id=\"which-approach-fits-your-business\">Which approach fits your business</h2>\n<p>For most businesses today, the question is less digital or traditional, and more which mix.</p>\n<p>If your buyers research online before they talk to you, a searchable record of credible articles is close to essential, and digital PR is the practical route to it.</p>\n<p>If your sector still relies on print trade titles, broadcast or events, traditional media relations remains worth the effort, ideally with coverage that also appears online where people can find it.</p>\n<p>Whichever you choose, ask the same questions. Which outlets, and why those? Which placements are earned and which are paid? What will exist online six months from now?</p>\n<p>A firm that answers those questions clearly, whatever it calls its approach, is usually worth talking to. One that answers with volume figures alone is worth questioning further.</p>\n<p>Digital Networking Agency works mainly in digital PR: online publications, earned pitching and clearly described paid placements. If your campaign depends mostly on broadcast or live events, ask us directly whether we are the right fit, and we will give you a straight answer.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Is traditional PR dead?</h3>\n<p>No. Print, broadcast and events still matter in many sectors. What has changed is that most coverage is now also expected to exist online, where people can find it.</p>\n<h3>Is digital PR just link building?</h3>\n<p>It should not be. Links can be a useful by-product of coverage, but digital PR is about credible articles people actually read. A campaign focused only on links often ends up on sites nobody trusts.</p>\n<h3>Does digital PR get results faster?</h3>\n<p>Paid digital routes can be predictable, but earned digital coverage is no more guaranteed than traditional coverage. The editorial decision still belongs to the publication.</p>",
+  "toc": [
+    {
+      "id": "the-difference-is-smaller-than-it-sounds",
+      "text": "The difference is smaller than it sounds"
+    },
+    {
+      "id": "what-traditional-pr-means",
+      "text": "What traditional PR means"
+    },
+    {
+      "id": "what-digital-pr-means",
+      "text": "What digital PR means"
+    },
+    {
+      "id": "side-by-side",
+      "text": "Side by side"
+    },
+    {
+      "id": "where-each-falls-short",
+      "text": "Where each falls short"
+    },
+    {
+      "id": "which-approach-fits-your-business",
+      "text": "Which approach fits your business"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Both share the same core work of story and pitching.",
+    "Digital PR adds search, links and paid routes to the mix.",
+    "Judge any approach on relevance and honesty, not volume."
+  ]
+},
+{
+  "slug": "pr-agency-vs-publicist-vs-press-release-service",
+  "h1": "PR Agency vs Publicist vs Press Release Service",
+  "title": "PR Agency vs Publicist vs Press Release Service | DNA PR",
+  "description": "What a PR agency, an independent publicist and a press release service each actually do, what you get from each, and how to choose the one that fits you.",
+  "body": "<p>Three kinds of firm sell help with press, and from the outside they can look interchangeable. They are not. Each one buys you a different thing, at a different level of effort, with a different kind of result.</p>\n<p>Here is what each actually does, and how to work out which one fits where you are.</p>\n<h2 id=\"the-short-version\">The short version</h2>\n<ul><li><strong>A PR agency</strong> is a team. It handles strategy, messaging, writing and media outreach, usually over an ongoing engagement.</li><li><strong>A publicist</strong> is usually one person, often independent, whose main value is their judgement and their relationships with particular journalists or producers.</li><li><strong>A press release service</strong> is distribution. You supply an announcement and it pushes that text out across a network of sites and feeds.</li></ul>\n<p>The first two sell work aimed at getting someone else to write about you. The third sells publication of your own words. That difference matters more than price.</p>\n<h2 id=\"what-a-pr-agency-does\">What a PR agency does</h2>\n<p>An agency takes on the whole problem of how you appear in the press. In practice that tends to mean working out what your story is, deciding which publications matter to your buyers, writing pitches and articles, contacting editors and journalists, and managing whatever comes back.</p>\n<p>The advantage is breadth. Several people cover research, writing and outreach at once, and the work continues when one of them is on holiday. A good agency also brings a view on sequencing: which placements to pursue first so that later ones become more achievable.</p>\n<p>The trade-offs are cost and distance. Retainers are a commitment, and on larger accounts the senior person who sold you the work may not be the one doing it. Ask who writes and who pitches before you sign.</p>\n<p>Agencies also differ in what they deliver. Some sell pure earned outreach, where you pay for effort and nothing is promised. Others sell placement, where the publisher controls the slot and delivery can be committed to. Many do both. If you are unsure which you are being offered, <a href=\"/guides/is-guaranteed-pr-legit\">our guide to guaranteed PR</a> explains how to tell.</p>\n<h2 id=\"what-an-independent-publicist-does\">What an independent publicist does</h2>\n<p>A publicist is often a former journalist, producer or in-house communications person working alone or in a very small team. Their value is concentrated: specific relationships, a sharp sense of what a particular desk will take, and the ability to move quickly.</p>\n<p>For some clients that is exactly right. An author with a book out, a founder in a narrow sector or a public figure who needs one person on the phone at short notice can get more from a well-connected individual than from a larger firm.</p>\n<p>The limits come from the same place. One person has finite hours, and their relationships are strongest in the areas they have worked in. A publicist with deep contacts in consumer lifestyle media may have none in trade technology press, and their capacity depends on how many other clients they are carrying.</p>\n<p>Ask which outlets they have personally worked with recently, and for live links rather than a list of names.</p>\n<h2 id=\"what-a-press-release-service-does\">What a press release service does</h2>\n<p>A press release service, often called a wire service, distributes an announcement. You write the release, or pay for help writing it, and the service publishes it across its network of news feeds and partner sites.</p>\n<p>What you get is predictable. The text goes live, usually quickly, on pages that are indexed and publicly findable. For formal announcements, such as a funding round, a senior appointment or a product launch, that factual record is genuinely useful.</p>\n<p>What you do not get is journalism. A release republished on a partner site is still your release, and readers and editors can generally tell. It does not mean a reporter has chosen to cover you, and it rarely leads to coverage on its own unless the news itself is significant. Many sites that carry wire content label it as a press release.</p>\n<p>Treat distribution as a record-keeping tool, not a substitute for being written about.</p>\n<h2 id=\"where-placement-services-fit\">Where placement services fit</h2>\n<p>There is a fourth option that sits between these, and it is where much of the confusion lives.</p>\n<p>A placement service produces a written article about you, to the publication's format, and publishes it through contributor, partner or sponsored routes the publisher controls. Unlike a release, it reads as an article rather than an announcement. Unlike earned editorial, nobody independent decided to write it, and it may carry a label.</p>\n<p>That is a legitimate product and, for many businesses, a practical one. The problem only arises when it is described as something it is not. <a href=\"/guides/what-is-earned-media\">Our guide to earned media</a> sets out where each route sits.</p>\n<p>Digital Networking Agency works on this side of the market as well as on outreach, and we say which route a placement uses before anyone commits. We do not control editorial decisions at independent newsrooms, and we will not pretend to.</p>\n<h2 id=\"how-to-choose-between-them\">How to choose between them</h2>\n<p>Start with what you need the coverage to do, not with who you have heard of.</p>\n<ul><li><strong>You have a formal announcement and want it on the record.</strong> A press release service is the efficient choice.</li><li><strong>You need articles someone can find when they search your name.</strong> A placement service, or an agency that offers placement, is the most predictable route.</li><li><strong>You want journalists to choose to cover you, and you can wait.</strong> An agency or publicist doing earned outreach, with realistic expectations about odds and timing.</li><li><strong>You need one well-connected person for a specific moment.</strong> An independent publicist with relevant contacts.</li></ul>\n<p>Many businesses end up using more than one. Whichever you choose, the checks in <a href=\"/guides/how-to-vet-a-pr-agency\">how to vet a PR agency</a> apply to all of them.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Is a publicist cheaper than a PR agency?</h3>\n<p>Often, but not always. An experienced independent publicist can charge as much as a small agency. The more useful comparison is what each will actually do each month, and who does it.</p>\n<h3>Will a press release get me featured in the news?</h3>\n<p>Occasionally, if the news is strong and a journalist happens to pick it up. Most releases are published as releases and go no further. Plan on distribution as a record, not as a pitch.</p>\n<h3>Can I use more than one of these at once?</h3>\n<p>Yes, and it is common. A release for the announcement, placement for articles people can find, and outreach for the stories worth pitching can work together, provided everyone knows which route is which.</p>",
+  "toc": [
+    {
+      "id": "the-short-version",
+      "text": "The short version"
+    },
+    {
+      "id": "what-a-pr-agency-does",
+      "text": "What a PR agency does"
+    },
+    {
+      "id": "what-an-independent-publicist-does",
+      "text": "What an independent publicist does"
+    },
+    {
+      "id": "what-a-press-release-service-does",
+      "text": "What a press release service does"
+    },
+    {
+      "id": "where-placement-services-fit",
+      "text": "Where placement services fit"
+    },
+    {
+      "id": "how-to-choose-between-them",
+      "text": "How to choose between them"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Agencies and publicists sell work towards coverage; wire services sell distribution.",
+    "Placement services sit in between and should always name their route.",
+    "Choose by what the coverage needs to do, not by the name of the firm."
+  ]
+},
+{
+  "slug": "how-to-choose-the-right-publication",
+  "h1": "How to Choose the Right Publication for Your Story",
+  "title": "How to Choose the Right Publication | DNA PR",
+  "description": "How to pick publications that fit your story and your buyers: audience, section, format, the route each outlet offers and what the article needs to do later.",
+  "body": "<p>Most people choose publications the way they choose a restaurant they have heard of: by name. It is an understandable instinct, and it is the reason so much press effort goes nowhere.</p>\n<p>The right publication is the one where your story fits, your audience reads, and the article keeps doing useful work after it runs. Recognition matters, but it is only one of those things.</p>\n<h2 id=\"start-with-who-needs-to-see-it\">Start with who needs to see it</h2>\n<p>Before looking at any outlet, write down who the coverage is for. Be specific.</p>\n<ul><li><strong>Buyers.</strong> The people who will pay you. Where do they read about their own industry?</li><li><strong>Investors or partners.</strong> They tend to read business and financial titles, and they search your name before meetings.</li><li><strong>Talent.</strong> Prospective hires look at what has been written about a company before deciding whether to take a call.</li><li><strong>The general public.</strong> Relevant for consumer brands and public figures, much less so for a specialist B2B firm.</li></ul>\n<p>Different audiences point to different publications. A trade title nobody outside your sector has heard of can matter more to your buyers than a national name they never open.</p>\n<h2 id=\"match-the-story-to-the-section\">Match the story to the section</h2>\n<p>Publications are not single audiences. A large title may run business, technology, lifestyle, opinion and regional sections, each with its own editors and its own idea of a story.</p>\n<p>So the real question is not whether a publication would cover you, but which section, and what kind of piece. A founder profile, an expert commentary, a data-led trend story and a product announcement each fit different places. The same company can be a natural fit for a business section with one angle and invisible to it with another.</p>\n<p>If you cannot name the section and the format, you have not finished choosing.</p>\n<h2 id=\"judge-a-publication-by-what-it-publishes\">Judge a publication by what it publishes</h2>\n<p>A publication's reputation is a starting point. What it actually publishes this month is the evidence.</p>\n<p>Spend half an hour reading recent pieces in the section you are considering.</p>\n<ul><li>Does it cover companies or people at your stage and size?</li><li>Are the articles about your sector, or adjacent to it?</li><li>Are pieces bylined by staff, by contributors, or labelled as partner content?</li><li>Would you be comfortable with your name next to the rest of the page?</li><li>Is the site well maintained, or crowded with low-quality material?</li></ul>\n<p>That last point deserves attention. Some domains trade on an old name while publishing almost anything. An article there may still be useful, but it will not carry the weight the name suggests to anyone who looks closely.</p>\n<h2 id=\"know-which-route-the-outlet-offers\">Know which route the outlet offers</h2>\n<p>Publications differ in how content reaches their pages, and that affects both your odds and what the finished article is.</p>\n<p>Some rely almost entirely on staff journalists making independent editorial decisions. Others run contributor programmes, partner sections or sponsored formats alongside their newsroom. Many digital business titles operate largely on contributor and partner models.</p>\n<p>None of this is a mark against a publication. It simply tells you what you are pursuing. Earned editorial in a selective newsroom takes a strong story, time and some luck. A contributor or partner placement is more predictable and usually labelled. Choosing well means knowing which is realistic for this story right now. <a href=\"/guides/what-is-earned-media\">Our guide to earned media</a> explains the difference in more detail.</p>\n<h2 id=\"think-about-what-happens-after\">Think about what happens after it runs</h2>\n<p>A placement is read on the day it publishes and found for a long time afterwards. Choose with both in mind.</p>\n<p>Ask whether the publication's pages tend to appear when people search for the subjects it covers. Check whether its articles stay live and accessible, or disappear behind paywalls and archives. Consider whether the name is one you would put on a sales deck or a speaker bio, and whether you would be comfortable explaining the article to a sceptical client.</p>\n<p>It also helps to think about fit with what already exists. A new article in a similar publication adds to a pattern. One in a completely unrelated outlet can look random. <a href=\"/guides/how-long-does-a-press-feature-last\">How long a press feature lasts</a> covers the afterlife of an article in more detail.</p>\n<h2 id=\"build-a-sequence-not-a-wishlist\">Build a sequence, not a wishlist</h2>\n<p>A list of the most famous titles in your country is a wishlist. A plan is a sequence.</p>\n<p>Coverage tends to follow coverage. Editors at selective publications are more comfortable with someone who already has a public record, so it usually makes sense to begin where your story is a natural fit, then use that record to approach harder targets.</p>\n<p>Digital Networking Agency builds plans this way, and our <a href=\"/publications\">publications page</a> shows the outlets we work with. We will tell you when a target is unrealistic for now rather than take a fee for pursuing it.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Is a bigger publication always better?</h3>\n<p>No. A well-matched trade or niche title your buyers read can do more commercial work than a large national name that has nothing to do with your field. Size is one factor among several.</p>\n<h3>Should I avoid publications that run sponsored content?</h3>\n<p>Not necessarily. Many respected publications run labelled partner content alongside independent journalism. What matters is knowing which route your piece is using and describing it accurately.</p>\n<h3>How many publications should I target at once?</h3>\n<p>Fewer than you might think. A short list of well-matched outlets, each with a specific angle, is far more effective than the same pitch sent to dozens of titles.</p>",
+  "toc": [
+    {
+      "id": "start-with-who-needs-to-see-it",
+      "text": "Start with who needs to see it"
+    },
+    {
+      "id": "match-the-story-to-the-section",
+      "text": "Match the story to the section"
+    },
+    {
+      "id": "judge-a-publication-by-what-it-publishes",
+      "text": "Judge a publication by what it publishes"
+    },
+    {
+      "id": "know-which-route-the-outlet-offers",
+      "text": "Know which route the outlet offers"
+    },
+    {
+      "id": "think-about-what-happens-after",
+      "text": "Think about what happens after it runs"
+    },
+    {
+      "id": "build-a-sequence-not-a-wishlist",
+      "text": "Build a sequence, not a wishlist"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Choose publications by audience and fit, not by name alone.",
+    "Read what an outlet actually publishes, and know which route it offers.",
+    "Plan a sequence that builds a record, rather than a wishlist of famous titles."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-top-publications",
+  "h1": "How to Get Featured in Top Publications",
+  "title": "How to Get Featured in Top Publications | DNA PR",
+  "description": "What top publications need before they cover anyone, the routes in that genuinely exist, why a press record comes first, and what nobody can promise you.",
+  "body": "<p>\"Top publications\" usually means the names everyone recognises: national newspapers, major business titles, and the broadcasters and magazines people mention without explanation.</p>\n<p>They are worth pursuing. They are also the hardest part of the market to get into, and the part where the most money is wasted on the wrong approach. Here is how it tends to work.</p>\n<h2 id=\"what-top-publications-have-in-common\">What top publications have in common</h2>\n<p>The titles people think of as top tier share a few traits that shape everything else.</p>\n<ul><li><strong>Selective newsrooms.</strong> Staff editors and journalists decide what runs, and they turn down far more than they publish.</li><li><strong>Heavy pitch volume.</strong> A reporter at a major title may receive more pitches in a day than they could read in a week.</li><li><strong>Reputational caution.</strong> Their name is the product, so they are wary of covering anyone they cannot verify.</li><li><strong>Separate commercial arms.</strong> Many run sponsored or partner formats, but those are sold and labelled separately from editorial.</li></ul>\n<p>That last point matters. When a top publication runs paid content, it usually says so clearly. The editorial coverage people actually mean by \"featured in\" cannot be bought.</p>\n<h2 id=\"what-editors-at-selective-titles-look-for\">What editors at selective titles look for</h2>\n<p>Editors are not looking for successful people. They are looking for stories their readers need, and for sources who can help them tell those stories credibly.</p>\n<p>In practice, the things that tend to get attention are:</p>\n<ul><li><strong>Something new.</strong> Original data, a first-hand account, or a development nobody else has reported.</li><li><strong>Relevance to the news.</strong> A clear, well-evidenced view on a story the publication is already covering.</li><li><strong>A defensible point of view.</strong> Not contrarian for effect, but a considered position backed by experience.</li><li><strong>Verifiability.</strong> A track record, a public presence and facts that can be checked quickly.</li></ul>\n<p>\"Company grows quickly\" is rarely a story on its own. \"Here is what we are seeing across our customers that suggests the market is shifting\" might be.</p>\n<h2 id=\"the-routes-that-exist\">The routes that exist</h2>\n<p>There are only a handful of ways into a top publication, and it is worth being clear about each.</p>\n<p><strong>Direct pitching.</strong> You or your agency identify the right journalist, read what they publish and send something short and specific. Free, or paid for as effort, with no promised outcome.</p>\n<p><strong>Expert commentary.</strong> Journalists need sources for stories they are already writing. Being available, quick and genuinely useful on a subject can earn a quote, which is real editorial coverage even when it is brief.</p>\n<p><strong>Contributed opinion.</strong> Some top titles accept opinion pieces from outside experts. Editors judge them, and the competition is usually stiff.</p>\n<p><strong>Paid commercial formats.</strong> Sponsored or partner content sold by the publisher's commercial team. Legitimate, predictable, clearly labelled, and not the same thing as editorial.</p>\n<p>If someone offers a guaranteed editorial feature in a selective title, it is either a paid format under another name or a promise that cannot be kept. <a href=\"/guides/is-guaranteed-pr-legit\">Is guaranteed PR legit</a> explains how to tell which.</p>\n<h2 id=\"why-the-record-comes-first\">Why the record comes first</h2>\n<p>The most common mistake is starting at the top.</p>\n<p>A journalist deciding whether to cover or quote you will search your name. If they find nothing independent, they are taking a risk with no evidence. If they find a steady record of articles, interviews and commentary in credible publications, you become a safer and more useful source.</p>\n<p>That is why coverage tends to compound. Articles in well-matched business, trade and digital publications build the public record that makes top-tier pitches viable. <a href=\"/guides/get-featured-in-forbes\">Our Forbes guide</a> covers this for one specific title, and the same logic applies across the top of the market.</p>\n<h2 id=\"how-to-make-a-pitch-worth-reading\">How to make a pitch worth reading</h2>\n<p>When you do approach a top publication, the craft matters.</p>\n<ul><li>Pitch a named journalist whose recent work fits, not a generic news inbox.</li><li>Lead with what the reader learns, in one or two sentences.</li><li>Offer something specific: data, access, a first-hand account or a clear view.</li><li>Keep it short. If it needs a long explanation, it is not ready.</li><li>Follow up once, politely, and then move on.</li></ul>\n<p>Most pitches are declined or ignored. That is normal, not a verdict on you.</p>\n<h2 id=\"what-nobody-can-promise\">What nobody can promise</h2>\n<p>No agency controls editorial decisions at a top publication, and that includes us.</p>\n<p>What Digital Networking Agency can do is develop the angle, write to a professional standard, build the record that makes you credible, and pitch where it makes sense. Where the publisher controls the route, we can commit to delivery and we say which route that is. At selective newsrooms, we pitch and position, and the decision stays with the editor. Our <a href=\"/services\">services page</a> sets out how that work is structured.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>How long does it take to get into a top publication?</h3>\n<p>It varies too much to predict. Some people land a quote quickly on a timely story. For most, it follows months of building a credible public record and pitching consistently.</p>\n<h3>Is a quote in a top publication worth pursuing?</h3>\n<p>Yes. A short quote in a credible article is genuine editorial coverage, and it can lead to further requests once journalists know you are a reliable source.</p>\n<h3>Should I pay for a sponsored piece in a top publication?</h3>\n<p>It can be worthwhile if the audience is right and the budget makes sense. Be clear with yourself and with others that it is labelled paid content, not editorial coverage.</p>",
+  "toc": [
+    {
+      "id": "what-top-publications-have-in-common",
+      "text": "What top publications have in common"
+    },
+    {
+      "id": "what-editors-at-selective-titles-look-for",
+      "text": "What editors at selective titles look for"
+    },
+    {
+      "id": "the-routes-that-exist",
+      "text": "The routes that exist"
+    },
+    {
+      "id": "why-the-record-comes-first",
+      "text": "Why the record comes first"
+    },
+    {
+      "id": "how-to-make-a-pitch-worth-reading",
+      "text": "How to make a pitch worth reading"
+    },
+    {
+      "id": "what-nobody-can-promise",
+      "text": "What nobody can promise"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Editorial coverage in top titles cannot be bought or guaranteed.",
+    "Editors want new, verifiable stories from sources they can check.",
+    "Build a credible press record first, then pitch the biggest names."
+  ]
+},
+{
+  "slug": "how-to-use-your-as-featured-in",
+  "h1": "How to Use Your \"As Featured In\" Credibility",
+  "title": "How to Use Your \"As Featured In\" Credibility | DNA PR",
+  "description": "Where to use press coverage once it runs, how to show publication logos and claims accurately, and the common mistakes that quietly undermine credibility.",
+  "body": "<p>An article about you does most of its work after publication day. The people who matter most, a buyer about to sign, an investor before a meeting, a producer deciding whether to book you, often find it weeks or months later.</p>\n<p>How you present that coverage decides whether it builds trust or quietly erodes it.</p>\n<h2 id=\"what-the-claim-is-for\">What an \"as featured in\" claim is for</h2>\n<p>An \"as featured in\" line or logo strip is a shortcut. It tells someone, in a second, that publications they recognise have published something about you.</p>\n<p>That shortcut only works because readers assume it is true and checkable. The value is borrowed from the publications, and the loan depends on accuracy. The moment someone clicks and finds the claim is thinner than it looked, the shortcut works in reverse. <a href=\"/guides/why-press-features-build-trust\">Why press features build trust</a> explains where that borrowed credibility comes from.</p>\n<p>So the goal is not to make coverage look as large as possible. It is to make it easy to verify.</p>\n<h2 id=\"the-rule-that-matters-most\">The rule that matters most</h2>\n<p>Only claim what has genuinely been published.</p>\n<p>That sounds obvious, and it is the rule most often bent. It rules out logos for publications where an article was pitched but never ran, where a press release was syndicated automatically without anyone at the outlet choosing it, or where you were mentioned once in passing in someone else's story.</p>\n<p>It also means describing coverage accurately. A staff-written feature, an interview, a quote in a wider article, a contributed piece and a labelled partner placement are all real, and they are all different. You do not have to annotate every logo, but if someone asks, your answer should match what they find. <a href=\"/guides/what-is-earned-media\">Our guide to earned media</a> explains the distinctions.</p>\n<h2 id=\"where-to-use-it\">Where to use it</h2>\n<p>Coverage earns the most when it appears at the moments people are deciding whether to trust you.</p>\n<ul><li><strong>Your website.</strong> A modest logo strip on the homepage, and a dedicated press page listing each article with a link.</li><li><strong>Sales material.</strong> Proposals, pitch decks and case studies, placed where the buyer is weighing risk.</li><li><strong>Bios and profiles.</strong> Speaker bios, author pages, LinkedIn and directory listings.</li><li><strong>Email signatures.</strong> A single line linking to your press page, rather than a row of images.</li><li><strong>Outreach.</strong> When pitching publications or podcasts, a brief reference to recent coverage shows you are a credible, verifiable source.</li></ul>\n<p>Quoting from an article often does more than showing a logo. A specific sentence about your work carries the idea, not just the name.</p>\n<h2 id=\"link-to-the-actual-article\">Link to the actual article</h2>\n<p>Every claim should lead somewhere real.</p>\n<p>On your press page, link each item to the live article, not to the publication's homepage and not to a screenshot. A homepage link proves only that the publication exists. A screenshot proves very little, because anyone can make one. A working link to the specific article, with your name in it, is the evidence.</p>\n<p>Check those links periodically. Publications restructure, and a dead link on your own press page looks worse than no link at all. If an article has moved, update the link. If it has gone, remove the item. <a href=\"/guides/how-long-does-a-press-feature-last\">How long a press feature lasts</a> covers why this happens.</p>\n<h2 id=\"how-to-display-logos-responsibly\">How to display logos responsibly</h2>\n<p>Publication logos are trademarks, and they are shown on the understanding that you are referring to coverage, not claiming a relationship.</p>\n<ul><li><strong>Use wording that describes coverage.</strong> \"As featured in\" or \"Coverage in\" is accurate. \"Partners\", \"Trusted by\" or \"Endorsed by\" implies something the publication has not agreed to.</li><li><strong>Do not imply endorsement.</strong> A publication writing about you is not the publication recommending you. Avoid placing logos beside claims such as \"rated best\" unless that is what the article actually said.</li><li><strong>Keep logos unaltered.</strong> Do not recolour, redraw or combine them into something that looks like a certification badge.</li><li><strong>Respect stated guidelines.</strong> Some publishers set out how their marks may be used. Where they do, follow them.</li><li><strong>Keep it proportionate.</strong> One quote in a large title does not justify making that logo the centrepiece of your brand.</li></ul>\n<h2 id=\"mistakes-that-backfire\">Mistakes that backfire</h2>\n<p>These are the patterns that make a careful reader stop trusting the whole page.</p>\n<ul><li>Logos on the homepage with no matching articles on the press page.</li><li>A long logo wall where every link goes to a homepage.</li><li>Presenting a distributed press release as a feature.</li><li>Showing a parent brand's logo when the article ran on a regional edition or a separate site.</li><li>Leaving dead links in place for months.</li></ul>\n<p>Digital Networking Agency tells clients which route each placement used and sends the live link, so what you display can be accurate from the start. We would rather you showed three logos you can defend than ten you cannot.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Can I use a publication's logo if my article was sponsored?</h3>\n<p>The article is real, so referring to it is reasonable. Follow any guidelines the publisher sets, describe it accurately if asked, and never present it as independent editorial coverage or as an endorsement.</p>\n<h3>Is a quote in someone else's article enough to say \"as featured in\"?</h3>\n<p>A genuine quote in a published article is real coverage, so it is reasonable to reference. Link to the article so people can see the context, and avoid presenting it as a feature about you.</p>\n<h3>Where should my press page link to?</h3>\n<p>To each specific live article. Not to the publication's homepage, not to a screenshot, and not to a copy of a page that can no longer be found.</p>",
+  "toc": [
+    {
+      "id": "what-the-claim-is-for",
+      "text": "What an \"as featured in\" claim is for"
+    },
+    {
+      "id": "the-rule-that-matters-most",
+      "text": "The rule that matters most"
+    },
+    {
+      "id": "where-to-use-it",
+      "text": "Where to use it"
+    },
+    {
+      "id": "link-to-the-actual-article",
+      "text": "Link to the actual article"
+    },
+    {
+      "id": "how-to-display-logos-responsibly",
+      "text": "How to display logos responsibly"
+    },
+    {
+      "id": "mistakes-that-backfire",
+      "text": "Mistakes that backfire"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Only claim coverage that was genuinely published, and describe it accurately.",
+    "Link every logo or claim to the live article, not a homepage or screenshot.",
+    "Coverage is not endorsement, so never word it as if it were."
+  ]
+},
+{
+  "slug": "how-long-does-a-press-feature-last",
+  "h1": "How Long Does a Press Feature Last?",
+  "title": "How Long Does a Press Feature Last? | DNA PR",
+  "description": "What happens to an online article after it publishes: why most stay live for years, why some are edited, moved or removed, and how to protect the value.",
+  "body": "<p>People buying press often ask how long a feature lasts, and they usually mean one of two things. How long will people see it? And how long will it be there?</p>\n<p>Those have different answers. Both are worth understanding before you decide what coverage is worth to you.</p>\n<h2 id=\"the-short-answer\">The short answer</h2>\n<p>An online article is read most in the days after it publishes, and found for much longer afterwards.</p>\n<p>Most articles on established publications stay live for years. But no publication promises permanence, and publishers can and do edit, archive, move or remove content. A feature is best thought of as a durable asset rather than a permanent one.</p>\n<p>Anyone who tells you an article will stay online forever is making a promise that belongs to the publisher, not to them.</p>\n<h2 id=\"the-first-few-days\">The first few days</h2>\n<p>When an article goes live, it may appear on the publication's homepage, on a section page, in newsletters, on social channels and sometimes in news aggregators. That is when most people who are simply browsing will see it.</p>\n<p>How much of that happens is decided by the publication, and it varies widely. A staff-written story may be promoted prominently for hours and then drop out of view. A contributor or partner article may never appear on the homepage and be reached mainly through search and direct links.</p>\n<p>This initial window is real, but for most businesses it is not where most of the value lies.</p>\n<h2 id=\"the-long-tail\">The long tail</h2>\n<p>The more lasting value comes later, and from a different kind of reader.</p>\n<p>Someone who searches your name before a meeting, a buyer comparing suppliers, a journalist checking whether you are a credible source: these people find the article when they look for you, which can be months or years after it ran. For them, the date matters less than the fact that an independent publication wrote about you at all.</p>\n<p>Articles also keep working in the places you put them: a link on your press page, a quote in a proposal, a line in your bio. <a href=\"/guides/how-to-use-your-as-featured-in\">How to use your \"as featured in\" credibility</a> covers that side.</p>\n<p>Search results and AI answer engines draw on published pages too, so an article that stays live and indexed can keep contributing to what people find about you. <a href=\"/guides/what-google-shows-when-people-search-your-name\">What Google shows when people search your name</a> looks at this in more detail.</p>\n<h2 id=\"why-articles-change-or-disappear\">Why articles change or disappear</h2>\n<p>Most articles stay put. When they do not, the reason is usually one of these.</p>\n<ul><li><strong>Redesigns and migrations.</strong> URLs change when a publication restructures. Good publishers redirect old links, but not all do, and not always correctly.</li><li><strong>Archiving.</strong> Older content can be moved to an archive, placed behind a paywall or dropped from the site's own search.</li><li><strong>Edits and corrections.</strong> Publications can update articles, add corrections, change headlines or remove links after publication.</li><li><strong>Content clean-ups.</strong> Some publishers periodically remove older or low-traffic content, or close a contributor section and take its archive down.</li><li><strong>Ownership changes.</strong> A publication that is sold, merged or closed may not keep its archive online.</li><li><strong>Legal or policy reasons.</strong> Content can be removed after complaints, legal requests or changes to editorial policy.</li></ul>\n<p>Contributor, partner and sponsored sections can be more exposed to clean-ups and programme changes than a publication's core journalism, though that is a tendency rather than a rule.</p>\n<h2 id=\"what-you-can-and-cannot-control\">What you can and cannot control</h2>\n<p>You cannot control what a publisher does with its own site. Neither can an agency. Once an article is live, the page belongs to the publication.</p>\n<p>What you can control is how exposed you are to any single article disappearing. One feature in one place is fragile. A record of coverage across several independent publications over time is resilient, because losing any one piece changes very little.</p>\n<p>You can also control the questions you ask before you pay. Ask what happens if a placement is removed shortly after it runs, and get the answer in writing. <a href=\"/guides/how-to-vet-a-pr-agency\">How to vet a PR agency</a> includes the other contract terms worth checking.</p>\n<h2 id=\"how-to-protect-the-value\">How to protect the value</h2>\n<ul><li><strong>Save a copy.</strong> Keep a PDF or screenshot of every article for your own records, alongside the live link. It will not persuade a sceptical reader, but it preserves what was published.</li><li><strong>Check your links.</strong> Every few months, open the articles on your press page. Update any that have moved and remove any that have gone.</li><li><strong>Spread coverage out.</strong> Several articles across different publications over time are far sturdier than one large placement.</li><li><strong>Reuse the substance.</strong> Quote the article in your own material, so the idea survives even if the page does not.</li></ul>\n<p>Digital Networking Agency sends live links for every placement and tells clients which route each one used, so you know exactly what you have. We cannot promise that any publisher will keep an article online indefinitely, and we will not.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Do online press features expire?</h3>\n<p>Not usually on a fixed date. Most stay live indefinitely unless the publisher edits, archives or removes them. Some paid formats have defined terms, so check what yours includes before you buy.</p>\n<h3>What should I do if an article about me is removed?</h3>\n<p>Ask the publication, or the firm that arranged it, what happened. If a replacement or refund was agreed in advance, raise it. Then update your press page so it does not link to a missing page.</p>\n<h3>Does an old article still help?</h3>\n<p>Often, yes. For someone researching you, a credible article from some time ago still shows independent coverage. A pattern of recent articles alongside it is stronger still.</p>",
+  "toc": [
+    {
+      "id": "the-short-answer",
+      "text": "The short answer"
+    },
+    {
+      "id": "the-first-few-days",
+      "text": "The first few days"
+    },
+    {
+      "id": "the-long-tail",
+      "text": "The long tail"
+    },
+    {
+      "id": "why-articles-change-or-disappear",
+      "text": "Why articles change or disappear"
+    },
+    {
+      "id": "what-you-can-and-cannot-control",
+      "text": "What you can and cannot control"
+    },
+    {
+      "id": "how-to-protect-the-value",
+      "text": "How to protect the value"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Most online articles stay live for years, but none are guaranteed permanent.",
+    "Publishers can edit, archive, move or remove content at any time.",
+    "A spread of coverage over time is far sturdier than one placement."
+  ]
+},
+{
+  "slug": "do-press-features-help-seo",
+  "h1": "Do Press Features and Backlinks Help SEO?",
+  "title": "Do Press Features and Backlinks Help SEO? | DNA PR",
+  "description": "An honest look at press coverage and SEO: how links from publications work, why many are nofollow or sponsored, and where the dependable benefits really are.",
+  "body": "<p>Press coverage and SEO get sold together so often that many people assume one automatically produces the other. Sometimes it helps. The help is real, but it is narrower and less predictable than the sales pitch usually suggests.</p>\n<p>Here is what is reasonably understood, and where the claims tend to run ahead of the evidence.</p>\n<h2 id=\"the-honest-answer\">The honest answer</h2>\n<p>Press features can help SEO in two main ways: by putting credible pages about you into search results for your name, and in some cases by linking to your site from a respected domain.</p>\n<p>The first is fairly dependable. The second varies a great deal. Many publications mark outbound links in ways that tell search engines not to pass ranking value, and search engines make their own decisions about how much any link counts. Nobody outside those companies can tell you exactly what a specific link is worth.</p>\n<p>So press can support search visibility. It cannot promise a ranking, and anyone guaranteeing one is overstating what they control.</p>\n<h2 id=\"how-backlinks-are-meant-to-work\">How backlinks are meant to work</h2>\n<p>A backlink is a link from another site to yours. Search engines have long treated links as one signal among many: a link from a relevant, trusted site suggests your page may be worth something.</p>\n<p>That is the theory that makes press links attractive. A link from an established publication is, in principle, the kind of link that could carry weight.</p>\n<p>But links are one signal among a great many, and search engines have spent years learning to discount links that look placed rather than earned. The quality of your own site, the relevance of your content and how well it answers what people search for matter at least as much.</p>\n<h2 id=\"nofollow-sponsored-and-why-it-matters\">Nofollow, sponsored and why it matters</h2>\n<p>Publishers can add attributes to outbound links that tell search engines how to treat them.</p>\n<ul><li><strong>Nofollow.</strong> A general signal that the site is not vouching for the linked page. Many publications apply it to most or all outbound links as a matter of policy.</li><li><strong>Sponsored.</strong> Used to mark links in paid, partner or advertising content. Google's guidelines ask for paid links to be marked this way or as nofollow.</li><li><strong>User-generated.</strong> Used for links in comments, forums and similar areas.</li></ul>\n<p>Google has described these attributes as hints rather than strict rules, so it decides how to treat them. In practice, a link marked nofollow or sponsored should not be counted on to pass ranking value.</p>\n<p>This matters for anyone buying paid, contributor or sponsored placement. Those links are often marked, and that is the publisher following the rules, not a flaw in the product. It also means a firm promising ranking-boosting links from paid placements is describing something search engine guidelines discourage. <a href=\"/guides/what-is-earned-media\">Our guide to earned media</a> explains how those routes differ from editorial coverage.</p>\n<h2 id=\"the-benefits-you-can-rely-on\">The benefits you can rely on</h2>\n<p>Set the link question aside, and press features still tend to do useful things for how you appear in search.</p>\n<ul><li><strong>Branded search results.</strong> When someone searches your name or company, articles on established publications often appear alongside your own site, filling the first page with independent material rather than directories and old profiles.</li><li><strong>Credibility at the point of search.</strong> A buyer who searches you and finds published coverage has a reason to trust you that your own website cannot give.</li><li><strong>Referral visits.</strong> Some readers click through from the article itself. Usually modest, but real, and those visitors arrive with context.</li><li><strong>Material others cite.</strong> Search features and AI answer engines draw on independent published pages. <a href=\"/guides/how-ai-engines-choose-sources\">How AI engines choose sources</a> covers that side.</li></ul>\n<p>None of these depend on a link attribute, which is why they are the more dependable benefits. <a href=\"/guides/what-google-shows-when-people-search-your-name\">What Google shows when people search your name</a> looks at branded results in more depth.</p>\n<h2 id=\"what-to-be-wary-of\">What to be wary of</h2>\n<ul><li>Guaranteed rankings or traffic from press placements.</li><li>Promises of followed, ranking-passing links from paid or sponsored content.</li><li>Packages that place the same article across large numbers of low-quality sites.</li><li>Authority scores presented as proof of SEO value with no explanation of where they come from.</li><li>Instructions to insist on exact commercial keywords as link text.</li></ul>\n<p>Some of these are simply ineffective. Others risk working against you if search engines treat the pattern as link manipulation.</p>\n<h2 id=\"how-to-think-about-press-and-seo-together\">How to think about press and SEO together</h2>\n<p>Treat press as a credibility and visibility investment that happens to support search, not as a link-building shortcut.</p>\n<p>If search performance is the main goal, your own site needs to do most of the work: useful content, sound technical foundations and pages that answer what your buyers actually search for. Press sits alongside that, strengthening what people find about you and giving them reasons to trust it.</p>\n<p>Digital Networking Agency places articles on established publications, and we tell clients which route each placement uses. We do not sell rankings, and we would be cautious of anyone promising them on the back of press.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Are nofollow links from publications worthless?</h3>\n<p>No. They may not pass ranking value, but they can still send visitors, support credibility and sit on pages that appear when people search your name. Their value is simply not mainly about rankings.</p>\n<h3>Will a press feature improve my Google ranking?</h3>\n<p>It might contribute, and it might not. The effect of any single link cannot be predicted from outside, and nobody can guarantee a ranking change. The more dependable benefit is in branded search results.</p>\n<h3>Should a paid placement include a followed link?</h3>\n<p>Google's guidelines ask for paid links to be marked, typically as sponsored or nofollow. A reputable publisher will usually do that, and it is not something to try to negotiate away.</p>",
+  "toc": [
+    {
+      "id": "the-honest-answer",
+      "text": "The honest answer"
+    },
+    {
+      "id": "how-backlinks-are-meant-to-work",
+      "text": "How backlinks are meant to work"
+    },
+    {
+      "id": "nofollow-sponsored-and-why-it-matters",
+      "text": "Nofollow, sponsored and why it matters"
+    },
+    {
+      "id": "the-benefits-you-can-rely-on",
+      "text": "The benefits you can rely on"
+    },
+    {
+      "id": "what-to-be-wary-of",
+      "text": "What to be wary of"
+    },
+    {
+      "id": "how-to-think-about-press-and-seo-together",
+      "text": "How to think about press and SEO together"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Link value from press varies, and many publication links are nofollow or sponsored.",
+    "The dependable benefits are branded search results and credibility.",
+    "Nobody can guarantee a ranking from press coverage."
+  ]
+},
+{
+  "slug": "what-google-shows-when-people-search-your-name",
+  "h1": "What Google Shows When People Search Your Name",
+  "title": "What Google Shows When People Search Your Name | DNA PR",
+  "description": "What usually appears when someone searches your name or company, how to audit that first page honestly, and what independent coverage can really change.",
+  "body": "<p>Before most important conversations, someone searches your name. A prospective client before a call, an investor before a meeting, a journalist before quoting you, a candidate before accepting an interview.</p>\n<p>Few of them go past the first page. What they find there becomes their first impression, whether or not you chose it.</p>\n<h2 id=\"why-the-first-page-matters\">Why the first page matters</h2>\n<p>A search of your name is rarely idle. The person doing it is usually trying to answer a specific question: are you real, are you who you say you are, and is there anything they should know.</p>\n<p>Your own website answers in your own words, and it is expected to be positive. What people weigh more heavily is everything else on the page: what others have published, what customers have said, and whether the picture is consistent.</p>\n<p>A first page full of credible independent material answers the question quickly. A thin or confusing one leaves the searcher to fill in the gaps.</p>\n<h2 id=\"what-usually-appears\">What usually appears</h2>\n<p>The layout changes often and varies by search, location and device, but the elements tend to come from the same few places.</p>\n<ul><li><strong>Your own site.</strong> Usually first for a company name, if the site is set up properly.</li><li><strong>Social and professional profiles.</strong> LinkedIn and the other platforms you use.</li><li><strong>Business listings.</strong> A business profile for companies with a local presence, plus directory entries.</li><li><strong>Review platforms.</strong> Where customers have left reviews, these often rank prominently.</li><li><strong>News and articles.</strong> Coverage on publications, sometimes grouped together.</li><li><strong>AI summaries.</strong> For some searches, an AI-generated overview appears above the results. <a href=\"/guides/what-does-chatgpt-say-about-your-business\">What ChatGPT says about your business</a> covers that side.</li><li><strong>Namesakes.</strong> Other people or companies with the same name. Often the biggest problem for individuals, and the least discussed.</li></ul>\n<p>Some people and organisations also get a knowledge panel, a summary box built automatically from sources Google considers reliable. An existing panel can sometimes be claimed, but nobody can simply request one.</p>\n<h2 id=\"how-to-audit-your-own-results\">How to audit your own results</h2>\n<p>Search the way a stranger would, not the way you normally do.</p>\n<ul><li><strong>Use a private window.</strong> Your own history and signed-in accounts can change what you see.</li><li><strong>Try the variations people use.</strong> Your full name, your name plus company, your company alone, and your company plus \"reviews\".</li><li><strong>Check the other tabs.</strong> Images and news often tell a different story.</li><li><strong>Glance at the second page.</strong> Few people go there, but it shows what might rise.</li><li><strong>Write it down.</strong> Note each result, who controls it, and whether it helps, hurts or is irrelevant.</li></ul>\n<p>Then sort the results into three groups: pages you control, independent pages that support you, and pages that are unhelpful, outdated or about someone else.</p>\n<h2 id=\"what-a-weak-first-page-looks-like\">What a weak first page looks like</h2>\n<p>Most weak first pages are not damaging. They are simply unconvincing.</p>\n<ul><li><strong>Almost entirely owned.</strong> Your site and your profiles, with nothing independent. It reads as a company talking about itself.</li><li><strong>Dominated by directories.</strong> Automatically generated listings with incomplete or outdated details.</li><li><strong>Crowded by namesakes.</strong> Someone with the same name, in a different field, taking most of the page.</li><li><strong>Stale.</strong> The only independent material is years old, which can suggest a business that has gone quiet.</li><li><strong>Inconsistent.</strong> Different job titles, locations or company descriptions across results.</li></ul>\n<p>None of these says anything about the quality of your work. They say something about your public evidence, which is all the searcher has to go on.</p>\n<h2 id=\"what-can-improve-it\">What can improve it</h2>\n<p>Nobody controls Google's results, including you. What you can do is add better material and make it easier to understand.</p>\n<ul><li><strong>Tidy what you own.</strong> A clear about page, consistent profiles and the same core facts everywhere.</li><li><strong>Claim what you are entitled to.</strong> Business profiles and listings you can manage, kept accurate.</li><li><strong>Earn independent coverage.</strong> Articles about you on established publications often appear for branded searches and give the searcher something you did not write. <a href=\"/guides/do-press-features-help-seo\">Do press features help SEO</a> explains what that does and does not do.</li><li><strong>Keep it going.</strong> A steady run of coverage looks current. One article from long ago does not.</li></ul>\n<p>For individuals, independent coverage is especially useful for separating you from namesakes, because it ties your name to a specific field and company. <a href=\"/guides/how-to-build-a-personal-brand-with-press\">How to build a personal brand with press</a> covers the longer approach.</p>\n<h2 id=\"what-press-cannot-do\">What press cannot do</h2>\n<p>New coverage can add strong pages to your results. It cannot guarantee where they rank, how long that takes, or that any particular result will move down.</p>\n<p>It is also not a way to hide genuine problems. If there is accurate criticism of a business, the honest response is to address the cause rather than try to bury it. Content that is inaccurate or unlawful is a matter for the publisher, the platform's own processes or a lawyer, not a publicist.</p>\n<p>Digital Networking Agency builds independent coverage that tends to support branded search. We are clear with clients that we influence what exists about them, not what Google chooses to show.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>How long before a new article appears when people search my name?</h3>\n<p>It depends on the publication and on how quickly the page is indexed. Some articles appear for branded searches fairly soon, others take longer or never rank prominently. It cannot be predicted precisely.</p>\n<h3>Can I remove a negative result from Google?</h3>\n<p>Sometimes, through the publisher or through Google's removal processes for specific kinds of content. For accurate but unwelcome coverage, removal is unlikely. Adding credible material helps with balance, not deletion.</p>\n<h3>Why does someone else with my name show up first?</h3>\n<p>Usually because more has been published about them, or it matches what searchers look for more closely. Consistent independent coverage linking your name to your field makes it easier to tell you apart.</p>",
+  "toc": [
+    {
+      "id": "why-the-first-page-matters",
+      "text": "Why the first page matters"
+    },
+    {
+      "id": "what-usually-appears",
+      "text": "What usually appears"
+    },
+    {
+      "id": "how-to-audit-your-own-results",
+      "text": "How to audit your own results"
+    },
+    {
+      "id": "what-a-weak-first-page-looks-like",
+      "text": "What a weak first page looks like"
+    },
+    {
+      "id": "what-can-improve-it",
+      "text": "What can improve it"
+    },
+    {
+      "id": "what-press-cannot-do",
+      "text": "What press cannot do"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "The first page of your name is the first impression most people get.",
+    "Audit it logged out, and sort results into owned, supportive and unhelpful.",
+    "Coverage adds credible pages; nobody controls what Google chooses to show."
+  ]
+},
+{
+  "slug": "why-press-features-build-trust",
+  "h1": "Why Press Features Build Trust",
+  "title": "Why Press Features Build Trust | DNA PR",
+  "description": "Why independent coverage persuades people in ways your own marketing cannot: third-party judgement, verifiability, reduced risk, and the limits of that trust.",
+  "body": "<p>Every business says it is good at what it does. That is exactly why people discount it.</p>\n<p>Press coverage persuades for a different reason. It is not a louder version of your marketing. It is a different kind of evidence, and understanding why helps you use it properly and avoid paying for the kind that does not work.</p>\n<h2 id=\"the-problem-press-solves\">The problem press solves</h2>\n<p>Anyone deciding whether to trust a business they do not know is working with limited information. They cannot see inside your company, speak to all your clients or test your work before they buy.</p>\n<p>So they look for signals: things that would be hard to fake, and that come from somewhere other than you. Reviews are one. Referrals are another. Independent published coverage is a third, and for many businesses it is the one that reaches people before any conversation has happened.</p>\n<p>Your own claims do little for this problem, however accurate they are, because the reader cannot separate them from the claims of every competitor.</p>\n<h2 id=\"someone-else-put-their-name-to-it\">Someone else put their name to it</h2>\n<p>When a publication writes about you, a third party with its own reputation has published something about you under its name.</p>\n<p>With earned editorial, an editor or journalist has judged that you were worth covering. Readers understand, without having to think it through, that the publication took a small risk on you. That borrowed judgement is the core of why coverage persuades.</p>\n<p>Contributor and partner content works differently, because the publication did not independently choose to tell your story. It still carries some weight, since it sits on an established platform with its own standards, but it is a lighter signal, and presenting it as editorial undermines the trust it could otherwise build. <a href=\"/guides/what-is-earned-media\">Our guide to earned media</a> covers the distinction.</p>\n<h2 id=\"it-can-be-checked\">It can be checked</h2>\n<p>A claim on your website asks the reader to believe you. A published article gives them something to verify.</p>\n<p>They can open the link, see the publication, read what was said and judge the context. They can search the headline and find it indexed. That verifiability is a large part of the value. It is why a live link to an article does far more than a logo, and why a logo with no article behind it does very little.</p>\n<p>Verifiable coverage also accumulates. One article can be a one-off. Several over time, in different publications, describing you consistently, form a pattern that is much harder to dismiss.</p>\n<h2 id=\"it-reduces-perceived-risk\">It reduces perceived risk</h2>\n<p>Most buying decisions are partly about avoiding a bad outcome. The person choosing is often accountable to someone else: a board, a manager, a business partner, a client.</p>\n<p>Independent coverage gives them something to point to. It is easier to justify choosing a firm that established publications have written about than one with only its own website to show. That does not make coverage a guarantee of quality, and sensible buyers know it. It makes the decision easier to defend.</p>\n<p>The same logic applies to journalists deciding whether to quote you, organisers deciding whether to book you and investors deciding whether to take a meeting. Each is weighing the risk of being associated with someone they cannot fully vet.</p>\n<h2 id=\"where-the-trust-shows-up-in-practice\">Where the trust shows up in practice</h2>\n<p>The effect of coverage is rarely dramatic, and it is rarely measured directly. It tends to show up as friction removed.</p>\n<ul><li>Sales conversations that start with less scepticism.</li><li>Fewer requests for references before a proposal is considered.</li><li>Prospects who arrive having already read about you.</li><li>Easier agreement from podcasts, events and other publications.</li><li>A first page of search results that answers questions before they are asked.</li></ul>\n<p>This is also why coverage affects how search results and AI answers describe you. Those systems lean on independent, corroborated sources for much the same reasons people do. <a href=\"/guides/what-google-shows-when-people-search-your-name\">What Google shows when people search your name</a> looks at that in detail.</p>\n<h2 id=\"how-that-trust-gets-lost\">How that trust gets lost</h2>\n<p>The credibility coverage provides is borrowed, and it can be withdrawn quickly.</p>\n<ul><li><strong>Overstating it.</strong> Calling a contributed piece a profile, or a passing mention a feature, invites exactly the scrutiny that exposes it.</li><li><strong>Implying endorsement.</strong> A publication writing about you is not the publication recommending you.</li><li><strong>Unverifiable claims.</strong> Logos with no articles behind them, or links that go nowhere.</li><li><strong>Coverage that outruns reality.</strong> If an article describes something your business cannot deliver, the gap becomes visible to more people.</li><li><strong>Low-quality placements.</strong> Articles on sites nobody respects can make a careful reader trust you less, not more.</li></ul>\n<p><a href=\"/guides/how-to-use-your-as-featured-in\">How to use your \"as featured in\" credibility</a> sets out how to display coverage without these problems.</p>\n<p>Digital Networking Agency builds published records for clients across business, lifestyle and general-interest publications, and tells them which route each article uses. Press can make trust easier to earn. It cannot replace a business that deserves it.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Does paid or sponsored coverage build trust?</h3>\n<p>Some, when it is described accurately and placed on a credible publication. It is a lighter signal than editorial coverage, and presenting it as independent journalism is the quickest way to lose the trust it could have built.</p>\n<h3>Do people really check press coverage?</h3>\n<p>Not everyone, and not every time. But people making significant decisions often do, and they are usually the ones whose trust matters most.</p>\n<h3>How much coverage does it take to make a difference?</h3>\n<p>There is no set amount. A few well-matched articles that describe you consistently usually do more than a long list of unrelated ones, and a steady run over time does more than a single burst.</p>",
+  "toc": [
+    {
+      "id": "the-problem-press-solves",
+      "text": "The problem press solves"
+    },
+    {
+      "id": "someone-else-put-their-name-to-it",
+      "text": "Someone else put their name to it"
+    },
+    {
+      "id": "it-can-be-checked",
+      "text": "It can be checked"
+    },
+    {
+      "id": "it-reduces-perceived-risk",
+      "text": "It reduces perceived risk"
+    },
+    {
+      "id": "where-the-trust-shows-up-in-practice",
+      "text": "Where the trust shows up in practice"
+    },
+    {
+      "id": "how-that-trust-gets-lost",
+      "text": "How that trust gets lost"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Coverage persuades because someone independent put their name to it.",
+    "Verifiable articles do far more than logos or claims on your own site.",
+    "Trust from press is borrowed, and overstating it loses it quickly."
+  ]
+},
+{
+  "slug": "why-ai-engines-cite-listicles",
+  "h1": "Why AI Engines Cite Top 10 Lists",
+  "title": "Why AI Engines Cite Top 10 Lists | DNA PR",
+  "description": "Why AI answer engines often draw on ranked list articles for best-of questions, what that means for visibility, and why paid list placements need labels.",
+  "body": "<p>Ask an AI answer engine for the best firms, tools or providers in a category, and the sources it cites are often ranked list articles. Top 10 pages, best-of roundups and comparison guides turn up again and again.</p>\n<p>That pattern has created a lot of interest in list placements, and a fair amount of misleading selling. Here is a plausible explanation of why it happens, and what it does and does not mean for you.</p>\n<h2 id=\"what-people-have-noticed\">What people have noticed</h2>\n<p>Start with the limits of what is known. The companies behind AI answer engines do not publish how sources are selected for a given answer, and behaviour differs between products and changes over time. What follows is an explanation based on how these systems are generally described and on patterns people observe, not insider knowledge of any engine.</p>\n<p>The observation itself is fairly consistent. For questions framed as best, top or which should I choose, cited sources frequently include list-format articles. For factual questions about one specific company, they more often include that company's site, news coverage and profiles. <a href=\"/guides/how-ai-engines-choose-sources\">How AI engines choose sources</a> covers the general principles.</p>\n<h2 id=\"best-of-questions-need-comparative-sources\">Best-of questions need comparative sources</h2>\n<p>The simplest explanation is fit. A question like \"what are the best PR agencies for startups\" asks for a comparison. A page about a single company cannot answer it on its own, however good the company is.</p>\n<p>A list article is already shaped like the answer. It names several options, usually says something about each and often explains how they differ. When a system retrieves pages that match the question, a page built around that exact question is an obvious candidate, just as it would be for a traditional search engine.</p>\n<p>Lists also tend to use the same words people type: best, top, leading, for a particular kind of buyer or location. The page and the question match closely.</p>\n<h2 id=\"lists-are-easy-to-extract-from\">Lists are easy to extract from</h2>\n<p>Retrieval-based systems generally work with passages rather than whole documents. They pull the parts of a page that answer the question and write a response from them.</p>\n<p>List articles are usually easy to work with at that level. Each entry tends to be a clear heading followed by a short, self-contained description. Names, categories, locations and distinguishing features are stated plainly, so there is little to interpret.</p>\n<p>A long narrative article that mentions several companies across many paragraphs may contain similar information, but it is harder to lift cleanly. Structure does not create authority. It makes existing information easier to use.</p>\n<h2 id=\"repetition-across-lists-looks-like-consensus\">Repetition across lists looks like consensus</h2>\n<p>A single list proves little. But when the same names appear across several independent lists, that repetition resembles agreement, and agreement across sources is one of the more consistent patterns in what AI systems appear to treat as reliable.</p>\n<p>This is where the appeal to businesses comes from. Appearing in several credible lists for your category means there is more published material placing you among the options when someone asks a best-of question.</p>\n<p>It is also where the pattern can be gamed, because many lists are not independent at all.</p>\n<h2 id=\"the-problem-with-many-list-articles\">The problem with many list articles</h2>\n<p>It is worth being candid about this, because many sellers are not.</p>\n<ul><li><strong>Many placements are paid.</strong> Plenty of list articles include entries that were bought, through sponsored content, partner arrangements or direct payment to the site.</li><li><strong>Some lists are self-published.</strong> Companies write best-of lists that rank themselves first, on their own sites or on sites they control.</li><li><strong>Some are affiliate-driven.</strong> Rankings can reflect commission rather than evaluation.</li><li><strong>Many are unlabelled.</strong> Readers often cannot tell which entries were paid for.</li></ul>\n<p>Paid list placement is not automatically wrong. Sponsored content is a legitimate format, as <a href=\"/guides/what-is-earned-media\">our guide to earned media</a> explains. The problem is presenting a paid ranking as an independent assessment, which misleads readers and can breach advertising disclosure rules in many places. It is also a fragile strategy, because AI systems and search engines have every reason to get better at discounting low-quality and manipulated lists.</p>\n<h2 id=\"how-to-approach-list-placements-honestly\">How to approach list placements honestly</h2>\n<p>If list articles are part of your plan, a few principles keep them useful and defensible.</p>\n<ul><li><strong>Prefer credible publications.</strong> A list on an established outlet with editorial standards is worth far more than one on a site that exists to sell rankings.</li><li><strong>Insist on labelling.</strong> If a placement is paid, it should be marked as sponsored or partner content. Do not buy one that will not be.</li><li><strong>Keep your entry accurate.</strong> It should say plainly what you do and for whom, with nothing you cannot back up.</li><li><strong>Do not rely on lists alone.</strong> Articles about you, expert commentary and consistent facts on your own site all contribute. <a href=\"/guides/what-does-chatgpt-say-about-your-business\">What ChatGPT says about your business</a> covers how to check where you stand.</li></ul>\n<p>Digital Networking Agency places clients in published articles, including list formats where a publication offers them, and we say which route each placement uses. Nobody can guarantee that a list placement will be cited by any AI engine, or that a citation will last.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Will appearing in a top 10 list get me recommended by ChatGPT?</h3>\n<p>It may make it more likely that you appear for relevant questions, but nobody can guarantee it. Selection varies by product, by question and over time, and it is not publicly documented.</p>\n<h3>Is it misleading to pay for a place in a list?</h3>\n<p>Paying for placement is not misleading in itself. Presenting a paid entry as an independent ranking is. A clear sponsored or partner label is what keeps it honest.</p>\n<h3>Does being first in a list matter more than being included?</h3>\n<p>There is no reliable public evidence either way for AI citations. Being included consistently across credible sources is a more defensible goal than chasing a position in any single list.</p>",
+  "toc": [
+    {
+      "id": "what-people-have-noticed",
+      "text": "What people have noticed"
+    },
+    {
+      "id": "best-of-questions-need-comparative-sources",
+      "text": "Best-of questions need comparative sources"
+    },
+    {
+      "id": "lists-are-easy-to-extract-from",
+      "text": "Lists are easy to extract from"
+    },
+    {
+      "id": "repetition-across-lists-looks-like-consensus",
+      "text": "Repetition across lists looks like consensus"
+    },
+    {
+      "id": "the-problem-with-many-list-articles",
+      "text": "The problem with many list articles"
+    },
+    {
+      "id": "how-to-approach-list-placements-honestly",
+      "text": "How to approach list placements honestly"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "List articles match best-of questions and are easy for AI systems to extract from.",
+    "Many list placements are paid, and paid entries should be clearly labelled.",
+    "Nobody can guarantee a list placement will be cited by an AI engine."
+  ]
+},
+{
+  "slug": "white-label-pr-for-agencies",
+  "h1": "White-Label PR for Agencies",
+  "title": "White-Label PR for Agencies | DNA PR",
+  "description": "How white-label PR works for marketing and creative agencies — what to agree before you resell press, how to describe it to clients, and what to avoid.",
+  "body": "<p>Clients ask their agency for press because the agency already knows the brand, the message and the goals. Saying no sends them elsewhere. Saying yes without the capability to deliver is worse.</p>\n<p>White-label PR is one way to close that gap. Here is how it works, and what to settle before you sell it.</p>\n<h2 id=\"what-white-label-pr-actually-is\">What white-label PR actually is</h2>\n<p>A PR partner does the work — story development, writing, outreach and placement — and the agency presents it to the client under its own brand. The client relationship, the pricing and the reporting stay with the agency.</p>\n<p>It is different from a referral, where you pass the client to a PR firm and step back, and from a subcontract where the partner deals with your client directly. In a white-label arrangement, the client's point of contact is you.</p>\n<p>That makes you responsible for what is promised. The partner does the work, but your name sits behind every claim made about it.</p>\n<h2 id=\"deciding-whether-to-offer-it\">Deciding whether to offer it</h2>\n<p>Press suits some agencies far better than others. It tends to fit if:</p>\n<ul><li><strong>Your clients already ask for it.</strong> Branding, web and content agencies hear the request often, usually around a launch or a rebrand.</li><li><strong>Your clients have stories.</strong> Founders, experts and businesses with something genuine to say. Press is much harder to deliver for a commodity product with no angle.</li><li><strong>You can manage expectations.</strong> A client expecting a guaranteed national headline next month will be disappointed by honest PR, whoever delivers it.</li></ul>\n<p>If most of your clients are not in that position, a simple referral arrangement may suit you better than reselling.</p>\n<h2 id=\"what-to-agree-before-you-start\">What to agree before you start</h2>\n<p>Most problems in white-label work come from things nobody wrote down. Settle these for each engagement, in writing:</p>\n<ul><li><strong>Confidentiality.</strong> Whether the partner may be named to the client, and whether it may reference the work anywhere else. Do not assume either way.</li><li><strong>Branding.</strong> Whose name appears on briefs, drafts and reports, and whether the partner ever speaks to the client in its own name.</li><li><strong>Approvals.</strong> Who signs off copy, and how client revisions flow back. Nothing should publish without the end client's approval.</li><li><strong>Routes and disclosure.</strong> Which placements are earned, contributor or paid, and how each will be described to the client.</li><li><strong>Commercial terms.</strong> What the partner charges you, what is included, and what happens if a pitch does not land. Your own margin is yours to set.</li><li><strong>Journalist contact.</strong> What happens when a writer wants to speak to the client directly, which is common and should be welcomed.</li></ul>\n<p>Digital Networking Agency agrees these terms with each agency individually rather than working from a fixed reseller contract, because the right answer depends on how you run your client relationships. We do not promise particular confidentiality terms or margins in advance of that conversation.</p>\n<h2 id=\"selling-press-honestly-to-your-clients\">Selling press honestly to your clients</h2>\n<p>This is where agencies either build trust or lose it.</p>\n<p><strong>Earned editorial</strong> is a journalist or editor choosing to cover the client. Nobody can guarantee it, including your partner, so do not sell it as a fixed deliverable.</p>\n<p><strong>Contributor and agency-placed features</strong> are articles placed in publications that accept them. They can be scoped more predictably and are genuinely useful, but they are not the same as a journalist deciding to write about someone.</p>\n<p><strong>Sponsored content</strong> is paid placement, normally carrying a label. Legitimate, and it should be described that way.</p>\n<p>Sell the work, not the outcome: angle development, writing, a target list and outreach, with the route for each placement stated plainly. If your client's customers discover that \"featured in\" meant something different from what they assumed, it is your agency's credibility that takes the hit.</p>\n<h2 id=\"choosing-a-white-label-partner\">Choosing a white-label partner</h2>\n<p>Ask the questions you would want your own clients to ask you.</p>\n<ul><li><strong>Can they show live links</strong> to recent placements, rather than screenshots or a wall of logos?</li><li><strong>Do they tell you which route</strong> each placement uses before work starts?</li><li><strong>Do they guarantee top-tier editorial?</strong> If so, walk away. They are either mislabelling a paid route or promising something they cannot control.</li><li><strong>Can they write in your client's voice</strong> and handle revisions without friction?</li><li><strong>Will they tell you when a story is not ready</strong>, rather than taking the brief anyway?</li></ul>\n<p>We place stories for agency clients across publications including <a href=\"/get-featured-in/msn\">MSN</a>, Yahoo Finance, CEO Weekly and Digital Journal, and the wider list is on our <a href=\"/publications\">publications page</a>. For how we work with agencies, see <a href=\"/pr-for/agencies\">PR for agencies</a>.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Is white-label PR the same as reselling press releases?</h3>\n<p>No. Release distribution sends an announcement out through a wire service. White-label PR covers the wider work of finding a story, writing it for a specific publication and managing placement.</p>\n<h3>Can we tell clients placements are guaranteed?</h3>\n<p>Only for routes where placement is genuinely confirmed in advance, such as paid or contributor placements, and only if you name the route. Earned editorial should never be sold as guaranteed.</p>\n<h3>Who owns the relationship with the journalist?</h3>\n<p>That depends on the terms agreed for the engagement. Settle it up front, especially if your client may want to work with the same writer again later.</p>",
+  "toc": [
+    {
+      "id": "what-white-label-pr-actually-is",
+      "text": "What white-label PR actually is"
+    },
+    {
+      "id": "deciding-whether-to-offer-it",
+      "text": "Deciding whether to offer it"
+    },
+    {
+      "id": "what-to-agree-before-you-start",
+      "text": "What to agree before you start"
+    },
+    {
+      "id": "selling-press-honestly-to-your-clients",
+      "text": "Selling press honestly to your clients"
+    },
+    {
+      "id": "choosing-a-white-label-partner",
+      "text": "Choosing a white-label partner"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "In white-label PR the agency owns the client relationship, and every claim made about the work.",
+    "Agree confidentiality, branding, approvals and terms in writing before the first brief.",
+    "A partner guaranteeing top-tier editorial is mislabelling a paid route or overpromising."
+  ]
+},
+{
+  "slug": "how-to-get-press-as-an-artist",
+  "h1": "How to Get Press as an Artist",
+  "title": "How to Get Press as an Artist | DNA PR",
+  "description": "How visual artists and musicians earn press — what arts and music editors cover, building a press kit, pitching reviews, and earned versus paid coverage.",
+  "body": "<p>Arts and music coverage is crowded, and the people deciding what runs are busy. A music writer can receive more new releases in a week than anyone could listen to properly. A critic sees a small fraction of the exhibitions that open.</p>\n<p>Getting through is less about luck than preparation. Here is how it works.</p>\n<h2 id=\"what-arts-and-music-editors-cover\">What arts and music editors cover</h2>\n<p>Editors are not looking for talented artists. They assume talent. They are looking for something their readers should know about now.</p>\n<ul><li><strong>Releases and shows with a clear idea.</strong> A record, an exhibition or a body of work whose concept can be described in a sentence.</li><li><strong>Moments.</strong> A debut, a first solo show, a significant commission, a festival slot, a return after a long gap.</li><li><strong>Context.</strong> Work connected to something already being discussed — a place, a community, a cultural shift, a news story.</li><li><strong>People.</strong> An unusual route into the work, a surprising collaboration, a practice that is genuinely different.</li></ul>\n<p>\"New single out Friday\" is information. Why it matters, and to whom, is the story.</p>\n<h2 id=\"earned-coverage-versus-paid-features\">Earned coverage versus paid features</h2>\n<p>Artists are offered press in several forms, and they are not interchangeable.</p>\n<p><strong>Reviews and criticism</strong> are the writer's independent judgement. You cannot pay for them, the verdict is not yours to control, and a review may be critical. That independence is exactly why it counts.</p>\n<p><strong>Interviews, premieres and editorial features</strong> are also the publication's decision, made because the editors think the story suits their readers.</p>\n<p><strong>Agency-placed features and profiles</strong> are articles about you, written with your input and placed in publications that accept them. Permanent, searchable and useful for explaining your work — but not criticism, and they should never be quoted as if a critic chose you.</p>\n<p><strong>Sponsored content</strong> is advertising. Some of it is clearly labelled and perfectly legitimate. If a service guarantees a review, ask exactly what is being bought.</p>\n<h2 id=\"building-a-press-kit-editors-will-use\">Building a press kit editors will use</h2>\n<p>An editor interested in your work needs to act quickly. Make that easy.</p>\n<ul><li><strong>A short biography</strong> in the third person, factual, with the most relevant information first. Leave out adjectives about your own talent.</li><li><strong>High-resolution images</strong> — portraits and documentation of the work — clearly credited and cleared for press use.</li><li><strong>The work itself.</strong> A private streaming link for music; images and a works list for an exhibition. No unrequested attachments.</li><li><strong>Key facts.</strong> Dates, venue or label, location, collaborators, and one line on what the project is about.</li><li><strong>Contact details</strong> for someone who replies the same day.</li></ul>\n<p>Musicians usually call this an EPK. Visual artists often keep it on a press page. Either way, keep it current.</p>\n<h2 id=\"pitching-writers-and-critics\">Pitching writers and critics</h2>\n<p>Read before you send. Find the writers who have covered work close to yours in recent months, and note what they wrote about and how.</p>\n<p>Pitch early. Exhibitions and releases need lead time, and editorial schedules are planned ahead. A pitch that arrives in the week of the opening is usually too late.</p>\n<p>Keep the email short: what the work is, when it happens, the one reason it matters, a link, and an offer of an interview or preview. Follow up once, then move on. Silence is the normal response, not a verdict on the work.</p>\n<h2 id=\"where-artists-realistically-get-published\">Where artists realistically get published</h2>\n<p>Start where your work has a natural audience, and build from there.</p>\n<ul><li><strong>Local and regional arts coverage</strong>, listings and community radio, which are often more open to emerging artists than national titles.</li><li><strong>Specialist blogs, zines and genre publications</strong> that follow your scene closely.</li><li><strong>Creative-practice and profile publications</strong> such as <a href=\"/get-featured-in/artist-weekly\">Artist Weekly</a> and Famous Times, where a feature explains your work to galleries, venues and clients.</li><li><strong>Music and culture mastheads</strong> such as <a href=\"/get-featured-in/rolling-stone-uk\">Rolling Stone UK</a> and Rolling Stone Australia, which are editorially selective and cover stories with real cultural weight.</li></ul>\n<p>Coverage tends to follow coverage. A modest record of published interviews and features makes an editor at a larger title more comfortable taking a chance.</p>\n<p>Digital Networking Agency writes and places features for artists and musicians, and pitches editorial titles where a story fits. We say which route each piece uses before anything is written, and we do not promise reviews. See <a href=\"/pr-for/artists\">PR for artists</a> for how we work.</p>\n<h2 id=\"using-coverage-once-you-have-it\">Using coverage once you have it</h2>\n<p>A published piece does most of its work after the week it runs.</p>\n<ul><li><strong>Put it where decisions are made.</strong> Your website, EPK or portfolio, and the applications you send to galleries, venues, festivals, residencies and funders.</li><li><strong>Quote accurately.</strong> Pull a line from a review only if it says what you imply, and credit the writer and the publication.</li><li><strong>Label it honestly.</strong> Call a profile a profile and an interview an interview. Describing a placed feature as a review is the fastest way to lose the trust it bought you.</li><li><strong>Keep the writer in mind.</strong> A short thank-you, and a brief note when your next project is genuinely ready, is welcome. A stream of updates is not.</li></ul>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Should I pay for reviews?</h3>\n<p>No. A paid review is not criticism, and presenting it as one damages your credibility with exactly the people you want to reach. Paid features are a different product and should be described as such.</p>\n<h3>Do I need a publicist to get reviewed?</h3>\n<p>Not necessarily. Plenty of writers accept direct pitches from artists. A publicist helps with relationships, timing and volume, but the work and the story still decide the outcome.</p>\n<h3>How far ahead should I pitch a release or exhibition?</h3>\n<p>Several weeks at minimum, and longer for print and larger titles. Plan the press timeline alongside the release or opening date, not after it is fixed.</p>",
+  "toc": [
+    {
+      "id": "what-arts-and-music-editors-cover",
+      "text": "What arts and music editors cover"
+    },
+    {
+      "id": "earned-coverage-versus-paid-features",
+      "text": "Earned coverage versus paid features"
+    },
+    {
+      "id": "building-a-press-kit-editors-will-use",
+      "text": "Building a press kit editors will use"
+    },
+    {
+      "id": "pitching-writers-and-critics",
+      "text": "Pitching writers and critics"
+    },
+    {
+      "id": "where-artists-realistically-get-published",
+      "text": "Where artists realistically get published"
+    },
+    {
+      "id": "using-coverage-once-you-have-it",
+      "text": "Using coverage once you have it"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Editors assume talent; what they cover is a timely idea, moment or context.",
+    "Reviews cannot be bought, and a paid feature should never be quoted as criticism.",
+    "Pitch weeks ahead, with a press kit an editor can use the same day."
+  ]
+},
+{
+  "slug": "how-to-get-press-as-an-actor-or-filmmaker",
+  "h1": "How to Get Press as an Actor or Filmmaker",
+  "title": "How to Get Press as an Actor or Filmmaker | DNA PR",
+  "description": "How actors and filmmakers earn press — trade versus consumer coverage, festival timing, publicity materials, and what no agency can promise.",
+  "body": "<p>Entertainment media looks wide open from the outside. There is a constant stream of stories about film and television. But much of that coverage goes to projects with distributors, studios and publicists already behind them.</p>\n<p>Independent actors and filmmakers do get covered. It takes a clear understanding of which outlet does what, and when to approach it.</p>\n<h2 id=\"trade-press-versus-consumer-press\">Trade press versus consumer press</h2>\n<p>They serve different readers and want different stories.</p>\n<p><strong>Trade publications</strong> such as <a href=\"/get-featured-in/hollywood-reporter\">The Hollywood Reporter</a> and Variety Australia cover the business of the industry: projects in development, casting, financing, sales, festival selections and executive moves. Their readers are producers, agents, commissioners and financiers. Coverage is written by staff journalists, and it is selective.</p>\n<p><strong>Consumer and culture publications</strong> cover what audiences will watch and the people making it: interviews, reviews, profiles and features. Titles such as Rolling Stone UK sit here, alongside general-interest publications.</p>\n<p>A casting announcement belongs in the trades. A thoughtful interview about the making of your film belongs in consumer press. Pitching the wrong one wastes your time and the editor's.</p>\n<p>Specialist and regional outlets matter too. Festival coverage, film newsletters and industry podcasts reach programmers and buyers, and they are often more open to independent work than the largest mastheads.</p>\n<h2 id=\"earned-coverage-versus-paid-features\">Earned coverage versus paid features</h2>\n<p>Reviews, trade news stories and editorial interviews are journalists' decisions. Nobody can buy a review, and no agency can place a story in a staff-written trade on demand. If someone promises you coverage in one of the major US trades, ask exactly what they are selling.</p>\n<p>Agency-placed profiles and features in personality and general-interest publications are a different, legitimate product. They give you a permanent, searchable article about your work. They are not reviews, and should not be quoted as critical endorsement.</p>\n<p>Sponsored content and trade advertising also exist, normally labelled. Useful for some campaigns, and not the same as being covered.</p>\n<h2 id=\"what-a-story-looks-like-at-each-stage\">What a story looks like at each stage</h2>\n<p>Most people wait for release. The record is easier to build if you start earlier.</p>\n<ul><li><strong>Development and financing.</strong> Trade-relevant if a notable name, partner or deal is attached. Otherwise usually too early for consumer press.</li><li><strong>Production.</strong> Behind-the-scenes angles, an unusual location, a subject with public interest.</li><li><strong>Festivals.</strong> Selections, premieres and awards are the clearest hooks independent work gets. Plan press before the line-up is announced, not after.</li><li><strong>Release.</strong> Reviews, interviews and features, competing with every other title out that week.</li><li><strong>Between projects.</strong> For actors especially, interviews about craft, career and perspective keep the name connected to the work.</li></ul>\n<h2 id=\"the-materials-you-need\">The materials you need</h2>\n<p>Editors and programmers move quickly. Have these ready before you pitch:</p>\n<ul><li><strong>Professional headshots and production stills</strong>, cleared for press use and properly credited.</li><li><strong>A short, factual bio</strong> with credits that can be verified.</li><li><strong>A logline and a one-paragraph synopsis</strong> for any project you are promoting.</li><li><strong>A trailer or private screener link</strong>, password-protected where appropriate.</li><li><strong>Key details</strong>: cast, key crew, running time, festival or release dates, and who handles sales or distribution, if anyone does.</li><li><strong>Representation contacts</strong>, where they exist, so a journalist knows who to call.</li></ul>\n<p>Check your agreements before you publicise anything. Distributors, sales agents and festivals can set rules on announcements and premiere status, and breaking them can cost more than the coverage is worth.</p>\n<h2 id=\"handling-interviews-and-reviews\">Handling interviews and reviews</h2>\n<p>When a journalist agrees to talk, prepare the way you would for an audition.</p>\n<ul><li><strong>Know the outlet.</strong> Read recent interviews in the same publication so you understand its tone, its length and what it tends to ask.</li><li><strong>Have two or three things to say.</strong> The idea behind the project, a specific moment from making it, and why it matters now. Specific details make usable quotes.</li><li><strong>Agree the ground rules first.</strong> If anything is not yet announced, such as cast, dates or distribution, say so before the conversation starts, not afterwards.</li><li><strong>Leave reviews alone.</strong> Do not argue with a critic in public or ask for a verdict to be changed. Correct factual errors politely, and only those.</li></ul>\n<p>Screen journalists talk to one another. Being easy to work with is part of how the next piece happens.</p>\n<h2 id=\"building-a-record-that-makes-trade-coverage-plausible\">Building a record that makes trade coverage plausible</h2>\n<p>The trades are rarely the right first placement for independent talent. A body of interviews, profiles and festival coverage gives trade journalists something to verify, and makes a later pitch credible.</p>\n<p>Start with festival and regional coverage, specialist film sites and podcasts, and profiles in personality titles such as <a href=\"/get-featured-in/famous-times\">Famous Times</a>. Keep everything linked from your website and professional profiles, and describe each piece accurately.</p>\n<p>Digital Networking Agency writes and places features for actors and filmmakers, and builds the positioning that supports trade pitching. We are candid when a trade is not yet realistic, and we do not guarantee staff coverage in any entertainment trade. See <a href=\"/pr-for/actors-and-filmmakers\">PR for actors and filmmakers</a> for how we work.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Do I need a publicist or an agent to get press?</h3>\n<p>Not to start. Independent filmmakers regularly pitch festival and specialist coverage themselves. As projects grow, a dedicated screen publicist is often worth it for trade announcements and release campaigns.</p>\n<h3>Can early press affect a film's festival premiere status?</h3>\n<p>It can. Some festivals care about prior screenings and publicity. Check the festival's rules, and your sales agent's view, before releasing clips, reviews or screening details.</p>\n<h3>Is a feature in a general-interest publication worth it for an actor?</h3>\n<p>It can be, as long as you describe it accurately. It gives casting directors and producers something substantive to find when they search your name, which is its main job.</p>",
+  "toc": [
+    {
+      "id": "trade-press-versus-consumer-press",
+      "text": "Trade press versus consumer press"
+    },
+    {
+      "id": "earned-coverage-versus-paid-features",
+      "text": "Earned coverage versus paid features"
+    },
+    {
+      "id": "what-a-story-looks-like-at-each-stage",
+      "text": "What a story looks like at each stage"
+    },
+    {
+      "id": "the-materials-you-need",
+      "text": "The materials you need"
+    },
+    {
+      "id": "handling-interviews-and-reviews",
+      "text": "Handling interviews and reviews"
+    },
+    {
+      "id": "building-a-record-that-makes-trade-coverage-plausible",
+      "text": "Building a record that makes trade coverage plausible"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Trade press covers the business of the industry; consumer press covers the work and the people.",
+    "Nobody can place a story in a staff-written entertainment trade on demand.",
+    "Festivals are the clearest hook for independent work, so plan press before the line-up is announced."
+  ]
+},
+{
+  "slug": "how-to-get-press-for-your-nonprofit",
+  "h1": "How to Get Press for Your Nonprofit",
+  "title": "How to Get Press for Your Nonprofit | DNA PR",
+  "description": "How nonprofits earn media coverage — mission-led angles, impact and data stories, consent when featuring people, and how press supports fundraising.",
+  "body": "<p>Nonprofits have something most businesses do not: a reason for a journalist to care that is not commercial. They also face more competition than they tend to expect, because a great many organisations do good work and say so.</p>\n<p>Here is how to turn the work into coverage.</p>\n<h2 id=\"what-press-can-and-cannot-do-for-a-nonprofit\">What press can and cannot do for a nonprofit</h2>\n<p>Coverage makes you easier to trust. A donor researching you, a foundation assessing an application, a corporate partner doing due diligence and a prospective trustee are all looking for signs that you are established and credible. Independent coverage is one of the clearer ones.</p>\n<p>What it rarely does is raise money by itself. An article is not an appeal, and readers who were not already considering support seldom give because of one piece. Treat press as something that supports your fundraising, partnerships and recruitment, and judge it on that basis.</p>\n<p>Coverage also helps with audiences you are not actively approaching. Journalists writing later stories look for sources already published on the issue, and potential partners can find you before you find them.</p>\n<h2 id=\"finding-the-story-inside-your-mission\">Finding the story inside your mission</h2>\n<p>\"We do important work\" is not a story. Every organisation says it, and editors cannot run it.</p>\n<ul><li><strong>The problem, made current.</strong> Why your issue matters this month — a policy change, a seasonal pressure, or a development in the news that your front-line work helps explain.</li><li><strong>The overlooked angle.</strong> Something about the people or place you serve that general coverage misses.</li><li><strong>The approach.</strong> A programme that does things differently, explained well enough that readers understand why.</li><li><strong>The human story.</strong> One person's experience illustrating something wider, told with their consent and on their terms.</li></ul>\n<p>Lead with the issue. Your organisation earns its place in the story as the credible source who can explain it.</p>\n<h2 id=\"impact-and-data-stories\">Impact and data stories</h2>\n<p>Journalists need facts they can cite, and nonprofits often hold information nobody else has: who comes to you, what they need, and how that changes over time.</p>\n<p>Used well, it is some of the most publishable material you have.</p>\n<ul><li><strong>Report what you actually measured.</strong> Use figures from your own records, state the period and the method, and do not extrapolate beyond them.</li><li><strong>Show change, not just totals.</strong> A shift in demand or need often makes a better story than a cumulative count.</li><li><strong>Protect privacy.</strong> Aggregate and anonymise. Small groups in small places can be identifiable without names.</li><li><strong>Be ready to explain the limits.</strong> A journalist who finds one overstated figure will not trust the next, and nor will your donors.</li></ul>\n<p>Never inflate impact numbers for a pitch. It is the fastest way to turn good coverage into a reputational problem.</p>\n<h2 id=\"consent-and-dignity-when-featuring-people\">Consent and dignity when featuring people</h2>\n<p>The people you support are not campaign material. Anyone featured should understand where the story will appear, that it may stay online indefinitely, and that they can decline without affecting the support they receive.</p>\n<p>Get consent in writing, let them see how they are described where you can, and consider how the piece will read to them in five years. For children and vulnerable adults, follow your safeguarding policy and apply stricter limits.</p>\n<p>Often the better approach is a spokesperson from your organisation describing the pattern, with individual stories used sparingly.</p>\n<h2 id=\"timing-and-working-with-journalists\">Timing and working with journalists</h2>\n<p>Good material still needs to arrive at the right moment.</p>\n<ul><li><strong>Plan around the calendar you already know.</strong> Awareness days, annual reports, policy announcements and seasonal pressure on your services are predictable. Pitch ahead of them, not on the day.</li><li><strong>Move quickly when news breaks.</strong> If a story touches your issue, a short, specific offer of comment sent that morning is far more useful than a statement the next day.</li><li><strong>Make a spokesperson available.</strong> Name one or two people who can speak on the record, brief them, and agree what they can and cannot say.</li><li><strong>Keep your promises.</strong> If you offer data, a case study or an interview, deliver it within the deadline, or say early that you cannot.</li></ul>\n<h2 id=\"where-nonprofits-get-coverage\">Where nonprofits get coverage</h2>\n<ul><li><strong>Local and regional news</strong>, often the most receptive outlet for community organisations.</li><li><strong>Sector and trade publications</strong> in your field, read by funders, peers and policymakers.</li><li><strong>Expert commentary</strong>, where journalists covering your issue need a knowledgeable source quickly.</li><li><strong>Opinion pieces</strong> from your chief executive or a front-line specialist, submitted to publications that publish their guidelines.</li><li><strong>Agency-placed features</strong> in general-interest publications such as <a href=\"/get-featured-in/msn\">MSN</a>, US Reporter, NY Weekly and Digital Journal, which give donors and partners a substantive article to find when they search your name.</li></ul>\n<p>As with any organisation, distinguish earned coverage from contributor and paid routes, and describe each accurately in your reports and to your board.</p>\n<p>Digital Networking Agency develops and places stories for nonprofits, and we are clear that editorial coverage is always the publication's decision. See <a href=\"/pr-for/nonprofits\">PR for nonprofits</a> for how we work.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Is it appropriate for a charity to spend money on PR?</h3>\n<p>That is a question for your board and your supporters. Communications can be part of delivering a mission, and what matters is that spending is proportionate, planned and reported openly.</p>\n<h3>What should we do when a journalist calls about something negative?</h3>\n<p>Respond promptly, confirm the facts before you comment, and agree one spokesperson. Silence rarely helps. A calm, honest explanation usually protects trust better than a defensive statement.</p>\n<h3>Can we use coverage in our fundraising materials?</h3>\n<p>Yes. Link it from your website, grant applications and donor updates, and describe it accurately. A placed feature should not be presented as independent investigative reporting.</p>",
+  "toc": [
+    {
+      "id": "what-press-can-and-cannot-do-for-a-nonprofit",
+      "text": "What press can and cannot do for a nonprofit"
+    },
+    {
+      "id": "finding-the-story-inside-your-mission",
+      "text": "Finding the story inside your mission"
+    },
+    {
+      "id": "impact-and-data-stories",
+      "text": "Impact and data stories"
+    },
+    {
+      "id": "consent-and-dignity-when-featuring-people",
+      "text": "Consent and dignity when featuring people"
+    },
+    {
+      "id": "timing-and-working-with-journalists",
+      "text": "Timing and working with journalists"
+    },
+    {
+      "id": "where-nonprofits-get-coverage",
+      "text": "Where nonprofits get coverage"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Press makes a nonprofit easier to trust; it rarely raises money by itself.",
+    "Impact stories must use real, measured figures with the method explained.",
+    "Anyone featured needs informed, written consent and the freedom to decline."
+  ]
+},
+{
+  "slug": "how-to-get-press-in-australia",
+  "h1": "How to Get Press in Australia",
+  "title": "How to Get Press in Australia | DNA PR",
+  "description": "How to get press in Australia: how the local media market works, licensed editions versus local newsrooms, the honest routes in, and what editors run.",
+  "body": "<p>Getting press in Australia is less about volume and more about fit. The market is smaller than the US or UK, journalists often cover the same beat for years, and a pitch that ignores the local reader is noticed quickly.</p>\n<p>Here is how it works, and how to approach it properly.</p>\n<h2 id=\"how-the-australian-media-market-works\">How the Australian media market works</h2>\n<p>Australia has fewer mastheads than larger English-language markets, and fewer journalists on each beat. That concentration cuts both ways. There is less space to go around, but a good story reaches the people who matter faster, and a useful source is remembered.</p>\n<p>Broadly, the titles a business is likely to pitch fall into four groups:</p>\n<ul><li><strong>Established newsrooms.</strong> Daily newspapers and news sites with staff journalists, such as The Canberra Times. Earned coverage only.</li><li><strong>Business titles.</strong> Publications written for founders and operators, such as SmartCompany. Also staff-written.</li><li><strong>Licensed Australian editions.</strong> International brands published here under licence with local editorial teams.</li><li><strong>Trade and smaller digital titles.</strong> Sector publications and niche digital titles, where both earned and managed routes exist.</li></ul>\n<p>Knowing which group a title sits in tells you most of what you need to know about how to approach it.</p>\n<h2 id=\"know-which-edition-you-are-pitching\">Know which edition you are pitching</h2>\n<p>Forbes Australia, Rolling Stone Australia, Variety Australia, Men's Health Australia and Harper's Bazaar Australia are licensed Australian editions. They are produced locally, with their own editors, and they are editorially separate from their US and UK parents.</p>\n<p>This is where many international founders go wrong. Pitching the Australian edition does not reach the American masthead, and an editor in New York cannot commission you into the Australian one. Each edition makes its own decisions for its own readers.</p>\n<p>It matters afterwards too. If a piece runs in Forbes Australia, call it Forbes Australia. Investors and partners check, and describing licensed-edition coverage as coverage in the parent title undermines the credibility it was meant to build. Our guide to <a href=\"/guides/how-to-get-featured-in-forbes-australia\">getting featured in Forbes Australia</a> goes into this in more detail.</p>\n<h2 id=\"what-australian-editors-look-for\">What Australian editors look for</h2>\n<p>A local reader, first. Every desk is asking why this matters to someone in Australia now. A global trend is covered when it lands here. A company is covered when the Australian angle is genuinely its own.</p>\n<p>After that, the usual things decide it:</p>\n<ul><li><strong>Evidence.</strong> A figure, a dataset or a document an editor can check. Adjectives do not survive the first read.</li><li><strong>Consequence.</strong> What changes, for whom, and what it costs or saves.</li><li><strong>Timing.</strong> A story tied to something already in the news, a policy change or a seasonal moment has a reason to run this week.</li><li><strong>Availability.</strong> Reporters often work to same-day deadlines. If you are pitching from another time zone, arrange for someone to be reachable during Australian business hours.</li></ul>\n<p>Plain language helps. Write the pitch the way you would explain it to a colleague, and cut anything that reads like marketing copy.</p>\n<h2 id=\"the-honest-routes-in\">The honest routes in</h2>\n<ul><li><strong>Earned editorial.</strong> A journalist decides your story is worth covering. Free, competitive and never guaranteed.</li><li><strong>Expert commentary.</strong> Responding quickly and specifically when a reporter needs a credible voice. Often the most reliable way to start a relationship with a newsroom.</li><li><strong>Sponsored and branded content.</strong> Paid, produced commercially and labelled on the page. Legitimate, but it is advertising.</li><li><strong>Managed features on smaller digital titles.</strong> A team writes a dedicated piece and handles the placement. More predictable, and it should be described accurately afterwards.</li></ul>\n<p>Ask any supplier which of these they are selling, and get the answer in writing. Anyone guaranteeing earned coverage in a staff-written Australian newsroom is describing something they do not control.</p>\n<h2 id=\"build-in-the-right-order\">Build in the right order</h2>\n<p>The most common mistake is starting at the top. A founder with no public record pitches a licensed masthead, hears nothing, and concludes that PR does not work.</p>\n<p>A better sequence starts where the fit is closest. For many businesses that is trade press or a business title their buyers already read, followed by local and regional newsrooms, then the licensed editions once there is a record an editor can check. Coverage tends to follow coverage, and each placement makes the next pitch easier to take seriously.</p>\n<p>If you run a smaller business, our guide to <a href=\"/guides/pr-for-australian-small-business\">PR for Australian small businesses</a> covers where to start in more detail. For a wider view of the market, see <a href=\"/pr-in/australia\">PR in Australia</a>.</p>\n<h2 id=\"what-we-do\">What we do</h2>\n<p>Digital Networking Agency develops the angle with you, writes it to editorial standard and pitches the Australian titles where the fit is real. You approve every word before anything is submitted.</p>\n<p>We will tell you which route each opportunity is, and we will say plainly when a licensed masthead is not a realistic first target. Starting in the right place usually does more, sooner, than starting at the most recognisable name.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>How long does it take to get press in Australia?</h3>\n<p>There is no fixed timeline. News-driven stories can move in days, features can take weeks, and many pitches are never answered. Anyone quoting a guaranteed date is guessing.</p>\n<h3>Can an international company get Australian coverage?</h3>\n<p>Yes, when it has an Australian story: local customers, hires, an office, an investment or data about the Australian market. Without one, local editors have no reason to run it.</p>\n<h3>Is Rolling Stone Australia the same as Rolling Stone?</h3>\n<p>No. It is a licensed Australian edition with its own editorial team, separate from the US magazine. Describe any coverage there by its correct name.</p>",
+  "toc": [
+    {
+      "id": "how-the-australian-media-market-works",
+      "text": "How the Australian media market works"
+    },
+    {
+      "id": "know-which-edition-you-are-pitching",
+      "text": "Know which edition you are pitching"
+    },
+    {
+      "id": "what-australian-editors-look-for",
+      "text": "What Australian editors look for"
+    },
+    {
+      "id": "the-honest-routes-in",
+      "text": "The honest routes in"
+    },
+    {
+      "id": "build-in-the-right-order",
+      "text": "Build in the right order"
+    },
+    {
+      "id": "what-we-do",
+      "text": "What we do"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Australia is a smaller, connected market where fit and a genuine local angle matter more than volume.",
+    "Licensed Australian editions are editorially separate from their parents and should be named correctly.",
+    "Start where the fit is closest and build toward the licensed mastheads."
+  ]
+},
+{
+  "slug": "how-to-get-press-in-canada",
+  "h1": "How to Get Press in Canada",
+  "title": "How to Get Press in Canada | DNA PR",
+  "description": "How to get press in Canada: national versus city newspapers, the bilingual market, shared content across titles, the honest routes in, and what editors run.",
+  "body": "<p>Canada is often treated as a footnote to American media. Canadian editors do not see it that way, and pitches that do tend to go nowhere.</p>\n<p>Here is how the Canadian press works, and how to approach it properly.</p>\n<h2 id=\"how-canadian-media-is-structured\">How Canadian media is structured</h2>\n<p>The titles most businesses pitch fall into three groups.</p>\n<ul><li><strong>National titles.</strong> Newspapers written for readers across the country, such as the Financial Post for business and the National Post for news, politics and opinion.</li><li><strong>City papers.</strong> Dailies serving a city and its region, such as the Toronto Sun, Montreal Gazette and Vancouver Sun.</li><li><strong>Licensed and specialist titles.</strong> Licensed Canadian editions of international magazines, such as Elle Canada, and sector trade publications.</li></ul>\n<p>The newspapers in the first two groups are staff-written. There is no contributor programme to join and no arrangement that converts a payment into a news article. Coverage is earned.</p>\n<h2 id=\"national-or-local\">Decide whether your story is national or local</h2>\n<p>This is the first and most important decision in a Canadian campaign.</p>\n<p>National titles want national relevance. The <a href=\"/guides/how-to-get-featured-in-financial-post\">Financial Post</a> looks for financial or economic consequence that matters to readers across Canada. A story that only concerns one city rarely fits, unless it illustrates something happening nationally.</p>\n<p>City papers want the opposite: a concrete local connection. Where in the city is this happening, who here is affected, and what changes for them? A founder with a genuine Toronto or Vancouver story competes in a far smaller field than the same founder pitching a national desk.</p>\n<p>Many businesses assume national is better. In practice, a strong local story is often more realistic, reaches the customers who actually matter, and builds the record national editors check later.</p>\n<p>Some stories have both dimensions. A company expanding across the country may have a national business angle and a separate local angle in each city where it hires. Treat those as different pitches, written for different desks, rather than one release sent everywhere.</p>\n<h2 id=\"the-bilingual-market\">Understand the bilingual market</h2>\n<p>Canada works in English and French, and Quebec is where that matters most. Much of the public conversation in the province happens in French-language media, and English-language coverage sits alongside it rather than replacing it.</p>\n<p>If your audience is Montreal's English-speaking community, the Montreal Gazette is a natural fit. If your audience is Quebec as a whole, English coverage alone will reach only part of it. Plan for that honestly from the start rather than discovering it after a campaign.</p>\n<p>Outside Quebec, most campaigns run in English, but it is worth checking whether any part of your audience reads mainly in French. Know which conversation you are joining before you pitch.</p>\n<h2 id=\"shared-content-across-titles\">Shared content across titles</h2>\n<p>Several major Canadian dailies belong to the same newspaper group and share stories across titles. The Financial Post, National Post, Toronto Sun, Montreal Gazette and Vancouver Sun operate within a shared network where content can run across titles.</p>\n<p>For a pitch, that has two practical effects. A strong story can travel beyond the paper that first ran it. And journalists within the network may see the same material, so sending an identical pitch to every title at once can work against you.</p>\n<p>A local angle still matters. Our guide on <a href=\"/guides/why-canadian-newspapers-share-content\">why Canadian newspapers share content</a> explains how to pitch with that in mind.</p>\n<h2 id=\"the-honest-routes-in\">The honest routes in</h2>\n<ul><li><strong>Earned editorial.</strong> A reporter decides your story is worth covering. Free, competitive and never guaranteed.</li><li><strong>Expert commentary.</strong> Business and city reporters need informed voices on stories already moving, often within hours. Be reachable and specific.</li><li><strong>Evidence-led pitching.</strong> A figure, a filing or a dataset an editor can check. Something checkable beats an adjective every time.</li><li><strong>Advertising and sponsored content.</strong> Paid, commercial and labelled. Legitimate, and not the same as being written about.</li></ul>\n<p>Be wary of anyone offering guaranteed coverage in a Canadian newspaper. Editorial at a staff-written newsroom cannot be guaranteed from outside it, and a guarantee usually means you are being sold a wire release or an advertisement described as something else.</p>\n<p>If you run a smaller business, our guide to <a href=\"/guides/pr-for-canadian-small-business\">PR for Canadian small businesses</a> covers where to start. For a wider view of the market, see <a href=\"/pr-in/canada\">PR in Canada</a>.</p>\n<h2 id=\"what-we-do\">What we do</h2>\n<p>Digital Networking Agency helps you decide whether your story is national or local, develops the angle, writes it to editorial standard and pitches the desks where the fit is real. You approve every word before anything is submitted.</p>\n<p>We do not sell placements in staff-written Canadian newspapers. We will tell you honestly whether a national title is realistic now, or a goal to build toward from a strong local start. Where a story is not ready for any desk yet, we will say so before you spend anything.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Can a US company get press in Canada?</h3>\n<p>Yes, with a genuine Canadian angle: customers, staff, an office, investment or data about the Canadian market. A US announcement with no Canadian dimension is unlikely to interest a Canadian desk.</p>\n<h3>Is it easier to get into a city paper than a national one?</h3>\n<p>Usually, if the local connection is real. City reporters are looking for stories on their patch, and the field is smaller. It is still earned coverage and never guaranteed.</p>\n<h3>Is Elle Canada the same as Elle?</h3>\n<p>No. It is the licensed Canadian edition of the Elle brand, editorially separate from other editions. Describe coverage there as Elle Canada.</p>",
+  "toc": [
+    {
+      "id": "how-canadian-media-is-structured",
+      "text": "How Canadian media is structured"
+    },
+    {
+      "id": "national-or-local",
+      "text": "Decide whether your story is national or local"
+    },
+    {
+      "id": "the-bilingual-market",
+      "text": "Understand the bilingual market"
+    },
+    {
+      "id": "shared-content-across-titles",
+      "text": "Shared content across titles"
+    },
+    {
+      "id": "the-honest-routes-in",
+      "text": "The honest routes in"
+    },
+    {
+      "id": "what-we-do",
+      "text": "What we do"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Decide first whether the story is national or local; the answer changes every pitch.",
+    "Quebec is a bilingual market, and English coverage reaches only part of it.",
+    "Canada's major dailies are staff-written, and guaranteed editorial there is a red flag."
+  ]
+},
+{
+  "slug": "pr-for-australian-small-business",
+  "h1": "PR for Australian Small Businesses",
+  "title": "PR for Australian Small Businesses | DNA PR",
+  "description": "PR for Australian small businesses: whether it is worth it, what makes a small business story, where to start, earned versus paid routes, and using coverage.",
+  "body": "<p>Many small business owners assume PR is only for large companies with a communications team. It is not, but it does work differently at a smaller scale, and it rewards starting in the right place.</p>\n<p>Here is an honest guide to what it involves.</p>\n<h2 id=\"is-pr-worth-it-for-a-small-business\">Is PR worth it for a small business?</h2>\n<p>It can be, when the goal is clear. PR is good at building credibility: giving customers, partners and future hires something independent to find when they search your name. It is less good at producing a spike in sales next week, and it should not be treated as a replacement for marketing.</p>\n<p>It tends to work best for businesses with a story that goes beyond the product: an unusual operating decision, a local problem solved, a founder with genuine expertise, or numbers that say something about a sector. It works less well for a business whose only news is that it exists.</p>\n<p>Be honest about capacity too. Earned coverage takes time, follow-up and someone available to talk to a reporter at short notice. If nobody in the business can do that, factor it in before you start.</p>\n<h2 id=\"what-makes-a-small-business-story\">What makes a small business story</h2>\n<p>Editors are not looking for businesses that are doing well. They are looking for stories their readers can use or recognise.</p>\n<ul><li><strong>Operational decisions.</strong> A shorter working week, a price change, a move away from a platform, a supplier switch. With numbers attached.</li><li><strong>Local impact.</strong> Jobs created in a town, a closure avoided, a community problem addressed.</li><li><strong>A response to the news.</strong> How a rule change, a cost increase or a shift in customer behaviour is landing in a real business.</li><li><strong>Expertise.</strong> An owner who can explain something in their industry plainly and credibly.</li></ul>\n<p>\"Local bakery celebrates five years\" is not a story. \"Why one regional bakery stopped selling through delivery apps, and what happened to its margins\" is close to one.</p>\n<h2 id=\"where-to-start\">Where to start</h2>\n<p>Start where your customers and peers already read, not at the most recognisable name.</p>\n<p><strong>Local and regional press.</strong> A genuine local story competes in a far smaller field than a national pitch, and local readers are often your customers.</p>\n<p><strong>Business titles for operators.</strong> <a href=\"/get-featured-in/smartcompany\">SmartCompany</a> is written specifically for people running small and medium businesses in Australia. It has a staff newsroom, so coverage is earned, and it looks for practical, specific stories with something a reader can act on.</p>\n<p><strong>Trade publications.</strong> If you sell to other businesses, the sector titles your buyers read may matter more than any general masthead. Our guide to <a href=\"/guides/australian-trade-publications-for-b2b\">Australian trade publications for B2B brands</a> covers how to find and evaluate them.</p>\n<p>The licensed Australian editions, such as Forbes Australia, are worth building toward. They are rarely the right first step for a business with no public record.</p>\n<h2 id=\"earned-and-paid-routes\">Earned and paid routes</h2>\n<p>Small businesses are often sold PR without being told which kind they are buying. There are four broad options.</p>\n<ul><li><strong>Do it yourself.</strong> Research the journalists who cover your area, read what they publish and send short, specific pitches. Free, slow and entirely legitimate.</li><li><strong>Expert commentary.</strong> Make yourself available as a source on topics you know well. Low cost in money, higher in time and responsiveness.</li><li><strong>Agency-assisted pitching.</strong> An agency develops the angle, writes it and pitches on your behalf. You pay for the work and the judgement, not for a guaranteed result.</li><li><strong>Paid and sponsored placements.</strong> Sponsored content, and managed features on smaller digital titles. Labelled, more predictable and legitimate, as long as they are described accurately.</li></ul>\n<p>Get the answer in writing before you pay. Nobody can guarantee earned coverage in a staff-written newsroom, and a guarantee is a sign you are being sold something else.</p>\n<h2 id=\"using-coverage-once-it-runs\">Using coverage once it runs</h2>\n<p>Coverage that nobody sees does little. Once a piece runs, put it to work.</p>\n<ul><li>Add it to your website with the correct publication name and a link to the live article.</li><li>Share it with customers, suppliers and partners.</li><li>Use it in proposals and tenders, described accurately.</li><li>Keep a record, because the next journalist will check what has been written about you before.</li></ul>\n<p>Describe coverage precisely. A managed feature is not a journalist choosing to write about you, and a licensed edition is not its parent title. Small inaccuracies here cost more credibility than they gain.</p>\n<h2 id=\"what-we-do\">What we do</h2>\n<p>Digital Networking Agency works with small businesses to find the story inside the business, write it to editorial standard and pitch the titles where the fit is real. You approve every word before anything is submitted.</p>\n<p>We will tell you which route each opportunity is, and whether PR is the right investment for your business at this stage. For more on the wider market, see <a href=\"/pr-in/australia\">PR in Australia</a> and our guide to <a href=\"/guides/how-to-get-press-in-australia\">getting press in Australia</a>.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>How much does PR cost for a small business?</h3>\n<p>It varies widely, from nothing but time if you pitch yourself to an ongoing agency fee. Ask what is included, which routes are earned and which are paid, and what happens if nothing runs.</p>\n<h3>Can a small business get into SmartCompany?</h3>\n<p>Yes, if there is something concrete and useful to other operators. Its newsroom writes its own stories, so coverage is earned and never guaranteed.</p>\n<h3>How long before PR shows results?</h3>\n<p>Expect months rather than weeks to build a consistent record. A single story can move quickly, but credibility comes from coverage building over time.</p>",
+  "toc": [
+    {
+      "id": "is-pr-worth-it-for-a-small-business",
+      "text": "Is PR worth it for a small business?"
+    },
+    {
+      "id": "what-makes-a-small-business-story",
+      "text": "What makes a small business story"
+    },
+    {
+      "id": "where-to-start",
+      "text": "Where to start"
+    },
+    {
+      "id": "earned-and-paid-routes",
+      "text": "Earned and paid routes"
+    },
+    {
+      "id": "using-coverage-once-it-runs",
+      "text": "Using coverage once it runs"
+    },
+    {
+      "id": "what-we-do",
+      "text": "What we do"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "PR builds credibility for small businesses; it is not a replacement for marketing.",
+    "Start with local press, business titles such as SmartCompany and the trade publications your buyers read.",
+    "Know whether you are buying earned pitching or a paid placement, and describe coverage accurately."
+  ]
+},
+{
+  "slug": "pr-for-canadian-small-business",
+  "h1": "PR for Canadian Small Businesses",
+  "title": "PR for Canadian Small Businesses | DNA PR",
+  "description": "PR for Canadian small businesses: whether it is worth it, local and city press, the bilingual market, earned versus paid routes, and how to use coverage well.",
+  "body": "<p>Many Canadian small business owners assume PR is for large companies with a communications team. It is not, but it works differently at a smaller scale, and the most useful coverage is often closer to home than people expect.</p>\n<p>Here is an honest guide to how it works.</p>\n<h2 id=\"is-pr-worth-it\">Is PR worth it for a small business?</h2>\n<p>It can be, when the goal is credibility rather than immediate sales. Independent coverage gives customers, partners and future hires something to find when they search your name, and it keeps working long after it runs.</p>\n<p>It works best for businesses with a story beyond the product: a local problem solved, an unusual operating decision, an owner with real expertise, or numbers that say something about a sector. It works less well when the only news is that the business exists.</p>\n<p>Earned coverage also takes time and availability. Reporters work fast, and someone needs to be reachable when they call.</p>\n<h2 id=\"start-local\">Start local</h2>\n<p>For most Canadian small businesses, the city paper is a better first target than a national title.</p>\n<p>National titles such as the Financial Post and National Post want significance across the country. City papers want a concrete local connection, and a genuine local story competes in a far smaller field. The <a href=\"/get-featured-in/toronto-sun\">Toronto Sun</a>, for example, writes for ordinary Torontonians rather than specialists, which suits consumer-facing businesses with a real presence in the city. The Vancouver Sun and Montreal Gazette serve their own cities and regions in the same way.</p>\n<p>Make the local connection concrete. Name the neighbourhood, the number of people you employ there, or the local decision that changed something for you. A national release with a city name added reads as exactly that.</p>\n<p>Community publications, local business association newsletters and industry trade titles are worth considering too. They are often where customers and peers first hear about a business.</p>\n<h2 id=\"the-bilingual-market\">The bilingual market</h2>\n<p>If you operate in Quebec, language is part of the plan. Much of the public conversation in the province happens in French-language media, and English-language coverage reaches only part of the audience.</p>\n<p>That does not mean every small business needs French-language press. It means knowing who your customers are and where they read. A business serving Montreal's English-speaking community has a natural home in the Montreal Gazette. A business serving the whole province should plan for both languages.</p>\n<p>Outside Quebec, most small business campaigns run in English, but it is worth checking whether any part of your customer base reads mainly in French.</p>\n<h2 id=\"what-makes-a-small-business-story\">What makes a small business story</h2>\n<ul><li><strong>Something happening.</strong> An opening, an expansion, a change, a first. News needs a verb.</li><li><strong>Local impact.</strong> Jobs, a neighbourhood, a community problem addressed.</li><li><strong>A response to the news.</strong> How a cost increase, a rule change or a shift in customer behaviour is landing in a real business.</li><li><strong>Expertise.</strong> An owner who can explain something plainly, on the record, the same day.</li></ul>\n<p>\"Local shop opens second location\" is rarely a story on its own. \"Why one Toronto retailer opened in a suburb instead of downtown, and what its rent and footfall figures showed\" is much closer to one.</p>\n<p>It also helps to know that several major Canadian dailies share content across titles, so a strong story can sometimes travel further than the paper that first ran it. Our guide on <a href=\"/guides/why-canadian-newspapers-share-content\">why Canadian newspapers share content</a> explains what that means for a pitch.</p>\n<h2 id=\"earned-and-paid-routes\">Earned and paid routes</h2>\n<ul><li><strong>Do it yourself.</strong> Read the reporters who cover your area and send short, specific pitches. Free, slow and legitimate.</li><li><strong>Expert commentary.</strong> Be available as a source on topics you know. Low cost in money, higher in responsiveness.</li><li><strong>Agency-assisted pitching.</strong> An agency develops the angle, writes it and pitches for you. You pay for the work, not a guaranteed result.</li><li><strong>Advertising and sponsored content.</strong> Paid and labelled. Useful for some goals, and not the same as being written about.</li></ul>\n<p>The major Canadian dailies are staff-written, with no contributor programme to buy into. Anyone guaranteeing editorial coverage there is describing something they do not control.</p>\n<p>Once coverage does run, link to the live article, name the publication correctly and use it on your website and in proposals. The next journalist will look at what has already been written about you.</p>\n<h2 id=\"what-we-do\">What we do</h2>\n<p>Digital Networking Agency helps small businesses find the local or sector story inside the business, write it to editorial standard and pitch the desks where the fit is real. You approve every word before anything is submitted.</p>\n<p>We will tell you which route each opportunity is, and whether PR is the right investment at this stage. For a wider view, see <a href=\"/pr-in/canada\">PR in Canada</a> and our guide to <a href=\"/guides/how-to-get-press-in-canada\">getting press in Canada</a>.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Should a small business pitch the National Post?</h3>\n<p>Only with a story of national significance. For most small businesses, a strong city story is more realistic and reaches the customers who matter more directly.</p>\n<h3>Do I need French-language coverage in Quebec?</h3>\n<p>If your customers include French-speaking Quebecers, it is worth planning for. English-language coverage alone reaches only part of that audience.</p>\n<h3>Can PR replace advertising for a small business?</h3>\n<p>No. PR builds credibility and a searchable record, while advertising buys visibility you control. Most businesses benefit from understanding what each does rather than expecting one to do both.</p>",
+  "toc": [
+    {
+      "id": "is-pr-worth-it",
+      "text": "Is PR worth it for a small business?"
+    },
+    {
+      "id": "start-local",
+      "text": "Start local"
+    },
+    {
+      "id": "the-bilingual-market",
+      "text": "The bilingual market"
+    },
+    {
+      "id": "what-makes-a-small-business-story",
+      "text": "What makes a small business story"
+    },
+    {
+      "id": "earned-and-paid-routes",
+      "text": "Earned and paid routes"
+    },
+    {
+      "id": "what-we-do",
+      "text": "What we do"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "For most Canadian small businesses, a city paper is a more realistic first target than a national title.",
+    "In Quebec, plan for language: English coverage reaches only part of the audience.",
+    "Major Canadian dailies are staff-written, so editorial there is earned and never guaranteed."
+  ]
+},
+{
+  "slug": "australian-trade-publications-for-b2b",
+  "h1": "Australian Trade Publications for B2B Brands",
+  "title": "Australian Trade Publications for B2B Brands | DNA PR",
+  "description": "How B2B brands can find, evaluate and pitch Australian trade publications by sector, what trade editors want, and how trade press fits with business titles.",
+  "body": "<p>For a business that sells to other businesses, the most valuable coverage is rarely in a general masthead. It is in the publications buyers, specifiers and procurement teams read to do their jobs.</p>\n<p>This guide explains how to find those titles in Australia, how to judge whether they are worth your time, and how to pitch them well.</p>\n<h2 id=\"why-trade-press-matters-for-b2b\">Why trade press matters for B2B</h2>\n<p>Trade publications reach a narrow audience, and that is the point. A reader who manages a warehouse, runs a clinic, specifies building materials or buys software for a finance team reads their sector's press for practical reasons. Coverage there reaches the people who make or influence purchasing decisions.</p>\n<p>Trade press also tends to be more open to technical substance than a general newsroom. A detailed case study, a practical explainer or a considered view on an industry change may be exactly what a trade editor wants, where a general business desk would pass.</p>\n<p>And trade coverage builds a record. A consistent presence in the titles your sector respects makes a later pitch to a business title easier to take seriously.</p>\n<h2 id=\"how-to-find-trade-titles-in-your-sector\">How to find trade titles in your sector</h2>\n<p>There is no single reliable list, and sector media changes over time, so build your own. Start with the people you sell to.</p>\n<ul><li><strong>Ask customers what they read.</strong> The simplest method and usually the most accurate. Ask which newsletters, sites and magazines they actually open.</li><li><strong>Check industry associations.</strong> Many publish their own magazines, newsletters or member bulletins, or work with publishers that cover the sector.</li><li><strong>Look at events.</strong> Conferences and trade shows often list media partners, which points to the titles active in that sector.</li><li><strong>Follow the quotes.</strong> Search for recent news in your sector and note where competitors, analysts and industry figures are quoted.</li><li><strong>Watch what buyers share.</strong> The articles your customers and peers share on LinkedIn are a good guide to what the sector reads.</li></ul>\n<p>Keep the list short. Three or four titles your buyers genuinely read are worth more than thirty that happen to mention your industry.</p>\n<h2 id=\"how-to-evaluate-a-trade-publication\">How to evaluate a trade publication</h2>\n<p>Not every sector website is a real publication, and not every real publication reaches buyers. Before you invest time, check a few things.</p>\n<ul><li><strong>Named journalists and editors.</strong> Bylines, a masthead page and an editor you can identify suggest a working editorial operation.</li><li><strong>Recent, original reporting.</strong> Look for news written in-house, not a feed of press releases published unchanged.</li><li><strong>Clear labelling.</strong> Sponsored and advertising content should be identifiable as such. If you cannot tell editorial from paid, neither can the reader.</li><li><strong>The right readers.</strong> Is it written for buyers and practitioners, or mainly for other vendors? Both exist, and they serve different goals.</li><li><strong>Audience claims.</strong> Media kits describe readership, but treat those figures as the publisher's own claims rather than independent verification.</li><li><strong>Search visibility.</strong> Check whether its articles are indexed and easy to find, because much of the lasting value comes from people searching your name later.</li></ul>\n<h2 id=\"what-trade-editors-want\">What trade editors want</h2>\n<p>Substance their readers can use. Trade editors usually know their sector well, and they spot a sales pitch quickly.</p>\n<ul><li><strong>Case studies with detail.</strong> A real problem, what was done and what changed, with the customer's approval to be named.</li><li><strong>Data.</strong> Figures from inside your business that say something about the sector, presented honestly.</li><li><strong>Practical expertise.</strong> Plain explainers on a change affecting the industry.</li><li><strong>Commentary.</strong> A credible, specific view when the sector is dealing with something new.</li></ul>\n<p>Some trade titles accept contributed articles from practitioners. Where they do, write for the reader, not for your brand. An article that reads like a brochure is unlikely to run, and does little if it does.</p>\n<h2 id=\"how-trade-press-fits-with-business-titles\">How trade press fits with business titles</h2>\n<p>Trade coverage and general business coverage do different jobs. Trade titles reach the buyers in a specific sector. Business titles reach founders, operators, investors and a broader business audience.</p>\n<p><a href=\"/get-featured-in/smartcompany\">SmartCompany</a>, for example, is an Australian business publication written for people running small and medium businesses. It has a staff newsroom, so coverage is earned. For a B2B brand selling to SMEs, it can sit naturally alongside sector trade press.</p>\n<p>Paid routes exist in trade press as elsewhere: advertising, sponsored content, directory listings and awards with entry fees. They can be legitimate, but they are not the same as an editor choosing to write about you, and they should be described accurately. For smaller businesses, our guide to <a href=\"/guides/pr-for-australian-small-business\">PR for Australian small businesses</a> covers the wider picture.</p>\n<h2 id=\"what-we-do\">What we do</h2>\n<p>Digital Networking Agency helps B2B brands identify the titles their buyers read, develop the technical or commercial story inside the business, and write and pitch it to editorial standard. You approve every word before anything is submitted.</p>\n<p>We tell you which route each opportunity is, and we never guarantee earned coverage. For a wider view of the market, see <a href=\"/pr-in/australia\">PR in Australia</a>.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Is trade press better than national press for B2B?</h3>\n<p>Often, for reaching buyers. A national masthead brings broad recognition, but a sector title your buyers read reaches the people making the decision. Most B2B brands benefit from both, usually in that order.</p>\n<h3>Can I pay to appear in a trade publication?</h3>\n<p>Many trade titles sell advertising and sponsored content, which should be labelled. Editorial coverage is the editor's decision.</p>\n<h3>How do I know if a trade title is worth pitching?</h3>\n<p>Check for named editors, recent original reporting, clear labelling of paid content and a readership of buyers rather than vendors. Asking your customers what they read is the quickest test.</p>",
+  "toc": [
+    {
+      "id": "why-trade-press-matters-for-b2b",
+      "text": "Why trade press matters for B2B"
+    },
+    {
+      "id": "how-to-find-trade-titles-in-your-sector",
+      "text": "How to find trade titles in your sector"
+    },
+    {
+      "id": "how-to-evaluate-a-trade-publication",
+      "text": "How to evaluate a trade publication"
+    },
+    {
+      "id": "what-trade-editors-want",
+      "text": "What trade editors want"
+    },
+    {
+      "id": "how-trade-press-fits-with-business-titles",
+      "text": "How trade press fits with business titles"
+    },
+    {
+      "id": "what-we-do",
+      "text": "What we do"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "For B2B brands, the titles buyers read for work often matter more than a general masthead.",
+    "Build your own list of trade titles by asking customers, checking associations and following where the sector is quoted.",
+    "Evaluate each title for named editors, original reporting and clear labelling before investing time."
+  ]
+},
+{
+  "slug": "why-canadian-newspapers-share-content",
+  "h1": "Why Canadian Newspapers Share Content",
+  "title": "Why Canadian Newspapers Share Content | DNA PR",
+  "description": "Why Canadian newspapers share content across titles, what it means when one story runs in several papers, and how to pitch so a local angle still lands.",
+  "body": "<p>Founders pitching Canadian media sometimes notice the same article appearing in more than one newspaper. It can look like a mistake or a coincidence. It is neither.</p>\n<p>Here is what shared content is, why it happens, and what it means for a pitch.</p>\n<h2 id=\"what-shared-content-means\">What shared content means</h2>\n<p>Several major Canadian dailies belong to the same newspaper group and share stories across titles. The Financial Post, National Post, Toronto Sun, Montreal Gazette and Vancouver Sun operate within a shared network where content can run across titles.</p>\n<p>In practice, a story written by a journalist at one paper can appear in another, sometimes unchanged, sometimes with a new headline, an edit for length or added local detail. Stories with national or business relevance have the most obvious reason to travel. A story whose value is purely local has less reason to.</p>\n<p>Which stories move, and when, are editorial decisions made inside the network. Nobody outside it controls them.</p>\n<h2 id=\"why-newspapers-share-content\">Why newspapers share content</h2>\n<p>Content sharing is common across the newspaper industry, and the reasons are practical.</p>\n<ul><li><strong>Efficiency.</strong> A national business or political story does not need to be reported separately for every city. Writing it once and running it in several papers frees local reporters for local news.</li><li><strong>Breadth.</strong> A city paper can offer its readers national and business coverage it might not produce alone.</li><li><strong>Specialism.</strong> A journalist with deep knowledge of a beat can serve readers across several titles.</li></ul>\n<p>None of this makes the papers identical. Each keeps its own city focus, its own local reporters and its own sense of what its readers care about. The Toronto Sun still writes for Torontonians, and the Montreal Gazette still covers Montreal and Quebec for an English-language readership.</p>\n<h2 id=\"what-it-means-for-a-pitch\">What it means for a pitch</h2>\n<h3>One story can travel</h3>\n<p>A story with national relevance, pitched well to the right desk, may reach readers beyond the paper that first runs it. That is a genuine advantage, and a reason to aim for substance over volume. It is also never guaranteed: whether a story runs elsewhere is an editorial decision.</p>\n<h3>A local angle still matters</h3>\n<p>Shared content does not make city papers interchangeable. A reporter at the Vancouver Sun is still looking for a British Columbia story, and a Montreal Gazette editor still wants a Montreal connection. A pitch with no local angle is no more likely to land because the papers share content.</p>\n<h3>Do not blast the network</h3>\n<p>Sending the same pitch to every title at once can work against you. Journalists within a network may see the same material, and several identical emails read as a mass mailing rather than a considered pitch. Choose the desk where the story is strongest, and pitch that one properly.</p>\n<h2 id=\"choosing-where-to-pitch\">Choosing where to pitch</h2>\n<p>Start with the level of the story.</p>\n<ul><li><strong>National business consequence.</strong> A business desk such as the Financial Post, which covers markets and the economy for readers across Canada.</li><li><strong>National argument or policy.</strong> A national title such as the <a href=\"/get-featured-in/national-post\">National Post</a>, through its news or opinion pages.</li><li><strong>City impact.</strong> The paper serving the city where it is happening. Name the neighbourhood, the people affected and what changes.</li></ul>\n<p>If a story has both a national and a local dimension, lead with whichever is genuinely stronger. Tailor the angle to each desk you approach rather than sending one version everywhere. Our guide to <a href=\"/guides/how-to-get-featured-in-montreal-gazette\">getting featured in the Montreal Gazette</a> shows how much a local angle changes a pitch.</p>\n<h2 id=\"describing-coverage-accurately\">Describing coverage accurately</h2>\n<p>When a story runs in several papers, it is one story, not several separate features. Count it and describe it that way.</p>\n<ul><li>Name the paper that originally published it, and check the byline and credit line on each version.</li><li>Link to the live articles rather than listing mastheads you have not checked.</li><li>Do not present a story that ran across titles as though each paper independently chose to cover you.</li></ul>\n<p>Precision matters because the people you want to impress, including other journalists, can check. Accurate descriptions protect the credibility the coverage was meant to build.</p>\n<h2 id=\"what-we-do\">What we do</h2>\n<p>Digital Networking Agency helps you decide whether a story is national or local, develops the angle for the desk where it is strongest and writes it to editorial standard. You approve every word before anything is submitted.</p>\n<p>We do not sell placements in staff-written Canadian newspapers, and we cannot control whether a story travels across titles. For a wider view of the market, see <a href=\"/pr-in/canada\">PR in Canada</a> and our guide to <a href=\"/guides/how-to-get-press-in-canada\">getting press in Canada</a>.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>If my story runs in one paper, will it appear in the others?</h3>\n<p>Not necessarily. Content can run across titles, but whether it does is an editorial decision made inside the network. Nobody outside it can promise that a story will travel.</p>\n<h3>Should I pitch every paper in the network?</h3>\n<p>Not with the same pitch at the same time. Choose the desk where the story is strongest and tailor the angle. A genuinely different local story for a different city is a separate pitch.</p>\n<h3>Does shared content mean the papers are the same?</h3>\n<p>No. Each keeps its own city focus, local reporters and editorial judgement about what its readers need. Shared stories sit alongside local reporting rather than replacing it.</p>",
+  "toc": [
+    {
+      "id": "what-shared-content-means",
+      "text": "What shared content means"
+    },
+    {
+      "id": "why-newspapers-share-content",
+      "text": "Why newspapers share content"
+    },
+    {
+      "id": "what-it-means-for-a-pitch",
+      "text": "What it means for a pitch"
+    },
+    {
+      "id": "choosing-where-to-pitch",
+      "text": "Choosing where to pitch"
+    },
+    {
+      "id": "describing-coverage-accurately",
+      "text": "Describing coverage accurately"
+    },
+    {
+      "id": "what-we-do",
+      "text": "What we do"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Several major Canadian dailies share content across titles, so one strong story can travel.",
+    "A local angle still decides whether a city desk takes a pitch.",
+    "Pitch the desk where the story is strongest, and describe coverage that ran across titles as one story."
+  ]
 }
 ];
 

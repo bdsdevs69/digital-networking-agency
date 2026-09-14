@@ -27,8 +27,27 @@ export default function GuidesIndex() {
   // the topical structure is legible to search engines.
   const outletGuideSlugs = new Set(OUTLETS.map((o) => o.guideSlug));
   const isOutlet = (s: string) => outletGuideSlugs.has(s);
+  const REGIONAL = new Set([
+    "how-to-get-press-in-australia",
+    "how-to-get-press-in-canada",
+    "pr-for-australian-small-business",
+    "pr-for-canadian-small-business",
+    "australian-trade-publications-for-b2b",
+    "why-canadian-newspapers-share-content",
+  ]);
+  const VISA = new Set([
+    "eb1a-published-material-requirement",
+    "o1-vs-eb1a-press-requirements",
+    "what-counts-as-major-media-for-uscis",
+    "when-to-start-press-for-a-visa-petition",
+  ]);
+  const isRegional = (s: string) => REGIONAL.has(s);
+  const isVisa = (s: string) => VISA.has(s);
   const isIndustry = (s: string) =>
-    s.startsWith("how-to-get-press") || s === "how-to-build-a-personal-brand-with-press";
+    !isRegional(s) &&
+    (s.startsWith("how-to-get-press") ||
+      s === "how-to-build-a-personal-brand-with-press" ||
+      s === "white-label-pr-for-agencies");
 
   const SECTIONS = [
     {
@@ -47,7 +66,21 @@ export default function GuidesIndex() {
       name: "How PR actually works",
       blurb:
         "Costs, terminology, vetting an agency, and the questions worth asking before you pay anyone.",
-      guides: GUIDES.filter((g) => !isOutlet(g.slug) && !isIndustry(g.slug)),
+      guides: GUIDES.filter(
+        (g) => !isOutlet(g.slug) && !isIndustry(g.slug) && !isRegional(g.slug) && !isVisa(g.slug)
+      ),
+    },
+    {
+      name: "PR by country",
+      blurb:
+        "How press works in the UK, Australia, Canada and the Gulf, and what a realistic route in looks like.",
+      guides: GUIDES.filter((g) => isRegional(g.slug)),
+    },
+    {
+      name: "Press for visa applicants",
+      blurb:
+        "What published material can and cannot do for an EB-1A or O-1 petition. Your immigration attorney decides what to file.",
+      guides: GUIDES.filter((g) => isVisa(g.slug)),
     },
   ];
 

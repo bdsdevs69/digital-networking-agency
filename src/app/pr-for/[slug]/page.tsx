@@ -131,6 +131,10 @@ export default async function ServicePage({
     authors: "how-to-get-press-as-an-author",
     speakers: "how-to-get-press-as-a-speaker",
     "personal-brands": "how-to-build-a-personal-brand-with-press",
+    agencies: "white-label-pr-for-agencies",
+    artists: "how-to-get-press-as-an-artist",
+    "actors-and-filmmakers": "how-to-get-press-as-an-actor-or-filmmaker",
+    nonprofits: "how-to-get-press-for-your-nonprofit",
   };
   const primary = GUIDES.find((g) => g.slug === GUIDE_FOR_SERVICE[service.slug]);
   const related = [

@@ -269,3 +269,17 @@
     padding: 24px 20px 10px;
   }
 }
+
+.hubLink {
+  display: inline-block;
+  margin: -8px 0 18px;
+  font-family: "DM Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--lime);
+  text-decoration: none;
+}
+.hubLink:hover {
+  text-decoration: underline;
+}

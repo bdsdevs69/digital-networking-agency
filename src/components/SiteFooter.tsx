@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "./SiteFooter.module.css";
+import { GLOSSARY } from "@/content/glossary";
 
 const WHATSAPP = "https://wa.me/13302276337";
 const INSTAGRAM = "https://instagram.com/dnateams";
@@ -89,7 +90,9 @@ export function SiteFooter() {
           <Link href="/reviews">Reviews</Link>
           <Link href="/get-featured-in">Get Featured</Link>
           <Link href="/pr-for">Industries</Link>
+          <Link href="/pr-in">PR by Country</Link>
           <Link href="/guides">Guides</Link>
+          {GLOSSARY ? <Link href="/glossary">Glossary</Link> : null}
           <Link href="/contact" className={styles.cta}>
             Get Featured Now <span aria-hidden="true">→</span>
           </Link>

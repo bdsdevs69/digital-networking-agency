@@ -465,7 +465,159 @@ export const SERVICES: Service[] = [
       "Press is the only asset you do not control that vouches for you.",
       "Coverage outlasts algorithms in a way social content does not."
     ]
-  }
+  },
+{
+  "slug": "agencies",
+  "h1": "PR for Agencies",
+  "title": "PR for Agencies | Digital Networking Agency",
+  "description": "White-label PR for marketing and creative agencies — press delivered under your own brand, how it works, and what we will and will not promise.",
+  "body": "<p>Your clients keep asking about press. You can build a PR function from scratch, turn the request down, or work with a partner who delivers it quietly behind your brand.</p>\n<p>The third option is what white-label PR is for.</p>\n<h2 id=\"what-white-label-pr-means\">What white-label PR means</h2>\n<p>You own the client relationship. We do the story development, writing and placement work, and the output is presented under your agency's name rather than ours.</p>\n<p>Your client deals with you. You set the price, manage expectations and report results. We sit behind that as an extension of your team, not as a second supplier competing for the account.</p>\n<h2 id=\"why-agencies-add-press\">Why agencies add press to their offer</h2>\n<p>Press sits naturally beside the work you already sell. A rebrand, a new website or a launch campaign lands harder when there is published coverage for prospects to find when they search the client's name.</p>\n<p>It also keeps the budget inside your agency. When a client goes elsewhere for PR, the new supplier can end up pitching for the rest of the account too.</p>\n<p>And it is hard to build in-house. Editorial relationships, a working knowledge of which publications accept which kinds of story, and the ability to write to an editor's standard take years to develop.</p>\n<h2 id=\"what-most-agencies-get-wrong\">What most agencies get wrong</h2>\n<p>They promise the client a logo before anyone has looked at the story.</p>\n<p>Earned editorial is an editor's decision, and nobody controls it — not you, and not us. An agency selling a guaranteed feature in a named top-tier title is either selling a paid or contributor route without saying so, or selling something it cannot deliver. Either way, it comes back on the agency whose name is on the invoice.</p>\n<p>The safer approach is to sell the work: angle development, writing and outreach, with each route described accurately to the client before they commit.</p>\n<h2 id=\"where-we-place-agency-clients\">Where we place stories for agency clients</h2>\n<p>That depends on who the end client is. We work across business, general-interest and sector publications, including MSN, Yahoo Finance, CEO Weekly, NY Weekly and Digital Journal, and pitch toward larger names such as Entrepreneur where the story supports it.</p>\n<p>We tell you which route each placement uses — earned, contributor or paid — so you can describe it to your client correctly.</p>\n<h2 id=\"how-it-works\">How it works</h2>\n<p>You brief us on the client and the goal. We develop the angle and write the piece to editorial standard. You review it, share it with your client in your own format, and pass back any revisions. Nothing publishes without approval.</p>\n<p>Confidentiality, branding, reporting and commercial terms are agreed per engagement, in writing, before work starts. The right arrangement depends on your volume and the kind of clients you serve, so we do not assume a standard one.</p>\n<p>For the detail, read our guide to <a href=\"/guides/white-label-pr-for-agencies\">white-label PR for agencies</a>, or <a href=\"/contact\">get in touch</a> to talk through a specific client.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Will my client know you are involved?</h3>\n<p>That is one of the first things we agree with you. White-label work is normally presented under the agency's own brand, and we set each engagement up around what you need, confirmed in writing rather than assumed.</p>\n<h3>Can we guarantee placements to our clients?</h3>\n<p>Not for earned editorial, and we would advise against trying. Paid and contributor routes can be confirmed in advance, but they should be described to the client as what they are.</p>\n<h3>How much margin can we add?</h3>\n<p>That is your commercial decision. We agree our terms with you per engagement, and how you price the service to your own clients is up to you.</p>",
+  "toc": [
+    {
+      "id": "what-white-label-pr-means",
+      "text": "What white-label PR means"
+    },
+    {
+      "id": "why-agencies-add-press",
+      "text": "Why agencies add press to their offer"
+    },
+    {
+      "id": "what-most-agencies-get-wrong",
+      "text": "What most agencies get wrong"
+    },
+    {
+      "id": "where-we-place-agency-clients",
+      "text": "Where we place stories for agency clients"
+    },
+    {
+      "id": "how-it-works",
+      "text": "How it works"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "White-label PR lets your agency offer press under its own brand while a partner does the work.",
+    "Sell the work and describe each route accurately — never promise a client earned editorial.",
+    "Confidentiality, branding and commercial terms are agreed in writing for each engagement."
+  ]
+},
+{
+  "slug": "artists",
+  "h1": "PR for Artists",
+  "title": "PR for Artists | Digital Networking Agency",
+  "description": "Press coverage for visual artists and musicians — the difference between earned reviews and paid features, where we place artists, and how it works.",
+  "body": "<p>A curator, a booker, a collector or a label hears your name once. Then they search it.</p>\n<p>What comes back shapes whether they take the next step.</p>\n<h2 id=\"why-press-works-for-artists\">Why press works for artists</h2>\n<p>Creative work is judged partly on the work and partly on its context: who has written about it, how it has been described, and whether anyone outside your own circle has taken it seriously.</p>\n<p>Social media shows that you make things. Published coverage shows that someone with an editorial platform decided the work was worth their readers' time. For galleries, venues, festivals and commissioning clients, that context does a great deal of quiet work.</p>\n<h2 id=\"earned-reviews-versus-paid-features\">Earned reviews versus paid features</h2>\n<p>This is the distinction that matters most, and it is often blurred.</p>\n<p><strong>Earned coverage</strong> — a review, an interview, a premiere, a place in a round-up — is an editor's or critic's decision. Music and arts desks are selective, receive far more submissions than they can cover, and nobody can guarantee a review or its verdict.</p>\n<p><strong>Paid and agency-placed features</strong> are profiles written about you and placed in a publication that accepts them. They are useful and permanent, but they are not criticism, and they should never be presented as a critic's endorsement.</p>\n<p>Both have a place. We tell you which one you are getting before anything is written.</p>\n<h2 id=\"what-most-artists-get-wrong\">What most artists get wrong</h2>\n<p>They send the work and wait for it to speak for itself.</p>\n<p>Editors need a reason to cover it now, and a way in for readers who have never heard of you. A release, an exhibition opening, a collaboration, a shift in your practice, a subject your work addresses that is already being discussed.</p>\n<p>The work is the substance. The angle is what gets it read.</p>\n<h2 id=\"where-we-place-artists\">Where we place artists</h2>\n<p>Creative and culture publications including <a href=\"/get-featured-in/artist-weekly\">Artist Weekly</a> and Famous Times, alongside general-interest titles such as LA Wire. For music and culture stories with genuine weight, we pitch mastheads such as Rolling Stone UK and Rolling Stone Australia, where coverage is earned and remains the editors' decision.</p>\n<p>A painter preparing a first solo show and a musician releasing a record need different rooms, and we will tell you which suit your work.</p>\n<h2 id=\"how-it-works\">How it works</h2>\n<p>Share your work, what is coming up and who you want to reach. We develop the angle, write the piece to editorial standard and manage placement. You review and revise until it is right, and nothing publishes without your approval.</p>\n<p>For a fuller picture of how arts and music coverage works, read <a href=\"/guides/how-to-get-press-as-an-artist\">how to get press as an artist</a>.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Can you get my album or exhibition reviewed?</h3>\n<p>We can pitch it to the writers who cover your kind of work, with the materials they expect. Whether it is reviewed, and what the review says, is the publication's decision.</p>\n<h3>I do not have a big following. Is it too early?</h3>\n<p>No. Editors cover work and stories, not follower counts. What helps is something specific to point to — a release, a show, or a project with a clear idea behind it.</p>\n<h3>Can I use a feature in my press kit?</h3>\n<p>Yes. Link it from your website, portfolio or EPK, and describe it accurately. A profile is not a review, and presenting it honestly protects the credibility it gives you.</p>",
+  "toc": [
+    {
+      "id": "why-press-works-for-artists",
+      "text": "Why press works for artists"
+    },
+    {
+      "id": "earned-reviews-versus-paid-features",
+      "text": "Earned reviews versus paid features"
+    },
+    {
+      "id": "what-most-artists-get-wrong",
+      "text": "What most artists get wrong"
+    },
+    {
+      "id": "where-we-place-artists",
+      "text": "Where we place artists"
+    },
+    {
+      "id": "how-it-works",
+      "text": "How it works"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Earned reviews and interviews are an editor's decision; paid features are a different product.",
+    "The work is the substance, but a timely angle is what gets it covered.",
+    "Describe every placement accurately — a profile is not a review."
+  ]
+},
+{
+  "slug": "actors-and-filmmakers",
+  "h1": "PR for Actors and Filmmakers",
+  "title": "PR for Actors and Filmmakers | Digital Networking Agency",
+  "description": "Press for actors and filmmakers — building a credible public record around your work, what trade coverage involves, and where we place features.",
+  "body": "<p>Casting directors, producers, festival programmers and financiers all look you up. Usually before a meeting, sometimes instead of one.</p>\n<p>What they find is part of how they read you.</p>\n<h2 id=\"why-press-works-for-screen-talent\">Why press works for screen talent</h2>\n<p>A showreel and a list of credits tell people what you have done. Published coverage tells them how the work has been received, and gives a sense of who you are beyond a headshot.</p>\n<p>For a filmmaker taking a project to festivals or looking for finance, a searchable record of interviews and features makes the project easier to take seriously. For an actor between roles, it keeps the name connected to the work.</p>\n<h2 id=\"earned-coverage-and-paid-features\">Earned coverage and paid features</h2>\n<p>Reviews, trade news and festival coverage are editorial decisions. The entertainment trades are staffed by journalists covering the business of the industry, they are selective, and no agency can place a story there on demand.</p>\n<p>Profiles and features placed in general-interest and personality publications are a different product. They are permanent and useful, but they are not reviews, and they should be described accurately.</p>\n<p>We are clear about which route a piece uses before anything is written.</p>\n<h2 id=\"what-most-actors-and-filmmakers-get-wrong\">What most actors and filmmakers get wrong</h2>\n<p>They wait for the premiere.</p>\n<p>By then every other project is pitching the same week, and a name with no existing coverage is harder for an editor to place. The record is better built earlier: the interview about how the project came together, the profile around a festival selection, the piece on the subject the film tackles.</p>\n<p>For formal trade announcements — casting, financing, distribution — a specialist screen publicist is often the better call. We will say so.</p>\n<h2 id=\"where-we-place-actors-and-filmmakers\">Where we place actors and filmmakers</h2>\n<p>Features and profiles in publications such as Famous Times and LA Wire, and culture titles such as Rolling Stone UK where the story fits.</p>\n<p>For trade press, including <a href=\"/get-featured-in/variety-australia\">Variety Australia</a> and The Hollywood Reporter, we build the positioning and wider record that make coverage plausible, and pitch where there is a genuine story. Staff coverage in those titles remains the journalists' decision.</p>\n<h2 id=\"how-it-works\">How it works</h2>\n<p>Share your work, what is coming up and who needs to notice. We develop the angle, write to editorial standard and manage placement. You review and revise until it is right, and nothing publishes without your approval.</p>\n<p>For the detail on trades, festivals and reviews, read <a href=\"/guides/how-to-get-press-as-an-actor-or-filmmaker\">how to get press as an actor or filmmaker</a>.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Can you get me into the big entertainment trades?</h3>\n<p>Not on demand, and anyone promising that is overstating what they control. We can build the record and the story that make trade coverage realistic, and tell you honestly when it is not yet.</p>\n<h3>Does press help with casting?</h3>\n<p>It will not book the role. It means that when someone searches your name, they find substance about your work rather than nothing, which helps the conversations that do.</p>\n<h3>Should I wait until my film is released?</h3>\n<p>Usually not. Coverage during development, production and the festival run builds the record that makes release coverage easier to earn.</p>",
+  "toc": [
+    {
+      "id": "why-press-works-for-screen-talent",
+      "text": "Why press works for screen talent"
+    },
+    {
+      "id": "earned-coverage-and-paid-features",
+      "text": "Earned coverage and paid features"
+    },
+    {
+      "id": "what-most-actors-and-filmmakers-get-wrong",
+      "text": "What most actors and filmmakers get wrong"
+    },
+    {
+      "id": "where-we-place-actors-and-filmmakers",
+      "text": "Where we place actors and filmmakers"
+    },
+    {
+      "id": "how-it-works",
+      "text": "How it works"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Entertainment trades are selective and staff-written, and no agency can place a story there on demand.",
+    "Build the record during development and festivals, not only at release.",
+    "A searchable body of interviews and features gives casting and financing conversations substance."
+  ]
+},
+{
+  "slug": "nonprofits",
+  "h1": "PR for Nonprofits",
+  "title": "PR for Nonprofits | Digital Networking Agency",
+  "description": "Press coverage for charities and nonprofits — mission-led story angles, impact stories editors use, and how coverage supports credibility with donors.",
+  "body": "<p>A potential donor, a grant officer or a corporate partner rarely commits after a first conversation. They go away and look you up.</p>\n<p>Coverage is part of what they find.</p>\n<h2 id=\"why-press-works-for-nonprofits\">Why press works for nonprofits</h2>\n<p>People giving money want to know it is going somewhere credible. Your website and annual report make that case, but they are your own words.</p>\n<p>Independent coverage adds a view from outside. It can support fundraising conversations, help a partnership proposal land, recruit volunteers and trustees, and reassure the people you serve that you are established. It will not raise money on its own, and it should not be sold to a board as if it will.</p>\n<h2 id=\"what-most-nonprofits-get-wrong\">What most nonprofits get wrong</h2>\n<p>They pitch the organisation.</p>\n<p>An editor will not run a piece because a charity exists and does good work. What gets published is a story: one person whose situation illustrates a wider problem, told with their consent; a finding from your own work that nobody else has; a change in policy your front-line experience lets you explain.</p>\n<p>Lead with the issue. The organisation is the credible source inside it.</p>\n<h2 id=\"stories-editors-publish\">Stories editors publish</h2>\n<ul><li><strong>Mission-led stories.</strong> Why the problem you work on matters now, told through a specific angle rather than a general appeal.</li><li><strong>Data and impact stories.</strong> What your programmes have actually measured, reported accurately and with the method explained. Real figures from your own records, never rounded up.</li><li><strong>Expert commentary.</strong> Your leadership explaining a development in your field while it is already in the news.</li><li><strong>Milestones with meaning.</strong> An anniversary, a new programme or a partnership, framed around what changes for the people you serve.</li></ul>\n<h2 id=\"where-we-place-nonprofit-clients\">Where we place nonprofit clients</h2>\n<p>General-interest and business publications where donors, partners and supporters read, including <a href=\"/get-featured-in/msn\">MSN</a>, US Reporter, NY Weekly, Women's Journal and Digital Journal, with sector titles such as Healthcare Business Today where the work fits.</p>\n<p>Which one suits you depends on who you need to reach. A community health charity and an arts education trust need different rooms.</p>\n<h2 id=\"how-it-works\">How it works</h2>\n<p>Share your mission, your recent work and who you need to reach. We develop the angle, write the piece to editorial standard and manage placement. You review and revise until it is right, and nothing publishes without your approval.</p>\n<p>For the detail on angles, consent and impact data, read <a href=\"/guides/how-to-get-press-for-your-nonprofit\">how to get press for your nonprofit</a>.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Will press increase our donations?</h3>\n<p>It can support fundraising by making you easier to trust when someone researches you, but it does not guarantee any increase. Treat it as credibility that helps your other work land.</p>\n<h3>Can we feature the people we support?</h3>\n<p>Only with informed consent, and with care for how they are portrayed. Many strong nonprofit stories are built on patterns across your work rather than one person's circumstances.</p>\n<h3>We are a small organisation. Is it worth it?</h3>\n<p>Size matters less than having a clear story. A small charity with a specific insight into a local problem often has a better angle than a large one with a general appeal.</p>",
+  "toc": [
+    {
+      "id": "why-press-works-for-nonprofits",
+      "text": "Why press works for nonprofits"
+    },
+    {
+      "id": "what-most-nonprofits-get-wrong",
+      "text": "What most nonprofits get wrong"
+    },
+    {
+      "id": "stories-editors-publish",
+      "text": "Stories editors publish"
+    },
+    {
+      "id": "where-we-place-nonprofit-clients",
+      "text": "Where we place nonprofit clients"
+    },
+    {
+      "id": "how-it-works",
+      "text": "How it works"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Press supports fundraising credibility; it does not raise money on its own.",
+    "Lead with the issue and your real impact data, and let the organisation be the credible source.",
+    "Feature the people you serve only with informed consent."
+  ]
+}
 ];
 
 export const getService = (slug: string) => SERVICES.find((s) => s.slug === slug);

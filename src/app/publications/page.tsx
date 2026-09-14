@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 
 // Publications named across the site (package tiers, press wall, client
 // placements). Outlets with their own landing page are linked automatically.
-const CATEGORIES: { name: string; blurb: string; items: string[] }[] = [
+const CATEGORIES: { name: string; blurb: string; items: string[]; hub?: string }[] = [
   {
     name: "National & mainstream",
     blurb: "Names your customers recognise without explanation.",
@@ -125,6 +125,7 @@ const CATEGORIES: { name: string; blurb: string; items: string[] }[] = [
   },
   {
     name: "United Kingdom",
+    hub: "/pr-in/uk",
     blurb: "UK national media, plus the licensed British editions of international titles.",
     items: [
       "The Independent",
@@ -134,6 +135,7 @@ const CATEGORIES: { name: string; blurb: string; items: string[] }[] = [
   },
   {
     name: "Middle East",
+    hub: "/pr-in/uae",
     blurb:
       "Gulf business and lifestyle media \u2014 useful if your market is the UAE, Saudi Arabia or the wider region.",
     items: [
@@ -148,6 +150,7 @@ const CATEGORIES: { name: string; blurb: string; items: string[] }[] = [
   },
   {
     name: "Australia",
+    hub: "/pr-in/australia",
     blurb: "Australian mastheads and the licensed Australian editions of global brands.",
     items: [
       "Forbes Australia",
@@ -162,6 +165,7 @@ const CATEGORIES: { name: string; blurb: string; items: string[] }[] = [
   },
   {
     name: "Canada",
+    hub: "/pr-in/canada",
     blurb: "National business titles and the city papers that carry weight locally.",
     items: [
       "Financial Post",
@@ -232,6 +236,11 @@ export default function PublicationsPage() {
             <div className={styles.catHead}>
               <h2>{cat.name}</h2>
               <p>{cat.blurb}</p>
+              {cat.hub ? (
+                <Link href={cat.hub} className={styles.hubLink}>
+                  How PR works in {cat.name} <span aria-hidden="true">&rarr;</span>
+                </Link>
+              ) : null}
             </div>
             <ul className={styles.pubs}>
               {cat.items.map((name) => {

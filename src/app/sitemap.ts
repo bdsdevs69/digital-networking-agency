@@ -4,6 +4,9 @@ import { guideDates } from "@/content/guideDates";
 import { SERVICES } from "@/content/services";
 import { OUTLETS } from "@/content/outlets";
 import { CASE_STUDIES } from "@/content/caseStudies";
+import { REGIONS } from "@/content/regions";
+import { VISA_PAGE, TOP_LISTS_PAGE } from "@/content/landings";
+import { GLOSSARY } from "@/content/glossary";
 
 const SITE = "https://www.digitalnetworkingagency.com";
 
@@ -19,6 +22,7 @@ const UPDATED = {
   cases: new Date("2026-07-10"),
   reviews: new Date("2026-08-11"),
   contact: new Date("2026-08-11"),
+  hubs: new Date("2026-09-15"),
 };
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -145,5 +149,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...guideRoutes, ...serviceRoutes, ...outletRoutes, ...caseRoutes];
+  // Country hubs and standalone landings only enter the sitemap once their
+  // content exists, so an empty collection never publishes a 404 URL.
+  const hubRoutes: MetadataRoute.Sitemap = [
+    ...(REGIONS.length ? [`${SITE}/pr-in`, ...REGIONS.map((r) => `${SITE}/pr-in/${r.slug}`)] : []),
+    ...(VISA_PAGE ? [`${SITE}/pr-for-eb1a-o1-visa`] : []),
+    ...(TOP_LISTS_PAGE ? [`${SITE}/get-featured-in-top-lists`] : []),
+    ...(GLOSSARY ? [`${SITE}/glossary`] : []),
+  ].map((url) => ({
+    url,
+    lastModified: UPDATED.hubs,
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
+  return [...staticRoutes, ...hubRoutes, ...guideRoutes, ...serviceRoutes, ...outletRoutes, ...caseRoutes];
 }

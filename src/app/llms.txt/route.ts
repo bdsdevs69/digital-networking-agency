@@ -1,6 +1,9 @@
 import { GUIDES } from "@/content/guides";
 import { OUTLETS } from "@/content/outlets";
 import { SERVICES } from "@/content/services";
+import { REGIONS } from "@/content/regions";
+import { VISA_PAGE, TOP_LISTS_PAGE } from "@/content/landings";
+import { GLOSSARY } from "@/content/glossary";
 
 const SITE = "https://www.digitalnetworkingagency.com";
 
@@ -41,12 +44,22 @@ export function GET() {
   lines.push(`- [Case studies](${SITE}/case-studies): Real client placements with links to the live articles.`);
   lines.push(`- [Reviews](${SITE}/reviews): Verified Trustpilot reviews.`);
   lines.push(`- [Contact](${SITE}/contact): Enquiry form.`);
+  if (VISA_PAGE) lines.push(`- [${VISA_PAGE.h1}](${SITE}/pr-for-eb1a-o1-visa): ${VISA_PAGE.description}`);
+  if (TOP_LISTS_PAGE) lines.push(`- [${TOP_LISTS_PAGE.h1}](${SITE}/get-featured-in-top-lists): ${TOP_LISTS_PAGE.description}`);
+  if (GLOSSARY) lines.push(`- [${GLOSSARY.h1}](${SITE}/glossary): ${GLOSSARY.description}`);
   lines.push("");
   lines.push("## Get featured in a specific publication");
   for (const o of OUTLETS) {
     lines.push(`- [${o.name}](${SITE}/get-featured-in/${o.slug}): ${o.subhead}`);
   }
   lines.push("");
+  if (REGIONS.length) {
+    lines.push("## PR by country");
+    for (const r of REGIONS) {
+      lines.push(`- [${r.h1}](${SITE}/pr-in/${r.slug}): ${r.description}`);
+    }
+    lines.push("");
+  }
   lines.push("## PR by industry");
   for (const s of SERVICES) {
     lines.push(`- [${s.h1}](${SITE}/pr-for/${s.slug}): ${s.description}`);
