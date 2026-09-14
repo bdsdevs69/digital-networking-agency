@@ -5,6 +5,7 @@ import { GUIDES, getGuide } from "@/content/guides";
 import styles from "../guides.module.css";
 import { ProofCards } from "../ProofCards";
 import { clampDescription, clampTitle } from "@/lib/meta";
+import { guideDates, formatGuideDate } from "@/content/guideDates";
 
 const SITE = "https://www.digitalnetworkingagency.com";
 const AUTHOR = "Sam Harris";
@@ -101,7 +102,7 @@ export default async function GuidePage({
   if (!guide) notFound();
 
   const url = `${SITE}/guides/${guide.slug}`;
-  const updated = "2026-08-09";
+  const { published, modified } = guideDates(guide.slug);
   const [bodyTop, bodyRest] = splitBody(guide.body);
 
   const faqs = extractFaq(guide.body);
@@ -114,8 +115,14 @@ export default async function GuidePage({
       headline: guide.h1,
       description: clampDescription(guide.description),
       mainEntityOfPage: { "@type": "WebPage", "@id": url },
-      datePublished: updated,
-      dateModified: updated,
+      image: {
+        "@type": "ImageObject",
+        url: `${url}/opengraph-image`,
+        width: 1200,
+        height: 630,
+      },
+      datePublished: published,
+      dateModified: modified,
       inLanguage: "en-US",
       author: {
         "@type": "Person",
@@ -155,7 +162,7 @@ export default async function GuidePage({
         postalCode: "44721",
         addressCountry: "US",
       },
-      sameAs: ["https://instagram.com/dnateams"],
+      sameAs: ["https://www.instagram.com/dnateams/"],
     },
     ...(faqs.length
       ? [
@@ -191,9 +198,23 @@ export default async function GuidePage({
         <header className={styles.header}>
           <h1>{guide.h1}</h1>
           <p className={styles.byline}>
-            By {AUTHOR}, Digital Networking Agency · Last updated 9 August 2026
+            By {AUTHOR}, Digital Networking Agency ·{" "}
+            <time dateTime={modified}>
+              {modified === published ? "Published" : "Updated"} {formatGuideDate(modified)}
+            </time>
           </p>
         </header>
+
+        <figure className={styles.cover}>
+          <img
+            src={`/guides/${guide.slug}/opengraph-image`}
+            alt={`${guide.h1} — DNA PR guide`}
+            width={1200}
+            height={630}
+            fetchPriority="high"
+            decoding="async"
+          />
+        </figure>
 
         {guide.toc.length > 1 ? (
           <nav className={styles.toc} aria-label="On this page">

@@ -111,7 +111,7 @@ export default async function OutletLanding({
       logo: `${SITE}/black_logo.png`,
       telephone: "+1-330-227-6337",
       email: "sam@digitalnetworkingagency.com",
-      sameAs: ["https://instagram.com/dnateams"],
+      sameAs: ["https://www.instagram.com/dnateams/"],
     },
   ];
 
@@ -135,7 +135,7 @@ export default async function OutletLanding({
           {/* The full "Get featured in <Outlet>" phrase lives inside the H1 so
               the target query is in the heading; the kicker is styled, not split out. */}
           <h1>
-            <span className={styles.kicker}>Get featured in</span>
+            <span className={styles.kicker}>Get featured in</span>{" "}
             {o.name}
           </h1>
           <p className={styles.subhead}>{o.subhead}</p>

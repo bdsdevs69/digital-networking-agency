@@ -6,7 +6,8 @@ import Link from "next/link";
 import { GuidesCarousel } from "./GuidesCarousel";
 import { GUIDES } from "@/content/guides";
 
-export function HeroSection() {
+export async function HeroSection() {
+  const tp = await getTrustpilotData();
   return (
     <section className="hero" id="top">
       <div className="hero-orb1" />
@@ -55,7 +56,7 @@ export function HeroSection() {
           </div>
           <div className="hero-badge hero-badge--b">
             <span className="hero-stars">★★★★★</span>
-            <div className="hero-badge-lbl">Rated 5.0 by Clients</div>
+            <div className="hero-badge-lbl">Rated {tp.score.toFixed(1)} on Trustpilot</div>
           </div>
         </div>
       </div>

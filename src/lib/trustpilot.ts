@@ -55,8 +55,8 @@ const SEED_REVIEWS: TpReview[] = [
 ];
 
 const SEED: TpData = {
-  score: 4.6,
-  count: 24,
+  score: 4.7,
+  count: 32,
   reviews: SEED_REVIEWS,
   profileUrl: PROFILE_URL,
 };

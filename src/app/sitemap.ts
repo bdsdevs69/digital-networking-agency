@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { GUIDES } from "@/content/guides";
+import { guideDates } from "@/content/guideDates";
 import { SERVICES } from "@/content/services";
 import { OUTLETS } from "@/content/outlets";
 import { CASE_STUDIES } from "@/content/caseStudies";
@@ -118,7 +119,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const guideRoutes: MetadataRoute.Sitemap = GUIDES.map((guide) => ({
     url: `${SITE}/guides/${guide.slug}`,
-    lastModified: UPDATED.guides,
+    lastModified: new Date(guideDates(guide.slug).modified),
     changeFrequency: "monthly",
     priority: 0.7,
   }));

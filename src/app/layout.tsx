@@ -82,7 +82,9 @@ export default function RootLayout({
           "Media Placements"
         ],
         sameAs: [
-          "https://instagram.com/dnateams",
+          "https://www.instagram.com/dnateams/",
+          "https://www.linkedin.com/company/digital-networking-agency-dna",
+          "https://clutch.co/profile/digital-networking-agency",
           "https://www.trustpilot.com/review/digitalnetworkingagency.com"
         ],
         contactPoint: {

@@ -766,3 +766,19 @@
   margin: 0 0 22px;
   max-width: 620px;
 }
+
+/* Cover image: the same generated card as og:image, shown in-content so it
+   is indexable by Google Images. */
+.cover {
+  margin: 28px 0 8px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(143, 255, 0, 0.18);
+  background: #0f1015;
+}
+.cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1200 / 630;
+}

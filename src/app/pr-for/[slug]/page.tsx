@@ -110,7 +110,7 @@ export default async function ServicePage({
         postalCode: "44721",
         addressCountry: "US",
       },
-      sameAs: ["https://instagram.com/dnateams"],
+      sameAs: ["https://www.instagram.com/dnateams/"],
     },
   ];
 
