@@ -160,13 +160,10 @@ export default async function OutletLanding({
           <p className={styles.subhead}>{o.subhead}</p>
           <p className={styles.value}>{o.value}</p>
           <div className={styles.heroCtas}>
-            <a
-              className={styles.btnPrimary}
-              href={BOOKING}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Get featured in {o.name} <span aria-hidden="true">&rarr;</span>
+            {/* Scrolls to the form on this page. It used to open /contact in a
+                new tab, which took ad traffic away from the form it had landed on. */}
+            <a className={styles.btnPrimary} href="#enquire">
+              Get featured in {o.name} <span aria-hidden="true">&darr;</span>
             </a>
             <Link className={styles.btnGhost} href={`/guides/${o.guideSlug}`}>
               Read the full guide
