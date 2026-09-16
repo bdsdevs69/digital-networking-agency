@@ -5786,6 +5786,158 @@ export const GUIDES: Guide[] = [
     "Its value is a permanent profile that appears when someone searches your name.",
     "A story with a decision and a lesson beats a list of achievements."
   ]
+},
+{
+  "slug": "how-to-get-featured-in-entrepreneur-today",
+  "h1": "How to Get Featured in Entrepreneur Today",
+  "title": "How to Get Featured in Entrepreneur Today | DNA PR",
+  "description": "Entrepreneur Today covers politics, business, leadership, tech and news. What it publishes, how a feature gets there, and what makes a piece strong.",
+  "body": "<p>Most founders want the same thing: a piece that says something true about their business and stays online where people can find it. That is a narrower ask than \"press coverage\", and it is a great deal easier to get right.</p>\n<p>Here is what Entrepreneur Today publishes and how a feature there actually happens.</p>\n<h2 id=\"what-entrepreneur-today-publishes\">What Entrepreneur Today publishes</h2>\n<p>Entrepreneur Today is a digital business title publishing at entreprenuertoday.com. It runs six sections — politics, business, leadership, tech, entrepreneurs and news — and its subject is the people running companies and the conditions they run them in.</p>\n<p>It is a focused digital title rather than a national masthead, and it is worth being plain about that at the start. What it gives you is a real article on a real publication, written to an editorial standard, published under a byline and indexed permanently. What it does not give you is the reach of a newspaper with a century-old name on the front, and you should be wary of anyone who tells you otherwise.</p>\n<h2 id=\"why-a-feature-here-is-worth-having\">Why a feature here is worth having</h2>\n<p>The value of a piece like this is mostly search, and mostly permanent.</p>\n<p>When somebody hears your name — a prospect before a call, an investor before a meeting, a journalist deciding whether to reply — they look you up. What they usually find is your own website, your LinkedIn and whatever else has accumulated. An article reads differently from all of those, because it is written in the third person, to a standard, by a writer who publishes under their own byline.</p>\n<p>It also stays put. The piece does not expire and it does not need renewing. It keeps answering the same question every time somebody asks it.</p>\n<p>If you are weighing this against other titles, <a href=\"/guides/how-to-choose-the-right-publication\">how to choose the right publication</a> is worth reading first.</p>\n<h2 id=\"how-a-piece-gets-published\">How a piece gets published</h2>\n<p>We develop your story, write it to editorial standard and publish it on Entrepreneur Today, a title in our own publishing network. You approve every word, and because it is our title we can commit to it running, and running quickly.</p>\n<p>That commitment is the practical difference, and it is worth stating precisely. At a publication nobody controls, the decision belongs to that newsroom. A writer picks the story up or does not, runs it this month or next, frames it their way. That is how it should work, and no agency can honestly promise the outcome. Here, once you have approved the draft, publication is a scheduling matter rather than a hope, and we can give you a date.</p>\n<p>What does not change is the standard. The piece is written to the title's editorial standards and placed in the section it genuinely belongs in.</p>\n<h2 id=\"what-makes-a-strong-piece\">What makes a strong piece</h2>\n<p>The weakest version of this article is a list of your achievements. The strongest is an argument only you are in a position to make.</p>\n<p>Across the sections the title runs, three shapes tend to work:</p>\n<ul><li><strong>A change you can see before other people can.</strong> Something moving in your market — pricing, regulation, hiring, what customers now expect — that you can describe from inside a business rather than from a report.</li><li><strong>A decision with a cost attached.</strong> Leadership pieces work when the choice was genuinely hard and you are willing to say what it cost you to make it.</li><li><strong>A build story with specifics in it.</strong> What you started with, what you got wrong, what changed and roughly when.</li></ul>\n<p>Be concrete. Name the number, the month, the decision. <a href=\"/guides/how-to-write-a-founder-story\">How to write a founder story</a> goes further on structure and on the openings that work.</p>\n<h2 id=\"what-to-expect-from-the-process\">What to expect from the process</h2>\n<p>You tell us what you are building and what you want the piece to say. We propose an angle and the section it fits. Our writers draft it. You review, and you revise until the wording is yours — every claim, every quote, every line about your business.</p>\n<p>Nothing publishes without your approval. When it is live, you get the link.</p>\n<p>The same process runs across the titles we publish, and you can see the range on the <a href=\"/publications\">publications</a> page.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>How is this different from being covered by a publication you do not control?</h3>\n<p>The difference is who decides. At a title we do not control, an editor there chooses whether to run a piece, when and in what form; we can develop and pitch it, and we cannot promise it. Here we can commit to publication and to a timeline, because it is our title. What we do not claim is that an independent newsroom selected you, or that this carries the reach of a national masthead. Both routes are legitimate. They are not the same thing, and the price of the second one is uncertainty.</p>\n<h3>Do I need to be a well-known founder already?</h3>\n<p>No. The piece has to be substantive and accurate; it does not depend on you having a public profile. Most clients are building the record rather than extending one.</p>\n<h3>Can I see the article before it goes live?</h3>\n<p>Yes, and you should insist on that anywhere. You read the full draft and revise it until it is right, and nothing publishes until you approve it. If you want to talk an angle through first, start at <a href=\"/contact\">contact</a>.</p>",
+  "toc": [
+    {
+      "id": "what-entrepreneur-today-publishes",
+      "text": "What Entrepreneur Today publishes"
+    },
+    {
+      "id": "why-a-feature-here-is-worth-having",
+      "text": "Why a feature here is worth having"
+    },
+    {
+      "id": "how-a-piece-gets-published",
+      "text": "How a piece gets published"
+    },
+    {
+      "id": "what-makes-a-strong-piece",
+      "text": "What makes a strong piece"
+    },
+    {
+      "id": "what-to-expect-from-the-process",
+      "text": "What to expect from the process"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Entrepreneur Today runs politics, business, leadership, tech, entrepreneurs and news.",
+    "Publication is committed rather than hoped for, and the date is set once you approve the draft.",
+    "The pieces that work make an argument from inside a business instead of listing achievements."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-times-square-journal",
+  "h1": "How to Get Featured in Times Square Journal",
+  "title": "How to Get Featured in Times Square Journal | DNA PR",
+  "description": "Times Square Journal covers business, markets, law, technology and politics. What it publishes, how a feature happens and what makes a piece work.",
+  "body": "<p>A business story is easier to place well than a general one, because you can tell exactly where it belongs before anybody writes a word.</p>\n<p>Here is what Times Square Journal publishes, who it suits and how a feature there happens.</p>\n<h2 id=\"what-times-square-journal-publishes\">What Times Square Journal publishes</h2>\n<p>Times Square Journal is a digital business title at timesquarejournal.com. It runs business, markets, law, technology, politics and leadership, and it reads companies and regulation as one subject rather than two.</p>\n<p>Be clear-eyed about the scale. This is a focused digital publication, not a national masthead, and the pages here will not pretend otherwise. What it produces is a proper article: reported from your brief, written to an editorial standard, published under a byline and indexed permanently so it comes up when someone searches your name.</p>\n<h2 id=\"who-a-feature-here-suits\">Who a feature here suits</h2>\n<p>It suits people whose credibility is read by other professionals — founders selling into businesses, executives, advisers, finance and professional services, anyone whose next conversation starts with the other side looking them up.</p>\n<p>The commercial framing does most of that work. A piece filed under markets or law lands differently from a lifestyle profile, because the section itself says what kind of person you are taken to be.</p>\n<p>It suits a particular moment as well as a particular reader. If you are raising, hiring senior people, entering a new market or appearing on a shortlist next to competitors with longer press records, the useful thing is a considered third-party account of what you do that somebody can read in two minutes. A website cannot do that job, because everybody knows who wrote it.</p>\n<p>If you are deciding how this fits alongside larger names, <a href=\"/guides/tier-1-vs-tier-2-publications\">tier 1 vs tier 2 publications</a> sets out the trade-off plainly. The short version is that bigger titles carry more recognition and far less certainty.</p>\n<h2 id=\"how-a-piece-gets-published\">How a piece gets published</h2>\n<p>We develop your story, write it to editorial standard and publish it on Times Square Journal, a title in our own publishing network. You approve every word, and because it is our title we can commit to it running, and running quickly.</p>\n<p>That is the honest distinction. Where a piece is going to a publication nobody controls, the decision belongs to that newsroom — whether to run it at all, when, and in whose framing. No agency can promise that, and you should treat anyone who does with suspicion. Here, approval and publication are the same short step, so we can give you a date instead of an estimate.</p>\n<p>The standard is the part that does not move. The piece is written to the title's own editorial standards and has to genuinely belong in the section it runs in, or it does not run.</p>\n<h2 id=\"what-makes-a-strong-piece\">What makes a strong piece</h2>\n<p>The sections tell you what to bring.</p>\n<ul><li><strong>Business and markets.</strong> Something you can see from inside a company and evidence: how pricing has shifted, what buyers started asking for, what changed about the way deals close.</li><li><strong>Law and politics.</strong> A rule explained in plain language, and what complying with it actually costs a business of your size.</li><li><strong>Technology.</strong> The problem before the product. If a reader cannot restate the problem, the piece has not worked.</li><li><strong>Leadership.</strong> A decision that was genuinely hard, with the cost of it named.</li></ul>\n<p>Concrete beats broad. One number you can stand behind is worth more than a paragraph of positioning, and <a href=\"/guides/what-editors-reject-and-why\">what editors reject and why</a> covers the rest of the failure modes.</p>\n<p>The other thing that separates a good piece from a forgettable one is willingness to take a position. A business article that agrees with everything is not saying anything. If you think your sector is mispricing a risk, or that the standard advice is wrong for companies at your stage, say so and give the reason. Readers remember the argument, not the description of the company that carried it.</p>\n<h2 id=\"what-to-expect-from-the-process\">What to expect from the process</h2>\n<p>You brief us on the business and what you want understood. We come back with an angle and the section it belongs in. Our writers draft it, and you revise — facts, quotes, emphasis — until it says what you mean.</p>\n<p>The brief is the part worth your time. Twenty minutes of specifics — numbers you are comfortable publishing, the decisions behind them, the two or three things you want a reader to come away knowing — produces a far better first draft than a company deck does, and cuts the number of revision rounds.</p>\n<p>Nothing is published until you sign it off, and you get the live link when it runs. The <a href=\"/get-featured-in/times-square-journal\">Times Square Journal page</a> has the short version if you want to send it to someone.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>How does this differ from coverage in a publication you do not control?</h3>\n<p>Control of the decision, and nothing else pretending to be more. Elsewhere, an editor at that title decides whether your story runs, when and how it is framed; the most any agency can do is develop it well and put it in front of the right person. Here we can commit to publication and to a date, because the title is ours. We are not claiming an outside newsroom picked the piece, and we are not claiming national-masthead reach. Different products, and you should know which one you are buying.</p>\n<h3>Is the article written for me or by me?</h3>\n<p>Written for you, by writers who publish under their own bylines, from your brief and your material. You approve every line before it runs, and you can change any of it.</p>\n<h3>How long does it take?</h3>\n<p>Most of the elapsed time is drafting and your revisions rather than waiting. Once you approve, we schedule it. Talk to us through <a href=\"/contact\">contact</a> if you have a date you are working toward.</p>",
+  "toc": [
+    {
+      "id": "what-times-square-journal-publishes",
+      "text": "What Times Square Journal publishes"
+    },
+    {
+      "id": "who-a-feature-here-suits",
+      "text": "Who a feature here suits"
+    },
+    {
+      "id": "how-a-piece-gets-published",
+      "text": "How a piece gets published"
+    },
+    {
+      "id": "what-makes-a-strong-piece",
+      "text": "What makes a strong piece"
+    },
+    {
+      "id": "what-to-expect-from-the-process",
+      "text": "What to expect from the process"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Times Square Journal runs business, markets, law, technology, politics and leadership.",
+    "The commercial framing suits founders whose credibility is read by other professionals.",
+    "Because it is our title, publication is committed and the timeline is ours to hold."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-the-icon",
+  "h1": "How to Get Featured in The Icon",
+  "title": "How to Get Featured in The Icon | DNA PR",
+  "description": "The Icon covers billionaires, money, innovation, lifestyle and leadership. What it publishes, how a feature gets there and what makes a piece strong.",
+  "body": "<p>Some founders are the business, in the sense that the name on the door is the thing people research. A personal profile serves them better than a company announcement ever will.</p>\n<p>Here is what The Icon publishes and how a feature there works.</p>\n<h2 id=\"what-the-icon-publishes\">What The Icon publishes</h2>\n<p>The Icon is a digital title at theiconusa.com covering billionaires, money, innovation, lifestyle, business and leadership. The interest is in how money gets made and what people do with it, which makes it a title about people more than about markets.</p>\n<p>On scale, the honest description: a focused digital publication, not a national magazine. The pages here make no claims about readership or reach, because there is no reason to. What the title produces is a permanent, indexed article about you, written to an editorial standard and published under a byline.</p>\n<h2 id=\"why-a-profile-is-worth-having\">Why a profile is worth having</h2>\n<p>A company page tells people what you sell. A profile tells them who is behind it, which is the question most people are actually asking before a meeting, an investment or a partnership.</p>\n<p>It is also durable. The article does not scroll away or need renewing; it sits in the results when someone searches your name rather than your company, and it goes on doing that.</p>\n<p>There is a practical use for it too. A profile gives you one link to send when somebody asks what you do — to a potential hire, a bank, a conference organiser, a journalist deciding whether you are worth a conversation. Written once, properly, it saves you explaining yourself from scratch each time, and it explains you in a register you would not use about yourself.</p>\n<p>If you are unsure whether a personal title or a business one is the better fit, <a href=\"/guides/how-to-choose-the-right-publication\">how to choose the right publication</a> is the place to start. The parallel piece on <a href=\"/guides/how-to-get-featured-in-times-square-journal\">Times Square Journal</a> covers the more commercial end of the same question.</p>\n<h2 id=\"how-a-piece-gets-published\">How a piece gets published</h2>\n<p>We develop your story, write it to editorial standard and publish it on The Icon, a title in our own publishing network. You approve every word, and because it is our title we can commit to publication and to a date.</p>\n<p>Worth being precise about what that does and does not mean. At a publication nobody controls, the decision to run a story belongs to that newsroom, full stop, and no agency can honestly promise it however good the pitch is. Here the uncertainty is removed, so what is left is the work: the angle, the writing, your approval, the schedule. We are not telling you an outside editor chose the piece, and we are not claiming the reach of a national magazine.</p>\n<p>The editorial standard is the part that does not flex. The title publishes to its own standards, and a piece that does not meet them does not run.</p>\n<h2 id=\"what-makes-a-strong-profile\">What makes a strong profile</h2>\n<p>Wealth on its own is not a story. What it took usually is.</p>\n<ul><li><strong>The decision that changed the size of the business.</strong> Say what it was, when, and what you would do differently now.</li><li><strong>A view you can defend.</strong> Where you think value is moving and why, stated clearly enough to be disagreed with.</li><li><strong>An innovation explained problem-first.</strong> What was broken, why the obvious fix does not work, what you did instead.</li><li><strong>Something learnable from how you work.</strong> What you stopped doing, what you delegated, what you took a real risk on.</li></ul>\n<p>Avoid the register of a press release. A profile that admits a cost reads as true; one that only lists wins reads as bought, whoever published it.</p>\n<p>It also helps to have one detail nobody else would print. Not a confession — a specific: the price you started at, the client you turned down, the year the plan stopped working. Detail is what stops a profile sounding like every other profile, and it is the thing readers quote back to you afterwards.</p>\n<h2 id=\"what-to-expect-from-the-process\">What to expect from the process</h2>\n<p>A short brief from you, an angle and a section from us, then a full draft from our writers. You revise it as many times as it takes — the facts, the quotes, the emphasis, the details about your family or your finances that you would rather leave out.</p>\n<p>Nothing runs before you approve it, and you get the link when it is live. You can see the other titles we publish on the <a href=\"/publications\">publications</a> page.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>How is this different from being covered by a publication you do not control?</h3>\n<p>Where the decision sits. At a title we do not control, an editor there decides whether to run the piece, when, and how it is framed, and the most anyone can do is develop the story properly and put it forward. Here we can commit to publication and to a date, because the title is ours. We do not claim an independent newsroom selected you, and we do not claim the reach of a national magazine. Both routes are real; only one of them comes with certainty attached.</p>\n<h3>Do I have to discuss my net worth?</h3>\n<p>No. The sections cover money and wealth, but nothing about your finances goes in that you have not approved. Plenty of profiles work entirely on the build story.</p>\n<h3>Can I use the article in my own marketing?</h3>\n<p>Yes. It is a live URL you can link to, cite and share. If you want to plan it alongside other placements, start at <a href=\"/contact\">contact</a>.</p>",
+  "toc": [
+    {
+      "id": "what-the-icon-publishes",
+      "text": "What The Icon publishes"
+    },
+    {
+      "id": "why-a-profile-is-worth-having",
+      "text": "Why a profile is worth having"
+    },
+    {
+      "id": "how-a-piece-gets-published",
+      "text": "How a piece gets published"
+    },
+    {
+      "id": "what-makes-a-strong-profile",
+      "text": "What makes a strong profile"
+    },
+    {
+      "id": "what-to-expect-from-the-process",
+      "text": "What to expect from the process"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "The Icon runs billionaires, money, innovation, lifestyle, business and leadership.",
+    "It frames you as a person rather than a company, which suits founders whose name is the asset.",
+    "Wealth alone is not a story. What it took to build, told with specifics, is."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-fluenciaga",
+  "h1": "How to Get Featured in Fluenciaga",
+  "title": "How to Get Featured in Fluenciaga | DNA PR",
+  "description": "Fluenciaga covers fashion, beauty, music, style and talent. What it publishes, how a feature gets there, and what makes a strong profile piece.",
+  "body": "<p>Creative work is judged on the work. A feature that shows the craft behind it does more for a designer or an artist than any amount of description.</p>\n<p>Here is what Fluenciaga publishes, who it suits and how a piece there happens.</p>\n<h2 id=\"what-fluenciaga-publishes\">What Fluenciaga publishes</h2>\n<p>Fluenciaga is a digital culture title at fluenciaga.com. It runs fashion, beauty, music, style, news and talent — the work, the people making it, and what is moving in each of those scenes.</p>\n<p>It is a focused digital title rather than a legacy fashion magazine, and these pages will not suggest otherwise. What it gives you is a real article under a byline, written to an editorial standard and indexed permanently, in a section where a reader would expect to find someone doing what you do.</p>\n<h2 id=\"who-a-feature-here-suits\">Who a feature here suits</h2>\n<p>Designers, artists and musicians, beauty and fashion founders, stylists, creative directors, agencies and consumer brands whose customers buy on taste.</p>\n<p>The register is the reason. A culture title writes about you as a name rather than as a company, which is how brands, labels, bookers and collaborators tend to read people. A corporate profile can make a creative practice sound smaller than it is; this does the opposite.</p>\n<p>It also lasts, which social platforms do not. A post about a collection is gone in a day and lives inside an app. When somebody is deciding whether to work with you six months later, the article is still there in the search results, saying something considered in a voice that is not your own marketing.</p>\n<h2 id=\"how-a-piece-gets-published\">How a piece gets published</h2>\n<p>We develop your story, write it to editorial standard and publish it on Fluenciaga, a title in our own publishing network. You approve every word, and because it is our title we can commit to it running, and running quickly.</p>\n<p>That matters most when you have a date: a drop, a collection, a release. At a publication nobody controls, the decision belongs to that newsroom and the timing does too, which is why no agency can honestly promise either. Here, once you approve the draft, the piece is scheduled rather than submitted and hoped for.</p>\n<p>The writing standard is not the part that gets shortened. The piece is produced to the title's own editorial standards by writers who publish under their own bylines, and it has to genuinely fit the section it runs in.</p>\n<h2 id=\"what-makes-a-strong-piece\">What makes a strong piece</h2>\n<p>Specific beats glossy, every time.</p>\n<ul><li><strong>Fashion and style.</strong> The reference, the constraint, the piece that nearly did not make the collection. Process reads better than description.</li><li><strong>Beauty.</strong> A formulation or category problem and why the obvious answer kept failing.</li><li><strong>Music.</strong> The record and the year behind it — what changed in the making of it.</li><li><strong>Talent.</strong> Craft rather than biography. What you practise, what you turn down, what you are trying to get better at.</li></ul>\n<p>One real detail will outlast a page of adjectives. If you want a longer treatment of structure, <a href=\"/guides/how-to-write-a-founder-story\">how to write a founder story</a> applies here more than the title suggests.</p>\n<p>Consumer brands run into the same trap from a different direction. The temptation is to write the launch — the date, the stockists, the range — when what a reader wants is the taste behind the product: why it looks like that, what you were reacting against, who you made it for. The launch can sit in the last two lines and lose nothing.</p>\n<h2 id=\"what-to-expect-from-the-process\">What to expect from the process</h2>\n<p>Send us the work and a short brief. We come back with an angle and a section. Our writers draft it, and you revise until the tone is yours as well as the facts — the way you talk about your own work is usually the thing that needs most attention.</p>\n<p>Most of the elapsed time sits in drafting and revision rather than in waiting for somebody to decide, which is the part people expect to be slow. Two rounds is typical. If you want changes after that, you get them, because the piece does not run until you say it is right.</p>\n<p>Nothing publishes until you approve it, and you get the live link when it runs. The short version lives on the <a href=\"/get-featured-in/fluenciaga\">Fluenciaga page</a>, and the full list of titles is on <a href=\"/publications\">publications</a>.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>How is this different from being covered by a publication you do not control?</h3>\n<p>The difference is certainty, and it runs both ways. At a title we do not control, an editor there decides whether to run the piece and when, and nobody can promise you that decision or that date. Here we can, because the title is ours. What we will not tell you is that an independent newsroom chose to write about you, or that this carries the reach of a legacy fashion magazine. It is a real, permanent article on a real title, and that is the claim we make for it.</p>\n<h3>Do I need professional photography?</h3>\n<p>It helps a great deal on a visual title, and good images make the piece sit better in its section. We will tell you honestly if what you have is not strong enough.</p>\n<h3>Can the piece run around a launch date?</h3>\n<p>Yes, and that is one of the practical advantages here. Tell us the date at the brief stage through <a href=\"/contact\">contact</a> and we work back from it.</p>",
+  "toc": [
+    {
+      "id": "what-fluenciaga-publishes",
+      "text": "What Fluenciaga publishes"
+    },
+    {
+      "id": "who-a-feature-here-suits",
+      "text": "Who a feature here suits"
+    },
+    {
+      "id": "how-a-piece-gets-published",
+      "text": "How a piece gets published"
+    },
+    {
+      "id": "what-makes-a-strong-piece",
+      "text": "What makes a strong piece"
+    },
+    {
+      "id": "what-to-expect-from-the-process",
+      "text": "What to expect from the process"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Fluenciaga runs fashion, beauty, music, style, news and talent.",
+    "A culture title frames you as a name rather than a company, which suits creative work.",
+    "Because it is our title, a piece can be timed to a launch instead of waiting on a decision."
+  ]
 }
 ];
 
