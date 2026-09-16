@@ -8,7 +8,7 @@ import styles from "./VideoTestimonial.module.css";
 const MAX_SECONDS = 28;
 
 const VIDEO_SRC = "/client-testimonial.mp4";
-const POSTER_SRC = "/testimonial-poster.jpg";
+const POSTER_SRC = "/testimonial-poster.webp";
 const CAPTIONS_SRC = "/client-testimonial.vtt";
 
 export function VideoTestimonial() {

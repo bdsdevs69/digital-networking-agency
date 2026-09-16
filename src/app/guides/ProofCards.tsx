@@ -20,14 +20,14 @@ export const PROOF: Record<string, { title: string; items: Proof[] }> = {
         headline:
           "The body isn't a machine: Inside Dr. Kirk Sanford's case for honest regenerative medicine",
         href: "https://www.msn.com/en-us/news/other/the-body-isn%E2%80%99t-a-machine-inside-dr-kirk-sanford%E2%80%99s-case-for-honest-regenerative-medicine/ar-AA2705OB",
-        img: "/placement-kirk-msn.jpg"
+        img: "/placement-kirk-msn.webp"
       },
       {
         outlet: "MSN",
         kind: "Feature listicle",
         headline: "The entrepreneurs everyone is talking about in 2026",
         href: "https://www.msn.com/en-us/news/other/the-entrepreneurs-everyone-is-talking-about-in-2026/ar-AA25j5ca",
-        img: "/placement-entrepreneurs-msn.jpg"
+        img: "/placement-entrepreneurs-msn.webp"
       }
     ]
   }

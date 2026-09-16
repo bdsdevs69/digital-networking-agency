@@ -834,7 +834,7 @@ a.article-pub:hover .article-pub-arrow{opacity:1;transform:translate(0,0);}
   background:
     linear-gradient(180deg,rgba(24,26,35,.90) 0%,rgba(24,26,35,.74) 45%,rgba(24,26,35,.90) 100%),
     radial-gradient(ellipse 80% 140% at 50% -20%,rgba(143,255,0,.12),transparent 55%),
-    url('/press-editorial.jpg') center/cover no-repeat;
+    url('/press-editorial.webp') center/cover no-repeat;
   background-blend-mode:normal;
 }
 .press-logo{opacity:1;}

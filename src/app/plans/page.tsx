@@ -111,7 +111,7 @@ export default async function PlansPage() {
     <main className="plans-page">
       <header className="plans-top">
         <Link href="/" className="nav-logo" aria-label="DNA PR — Home">
-          <img src="/black_logo.png" alt="DNA PR" className="nav-logo-img" />
+          <img src="/black_logo.webp" alt="DNA PR" className="nav-logo-img" />
         </Link>
         <span className="plans-top-tag">Client Plans</span>
       </header>

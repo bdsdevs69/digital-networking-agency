@@ -28,7 +28,7 @@ export function NavMenu() {
   return (
     <nav className={`${isOpen ? "menu-open " : ""}${scrolled ? "scrolled" : ""}`}>
       <Link href="/" className="nav-logo" onClick={closeMenu} aria-label="DNA PR — Home">
-        <img src="/black_logo.png" alt="DNA PR" className="nav-logo-img" />
+        <img src="/black_logo.webp" alt="DNA PR" className="nav-logo-img" />
       </Link>
 
       <button

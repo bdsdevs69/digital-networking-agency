@@ -106,7 +106,7 @@ export function GuidesCarousel({ guides }: { guides: GuideCard[] }) {
               <Link className="gc" href={`/guides/${g.slug}`}>
                 <div className="gc-panel">
                   <img
-                    src="/black_logo.png"
+                    src="/black_logo.webp"
                     alt="DNA PR"
                     className="gc-panel-logo"
                     loading="lazy"

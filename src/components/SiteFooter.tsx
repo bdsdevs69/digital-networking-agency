@@ -35,7 +35,7 @@ export function SiteFooter() {
         {/* brand */}
         <div className={styles.brand}>
           <div className={styles.lockup}>
-            <img src="/black_logo.png" alt="DNA PR" className={styles.logo} />
+            <img src="/black_logo.webp" alt="DNA PR" className={styles.logo} />
             <span className={styles.lockDiv} aria-hidden="true" />
             <span className={styles.wordmark}>
               Digital Networking <em>Agency</em>

@@ -40,7 +40,7 @@ export async function HeroSection() {
         <div className="hero-visual reveal-r">
           <div className="hero-visual-frame">
             <img
-              src="/hero-media.jpg"
+              src="/hero-media.webp"
               alt="DNA PR — press coverage across the world's leading media"
               fetchPriority="high"
               decoding="async"
@@ -92,7 +92,7 @@ export function AboutSection() {
           <div className="reveal-r">
             <div className="about-visual">
               <img
-                src="/about-media.jpg"
+                src="/about-media.webp"
                 alt="DNA PR — modern media across digital, TV, podcast and print"
                 loading="lazy"
               />
@@ -237,11 +237,11 @@ export function BrandingSection() {
           <div className="brand-marquee">
             {(() => {
               const brands = [
-                { src: "/techcon-removebg-preview.png", alt: "TechCon SoCal" },
-                { src: "/grit-brokerage-logo-Picsart-BackgroundRemover.jpg", alt: "Grit Brokerage", large: true },
-                { src: "/brede_ciapciak-removebg-preview.png", alt: "Brede Ciapciak Dental" },
-                { src: "/Sj-removebg-preview.png", alt: "Interior Design & Real Estate Service" },
-                { src: "/beverly-removebg-preview.png", alt: "Beverly" }
+                { src: "/techcon-removebg-preview.webp", alt: "TechCon SoCal" },
+                { src: "/grit-brokerage-logo-Picsart-BackgroundRemover.webp", alt: "Grit Brokerage", large: true },
+                { src: "/brede_ciapciak-removebg-preview.webp", alt: "Brede Ciapciak Dental" },
+                { src: "/Sj-removebg-preview.webp", alt: "Interior Design & Real Estate Service" },
+                { src: "/beverly-removebg-preview.webp", alt: "Beverly" }
               ];
               // triple the list so the loop stays seamless across widths
               return [...brands, ...brands, ...brands].map((b, i) => (
@@ -273,7 +273,7 @@ export const clientPlacements: Placement[] = [
         "PointOne Partners Launches Texas Real Estate Investment Platform With Four Active Development Projects",
       meta: "June 2, 2026",
       href: "https://finance.yahoo.com/markets/stocks/articles/pointone-partners-launches-texas-real-201500951.html",
-      img: "/placement-shams.jpg",
+      img: "/placement-shams.webp",
       logo: null,
       logoWhite: true
     },
@@ -283,7 +283,7 @@ export const clientPlacements: Placement[] = [
         "Shermel A. Jeffers Chandwani: Influencing Real Estate in St. Kitts & Nevis",
       meta: "October 15, 2025",
       href: "https://womensjournal.com/shermel-a-jeffers-chandwani-influencing-real-estate-in-st-kitts-nevis/",
-      img: "/placement-shermel.jpg",
+      img: "/placement-shermel.webp",
       logo: null,
       logoWhite: true
     },
@@ -292,7 +292,7 @@ export const clientPlacements: Placement[] = [
       headline: "The entrepreneurs everyone is talking about in 2026",
       meta: "Feature listicle · MSN",
       href: "https://www.msn.com/en-us/news/other/the-entrepreneurs-everyone-is-talking-about-in-2026/ar-AA25j5ca",
-      img: "/placement-entrepreneurs-msn.jpg",
+      img: "/placement-entrepreneurs-msn.webp",
       logo: null,
       logoWhite: true
     },
@@ -302,7 +302,7 @@ export const clientPlacements: Placement[] = [
         "The 25-Year Mission Behind a New Standard in Addiction Recovery",
       meta: "May 23, 2025",
       href: "https://www.healthcarebusinesstoday.com/the-25-year-mission-behind-a-new-standard-in-addiction-recovery/",
-      img: "/placement-mark.jpg",
+      img: "/placement-mark.webp",
       logo: null,
       logoWhite: true
     },
@@ -311,7 +311,7 @@ export const clientPlacements: Placement[] = [
       headline: "The VRDO Rate-Rigging Scandal: How Wall Street Bilked Taxpayers",
       meta: "June 3, 2025",
       href: "https://foxinterviewer.com/business/the-vrdo-rate-rigging-scandal-how-wall-street-bilked-taxpayers/",
-      img: "/placement-vrdo.jpg",
+      img: "/placement-vrdo.webp",
       logo: "/fox-scg-logo.svg",
       logoWhite: true
     },
@@ -320,7 +320,7 @@ export const clientPlacements: Placement[] = [
       headline: "From Groundbreaking to Code-Breaking: How Daniel Sharpe Is Redefining Real Estate with AI",
       meta: "October 29, 2025",
       href: "https://realestatetoday.com/from-groundbreaking-to-code-breaking-how-daniel-sharpe-is-redefining-real-estate-with-ai/",
-      img: "/placement-sharpe.jpg",
+      img: "/placement-sharpe.webp",
       logo: null,
       logoWhite: true
     },
@@ -330,8 +330,8 @@ export const clientPlacements: Placement[] = [
         "Mark Manderson: Elevating Standards of Mental Health and Addiction Care with Pacific Shores Recovery",
       meta: "July 2025",
       href: "https://www.benzinga.com/pressreleases/25/07/ab46479680/mark-manderson-elevating-standards-of-mental-health-and-addiction-care-with-pacific-shores-recove",
-      img: "/placement-mark.jpg",
-      logo: "/Benzinga-Logo-removebg-preview.png",
+      img: "/placement-mark.webp",
+      logo: "/Benzinga-Logo-removebg-preview.webp",
       logoWhite: true
     },
     {
@@ -340,7 +340,7 @@ export const clientPlacements: Placement[] = [
         "The body isn't a machine: Inside Dr. Kirk Sanford's case for honest regenerative medicine",
       meta: "Full feature · MSN",
       href: "https://www.msn.com/en-us/news/other/the-body-isn%E2%80%99t-a-machine-inside-dr-kirk-sanford%E2%80%99s-case-for-honest-regenerative-medicine/ar-AA2705OB",
-      img: "/placement-kirk-msn.jpg",
+      img: "/placement-kirk-msn.webp",
       logo: null,
       logoWhite: true
     },
@@ -350,8 +350,8 @@ export const clientPlacements: Placement[] = [
         "Dr. Bhuvanendram Indrakrishnan: Leadership in Medicine and Community Health",
       meta: "May 22, 2026",
       href: "https://www.usatoday.com/story/special/contributor-content/2026/05/22/dr-bhuvanendram-indrakrishnan-leadership-in-medicine-and-community-health/90214273007/",
-      img: "/placement-indran.jpg",
-      logo: "/USA-Today-removebg-preview.png",
+      img: "/placement-indran.webp",
+      logo: "/USA-Today-removebg-preview.webp",
       logoWhite: true
     },
     {
@@ -360,7 +360,7 @@ export const clientPlacements: Placement[] = [
         "From Mario Kart to the Supreme Court: How Matthew Brick Built a Law Firm That Puts Clients First",
       meta: "April 23, 2026",
       href: "https://wallstreettimes.com/from-mario-kart-to-the-supreme-court-how-matthew-brick-built-a-law-firm-that-puts-clients-first/",
-      img: "/placement-brick.jpg",
+      img: "/placement-brick.webp",
       logo: "/WST%20.jpeg",
       logoWhite: false
     },
@@ -369,8 +369,8 @@ export const clientPlacements: Placement[] = [
       headline: "Leaving a Mark: Andréa Albright and the Future of Legacy Publishing",
       meta: "Entrepreneur Feature",
       href: "https://nyweekly.com/entrepreneur/leaving-a-mark-andrea-albright-and-the-future-of-legacy-publishing/",
-      img: "/placement-albright.jpg",
-      logo: "/NY-Weekly-removebg-preview.png",
+      img: "/placement-albright.webp",
+      logo: "/NY-Weekly-removebg-preview.webp",
       logoWhite: true
     },
     {
@@ -378,8 +378,8 @@ export const clientPlacements: Placement[] = [
       headline: "Patrick Kelly: Giving Fresh Produce a Global Voice Through Storytelling and Innovation",
       meta: "September 18, 2025",
       href: "https://ceoweekly.com/patrick-kelly-giving-fresh-produce-a-global-voice-through-storytelling-and-innovation/",
-      img: "/placement-kelly.jpg",
-      logo: "/CEO_Weekly-removebg-preview.png",
+      img: "/placement-kelly.webp",
+      logo: "/CEO_Weekly-removebg-preview.webp",
       logoWhite: true
     }
 ];
@@ -478,36 +478,36 @@ export function CtaFooterSection() {
 export function PressMarquee() {
   // Real publication logos, shown on white chips so every mark stays legible.
   const outlets: { name: string; src?: string }[] = [
-    { name: "Forbes", src: "/logo-forbes.png" },
-    { name: "Business Insider", src: "/logo-bi.png" },
-    { name: "Rolling Stone", src: "/logo-rollingstone.png" },
-    { name: "Esquire", src: "/logo-esquire.png" },
-    { name: "Maxim", src: "/logo-maxim.png" },
-    { name: "Allure", src: "/logo-allure.png" },
-    { name: "Glamour", src: "/logo-glamour.png" },
-    { name: "Architectural Digest", src: "/logo-ad.png" },
-    { name: "Haute Beauty", src: "/logo-harpersbazaar.png" },
-    { name: "Sports Illustrated", src: "/logo-si.png" },
-    { name: "Us Weekly", src: "/logo-usweekly.png" },
-    { name: "Los Angeles Times", src: "/logo-latimes.png" },
-    { name: "Entrepreneur", src: "/logo-entrepreneur.jpg" },
-    { name: "Hollywood Life", src: "/logo-hollywoodlife.png" },
-    { name: "OK! Magazine", src: "/logo-ok.png" },
-    { name: "Success Magazine", src: "/logo-success.png" },
-    { name: "Muscle & Fitness", src: "/logo-musclefitness.png" },
-    { name: "Woman's World", src: "/logo-womansworld.png" },
-    { name: "IBTimes", src: "/logo-ibtimes.png" },
-    { name: "Investing.com", src: "/logo-investing.png" },
-    { name: "Flaunt", src: "/logo-flaunt.png" },
-    { name: "Haute Residence", src: "/logo-haute.png" },
-    { name: "The Business Journals", src: "/logo-bizjournals.png" },
-    { name: "Law & Crime", src: "/logo-lawcrime.png" },
-    { name: "Law News Day", src: "/logo-lawnewsday.png" },
-    { name: "USA Today", src: "/USA-Today-removebg-preview.png" },
-    { name: "Benzinga", src: "/Benzinga-Logo-removebg-preview.png" },
+    { name: "Forbes", src: "/logo-forbes.webp" },
+    { name: "Business Insider", src: "/logo-bi.webp" },
+    { name: "Rolling Stone", src: "/logo-rollingstone.webp" },
+    { name: "Esquire", src: "/logo-esquire.webp" },
+    { name: "Maxim", src: "/logo-maxim.webp" },
+    { name: "Allure", src: "/logo-allure.webp" },
+    { name: "Glamour", src: "/logo-glamour.webp" },
+    { name: "Architectural Digest", src: "/logo-ad.webp" },
+    { name: "Haute Beauty", src: "/logo-harpersbazaar.webp" },
+    { name: "Sports Illustrated", src: "/logo-si.webp" },
+    { name: "Us Weekly", src: "/logo-usweekly.webp" },
+    { name: "Los Angeles Times", src: "/logo-latimes.webp" },
+    { name: "Entrepreneur", src: "/logo-entrepreneur.webp" },
+    { name: "Hollywood Life", src: "/logo-hollywoodlife.webp" },
+    { name: "OK! Magazine", src: "/logo-ok.webp" },
+    { name: "Success Magazine", src: "/logo-success.webp" },
+    { name: "Muscle & Fitness", src: "/logo-musclefitness.webp" },
+    { name: "Woman's World", src: "/logo-womansworld.webp" },
+    { name: "IBTimes", src: "/logo-ibtimes.webp" },
+    { name: "Investing.com", src: "/logo-investing.webp" },
+    { name: "Flaunt", src: "/logo-flaunt.webp" },
+    { name: "Haute Residence", src: "/logo-haute.webp" },
+    { name: "The Business Journals", src: "/logo-bizjournals.webp" },
+    { name: "Law & Crime", src: "/logo-lawcrime.webp" },
+    { name: "Law News Day", src: "/logo-lawnewsday.webp" },
+    { name: "USA Today", src: "/USA-Today-removebg-preview.webp" },
+    { name: "Benzinga", src: "/Benzinga-Logo-removebg-preview.webp" },
     { name: "FOX", src: "/fox-scg-logo.svg" },
-    { name: "CEO Weekly", src: "/CEO_Weekly-removebg-preview.png" },
-    { name: "New York Weekly", src: "/NY-Weekly-removebg-preview.png" }
+    { name: "CEO Weekly", src: "/CEO_Weekly-removebg-preview.webp" },
+    { name: "New York Weekly", src: "/NY-Weekly-removebg-preview.webp" }
   ];
   const row = [...outlets, ...outlets];
   return (
