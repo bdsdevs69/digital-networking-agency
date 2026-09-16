@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { OUTLETS, getOutlet } from "@/content/outlets";
+import { CASE_STUDIES } from "@/content/caseStudies";
+import { OutletForm } from "@/components/OutletForm";
 import styles from "../getfeatured.module.css";
 import { clampDescription, clampTitle } from "@/lib/meta";
 
@@ -40,6 +42,22 @@ export async function generateMetadata({
   };
 }
 
+// A real client placement in this outlet, when we have one. Only genuine
+// published work appears here — outlets with no placement show nothing.
+const PROOF_ALIAS: Record<string, string> = {
+  "ny weekly": "new york weekly",
+  "new york weekly": "ny weekly",
+};
+
+function proofFor(outletName: string) {
+  const want = outletName.toLowerCase();
+  const alias = PROOF_ALIAS[want];
+  return CASE_STUDIES.filter((c) => {
+    const o = c.outlet.toLowerCase();
+    return o === want || o === alias;
+  });
+}
+
 export default async function OutletLanding({
   params,
 }: {
@@ -50,6 +68,7 @@ export default async function OutletLanding({
   if (!o) notFound();
 
   const url = `${SITE}/get-featured-in/${o.slug}`;
+  const proof = proofFor(o.name);
   const others = OUTLETS.filter((x) => x.slug !== o.slug);
 
   const faqs = [
@@ -176,6 +195,48 @@ export default async function OutletLanding({
           </p>
         </section>
 
+        {/* How coverage actually happens here */}
+        {o.routes ? (
+          <section className={styles.block}>
+            <h2>How coverage happens at {o.name}</h2>
+            <p>{o.routes}</p>
+          </section>
+        ) : null}
+
+        {/* What kind of story lands */}
+        {o.story ? (
+          <section className={styles.block}>
+            <h2>The kind of story that lands</h2>
+            <p>{o.story}</p>
+          </section>
+        ) : null}
+
+        {/* Proof: a real placement in this outlet */}
+        {proof.length ? (
+          <section className={styles.block}>
+            <h2>A client we placed in {o.name}</h2>
+            {proof.slice(0, 2).map((c) => (
+              <Link key={c.slug} href={`/case-studies/${c.slug}`} className={styles.proofCard}>
+                <img
+                  src={c.image}
+                  alt={`${c.name} featured in ${c.outlet}`}
+                  width={900}
+                  height={600}
+                  loading="lazy"
+                  decoding="async"
+                />
+                <span>
+                  <span className={styles.proofKind}>Published in {c.outlet}</span>
+                  <span className={styles.proofHead}>{c.quote}</span>
+                  <span className={styles.proofWho}>
+                    {c.name} &mdash; {c.role}
+                  </span>
+                </span>
+              </Link>
+            ))}
+          </section>
+        ) : null}
+
         {/* How it works */}
         <section className={styles.block}>
           <h2>How we get you in {o.name}</h2>
@@ -188,6 +249,16 @@ export default async function OutletLanding({
               </div>
             ))}
           </div>
+        </section>
+
+        {/* Enquiry form, on the page itself */}
+        <section className={styles.formSection} id="enquire">
+          <h2>Ask about {o.name}</h2>
+          <p className={styles.formLede}>
+            Tell us the story in a sentence. We reply within 24 hours and we will say plainly
+            whether {o.name} is realistic for you, and which route it would take.
+          </p>
+          <OutletForm outlet={o.name} />
         </section>
 
         {/* FAQ */}

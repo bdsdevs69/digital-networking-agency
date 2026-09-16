@@ -395,3 +395,176 @@
   .steps { grid-template-columns: 1fr; }
   .cardGrid { grid-template-columns: 1fr; }
 }
+
+/* ---- on-page enquiry form ---- */
+.formSection {
+  margin: 46px 0;
+  padding: 34px 32px;
+  background: var(--card);
+  border: 1px solid rgba(143, 255, 0, 0.16);
+  border-radius: 18px;
+}
+.formSection h2 {
+  margin: 0 0 6px;
+}
+.formLede {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--muted);
+  margin: 0 0 22px;
+  max-width: 620px;
+}
+.formBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.formRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.formBlock label {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  font-family: "DM Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.formBlock input,
+.formBlock textarea {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 16px;
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 10px;
+  padding: 11px 13px;
+  outline: none;
+  transition: border-color 0.2s, background 0.2s;
+}
+.formBlock input:focus,
+.formBlock textarea:focus {
+  border-color: var(--lime);
+  background: rgba(255, 255, 255, 0.06);
+}
+.formCap {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+}
+.formReq {
+  color: var(--lime);
+  font-style: normal;
+}
+.formHint {
+  text-transform: none;
+  letter-spacing: 0;
+  color: rgba(255, 255, 255, 0.4);
+}
+.formBtn {
+  align-self: flex-start;
+  font-family: "DM Mono", monospace;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #0f1015;
+  background: var(--lime);
+  border: 0;
+  border-radius: 999px;
+  padding: 14px 26px;
+  cursor: pointer;
+  transition: transform 0.2s, opacity 0.2s;
+}
+.formBtn:hover {
+  transform: translateY(-1px);
+}
+.formBtn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+.formNote,
+.formErr {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 15px;
+  color: var(--muted);
+  margin: 0;
+}
+.formErr {
+  color: #ff9a8b;
+}
+.formDone h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 26px;
+  letter-spacing: 1px;
+  color: var(--lime);
+  margin: 0 0 8px;
+}
+.formDone p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--muted);
+  margin: 0;
+}
+@media (max-width: 640px) {
+  .formRow {
+    grid-template-columns: 1fr;
+  }
+  .formSection {
+    padding: 26px 20px;
+  }
+}
+
+/* ---- proof: a real placement in this outlet ---- */
+.proofCard {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 22px;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  background: var(--card);
+  text-decoration: none;
+  transition: border-color 0.3s, transform 0.3s;
+}
+.proofCard:hover {
+  border-color: var(--lime);
+  transform: translateY(-2px);
+}
+.proofCard img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+.proofKind {
+  font-family: "DM Mono", monospace;
+  font-size: 10px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  color: var(--lime);
+}
+.proofHead {
+  font-family: "Playfair Display", serif;
+  font-size: 19px;
+  line-height: 1.35;
+  color: var(--white);
+  margin: 8px 0 6px;
+}
+.proofWho {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 16px;
+  color: var(--muted);
+  margin: 0;
+}
+@media (max-width: 640px) {
+  .proofCard {
+    grid-template-columns: 1fr;
+  }
+}
