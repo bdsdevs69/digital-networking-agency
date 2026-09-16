@@ -24,7 +24,7 @@ export async function HeroSection() {
         <h1 className="hero-head-words">
           <span className="hero-word" style={{ animationDelay: ".25s" }}>
             <span className="word-fill">GET FEATURED</span>
-          </span>
+          </span>{" "}
           <span className="hero-word" style={{ animationDelay: ".45s" }}>
             <span className="word-fill lime-word">IN THE PRESS</span>
           </span>
