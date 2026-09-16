@@ -156,7 +156,6 @@ export default async function OutletLanding({
           <ul className={styles.badges}>
             <li>You approve every word</li>
             <li>Unlimited revisions</li>
-            <li>If we don&rsquo;t deliver, we make it right</li>
           </ul>
         </div>
       </section>
