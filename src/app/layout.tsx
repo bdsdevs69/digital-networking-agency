@@ -6,6 +6,8 @@ import { FloatingContact } from "@/components/FloatingContact";
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { SiteFooter } from "@/components/SiteFooter";
 
+const GA_ID = "G-GPMPT68ZE6";
+
 const FONT_HREF =
   "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400;500&family=Bebas+Neue&display=swap";
 
@@ -174,6 +176,20 @@ export default function RootLayout({
         <SiteFooter />
         <FloatingContact />
         <ScrollReveal />
+        {/* GA4. afterInteractive keeps it off the critical path; the config
+            call is what GA's "Test installation" checks for. */}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="ga4" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_ID}');
+          `}
+        </Script>
         <Script id="meta-pixel" strategy="afterInteractive">
           {`
             !function(f,b,e,v,n,t,s)

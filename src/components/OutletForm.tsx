@@ -21,6 +21,11 @@ export function OutletForm({ outlet }: { outlet: string }) {
       });
       if (res.ok) {
         (window as unknown as { fbq?: (...args: unknown[]) => void }).fbq?.("track", "Lead");
+        (window as unknown as { gtag?: (...args: unknown[]) => void }).gtag?.(
+          "event",
+          "generate_lead",
+          { form: "outlet", outlet }
+        );
         setStatus("done");
         form.reset();
       } else {

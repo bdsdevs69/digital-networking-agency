@@ -48,6 +48,11 @@ export function ContactForm() {
         // Meta Pixel only fired PageView, so ads and reporting could never see
         // an actual enquiry. Fire Lead on a confirmed submission only.
         (window as unknown as { fbq?: (...args: unknown[]) => void }).fbq?.("track", "Lead");
+        (window as unknown as { gtag?: (...args: unknown[]) => void }).gtag?.(
+          "event",
+          "generate_lead",
+          { form: "contact" }
+        );
         setStatus("done");
         form.reset();
       } else {
