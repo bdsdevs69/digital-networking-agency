@@ -113,6 +113,14 @@ export const GUIDE_PUBLISHED: Record<string, string> = {
   "how-to-get-published-on-medium": "2026-09-16",
   "best-pr-agencies-for-startups": "2026-09-16",
   "best-pr-agencies-for-personal-brands": "2026-09-16",
+  "how-to-write-a-founder-story": "2026-09-16",
+  "what-editors-reject-and-why": "2026-09-16",
+  "what-a-media-kit-should-contain": "2026-09-16",
+  "when-pr-is-the-wrong-spend": "2026-09-16",
+  "how-to-pitch-a-journalist-by-email": "2026-09-16",
+  "what-to-do-after-you-get-featured": "2026-09-16",
+  "do-i-need-a-press-release": "2026-09-16",
+  "how-to-prepare-for-a-press-interview": "2026-09-16",
 };
 
 export const GUIDE_UPDATED: Record<string, string> = {};

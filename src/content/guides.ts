@@ -4160,6 +4160,338 @@ export const GUIDES: Guide[] = [
     "Descriptions come only from each agency's own website, checked in September 2026.",
     "For a personal brand the route and the copy approval matter more than the outlet count."
   ]
+},
+{
+  "slug": "how-to-write-a-founder-story",
+  "h1": "How to Write a Founder Story Worth Publishing",
+  "title": "How to Write a Founder Story | DNA PR",
+  "description": "The four things an editor looks for in a founder story, how to find your angle, what to cut, and how to test the draft before you pitch it out.",
+  "body": "<p>Most founder stories are a CV with adjectives. They list what someone has built, where they worked before, and how quickly the company is growing.</p>\n<p>Editors do not publish CVs. They publish stories, and the difference is specific enough to work on.</p>\n<h2 id=\"what-a-founder-story-is-for\">What a founder story is for</h2>\n<p>A founder story is the raw material for everything else you do with the press. It sits underneath a pitch, an interview answer, a profile, a panel introduction.</p>\n<p>It is not a biography and it is not marketing copy. It is a short account of why you did something unusual, what you learned doing it, and why that matters to someone who has never heard of you.</p>\n<p>Write it once, properly, and the rest of your press work gets easier. Skip it and you end up sending pitches that describe a company rather than a story.</p>\n<h2 id=\"the-parts-editors-look-for\">The parts editors look for</h2>\n<p>Almost every founder story that gets published contains the same four elements. They can appear in any order.</p>\n<ul><li><strong>A decision with a cost.</strong> Something you chose that a reasonable person might not have. Leaving a stable job, refusing a large customer, rebuilding a product from nothing. Stories need a fork in the road.</li><li><strong>A specific detail nobody else has.</strong> A figure from your own data, a moment with a date attached, a conversation you can quote. Specificity is what separates a story from a summary.</li><li><strong>Something learned the hard way.</strong> A view you hold now that you did not hold before, and the experience that changed it. This is the part most founders edit out, and the part editors want most.</li><li><strong>A reason it matters now.</strong> A shift in your market, a regulation, a change in how people buy. Without this the piece could run any week, which usually means it runs no week.</li></ul>\n<p>If your draft has three of these it is probably publishable. If it has one, it is a company description.</p>\n<h2 id=\"finding-your-angle\">Finding your angle</h2>\n<p>An angle is not your story. It is the one sentence a reader takes away from it.</p>\n<p>Try writing that sentence before you write anything else. Most people in this market are wrong about a specific thing, and here is what happened when we assumed the opposite. Or: the problem that nearly ended the business turned out to be the thing worth building on.</p>\n<p>Then check it against three tests. Is it true? Can you evidence it? Would it still be interesting if your company name were removed?</p>\n<p>That last test is the useful one. An angle that collapses without your logo attached is an advertisement.</p>\n<h2 id=\"what-to-cut\">What to cut</h2>\n<p>Founder drafts are usually twice as long as they should be, and the excess is predictable.</p>\n<ul><li><strong>The full career history.</strong> Two lines of background is enough. Everything before the decision that matters is context, not story.</li><li><strong>Adjectives about yourself.</strong> Innovative, passionate, visionary. Let the facts carry it. If the facts cannot, the adjectives will not either.</li><li><strong>Vague numbers.</strong> Rapid growth and thousands of customers both read as evasions. Use a figure you can stand behind publicly, or leave it out.</li><li><strong>The product tour.</strong> One clear sentence about what you do. A story that turns into a features list stops being a story exactly where it turns.</li><li><strong>Anything you cannot say twice.</strong> If a claim would make you uncomfortable in a live interview, it will make you more uncomfortable in print.</li></ul>\n<h2 id=\"testing-it-before-you-pitch\">Testing it before you pitch</h2>\n<p>Read the draft aloud. Anywhere you speed up is a section you already know is weak.</p>\n<p>Then hand it to someone outside your industry and ask them to tell you back what it was about. If the answer is your company, the angle has not landed. If the answer is an idea, it has.</p>\n<p>Check that every factual claim has a source you could produce on request: your own data, a public filing, a named customer who has agreed to be named. Journalists check. It is better to find the weak claim yourself.</p>\n<p>Finally, cut the story to 200 words without losing the point. A pitch is short, and the short version is the one you will actually send. There is more on that in our guide to <a href=\"/guides/how-to-pitch-a-journalist-by-email\">pitching a journalist by email</a>.</p>\n<h2 id=\"where-the-story-goes-next\">Where the story goes next</h2>\n<p>A finished founder story is reusable. It becomes the spine of your pitch, the long section of <a href=\"/guides/what-a-media-kit-should-contain\">your media kit</a>, and your answer when an interviewer opens with a request to hear how this all started.</p>\n<p>It also tells you which route makes sense. A story with a genuine news hook and evidence behind it can be pitched for <a href=\"/guides/what-is-earned-media\">earned editorial</a>. A story that is interesting but not newsworthy may be better served by a contributor or sponsored route, which is a different product rather than a lesser one.</p>\n<p>Digital Networking Agency develops this with clients before anything is pitched, because a weak story cannot be fixed by sending it to more people. What we cannot do is make an editor run it. That decision stays in the newsroom, always.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>How long should a founder story be?</h3>\n<p>Write a full version of around 600 words for your own use, then keep a 150-word version for pitches and a two-sentence version for introductions. The short ones are the ones you will send most often.</p>\n<h3>What if my story is not dramatic?</h3>\n<p>Most published ones are not. A clear, specific insight drawn from ordinary work beats a dramatic story with nothing to learn from it. Editors want usefulness more than they want drama.</p>\n<h3>Should I write it myself or have someone write it?</h3>\n<p>Draft it yourself first, even badly. The details worth keeping are ones only you know. A writer can shape it afterwards, but nobody can invent the parts that make it true.</p>",
+  "toc": [
+    {
+      "id": "what-a-founder-story-is-for",
+      "text": "What a founder story is for"
+    },
+    {
+      "id": "the-parts-editors-look-for",
+      "text": "The parts editors look for"
+    },
+    {
+      "id": "finding-your-angle",
+      "text": "Finding your angle"
+    },
+    {
+      "id": "what-to-cut",
+      "text": "What to cut"
+    },
+    {
+      "id": "testing-it-before-you-pitch",
+      "text": "Testing it before you pitch"
+    },
+    {
+      "id": "where-the-story-goes-next",
+      "text": "Where the story goes next"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "A founder story needs a decision, a detail, a lesson and a reason now.",
+    "If the angle survives removing your company name, it is a story.",
+    "Test it on someone outside your industry before you pitch it anywhere."
+  ]
+},
+{
+  "slug": "what-editors-reject-and-why",
+  "h1": "What Editors Reject, and Why",
+  "title": "What Editors Reject, and Why | DNA PR",
+  "description": "Why most pitches are ignored: the rejections that happen in seconds, the ones that happen on reading, and the preparation that genuinely helps.",
+  "body": "<p>Most pitches are not rejected. They are ignored, which is worse, because silence tells you nothing about what went wrong.</p>\n<p>The reasons are more consistent than founders expect. Here is what actually gets discarded, and at which point in the reading.</p>\n<h2 id=\"how-the-inbox-actually-works\">How the inbox actually works</h2>\n<p>A journalist covering a reasonably busy beat receives far more pitches than they could ever run. They are not reading with an open mind and a spare afternoon. They are scanning for the small number of things that fit what they are already working on.</p>\n<p>So most decisions happen in the subject line and the first sentence. A pitch is not judged against some abstract standard of quality. It is judged against everything else in the inbox that morning, and against the piece the writer is already late on.</p>\n<p>Understanding that changes what you send.</p>\n<h2 id=\"the-rejections-that-happen-in-seconds\">The rejections that happen in seconds</h2>\n<ul><li><strong>Wrong beat.</strong> The most common reason by a distance. A fintech story to someone covering retail, or a UK story to a US-only desk. No amount of quality survives this.</li><li><strong>Obvious mass send.</strong> Dear Editor, a merged first name in the wrong case, a pitch clearly written for nobody in particular. Writers spot it instantly.</li><li><strong>A subject line that says nothing.</strong> Story idea. Quick question. Partnership opportunity. Nothing there to open for.</li><li><strong>A press release pasted into the body.</strong> A release is a document, not a pitch. If you are unsure whether you even need one, that is covered in <a href=\"/guides/do-i-need-a-press-release\">do I need a press release</a>.</li><li><strong>Attachments from a stranger.</strong> Many are never opened. Put the story in the email.</li></ul>\n<p>None of these are about your business. They are about the envelope.</p>\n<h2 id=\"the-rejections-that-happen-on-reading\">The rejections that happen on reading</h2>\n<p>If the pitch survives the scan, it fails for different reasons.</p>\n<ul><li><strong>No story, just a company.</strong> Being good at something is not news. A reader has to finish the piece knowing something they did not know before.</li><li><strong>Nothing to verify.</strong> Claims with no data, no named source and no document. A journalist who cannot check it cannot publish it.</li><li><strong>No reason for this week.</strong> Without a hook, there is no answer to why now, and why now is most of the decision.</li><li><strong>Marketing language.</strong> Revolutionary, game-changing, disruptive, leading. These words signal that the pitch came from a marketing process and may have nothing underneath it.</li><li><strong>Too much ask, too little offer.</strong> Requesting a call to explore opportunities gives the writer work with no visible payoff.</li><li><strong>Already covered.</strong> The publication ran something close last month and you did not check.</li></ul>\n<h2 id=\"rejections-that-are-not-about-you\">Rejections that are not about you</h2>\n<p>A meaningful share of good pitches die for reasons you cannot influence, and it helps to know that.</p>\n<p>The writer has left the publication. The desk is short-staffed. A bigger news event swallowed the week. The section is being restructured. Someone pitched something similar two days earlier. The editor above them said no.</p>\n<p>This is why consistency matters more than perfecting one email. Any individual pitch is closer to a weighted coin toss than a verdict on your business, and the weighting is the part you control.</p>\n<h2 id=\"what-silence-and-a-no-actually-mean\">What silence and a no actually mean</h2>\n<p>Silence usually means not this, not now. It is rarely personal, and almost never worth a second, longer email restating the same pitch in more words.</p>\n<p>One short follow-up after a week is normal and sometimes works. A third is not.</p>\n<p>A real no is more valuable than silence. A brief reply asking what would have been more useful occasionally gets a genuine answer, and writers remember the people who take a no gracefully. That memory is usually worth more than the story you lost.</p>\n<h2 id=\"what-changes-the-odds\">What changes the odds</h2>\n<p>Nothing on this list guarantees coverage. All of it moves the probability.</p>\n<ul><li>Pitch the person who covers your subject, at a publication that runs pieces like yours. Narrowing that down is covered in <a href=\"/guides/how-to-choose-the-right-publication\">choosing the right publication</a>.</li><li>Lead with the finding, not the company.</li><li>Offer something checkable within the first three lines.</li><li>Keep it under 150 words and make the ask obvious.</li><li>Build a public record, so a writer who searches you finds independent material rather than only your own site.</li></ul>\n<p>Digital Networking Agency spends most of its time above the pitch itself, on the angle, the evidence and the target list, because that is where rejections are actually decided. We will not promise a placement, and any firm that does is describing a decision that is not theirs to make. The wider point about what you can and cannot buy is in <a href=\"/guides/what-is-earned-media\">what earned media is</a>.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Should I follow up if nobody replies?</h3>\n<p>Once, briefly, about a week later, with one new fact rather than a repeat of the original. If that goes unanswered, move to the next target and leave the relationship intact.</p>\n<h3>Does a rejection mean the story is bad?</h3>\n<p>Not usually. It more often means wrong writer, wrong week or wrong publication. The same story, placed accurately, can land elsewhere without a single word changed.</p>\n<h3>Is it worth asking why I was rejected?</h3>\n<p>Occasionally, if you keep it to one sentence and make it easy to answer. Some writers will tell you exactly what was missing, which is the most useful feedback available anywhere.</p>",
+  "toc": [
+    {
+      "id": "how-the-inbox-actually-works",
+      "text": "How the inbox actually works"
+    },
+    {
+      "id": "the-rejections-that-happen-in-seconds",
+      "text": "The rejections that happen in seconds"
+    },
+    {
+      "id": "the-rejections-that-happen-on-reading",
+      "text": "The rejections that happen on reading"
+    },
+    {
+      "id": "rejections-that-are-not-about-you",
+      "text": "Rejections that are not about you"
+    },
+    {
+      "id": "what-silence-and-a-no-actually-mean",
+      "text": "What silence and a no actually mean"
+    },
+    {
+      "id": "what-changes-the-odds",
+      "text": "What changes the odds"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Most pitches die in the subject line, on targeting rather than quality.",
+    "A story needs a reason for this week and something a writer can verify.",
+    "Some rejections have nothing to do with you, so keep pitching consistently."
+  ]
+},
+{
+  "slug": "what-a-media-kit-should-contain",
+  "h1": "What a Media Kit Should Contain",
+  "title": "What a Media Kit Should Contain | DNA PR",
+  "description": "What a journalist actually needs from you: the facts, bios, photographs and live links that belong in a media kit, and the material to leave out.",
+  "body": "<p>A media kit is not a brochure. It is a folder of the things a journalist would otherwise have to email you for.</p>\n<p>Judged that way, most kits are far too long and missing the parts that matter.</p>\n<h2 id=\"what-a-media-kit-is-for\">What a media kit is for</h2>\n<p>When a writer decides to include you, they need a handful of specifics: the correct spelling of your name, your job title, what the company does in one sentence, a usable photograph, and one or two facts they can attribute.</p>\n<p>If they have to chase you for those, your piece is competing with their deadline. The deadline usually wins.</p>\n<p>So the test for every item is simple. Does this save a journalist time, or does it cost them time? Anything in the second category comes out.</p>\n<h2 id=\"what-belongs-in-it\">What belongs in it</h2>\n<ul><li><strong>A one-line description.</strong> What the company does, for whom, in plain words. This is the sentence that gets copied into the article, so write it as you would like to read it.</li><li><strong>Boilerplate in two lengths.</strong> Roughly 50 words and roughly 120 words, both in plain prose rather than marketing register.</li><li><strong>A founder bio in two lengths.</strong> Two lines and one paragraph, with the correct job title and the spelling you want in print.</li><li><strong>Key facts.</strong> Founding year, headquarters, team size, markets served, and any figure you are willing to see published. Only include numbers you can evidence.</li><li><strong>Photography.</strong> A headshot plus two or three images that are not headshots.</li><li><strong>Logo files.</strong> A colour and a mono version, transparent backgrounds, sensible resolution.</li><li><strong>Quotes ready to use.</strong> Two or three attributable lines on the subjects you actually want to be asked about.</li><li><strong>Selected coverage.</strong> Live links to a few pieces, not a wall of logos. Presenting those honestly is covered in <a href=\"/guides/how-to-use-your-as-featured-in\">how to use your as-featured-in</a>.</li><li><strong>Contact details.</strong> A named person, a monitored inbox, and a realistic response time.</li></ul>\n<p>That is the whole thing. It fits on one page plus a folder of images.</p>\n<h2 id=\"photographs-and-logos\">Photographs and logos</h2>\n<p>Photography is where most kits fail, and it is the easiest fix on this page.</p>\n<p>A journalist needs an image that works in the publication's layout. That means high resolution, decent light, and enough space around the subject to be cropped both wide and square. A dark phone snapshot cannot be used, so the piece runs with stock imagery or no image at all.</p>\n<p>Include at least one horizontal shot and one vertical. Include something other than a face, such as the product, the workspace or the team working. And state plainly that the images are cleared for editorial use, because a writer who is unsure about rights will skip them rather than ask.</p>\n<h2 id=\"what-to-leave-out\">What to leave out</h2>\n<ul><li><strong>Your pitch deck.</strong> It was written for investors and it reads that way.</li><li><strong>Unverifiable claims.</strong> Market-leading. Award-winning, without naming the award. Fastest-growing, without a source. Each one costs you a little credibility.</li><li><strong>Screenshots of coverage.</strong> If there is no live link, it is not evidence.</li><li><strong>Mission statements.</strong> Nobody has ever quoted one.</li><li><strong>Anything behind a form.</strong> Making a journalist complete a lead-capture form to reach your assets is a reliable way to lose the piece.</li><li><strong>Watermarked or locked files.</strong> An image that cannot be used may as well not exist.</li></ul>\n<h2 id=\"how-to-send-it\">How to send it</h2>\n<p>Host it as a plain page on your own site with a short, memorable URL, and link to it. Do not attach a large file to a cold email.</p>\n<p>Keep the download folder small and obviously labelled: headshot, team, product, logo. Name files by what they contain, not by internal version numbers.</p>\n<p>In a pitch, link the kit at the end, in one line. It is a reference, not the pitch. The pitch itself is the story, which is a different job entirely and is covered in <a href=\"/guides/how-to-write-a-founder-story\">how to write a founder story</a>.</p>\n<h2 id=\"keeping-it-current\">Keeping it current</h2>\n<p>An out-of-date kit is worse than no kit, because the error ends up in print with your name on it.</p>\n<p>Check it whenever a title changes, a funding round closes, a headcount figure moves materially, or a coverage link dies. Twice a year as a minimum, and always before a campaign or a round of interviews. A stale figure in a kit is how a wrong number outlives the thing it described.</p>\n<p>Digital Networking Agency builds this out with clients as part of preparing to pitch, largely because the same material answers most of what an interviewer asks later. That overlap is covered in <a href=\"/guides/how-to-prepare-for-a-press-interview\">preparing for a press interview</a>.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Does a small company need a media kit?</h3>\n<p>Yes, and it is quicker to build than most founders expect. One page and a folder of images is enough, and it removes the delay that loses coverage.</p>\n<h3>Should the media kit be public?</h3>\n<p>Generally yes. A public press page is easy to find, easy to link and signals that you are straightforward to work with. Keep anything genuinely confidential out of it.</p>\n<h3>How many coverage links should I include?</h3>\n<p>Three to five that are recent, live and relevant. A long list of old links reads as padding, and every dead one invites doubt about the rest.</p>",
+  "toc": [
+    {
+      "id": "what-a-media-kit-is-for",
+      "text": "What a media kit is for"
+    },
+    {
+      "id": "what-belongs-in-it",
+      "text": "What belongs in it"
+    },
+    {
+      "id": "photographs-and-logos",
+      "text": "Photographs and logos"
+    },
+    {
+      "id": "what-to-leave-out",
+      "text": "What to leave out"
+    },
+    {
+      "id": "how-to-send-it",
+      "text": "How to send it"
+    },
+    {
+      "id": "keeping-it-current",
+      "text": "Keeping it current"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Every item in a kit should save a journalist time, or it comes out.",
+    "Usable photography is the most commonly missing piece and the easiest fix.",
+    "Review it whenever a title, a figure or a coverage link changes."
+  ]
+},
+{
+  "slug": "when-pr-is-the-wrong-spend",
+  "h1": "When PR Is the Wrong Spend",
+  "title": "When PR Is the Wrong Spend | DNA PR",
+  "description": "Press is the wrong purchase more often than agencies admit. The situations where coverage will not work, and the narrower set where it does.",
+  "body": "<p>We sell press coverage. This page argues that a lot of people who want to buy it should not, at least not yet.</p>\n<p>That is not modesty. Press bought at the wrong moment tends to produce a link, a brief feeling of progress, and no change to the business.</p>\n<h2 id=\"what-press-can-and-cannot-do\">What press can and cannot do</h2>\n<p>Coverage does a narrow set of things well. It makes you findable and checkable. It gives a hesitant buyer a reason to proceed. It supports a claim you were already making. It shifts how people who already know you exist think about you.</p>\n<p>It does not create demand for something nobody wants. It does not fix retention, pricing or a broken sales process. It does not produce a predictable flow of enquiries, and it does not behave like a paid channel you can switch on and measure this week.</p>\n<p>Press amplifies. If there is nothing underneath to amplify, it amplifies nothing.</p>\n<h2 id=\"when-there-is-no-demand-yet\">When there is no demand yet</h2>\n<p>If you have not yet sold the thing to anyone who was not already a friend, press is premature.</p>\n<p>The reason is practical. Coverage removes doubt from people who are already considering you. It does not manufacture consideration where none exists. A founder with no customers usually has an offer problem or a market problem, and an article touches neither.</p>\n<p>The cheaper test is direct outreach. Talk to thirty potential buyers. If none of them want it, an article about you will not change that. If several want it but hesitate over whether you are real and credible, that is a different finding, and it is the case where press starts to earn its cost.</p>\n<h2 id=\"when-nobody-is-searching-you\">When nobody is searching for you</h2>\n<p>Much of the value of coverage arrives later, when someone looks you up. A buyer before a call, an investor before a meeting, a partner checking you exist.</p>\n<p>So ask honestly whether anyone is looking. If your company name gets a handful of searches a month and your deals close in person by referral, the search you are trying to win is not happening often enough to justify the spend.</p>\n<p>The exception is when the few searches are very high value. Ten people checking you before a large contract can matter more than ten thousand casual visitors. Volume is not the measure here, stakes are, and it is worth being honest with yourself about which side you sit on.</p>\n<h2 id=\"when-the-product-is-not-ready\">When the product is not ready</h2>\n<p>Coverage is permanent and indexed. That cuts both ways.</p>\n<p>If the product is unstable, the service is inconsistent, or your own team cannot describe what you do the same way twice, press has arrived too early. You are inviting attention to something that will disappoint the people who look, and the article outlives the version of the company it describes.</p>\n<p>It also makes your weakest claim public and permanent. Anything you would not want quoted back at you in eighteen months should not go into print now.</p>\n<p>Fix the thing, then publicise it. That order is not a moral point, it is simply cheaper.</p>\n<h2 id=\"when-you-need-leads-this-month\">When you need leads this month</h2>\n<p>This is the most common mismatch and the most expensive one.</p>\n<p>Press runs on editorial timelines: developing an angle, pitching, waiting on a writer, waiting on a publication schedule. Even paid, contributor and sponsored routes, which are far more predictable, are a poor instrument for an immediate pipeline problem.</p>\n<p>If you need revenue within weeks, the money goes further on channels with a short, measurable feedback loop, such as outbound, paid acquisition, partnerships, or simply talking to your existing customers. Very few people read an article and buy the same afternoon.</p>\n<p>If an agency tells you otherwise, treat that as information about the agency. Our guides on <a href=\"/guides/is-guaranteed-pr-legit\">guaranteed PR</a> and <a href=\"/guides/how-to-vet-a-pr-agency\">vetting a PR agency</a> cover the specific promises worth refusing.</p>\n<h2 id=\"when-press-is-the-right-spend\">When press is the right spend</h2>\n<p>The honest positive case is narrower than the industry suggests, and it is real.</p>\n<ul><li><strong>You are being searched and found thin.</strong> People check you before buying and there is nothing independent to find.</li><li><strong>Credibility is the blocker.</strong> Deals stall at the trust stage rather than on price or product.</li><li><strong>You have something genuinely new to say.</strong> Data, a result, or a view worth arguing with.</li><li><strong>You are raising, hiring or entering a new market.</strong> All three involve third parties doing background research on you.</li><li><strong>You can wait.</strong> Months rather than weeks, and you are not depending on it for this quarter.</li></ul>\n<p>Digital Networking Agency turns down work that fails most of these, because a client with the wrong problem does not stay a client for long. If you are unsure which side you are on, say so plainly when you <a href=\"/contact\">get in touch</a> and we will tell you if the answer is not yet. Whatever anyone sells you, establishing the difference between a paid placement and <a href=\"/guides/what-is-earned-media\">earned editorial</a> is still the first thing to do.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>How long before press coverage does anything?</h3>\n<p>Assume months rather than weeks for an effect to show, and longer for a body of coverage to build. The value compounds slowly and then holds, which is the opposite shape to paid advertising.</p>\n<h3>Can I measure the return on press?</h3>\n<p>Partly. You can track branded search, referral traffic, and whether sales conversations stop stalling on credibility. You cannot attribute it cleanly the way you can a paid click, and anyone claiming otherwise is estimating.</p>\n<h3>What should I do instead if it is too early?</h3>\n<p>Sell directly, talk to customers, and fix whatever makes people hesitate. Keep a note of the numbers and moments worth telling later, because that record becomes the story when the timing is right.</p>",
+  "toc": [
+    {
+      "id": "what-press-can-and-cannot-do",
+      "text": "What press can and cannot do"
+    },
+    {
+      "id": "when-there-is-no-demand-yet",
+      "text": "When there is no demand yet"
+    },
+    {
+      "id": "when-nobody-is-searching-you",
+      "text": "When nobody is searching for you"
+    },
+    {
+      "id": "when-the-product-is-not-ready",
+      "text": "When the product is not ready"
+    },
+    {
+      "id": "when-you-need-leads-this-month",
+      "text": "When you need leads this month"
+    },
+    {
+      "id": "when-press-is-the-right-spend",
+      "text": "When press is the right spend"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Press amplifies what exists; it does not create demand that is not there.",
+    "If you need revenue within weeks, spend on a shorter feedback loop instead.",
+    "Coverage is permanent, so publish after the product is worth finding."
+  ]
+},
+{
+  "slug": "how-to-pitch-a-journalist-by-email",
+  "h1": "How to Pitch a Journalist by Email",
+  "title": "How to Pitch a Journalist by Email | DNA PR",
+  "description": "How to find the right writer, what a subject line should say, the five-part shape of a working pitch, and how to follow up without burning it.",
+  "body": "<p>A pitch is a short email asking a journalist to consider a story. It is not an announcement, a brochure or an introduction.</p>\n<p>Most are too long, too vague and sent to the wrong person. The fix is largely mechanical.</p>\n<h2 id=\"before-you-write-anything\">Before you write anything</h2>\n<p>Half the outcome is decided before the first word.</p>\n<p>Find the individual writer, not the publication. Read three or four things they have published recently and note the shape of those pieces: data-led, interview-led, trend-led. Check they still work there, because bylines outlive employment.</p>\n<p>Then check whether they have covered your angle already. If they have, either bring something genuinely new or choose someone else. Narrowing the target list properly is covered in <a href=\"/guides/how-to-choose-the-right-publication\">choosing the right publication</a>.</p>\n<p>Ten well-chosen writers beat two hundred addresses from a scraped list. The list approach does not merely fail, it makes the next attempt harder.</p>\n<h2 id=\"the-subject-line\">The subject line</h2>\n<p>The subject line is the pitch compressed. It should say what the story is, not that a story exists.</p>\n<ul><li><strong>Be concrete.</strong> A specific finding beats a vague offer of a story idea, every time.</li><li><strong>Keep it short.</strong> Under about eight words, because inboxes truncate.</li><li><strong>Signal the format.</strong> Words like data, exclusive, comment or interview tell the writer what they are being offered.</li><li><strong>Avoid pleading.</strong> Quick favour, following up again, please read. All three read as low value.</li></ul>\n<p>Never use a subject line that misrepresents what is inside. It buys one open and costs every future one.</p>\n<h2 id=\"the-shape-of-the-email\">The shape of the email</h2>\n<p>A working pitch is roughly 120 to 150 words and follows the same order every time.</p>\n<ul><li><strong>One line of relevance.</strong> Why this writer. Reference a specific piece, briefly, without flattery.</li><li><strong>The story, in two sentences.</strong> The finding first. What is new, and why now.</li><li><strong>The evidence.</strong> What you can show: a dataset, a named customer, a document, a result. One line.</li><li><strong>Who you are.</strong> One line. Name, role, company, and why you are the person to speak on this.</li><li><strong>The ask.</strong> Explicit and small. An interview, the data under embargo, a quote by a stated deadline.</li></ul>\n<p>Plain text, no images, no attachments. Links rather than files. A signature with a phone number, because a writer on deadline will call rather than type.</p>\n<h2 id=\"what-a-good-pitch-looks-like\">What a good pitch looks like</h2>\n<p>With your own specifics in place, that structure reads roughly like this.</p>\n<p><strong>Subject:</strong> Data: small manufacturers cutting export volumes</p>\n<p>Your piece last week on supplier costs raised something we have been measuring. Across our own order data, export volumes from small manufacturers moved sharply this quarter while domestic orders held steady, reversing the pattern we recorded for the previous two years.</p>\n<p>I can share the underlying figures and the methodology, and connect you with two customers willing to speak on the record. I am the founder, and we have tracked this monthly since launch.</p>\n<p>Happy to send the dataset today if that is useful.</p>\n<p>Notice what is absent. No adjectives about the company, no attachment, no request for a call to explore anything. The writer can decide in about fifteen seconds.</p>\n<h2 id=\"timing-and-follow-up\">Timing and follow-up</h2>\n<p>Send in the morning, local to the writer, midweek. Avoid Fridays and the hours around a major news event on their beat.</p>\n<p>If you have a genuine exclusive, say so and say for how long. If you do not, do not claim one.</p>\n<p>Follow up once, after five to seven working days, in three lines: the original subject, one new fact, and a clear offer to drop it. Then stop. A second follow-up rarely converts and is remembered.</p>\n<p>Keep a simple record of who you pitched, when, and what they said. The relationship is the asset. A writer who declines politely this year is a far better prospect next year than a stranger.</p>\n<h2 id=\"common-errors\">Common errors</h2>\n<ul><li><strong>Pitching the company instead of a story.</strong> The most frequent error by a wide margin.</li><li><strong>Burying the point in the fourth paragraph.</strong> Lead with the finding.</li><li><strong>Visible mail-merge.</strong> One wrong name and the email is finished.</li><li><strong>Asking for a call first.</strong> Offer the story. The call is their idea if they want it.</li><li><strong>Attaching a release with no covering angle.</strong></li><li><strong>Promising exclusivity to several people at once.</strong> This ends relationships permanently.</li></ul>\n<p>The fuller list of what gets discarded, and at which point, is in <a href=\"/guides/what-editors-reject-and-why\">what editors reject and why</a>. If your pitches keep failing on substance rather than form, the problem is usually upstream in the story itself.</p>\n<p>Digital Networking Agency does this work daily, and it is worth saying plainly: we can improve the pitch, the targeting and the timing, and none of that decides whether an editor runs it.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>How do I find a journalist's email address?</h3>\n<p>Many publications list staff contacts, and most writers publish a preferred contact method on their own profile. Journalist request services are another route, and our guide to <a href=\"/guides/haro-alternatives\">HARO alternatives</a> covers those.</p>\n<h3>Should I pitch several publications at once?</h3>\n<p>Yes, unless you have offered an exclusive. Pitch in small, tailored batches rather than one mass send, and never promise the same exclusive twice.</p>\n<h3>Is it rude to pitch a journalist on social media?</h3>\n<p>Not necessarily, if that is where they say they prefer to be reached. Keep it shorter than an email, and do not follow a message there with a second one somewhere else.</p>",
+  "toc": [
+    {
+      "id": "before-you-write-anything",
+      "text": "Before you write anything"
+    },
+    {
+      "id": "the-subject-line",
+      "text": "The subject line"
+    },
+    {
+      "id": "the-shape-of-the-email",
+      "text": "The shape of the email"
+    },
+    {
+      "id": "what-a-good-pitch-looks-like",
+      "text": "What a good pitch looks like"
+    },
+    {
+      "id": "timing-and-follow-up",
+      "text": "Timing and follow-up"
+    },
+    {
+      "id": "common-errors",
+      "text": "Common errors"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Pitch a named writer you have actually read, not a publication inbox.",
+    "Lead with the finding and keep the whole email under 150 words.",
+    "Follow up once with a new fact, then leave the relationship intact."
+  ]
+},
+{
+  "slug": "what-to-do-after-you-get-featured",
+  "h1": "What to Do After You Get Featured",
+  "title": "What to Do After You Get Featured | DNA PR",
+  "description": "The short list of things to do once a feature goes live: what to check, where to put it, what not to claim, and how it makes the next one easier.",
+  "body": "<p>A feature goes live and then, for most companies, nothing happens. The link sits in an inbox and the moment passes.</p>\n<p>The work after publication is small, quick and mostly neglected. It is also where a good share of the value is.</p>\n<h2 id=\"the-first-day\">The first day</h2>\n<p>Do these while the piece is fresh.</p>\n<ul><li><strong>Save the evidence.</strong> Archive the live URL, take a dated PDF, and record the publication, author and date. Links move, and articles are occasionally repositioned or removed.</li><li><strong>Thank the writer.</strong> One short line with no request attached. It is the cheapest relationship-building available and almost nobody does it.</li><li><strong>Tell your own people first.</strong> Sales, support and anyone client-facing should see it before customers do, and should know what it does and does not claim.</li><li><strong>Check the facts.</strong> Read it properly for errors in your name, title, figures or product description.</li></ul>\n<p>Corrections are far easier to request in the first day or two, and much harder once a piece has been syndicated onward.</p>\n<p>Beyond that, resist doing anything clever with it on the first day. The link is worth more in six months than it is this afternoon, and the steps below are what make that true.</p>\n<h2 id=\"what-to-check-before-you-share-it\">What to check before you share it</h2>\n<p>Two things determine how you are allowed to describe the piece.</p>\n<p><strong>Which route it took.</strong> Earned editorial, contributor, sponsored and syndicated pieces are all legitimate, but they are not interchangeable in how you present them. If the page carries a partner or paid-content label, that label travels with it every time you cite it.</p>\n<p><strong>What it actually says.</strong> A mention in a roundup is not a profile. A quote in someone else's story is not a story about you. Stretching this is the quickest way to lose the credibility the piece was meant to buy.</p>\n<p>If you cannot tell from the page itself which route it took, ask whoever placed it and get the answer in writing. Nobody thinks less of you for describing a contributor piece accurately, and plenty of people think less of you for the opposite.</p>\n<p>Our guide on <a href=\"/guides/how-to-use-your-as-featured-in\">using your as-featured-in</a> covers the wording that holds up and the wording that does not.</p>\n<h2 id=\"where-to-put-it\">Where to put it</h2>\n<p>A feature should end up in several places, each doing a different job.</p>\n<ul><li><strong>Your press page.</strong> A live link with publication, date and one line of context. Add it to <a href=\"/guides/what-a-media-kit-should-contain\">your media kit</a> at the same time.</li><li><strong>Your sales material.</strong> One line with the link, placed where a buyer is deciding whether to trust you.</li><li><strong>Your email footer,</strong> if the piece is recent and the publication is recognisable.</li><li><strong>Your own channels.</strong> Share it once, with a comment about the idea in the piece rather than about the achievement of being in it.</li><li><strong>Onboarding and recruitment material.</strong> New staff and candidates check you too.</li></ul>\n<p>Always link to the original article rather than a screenshot or a re-post. The original is the part that is verifiable.</p>\n<h2 id=\"what-not-to-do\">What not to do</h2>\n<ul><li><strong>Do not republish the full text on your own site.</strong> It usually breaches the publication's terms, and duplicating it adds nothing.</li><li><strong>Do not restyle publication logos.</strong> Use marks as published, and only where you genuinely appeared.</li><li><strong>Do not claim an endorsement.</strong> The publication covered you. Covering and endorsing are different claims, and readers can tell.</li><li><strong>Do not chase the writer for more.</strong> A fresh pitch in the same week reads as transactional.</li><li><strong>Do not let it go stale.</strong> A prominent feature from four years ago quietly suggests nothing has happened since.</li></ul>\n<p>The underlying rule is that everything you say about the piece should survive someone clicking through to read it. That is the only test worth applying here.</p>\n<h2 id=\"turning-one-feature-into-the-next\">Turning one feature into the next</h2>\n<p>Coverage tends to follow coverage, for an unglamorous reason. A writer who searches you and finds independent material has less risk to take on.</p>\n<p>So treat the first piece as raw material. It gives you a checkable reference in future pitches, a credible answer to whether anyone has written about this before, and often a better version of your own story, since journalists frequently phrase a business more clearly than its founder does.</p>\n<p>It also makes the next conversation easier to prepare for, because you now know which questions came up and where your answers were vague. Write that down before you forget it, and use it when you are <a href=\"/guides/how-to-prepare-for-a-press-interview\">preparing for a press interview</a>.</p>\n<p>Digital Networking Agency captures and files live links when placements land, precisely because this is the step clients skip. What we cannot do is control how long a third-party publisher keeps a page live, or whether a syndication partner picks it up at all.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Can I ask for a correction?</h3>\n<p>Yes, for a factual error. Email the writer, be specific about the fact and the correct version, and stay courteous. Do not ask for changes to tone, framing, or a quote you now regret.</p>\n<h3>Should I pay to promote the article?</h3>\n<p>Sometimes, if you are targeting a specific audience and the piece genuinely helps them decide. Be aware that this is paid distribution of earned coverage, which is fine as long as you do not describe the result as more coverage.</p>\n<h3>What if the article disappears?</h3>\n<p>It happens, through restructures, syndication windows and archive changes. Your dated PDF and archive link are exactly why you took them, and they remain usable evidence when the original page has gone.</p>",
+  "toc": [
+    {
+      "id": "the-first-day",
+      "text": "The first day"
+    },
+    {
+      "id": "what-to-check-before-you-share-it",
+      "text": "What to check before you share it"
+    },
+    {
+      "id": "where-to-put-it",
+      "text": "Where to put it"
+    },
+    {
+      "id": "what-not-to-do",
+      "text": "What not to do"
+    },
+    {
+      "id": "turning-one-feature-into-the-next",
+      "text": "Turning one feature into the next"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Archive the live link and a dated copy on the first day, every time.",
+    "Describe the piece as what it is, including any paid or partner label.",
+    "One feature makes the next pitch easier, so file what you learned."
+  ]
+},
+{
+  "slug": "do-i-need-a-press-release",
+  "h1": "Do I Need a Press Release?",
+  "title": "Do I Need a Press Release? | DNA PR",
+  "description": "Most businesses do not need one. When a press release is the right tool, when it is not, what it cannot do, and what to do with the money instead.",
+  "body": "<p>Most businesses that ask this question do not need a press release. A smaller number genuinely do, and for them it is the correct and cheapest tool available.</p>\n<p>This page is about which group you are in. If what you actually want is the difference between the two formats, that is covered separately in <a href=\"/guides/press-release-vs-feature-article\">press release vs feature article</a>.</p>\n<h2 id=\"the-short-answer\">The short answer</h2>\n<p>You need a release when there is a specific, dated event that other people have a legitimate reason to know about, and you need a public record that it happened.</p>\n<p>You do not need one when the goal is attention, credibility or coverage. Those are different products, and a release is a poor substitute for any of them.</p>\n<p>The question to ask is not whether this would make good publicity. It is whether something needs to be officially on the record.</p>\n<h2 id=\"when-a-release-is-the-right-tool\">When a release is the right tool</h2>\n<ul><li><strong>Funding, acquisition or a material corporate change.</strong> Investors, partners and staff need one authoritative version, and there are often obligations attached.</li><li><strong>A regulatory or compliance disclosure.</strong> Where a formal, dated, publicly retrievable statement is required of you.</li><li><strong>A senior appointment or departure.</strong> Particularly where silence invites speculation.</li><li><strong>A launch with a real date and real availability.</strong> Not a roadmap item.</li><li><strong>A crisis or a correction.</strong> When you need one accurate account that everyone can point to.</li><li><strong>An award, certification or result you can evidence.</strong> Where a journalist may need to check the claim later.</li></ul>\n<p>The common thread is that the record is the point. In each of these, a release does a job nothing else does as cleanly.</p>\n<h2 id=\"when-you-do-not-need-one\">When you do not need one</h2>\n<p>Most of what gets released is not news to anyone outside the company.</p>\n<ul><li>A website redesign, a rebrand or a new logo.</li><li>A minor feature, an integration nobody asked about, or a roadmap announcement.</li><li>A partnership with no stated commercial substance.</li><li>A milestone that matters internally: an anniversary, a junior hire, a round-number user figure you would rather not evidence.</li><li>An opinion. A release is not the format for a point of view.</li></ul>\n<p>Publishing releases about non-events has a real cost. It trains the people on your list to ignore you, so the one release that genuinely matters arrives in a folder they have learned to skip.</p>\n<h2 id=\"what-a-release-cannot-do\">What a release cannot do</h2>\n<p>This is where most of the disappointment sits.</p>\n<p>A release distributed over a wire appears across a network of sites, usually in a section labelled as press releases and attributed to your company. That is a factual, indexed, dated record. It is genuinely useful, and it is not the same thing as a publication deciding to write about you. Those pages are your own statement hosted elsewhere, not <a href=\"/guides/what-is-earned-media\">earned editorial</a>.</p>\n<p>A release will also not, by itself, produce journalist interest. Writers receive many and read few. It will not rank well for competitive search terms, because near-identical copies spread across many domains is the opposite of what search rewards. And it will not create demand, which is a broader point covered in <a href=\"/guides/when-pr-is-the-wrong-spend\">when PR is the wrong spend</a>.</p>\n<h2 id=\"what-to-do-instead\">What to do instead</h2>\n<p>If the honest answer is that you want coverage rather than a record, skip the release and do the other thing.</p>\n<p>Write a short, specific pitch to named writers who cover your subject, offering a story rather than an announcement. The mechanics are in <a href=\"/guides/how-to-pitch-a-journalist-by-email\">how to pitch a journalist by email</a>.</p>\n<p>Or publish the thinking yourself, on your own site, where you control it and nobody expects it to be independent. Or wait, and hold the release for a moment when there is something real to put in it.</p>\n<p>Digital Networking Agency writes and distributes releases where a record is genuinely needed, and we will say when we think a release is the wrong purchase for what you are trying to achieve.</p>\n<h2 id=\"if-you-do-send-one\">If you do send one</h2>\n<p>Keep it factual and short. A headline that states what happened, a first paragraph carrying the whole story, then detail in descending order of importance.</p>\n<p>Include a date, a named contact who will answer the phone, and the specifics a journalist would need to verify the claim. Use one quote, from the person actually involved, saying something a human being might say.</p>\n<p>Leave out adjectives, leave out anything you cannot evidence, and do not describe the company as leading, innovative or world-class. Each of those words makes the document less likely to be taken seriously by the people you sent it to.</p>\n<p>Then send it to the people it is relevant to, rather than to everyone.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Will a press release get me media coverage?</h3>\n<p>Occasionally, if the news is genuinely relevant to a writer's beat. Far more often it creates a public record and nothing else, which is fine as long as that is what you wanted.</p>\n<h3>Is paid wire distribution worth it?</h3>\n<p>For a formal announcement that needs to be findable and dated, often yes. If the goal is visibility or credibility, the same money usually goes further elsewhere.</p>\n<h3>How often should a company issue releases?</h3>\n<p>Only when something happens. There is no schedule worth keeping, and issuing them to a cadence is precisely how a distribution list learns to stop reading you.</p>",
+  "toc": [
+    {
+      "id": "the-short-answer",
+      "text": "The short answer"
+    },
+    {
+      "id": "when-a-release-is-the-right-tool",
+      "text": "When a release is the right tool"
+    },
+    {
+      "id": "when-you-do-not-need-one",
+      "text": "When you do not need one"
+    },
+    {
+      "id": "what-a-release-cannot-do",
+      "text": "What a release cannot do"
+    },
+    {
+      "id": "what-to-do-instead",
+      "text": "What to do instead"
+    },
+    {
+      "id": "if-you-do-send-one",
+      "text": "If you do send one"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Issue a release when you need an official record, not when you want attention.",
+    "Wire distribution creates a dated public record, not editorial coverage.",
+    "If you want coverage, pitch a story to named writers instead."
+  ]
+},
+{
+  "slug": "how-to-prepare-for-a-press-interview",
+  "h1": "How to Prepare for a Press Interview",
+  "title": "How to Prepare for a Press Interview | DNA PR",
+  "description": "What to settle before you agree, how to build three messages that survive an edit, handling difficult questions, and what to do once it is over.",
+  "body": "<p>An interview is not a conversation. It is a conversation being recorded by someone whose job is to find the interesting part.</p>\n<p>That is not hostile. It only means preparation changes the outcome far more than confidence does.</p>\n<h2 id=\"what-to-establish-beforehand\">What to establish beforehand</h2>\n<p>Before agreeing, settle the basics in writing.</p>\n<ul><li><strong>The format.</strong> Phone, video, in person or written questions. Live or recorded.</li><li><strong>The subject.</strong> What the piece is about, and whether you are the main subject or one voice among several.</li><li><strong>The length and the deadline.</strong> Both shape how much you can reasonably cover.</li><li><strong>Who else is in it.</strong> Particularly if a competitor or a critic is being quoted in the same piece.</li><li><strong>Attribution.</strong> On the record is the default. Background and off the record mean different things to different journalists, so agree the terms explicitly before you say anything that depends on them.</li></ul>\n<p>You can decline an interview. You cannot unsay something in one. If the framing sounds wrong, ask about it before rather than after.</p>\n<h2 id=\"the-preparation-that-matters\">The preparation that matters</h2>\n<p>Read the writer's recent work. Their last few pieces tell you the level of detail they want and how sceptical they tend to be.</p>\n<p>Then get your own facts straight: figures, dates, spellings, job titles, and the exact wording of any claim you intend to make. If it appears in <a href=\"/guides/what-a-media-kit-should-contain\">your media kit</a>, make sure the kit and your answers agree, because contradicting your own published material is an avoidable problem.</p>\n<p>Know what you are not going to discuss, and know why. We do not disclose that is a complete answer. No comment sounds like something else entirely.</p>\n<p>Finally, decide what you want the reader to take away. Not a slogan. A single idea.</p>\n<h2 id=\"building-your-three-messages\">Building your three messages</h2>\n<p>Pick three things you want to land, and no more. Three is roughly what survives an edit.</p>\n<p>For each one, prepare the same three components.</p>\n<ul><li><strong>The claim,</strong> in one sentence a non-specialist would understand.</li><li><strong>The evidence,</strong> a figure, a case or a document you can point to.</li><li><strong>The example,</strong> a short and concrete illustration. Examples are what get quoted.</li></ul>\n<p>Say each one out loud until it takes twenty seconds rather than two minutes. Long answers get cut, and when they are cut you do not choose which part survives.</p>\n<p>If you have already written a proper founder narrative, most of this material exists already. Our guide to <a href=\"/guides/how-to-write-a-founder-story\">writing a founder story</a> covers how to build it.</p>\n<h2 id=\"handling-difficult-questions\">Handling difficult questions</h2>\n<p>Difficult questions are usually predictable. Write down the five you least want to be asked and answer them on paper first.</p>\n<ul><li><strong>Answer the question asked.</strong> Visible evasion becomes the story more often than a straight answer would have.</li><li><strong>Do not repeat a hostile framing,</strong> even to deny it. Rephrase in your own words, then answer.</li><li><strong>Say when you do not know.</strong> Offer to follow up with the figure, then actually follow up.</li><li><strong>Do not speculate</strong> about competitors, customers, litigation, or anything you have not verified.</li><li><strong>Silence is allowed.</strong> A pause while you think is invisible in print and entirely normal on air.</li></ul>\n<p>Never say anything on the assumption it will not be used. If you said it and the terms were on the record, it can be used.</p>\n<h2 id=\"during-the-interview\">During the interview</h2>\n<p>Take the call somewhere quiet, on a stable connection, with your notes visible but not read aloud. Reading answers is audible.</p>\n<p>Speak in shorter sentences than feels natural, and stop at the end of an answer rather than filling the gap. The pause after your answer is a technique, and the material people regret usually arrives in it.</p>\n<p>Use plain words. Jargon either gets cut or gets misquoted. If you use a term of art, define it in the same breath. Our <a href=\"/glossary\">glossary</a> exists partly because industry language travels badly outside the industry.</p>\n<p>If you misspeak, say so immediately and give the correct version. Journalists are generally relaxed about that in the moment and much less relaxed about a correction request a week later.</p>\n<h2 id=\"after-it-ends\">After it ends</h2>\n<p>Send any promised figures or contacts quickly, while the piece is still being written. Late material does not make it in.</p>\n<p>Ask when it is likely to run, but do not ask to review the copy. Most publications will not offer it, and asking can read as a lack of confidence. You may reasonably ask to check a direct quote or a technical fact for accuracy.</p>\n<p>Then note what you were asked, which answers were weak, and which question you did not expect. That file is the reason your third interview is better than your first, and it feeds straight into <a href=\"/guides/what-to-do-after-you-get-featured\">what to do after you get featured</a>.</p>\n<p>Digital Networking Agency prepares clients before interviews it arranges. What nobody can offer is control over what the journalist writes, and an agency promising copy approval on independent editorial is promising something the newsroom has not agreed to.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Can I see the article before it publishes?</h3>\n<p>Usually not. Independent publications rarely offer copy approval, though many will check a direct quote or a technical detail if you ask politely and early enough.</p>\n<h3>What does off the record actually mean?</h3>\n<p>It varies by journalist, which is why it has to be agreed in advance rather than declared mid-sentence. Assume everything is on the record unless you have explicitly agreed otherwise.</p>\n<h3>Should I ask for the questions in advance?</h3>\n<p>You can ask for the themes, and many writers will share them. A full question list is less common, and insisting on one can cost you the interview.</p>",
+  "toc": [
+    {
+      "id": "what-to-establish-beforehand",
+      "text": "What to establish beforehand"
+    },
+    {
+      "id": "the-preparation-that-matters",
+      "text": "The preparation that matters"
+    },
+    {
+      "id": "building-your-three-messages",
+      "text": "Building your three messages"
+    },
+    {
+      "id": "handling-difficult-questions",
+      "text": "Handling difficult questions"
+    },
+    {
+      "id": "during-the-interview",
+      "text": "During the interview"
+    },
+    {
+      "id": "after-it-ends",
+      "text": "After it ends"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Agree format, subject and attribution in writing before you say yes.",
+    "Three messages, each with evidence and an example, is what survives an edit.",
+    "Assume everything is on the record unless you agreed otherwise first."
+  ]
 }
 ];
 
