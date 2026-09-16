@@ -4,6 +4,7 @@ import { SERVICES } from "@/content/services";
 import { REGIONS } from "@/content/regions";
 import { VISA_PAGE, TOP_LISTS_PAGE } from "@/content/landings";
 import { GLOSSARY } from "@/content/glossary";
+import { COMPARISONS } from "@/content/comparisons";
 
 const SITE = "https://www.digitalnetworkingagency.com";
 
@@ -57,6 +58,13 @@ export function GET() {
     lines.push("## PR by country");
     for (const r of REGIONS) {
       lines.push(`- [${r.h1}](${SITE}/pr-in/${r.slug}): ${r.description}`);
+    }
+    lines.push("");
+  }
+  if (COMPARISONS.length) {
+    lines.push("## Honest comparisons with other agencies");
+    for (const c of COMPARISONS) {
+      lines.push(`- [${c.h1}](${SITE}/compare/${c.slug}): ${c.description}`);
     }
     lines.push("");
   }

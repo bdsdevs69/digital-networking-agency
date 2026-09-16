@@ -109,6 +109,10 @@ export const GUIDE_PUBLISHED: Record<string, string> = {
   "o1-vs-eb1a-press-requirements": "2026-09-15",
   "what-counts-as-major-media-for-uscis": "2026-09-15",
   "when-to-start-press-for-a-visa-petition": "2026-09-15",
+  "how-to-get-featured-in-maxim": "2026-09-16",
+  "how-to-get-published-on-medium": "2026-09-16",
+  "best-pr-agencies-for-startups": "2026-09-16",
+  "best-pr-agencies-for-personal-brands": "2026-09-16",
 };
 
 export const GUIDE_UPDATED: Record<string, string> = {};

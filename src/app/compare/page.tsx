@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import styles from "./compare.module.css";
+import { COMPARISONS } from "@/content/comparisons";
 
 const SITE = "https://www.digitalnetworkingagency.com";
 
@@ -195,6 +196,23 @@ export default function ComparePage() {
             written properly, without running the process yourself.
           </p>
         </section>
+
+        {COMPARISONS.length ? (
+          <section className={`${styles.honest} sr`}>
+            <h2>Compared with other agencies</h2>
+            <p>
+              Honest comparisons with the agencies you are most likely to be weighing
+              against us, based on what their own websites say.
+            </p>
+            <ul>
+              {COMPARISONS.map((c) => (
+                <li key={c.slug}>
+                  <Link href={`/compare/${c.slug}`}>{c.h1}</Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ) : null}
 
         <section className={`${styles.faq} sr`}>
           <h2>Common questions</h2>

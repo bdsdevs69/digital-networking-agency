@@ -7,6 +7,7 @@ import { CASE_STUDIES } from "@/content/caseStudies";
 import { REGIONS } from "@/content/regions";
 import { VISA_PAGE, TOP_LISTS_PAGE } from "@/content/landings";
 import { GLOSSARY } from "@/content/glossary";
+import { COMPARISONS } from "@/content/comparisons";
 
 const SITE = "https://www.digitalnetworkingagency.com";
 
@@ -156,6 +157,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...(VISA_PAGE ? [`${SITE}/pr-for-eb1a-o1-visa`] : []),
     ...(TOP_LISTS_PAGE ? [`${SITE}/get-featured-in-top-lists`] : []),
     ...(GLOSSARY ? [`${SITE}/glossary`] : []),
+    ...COMPARISONS.map((c) => `${SITE}/compare/${c.slug}`),
   ].map((url) => ({
     url,
     lastModified: UPDATED.hubs,

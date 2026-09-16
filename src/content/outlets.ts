@@ -665,6 +665,17 @@ export const OUTLETS: Outlet[] = [
     about: "Real Estate Today is a digital publication covering property, real estate markets, development and the people working across the sector.",
     why: "Property runs on trust and buyers research people before they commit. This is a permanent article they can find, not the authority of an established trade title.",
     audience: "Agents, brokers, developers and proptech founders.",
+  },
+  {
+    slug: "maxim",
+    guideSlug: "how-to-get-featured-in-maxim",
+    name: "Maxim",
+    title: "Get Featured in Maxim | Digital Networking Agency",
+    subhead: "Men's lifestyle, entertainment and culture",
+    value: "We develop the angle, prepare what an editor needs and pitch where the fit is genuine. You approve everything before it goes anywhere.",
+    about: "Maxim is a men's lifestyle and entertainment magazine covering style, cars, watches, travel, food and drink, sport, music and the people around all of it.",
+    why: "It is a consumer and cultural credential rather than a business one, and it reaches a general audience. Earned editorial there is competitive and entirely the editor's decision.",
+    audience: "Lifestyle, entertainment, hospitality and consumer founders.",
   }
 ];
 
