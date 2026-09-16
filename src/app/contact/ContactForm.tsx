@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import styles from "./contact.module.css";
 
 const ENDPOINT = "/api/contact";
@@ -30,6 +31,7 @@ function PillGroup({
 }
 
 export function ContactForm() {
+  const router = useRouter();
   const [status, setStatus] = useState<"idle" | "sending" | "done" | "error">(
     "idle"
   );
@@ -53,8 +55,8 @@ export function ContactForm() {
           "generate_lead",
           { form: "contact" }
         );
-        setStatus("done");
         form.reset();
+        router.push("/thank-you");
       } else {
         setStatus("error");
       }

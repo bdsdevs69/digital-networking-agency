@@ -1,12 +1,14 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import styles from "@/app/get-featured-in/getfeatured.module.css";
 
 // Short enquiry form placed on the outlet pages themselves. Previously the only
 // form on the site was /contact, so every outlet page handed its traffic off to
 // another page before it could convert.
 export function OutletForm({ outlet }: { outlet: string }) {
+  const router = useRouter();
   const [status, setStatus] = useState<"idle" | "sending" | "done" | "error">("idle");
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
@@ -26,8 +28,8 @@ export function OutletForm({ outlet }: { outlet: string }) {
           "generate_lead",
           { form: "outlet", outlet }
         );
-        setStatus("done");
         form.reset();
+        router.push("/thank-you");
       } else {
         setStatus("error");
       }
