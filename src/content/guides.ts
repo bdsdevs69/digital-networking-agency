@@ -4492,6 +4492,1300 @@ export const GUIDES: Guide[] = [
     "Three messages, each with evidence and an example, is what survives an edit.",
     "Assume everything is on the record unless you agreed otherwise first."
   ]
+},
+{
+  "slug": "how-to-get-featured-in-ceo-world-biz",
+  "h1": "How to Get Featured in CEO World Biz",
+  "title": "How to Get Featured in CEO World Biz | DNA PR",
+  "description": "CEO World Biz is a smaller digital business title with an executive readership. What it is, the routes in, and what a feature there is really worth.",
+  "body": "<p>Most founders looking at CEO World Biz are really asking one question: is this a real publication, or a logo to buy. The honest answer is that it is a real, permanent, searchable article at a smaller title, and both halves of that sentence matter.</p>\n<p>Here is what it is and how people get featured.</p>\n<h2 id=\"what-ceo-world-biz-is\">What CEO World Biz is</h2>\n<p>CEO World Biz is a digital business publication written for and about executives. Its subject matter is leadership, management, strategy and the decisions behind companies, rather than breaking market news.</p>\n<p>It is online only. A piece publishes, stays live and gets indexed, which means it surfaces when someone searches your name before a meeting, an investment conversation or a hire. That permanence is the asset, and it is the same asset a bigger masthead gives you at a different weight.</p>\n<p>It carries a mix of material: pieces the publication runs itself, columns contributed under an executive's own byline, and commercial content. Knowing which of those you are getting is most of the work.</p>\n<h2 id=\"where-it-sits-honestly\">Where it sits, honestly</h2>\n<p>CEO World Biz is a smaller digital business title, not a national masthead. It is meaningfully more accessible than a staff-written newspaper or a major financial site, and it carries proportionally less weight with a reader who knows the difference.</p>\n<p>That is not a reason to avoid it. A press record is built in layers, and the first layer is usually a set of credible titles that will actually run a well-written piece. Editors and journalists further up check whether you have said anything in public before, and an article with substance behind it does that job.</p>\n<p>What it will not do is impress someone who already reads the business press closely. If you are weighing titles against each other, our guide on <a href=\"/guides/tier-1-vs-tier-2-publications\">tier 1 versus tier 2 publications</a> sets out the trade plainly.</p>\n<h2 id=\"the-routes-in-and-what-to-call-them\">The routes in, and what to call them</h2>\n<ul><li><strong>Editorial.</strong> The publication decides to run something about you. Free, and its call.</li><li><strong>A contributed column.</strong> You publish under your own byline. Common at titles like this, and entirely legitimate as long as it is described as a column rather than a journalist reporting on you. The format is explained in <a href=\"/guides/what-is-a-contributor-article\">what a contributor article actually is</a>.</li><li><strong>Sponsored placement.</strong> Paid, labelled, and a marketing product. Legitimate when it is named accurately, and misleading the moment it is not.</li><li><strong>A managed feature.</strong> The angle developed with you, the piece written to the publication's standard, the placement handled, and your approval on the draft.</li></ul>\n<p>The failure here is never the route itself. It is describing a paid column as newsroom reporting in a deck, and having someone check.</p>\n<h2 id=\"what-makes-a-strong-piece\">What makes a strong piece</h2>\n<p>The reader is an executive, which changes what is worth writing. They are not impressed by growth, and they have read every version of the generic leadership article.</p>\n<p>What holds their attention is judgement: a decision you actually made, the constraint you were working under, what you traded away, and what happened next. How you restructured a team and what it cost. Why you changed a pricing model and what broke first. A hire that did not work and what you now screen for.</p>\n<p>Leave the mechanics in. The transferable part is the reasoning rather than the result, and a piece that could have been written about any company is the one nobody finishes.</p>\n<p>One structural test before you write: can you name something you believed at the start that you no longer believe. If the answer is nothing, the piece is a summary of your achievements dressed as a lesson, and an executive reader recognises that within a paragraph.</p>\n<h2 id=\"what-to-expect-from-the-process\">What to expect from the process</h2>\n<p>Share your story and your thinking, our team drafts the piece, you review with revisions until it is right, and nothing publishes until you approve it. Then it goes live and you have the link.</p>\n<p>Two honest notes. We tell you in writing which route we are using, so you can describe the result accurately afterwards. And any provider who will not show you a draft before publication is not one to use, at this title or any other.</p>\n<p>What we need from you is short. Half an hour on the phone, the decisions you are willing to discuss on the record, and any figures you are happy to see published. The angle, the writing and the placement are ours, and the sign-off is yours.</p>\n<h2 id=\"getting-started\">Getting started</h2>\n<p>Digital Networking Agency writes, edits and places features across a wide range of business publications, and you can see the range on our <a href=\"/publications\">publications page</a>. You keep editorial control throughout, and nothing goes live without your sign-off.</p>\n<p>If you want a view on whether this title is the right first step for your situation, <a href=\"/contact\">tell us what you are building</a> and we will give you a straight answer rather than a quote.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Is CEO World Biz a top-tier publication?</h3>\n<p>No. It is a smaller digital business title, more accessible than a national masthead and carrying less weight than one. The article is still permanent, searchable and useful.</p>\n<h3>Can you pay to appear there?</h3>\n<p>Contributed and sponsored routes are common at titles of this size, and they are legitimate when labelled. What nobody can sell you is a journalist independently deciding to report on you.</p>\n<h3>Can I approve the article before it publishes?</h3>\n<p>Yes. You review and revise until it is right, and nothing publishes without your approval.</p>",
+  "toc": [
+    {
+      "id": "what-ceo-world-biz-is",
+      "text": "What CEO World Biz is"
+    },
+    {
+      "id": "where-it-sits-honestly",
+      "text": "Where it sits, honestly"
+    },
+    {
+      "id": "the-routes-in-and-what-to-call-them",
+      "text": "The routes in, and what to call them"
+    },
+    {
+      "id": "what-makes-a-strong-piece",
+      "text": "What makes a strong piece"
+    },
+    {
+      "id": "what-to-expect-from-the-process",
+      "text": "What to expect from the process"
+    },
+    {
+      "id": "getting-started",
+      "text": "Getting started"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "CEO World Biz is a smaller digital business title written for an executive readership.",
+    "Contributed and sponsored routes are common here, and both should be labelled honestly.",
+    "It is more accessible than a national masthead and carries less weight than one."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-the-business-journals",
+  "h1": "How to Get Featured in The Business Journals",
+  "title": "Get Featured in The Business Journals | DNA PR",
+  "description": "The Business Journals runs staffed newsrooms across US metro markets. Who its reporters cover, why local relevance decides it, and the realistic path in.",
+  "body": "<p>The Business Journals is one of the few places where a business with a genuinely local footprint has better odds than a national one. That is the whole logic of the network, and most pitches ignore it.</p>\n<p>Here is an honest account of how coverage happens.</p>\n<h2 id=\"what-the-business-journals-is\">What The Business Journals is</h2>\n<p>The Business Journals is an established US business-news network made up of individual titles serving metro markets across the country, each with its own newsroom and its own reporters.</p>\n<p>Those reporters cover the companies, deals, property, hiring and people in their city. The network carries national business coverage as well, but the centre of gravity is local: who bought which building, who raised, who is hiring, which sector in this metro is moving.</p>\n<p>What publishes there is written by journalists. Coverage is a newsroom decision, which is precisely why it reads as credible to a banker, a broker or a buyer in your market.</p>\n<h2 id=\"why-the-local-frame-matters\">Why the local frame matters</h2>\n<p>Founders usually chase the largest possible audience. For a business with a physical presence, that instinct is backwards.</p>\n<p>A national feature is read by people who will never buy from you. A metro business journal is read closely by the people who already might: local lenders, commercial property agents, recruiters, procurement teams, competitors and the advisers around them. It is one of the few business audiences that reads on purpose rather than by accident.</p>\n<p>If you have no real presence in a US metro, this is the wrong target, and <a href=\"/guides/how-to-choose-the-right-publication\">how to choose the right publication</a> is a better place to start than a pitch.</p>\n<h2 id=\"who-realistically-gets-covered\">Who realistically gets covered</h2>\n<p>Companies doing something visible in a specific market. A business signing a lease, opening a facility, hiring at scale, raising money, winning a contract or changing hands. Executives moving into significant local roles. Operators who can explain what is happening in a sector the reporter is already watching in their patch.</p>\n<p>What does not get covered is a company headquartered nowhere in particular with news that would read identically in any city. The reporter's obligation is to their market. If the story does not touch it, there is nothing for them to write.</p>\n<p>There is also a standing need most founders never think to meet. Metro reporters cover the same sectors week after week and are short of people who will explain what is happening, in plain language, on deadline. Being that person is often how a company first appears in print, long before it has news of its own.</p>\n<h2 id=\"what-makes-a-story-they-will-run\">What makes a story they will run</h2>\n<p>Commercial substance a reporter can verify without knowing you. A figure with a period attached, a filing, a permit, a named partner, a signed contract, a headcount number.</p>\n<p>Then the local consequence stated plainly: what changes in this city because of this. Jobs, space, investment, supply, competition. Say it in the first two sentences rather than burying it under company history.</p>\n<p>Timing matters as much as substance. Metro newsrooms are small and work to a daily cycle, so a story offered on the day it becomes true is worth far more than the same story offered a month later, and an exclusive to one title beats the same note sent to twelve.</p>\n<p>One more thing worth knowing: these newsrooms cover your competitors as well as you. Framing a story as what is happening in the local market, with your company as one visible example of it, is a far easier piece for a reporter to write than a story that only stands up if you are the subject.</p>\n<h2 id=\"paid-products-and-what-they-are-not\">Paid products, and what they are not</h2>\n<p>Advertising, events and sponsorship exist across the network, bought at media rates and marked as commercial. They are legitimate products. They are not a reporter writing about you, and they should never be described as though they were.</p>\n<p>There is no membership that converts a fee into a newsroom byline. If someone offers you a guaranteed placement at a title with its own staff journalists, treat that as a warning about the rest of the offer. We set out why in <a href=\"/guides/is-guaranteed-pr-legit\">is guaranteed PR legit</a>.</p>\n<h2 id=\"the-realistic-path\">The realistic path</h2>\n<ul><li><strong>Pick one market.</strong> The metro where you actually operate, not a list of cities you would like to be in.</li><li><strong>Find the reporter, not the outlet.</strong> One journalist covers your beat in that city. Read what they have published in the last month before you write a word.</li><li><strong>Lead with the local fact.</strong> The number, the address, the deal. Context second, company history last or not at all.</li><li><strong>Be available.</strong> Local reporters need a source who answers the same day when a sector story breaks, and that is usually how a first piece happens.</li></ul>\n<p>Digital Networking Agency builds the story and the record that make coverage at this level plausible, placing clients consistently in titles where we have real reach and pitching upward from there. We do not sell placements at staff-written publications. <a href=\"/contact\">Tell us the market you are in</a> and we will give you an honest read on whether this is a near-term target or something to build toward.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Can you pay for coverage in The Business Journals?</h3>\n<p>Not for editorial. Advertising, events and sponsorship are separate commercial products and are labelled as such, which is exactly why a reader treats them differently.</p>\n<h3>Does it work if my business has no US metro footprint?</h3>\n<p>Rarely. The network's value is local relevance, so a company with no presence in a covered market gives a reporter very little to work with.</p>\n<h3>Can an agency guarantee a placement there?</h3>\n<p>No. Editorial coverage across a network of staffed newsrooms cannot be guaranteed by anyone outside them, and a guarantee should be read as a warning sign.</p>",
+  "toc": [
+    {
+      "id": "what-the-business-journals-is",
+      "text": "What The Business Journals is"
+    },
+    {
+      "id": "why-the-local-frame-matters",
+      "text": "Why the local frame matters"
+    },
+    {
+      "id": "who-realistically-gets-covered",
+      "text": "Who realistically gets covered"
+    },
+    {
+      "id": "what-makes-a-story-they-will-run",
+      "text": "What makes a story they will run"
+    },
+    {
+      "id": "paid-products-and-what-they-are-not",
+      "text": "Paid products, and what they are not"
+    },
+    {
+      "id": "the-realistic-path",
+      "text": "The realistic path"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "The Business Journals is staff-written, with its own newsroom in each metro market.",
+    "Local relevance decides coverage, so a national story with no city behind it goes nowhere.",
+    "Advertising and sponsorship are separate labelled products, and guarantees are not credible."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-investing-com",
+  "h1": "How to Get Featured in Investing.com",
+  "title": "How to Get Featured in Investing.com | DNA PR",
+  "description": "Investing.com is a major financial news and data site with its own newsroom. Who gets covered, why guarantees are not credible, and the honest route in.",
+  "body": "<p>Investing.com is one of the largest financial sites on the internet, and that size is exactly why the honest version of this page is shorter on tactics than most founders want.</p>\n<p>Here is how coverage there actually works.</p>\n<h2 id=\"what-investing-com-actually-is\">What Investing.com actually is</h2>\n<p>Investing.com is a major financial data and news platform. Its core is market data, with news and analysis layered on top, published across many markets and in several languages.</p>\n<p>People arrive there to check something rather than to browse, and that shapes the journalism. It serves readers making decisions about money, and it is written by journalists and analysts rather than by the companies being written about.</p>\n<p>There is no membership that turns a fee into an editorial byline. Coverage is a newsroom decision, which is the reason it is worth having at all.</p>\n<p>The scale matters for a second reason. A site this large publishes a great deal across many sections and several languages, and not all of it is reporting. Data pages, partner material and syndicated content sit alongside the newsroom's own work, which is exactly why the question of which part of the site you are being sold is the important one.</p>\n<h2 id=\"who-realistically-gets-covered\">Who realistically gets covered</h2>\n<p>Listed companies and the numbers behind them. Funds, analysts and economists who can explain what a market is doing. Businesses whose performance says something about a sector a reader holds exposure to. Specialists who can speak credibly and quickly about a story already moving.</p>\n<p>If your business has no financial dimension a reader could act on, this is very likely the wrong target. Chasing it can absorb a year better spent building coverage your actual buyers read, which is the trade weighed up in <a href=\"/guides/how-to-choose-the-right-publication\">how to choose the right publication</a>.</p>\n<p>Private companies are not excluded, but they get in sideways. A founder who can explain what their own data shows about a market a reporter is already covering is useful. A founder who wants a profile of their company is not, and that difference is not one persistence solves.</p>\n<h2 id=\"what-makes-a-story-they-will-run\">What makes a story they will run</h2>\n<p>A thesis with evidence attached. What your own transaction, pricing or usage data shows about where demand is moving. How a rule change alters the economics of a sector. Why a cost line the market has ignored is about to matter.</p>\n<p>Name the period, the basis and the method, because this readership checks. A figure without a method behind it is an adjective with a number in front of it.</p>\n<p>Timing carries much of the value. The same view is useful on the morning a sector moves and close to worthless a month afterwards. And nothing resembling a price target or a nudge to buy belongs anywhere near the piece.</p>\n<p>It also helps to know what a desk is already covering this week. A view that fits a story in motion gets read. The same view offered cold, with no peg attached, is filed with everything else.</p>\n<h2 id=\"the-paid-routes-and-what-they-are-not\">The paid routes, and what they are not</h2>\n<p>Advertising and sponsored or partner content exist, bought at media rates and labelled. Newswire material also appears on large financial sites in clearly non-editorial areas.</p>\n<p>Much of what is sold as an Investing.com placement is one of those rather than a journalist's piece. Ask a single question of any offer: is this a reporter writing, a wire release, or an advertisement. The answer settles what you are buying and what you are entitled to call it afterwards. The distinction is set out in <a href=\"/guides/what-is-earned-media\">what earned media actually means</a>.</p>\n<p>Guarantees deserve particular suspicion. Nobody outside a newsroom can promise editorial coverage inside it.</p>\n<h2 id=\"the-realistic-path\">The realistic path</h2>\n<ul><li><strong>Be a source, not a subject.</strong> Financial journalists need informed comment on stories they are already writing, often within the hour. Useful and fast is how these relationships begin.</li><li><strong>Bring something checkable.</strong> A dataset, a filing, a figure with a visible method. Evidence beats description every time with this readership.</li><li><strong>Build the record first.</strong> Reporters at this level look for whether you have said anything credible in public before deciding you are worth quoting.</li><li><strong>Narrow the ask.</strong> One writer covering your exact corner of the market, one point you can make better than the voices they already use.</li></ul>\n<p>None of this is quick, and being quoted once is worth more than it looks. Financial journalists work under time pressure, so a source who was useful last month is the first one called next month.</p>\n<h2 id=\"what-we-do\">What we do</h2>\n<p>Digital Networking Agency builds the story and the press record that make coverage at this level plausible, placing clients consistently in business and finance publications where we have real reach and pitching upward from there.</p>\n<p>We do not sell placements at Investing.com, and we would be cautious about anyone who does. We will also tell you honestly whether it is a realistic near-term target or a goal to build toward. <a href=\"/contact\">Send us the numbers you can stand behind</a> and we will tell you what they are worth.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Can you pay to be featured on Investing.com?</h3>\n<p>Not for editorial coverage. Advertising, sponsored content and wire distribution are separate labelled products, and they read differently to anyone paying attention.</p>\n<h3>Can an agency guarantee coverage there?</h3>\n<p>No. A guarantee of editorial coverage at a major financial news site should be treated as a warning about the rest of the offer.</p>\n<h3>What should a private company target instead?</h3>\n<p>Publications your investors and buyers actually read. A permanent, credible feature that surfaces when someone searches your name is usually worth more than a masthead you cannot realistically reach.</p>",
+  "toc": [
+    {
+      "id": "what-investing-com-actually-is",
+      "text": "What Investing.com actually is"
+    },
+    {
+      "id": "who-realistically-gets-covered",
+      "text": "Who realistically gets covered"
+    },
+    {
+      "id": "what-makes-a-story-they-will-run",
+      "text": "What makes a story they will run"
+    },
+    {
+      "id": "the-paid-routes-and-what-they-are-not",
+      "text": "The paid routes, and what they are not"
+    },
+    {
+      "id": "the-realistic-path",
+      "text": "The realistic path"
+    },
+    {
+      "id": "what-we-do",
+      "text": "What we do"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Investing.com is a major financial news and data site, and its coverage is a newsroom decision.",
+    "Most placements sold there are wire releases or advertising rather than journalism.",
+    "The realistic opening is being a fast, evidenced source on a story already moving."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-us-insider",
+  "h1": "How to Get Featured in US Insider",
+  "title": "How to Get Featured in US Insider | DNA PR",
+  "description": "US Insider is a smaller digital business title with a national frame. What it is, the routes in, and how much weight a feature there actually carries.",
+  "body": "<p>US Insider is the kind of title founders find when they start looking for a first real press feature. The useful question is not whether it is famous. It is what the article does for you, and what you are entitled to call it afterwards.</p>\n<p>Here is what it is and how people get featured.</p>\n<h2 id=\"what-us-insider-is\">What US Insider is</h2>\n<p>US Insider is a smaller digital business publication covering founders, companies and business stories with a United States frame. Online only, permanently live and indexed by search engines.</p>\n<p>The national framing is the practical draw. A city title tells a reader you matter in one place. A national frame tells them your work is not bounded by geography, which is the right signal if you sell online, operate remotely or serve customers across several states.</p>\n<p>One check worth making on any placement at a smaller title: confirm the exact domain in writing. Similar names are common in this part of the market, and the confirmation costs nothing.</p>\n<p>The people it fits best are usually at the same stage. A real business, a story worth telling, and very little to find when someone searches their name. A single credible article changes what that search returns, which is a smaller claim than most of this industry makes and a considerably more reliable one.</p>\n<h2 id=\"where-it-sits-against-bigger-names\">Where it sits against the bigger names</h2>\n<p>This is a smaller digital title, not a national masthead. It is meaningfully more accessible than a staff-written newspaper, and it carries proportionally less weight with a reader who knows the difference.</p>\n<p>Both things are worth saying out loud, because the case for it holds without any exaggeration. A press record is built in layers. The first layer is usually a set of credible titles that will run a well-written piece, and editors further up check whether you have said anything in public before.</p>\n<p>The trade is set out properly in <a href=\"/guides/tier-1-vs-tier-2-publications\">tier 1 versus tier 2 publications</a>, and it is worth reading before you decide where to spend.</p>\n<h2 id=\"the-routes-in-and-what-to-call-them\">The routes in, and what to call them</h2>\n<ul><li><strong>Pitch it yourself.</strong> Free and legitimate, decided by fit and editorial capacity.</li><li><strong>A contributed piece.</strong> Published under your own byline. Common at titles of this size and honest as long as it is described as a column, a format explained in <a href=\"/guides/what-is-a-contributor-article\">what a contributor article is</a>.</li><li><strong>Sponsored placement.</strong> Paid, labelled, and a marketing product rather than reporting.</li><li><strong>A managed feature.</strong> The angle developed with you, the piece written to the publication's standard, the placement handled, and your approval on the draft.</li></ul>\n<p>None of these is disreputable. Describing a paid piece as newsroom reporting is, and it is the one mistake that costs more credibility than the feature earns.</p>\n<h2 id=\"what-a-feature-includes\">What a feature includes</h2>\n<p>A dedicated article about you and your work, with a headline and an angle built around your positioning, usually with imagery and links to your site and profiles.</p>\n<p>It publishes and stays indexed, so it becomes a reference point every time someone researches you before a call, a deal or a hire. That permanence is most of the value, and it is worth more when the piece actually says something rather than simply existing.</p>\n<p>What it does not include is reach you can bank on. Traffic at a smaller title is modest, and anyone selling you an audience figure is selling the wrong part of the product. The value sits in what the article proves to somebody who has already decided to look you up.</p>\n<h2 id=\"what-makes-a-strong-piece\">What makes a strong piece</h2>\n<p>A national readership needs a reason to care beyond the fact that your company exists.</p>\n<p>What works is something human or something surprising: the problem you set out to solve and why nobody had solved it, the decision that changed the direction of the business, the thing your industry consistently gets wrong at the customer's expense. Keep the specifics in and the jargon out.</p>\n<p>Write so that someone outside your sector understands the point in the first paragraph. A credential list is not a story, and an editor can tell the difference in a sentence.</p>\n<p>A useful test before writing: if you removed your company name, would a stranger still want to finish the piece. If not, the angle is a description rather than a story, and moving to a bigger title will not fix it.</p>\n<h2 id=\"what-to-expect-from-the-process\">What to expect from the process</h2>\n<p>Share your story, our team drafts the piece, you review with revisions until it is right, and nothing publishes until you approve it. Then it goes live and you have the link.</p>\n<p>We tell you in writing which route we are using, so you can describe the result accurately later. You can see the wider range of titles we work with on our <a href=\"/publications\">publications page</a>, and if you want a view on where to start, <a href=\"/contact\">tell us what you are building</a>.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Is US Insider a major national publication?</h3>\n<p>No. It is a smaller digital business title with a national frame, more accessible than a national masthead and carrying less weight than one.</p>\n<h3>Is a contributed or sponsored piece legitimate?</h3>\n<p>Yes, when it is labelled and described accurately. What is not legitimate is presenting a paid piece as a journalist's independent reporting.</p>\n<h3>Can I approve the article before it publishes?</h3>\n<p>Yes. You review and revise until it is right, and nothing publishes without your approval.</p>",
+  "toc": [
+    {
+      "id": "what-us-insider-is",
+      "text": "What US Insider is"
+    },
+    {
+      "id": "where-it-sits-against-bigger-names",
+      "text": "Where it sits against the bigger names"
+    },
+    {
+      "id": "the-routes-in-and-what-to-call-them",
+      "text": "The routes in, and what to call them"
+    },
+    {
+      "id": "what-a-feature-includes",
+      "text": "What a feature includes"
+    },
+    {
+      "id": "what-makes-a-strong-piece",
+      "text": "What makes a strong piece"
+    },
+    {
+      "id": "what-to-expect-from-the-process",
+      "text": "What to expect from the process"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "US Insider is a smaller digital business title with a United States frame.",
+    "Contributed and sponsored routes are common here and should always be labelled.",
+    "The value is a permanent, searchable article, not the weight of a national masthead."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-success-magazine",
+  "h1": "How to Get Featured in Success Magazine",
+  "title": "How to Get Featured in Success Magazine | DNA PR",
+  "description": "Success Magazine is a long-running personal-development and business title. Who it suits, how coverage is decided, and what makes a pitch worth reading.",
+  "body": "<p>Success Magazine sits in a category most business coverage does not. It is read by people looking for something they can apply on Monday, and that single fact decides whether your story belongs there.</p>\n<p>Here is how coverage works and what a pitch needs to carry.</p>\n<h2 id=\"what-success-magazine-is\">What Success Magazine is</h2>\n<p>Success Magazine is a long-running title covering personal development, entrepreneurship and the habits, decisions and disciplines behind achievement. It publishes in print and online for a broad self-improvement and business readership.</p>\n<p>It is an established name rather than a smaller digital title, which means editorial is decided inside the publication and decided competitively. That is also what makes a credit there worth something to a reader.</p>\n<p>The subject is people and method. Company news, funding rounds and product launches are not what this readership turns up for.</p>\n<p>It is worth being realistic about the competition. A title with this subject receives a very large number of pitches from people whose entire business is teaching others how to improve, so the bar is not whether you are credible. It is whether the specific thing you can teach has not already been published there twice.</p>\n<h2 id=\"who-it-suits-and-who-it-does-not\">Who it suits, and who it does not</h2>\n<p>It suits coaches, authors, speakers, operators and founders whose credibility rests on how they think and what they have learned. If your value to a reader is a way of working, this is one of the better-matched titles in US business media.</p>\n<p>It suits you far less if your story is a company milestone, a raise or a product. Those are business-news stories and there are better homes for them. Picking the right title is usually a bigger lever than picking the biggest one, which is the argument in <a href=\"/guides/how-to-choose-the-right-publication\">how to choose the right publication</a>.</p>\n<p>Timing is part of fit as well. A book, a talk, a piece of research or a change in your field gives an editor a reason to run your piece this month rather than at some point, and a pitch without one competes on merit alone against everything else in the inbox.</p>\n<h2 id=\"the-routes-in\">The routes in</h2>\n<p>Editorial is the publication's decision and behaves like any earned pitch: fit, timing, and whether an editor has room that month. It is free to pitch and competitive to land, and <a href=\"/guides/what-is-earned-media\">earned media</a> is the right mental model for it.</p>\n<p>Advertising and commercial content exist at a title of this size, are bought at media rates and are labelled. They are legitimate as products, and misleading the moment they are described as a journalist writing about you.</p>\n<p>The third route is agency-assisted pitching, which is what we do: the angle developed with you, the piece prepared to editorial standard, and the pitch put in front of the right desk with your sign-off before anything is submitted. You are buying the work, not the outcome. Anyone guaranteeing editorial at an established masthead is selling something else, for the reasons set out in <a href=\"/guides/is-guaranteed-pr-legit\">is guaranteed PR legit</a>.</p>\n<h2 id=\"what-makes-a-story-they-will-run\">What makes a story they will run</h2>\n<p>A method with the mechanics left in. The routine or system you actually run and why. The mistake that changed how you make decisions. What you do differently from the standard advice in your field, and what that choice costs you.</p>\n<p>Your results are the reason the method is credible, not the subject of the piece. A reader should finish with something they could try, rather than an impression of how well you have done.</p>\n<p>The version editors see most often, and run least often, is a profile of a successful person with no transferable idea inside it. Specificity separates the two: a named practice, a real constraint, an honest account of what did not work.</p>\n<p>Evidence works differently here than at a financial title. You are not proving a market claim. You are proving that the method survived contact with reality: how long you have run it, what it replaced, and what it still does not fix.</p>\n<h2 id=\"what-to-expect-from-the-process\">What to expect from the process</h2>\n<p>We develop the angle with you, write to editorial standard, and pitch the desk that covers your subject. You approve everything before it is submitted, and we tell you where the piece has gone.</p>\n<p>The honest note is the one we give for any earned target. No agency controls a masthead's editorial, and a title like this turns down far more than it runs. What we can do is make the story as strong as it will go, put it in front of the right person, and say plainly whether this is a near-term target or something to build toward. <a href=\"/contact\">Tell us what you teach</a> and we will give you a straight read.</p>\n<p>Timelines at an earned target are not ours to set either. An editor may come back in a week, in two months, or not at all, and we keep the story working at other titles in the meantime rather than waiting on one inbox.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Can you pay for editorial coverage in Success Magazine?</h3>\n<p>No. Advertising and commercial content are separate, labelled products. Editorial is decided by the publication and is not for sale.</p>\n<h3>Does it suit company announcements?</h3>\n<p>Rarely. The readership comes for personal development and method, so a funding round or a product launch usually belongs somewhere else.</p>\n<h3>What makes a pitch stand out here?</h3>\n<p>A specific, transferable method a reader could apply, with your own experience as the evidence for it rather than the subject of it.</p>",
+  "toc": [
+    {
+      "id": "what-success-magazine-is",
+      "text": "What Success Magazine is"
+    },
+    {
+      "id": "who-it-suits-and-who-it-does-not",
+      "text": "Who it suits, and who it does not"
+    },
+    {
+      "id": "the-routes-in",
+      "text": "The routes in"
+    },
+    {
+      "id": "what-makes-a-story-they-will-run",
+      "text": "What makes a story they will run"
+    },
+    {
+      "id": "what-to-expect-from-the-process",
+      "text": "What to expect from the process"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Success Magazine is a long-running personal-development and business title.",
+    "It rewards a transferable method, not a profile of how well you have done.",
+    "Editorial is decided by the publication, so nobody can sell you a placement there."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-wall-street-times",
+  "h1": "How to Get Featured in Wall Street Times",
+  "title": "How to Get Featured in Wall Street Times | DNA PR",
+  "description": "Wall Street Times is an independent digital business title, not the Journal. What it is, the routes in, and how to describe a feature there accurately.",
+  "body": "<p>The first thing to settle about Wall Street Times is the name, because it is the reason most people are reading this page and the reason a few of them get themselves into trouble.</p>\n<p>Here is what it is and how people get featured.</p>\n<h2 id=\"what-wall-street-times-is\">What Wall Street Times is</h2>\n<p>Wall Street Times is a smaller digital business publication covering founders, finance-adjacent companies and market-facing business stories. Online only, permanently live and indexed by search engines.</p>\n<p>A piece there is a real article with a real publication behind it. It publishes, stays up, and surfaces when someone searches your name before a meeting or a deal. That permanence is the asset, and it is the same asset a larger title provides at a different weight.</p>\n<p>It is a smaller title, and that is the honest frame for everything below. A piece is far more achievable than at a national masthead, and the article has to do the persuading on its own rather than borrowing authority from the name above it.</p>\n<h2 id=\"the-name-and-why-it-matters\">The name, and why the distinction matters</h2>\n<p>Wall Street Times is an independent digital title. It is not The Wall Street Journal, and the two should never be blurred in a bio, a deck or an \"as featured in\" line.</p>\n<p>This matters more than it sounds. The people most likely to notice the difference are exactly the people the credibility is meant to work on: investors, acquirers, journalists and anyone doing diligence on you. A feature described accurately is a small, durable asset. The same feature described loosely is a reason to doubt everything else on the page.</p>\n<p>So confirm the exact domain in writing on any placement, and use the publication's own full name whenever you cite it.</p>\n<p>The safe habit is simple. Write the publication's full name, link to the actual article, and let a reader click through. Coverage that can be checked in one click is worth far more than coverage that depends on nobody looking.</p>\n<h2 id=\"where-it-sits-against-bigger-names\">Where it sits against the bigger names</h2>\n<p>It is more accessible than a national masthead and carries less weight than one. Both halves are true, and neither is a reason to dismiss it.</p>\n<p>A press record is built in layers, and the first layer is usually a set of credible titles that will run a well-written piece. That layer does real work. It gives a reader something to find, and it gives a larger publication evidence that you have said something in public before. <a href=\"/guides/tier-1-vs-tier-2-publications\">Tier 1 versus tier 2 publications</a> sets out the trade in full.</p>\n<h2 id=\"the-routes-in-and-what-to-call-them\">The routes in, and what to call them</h2>\n<ul><li><strong>Pitch it yourself.</strong> Free and legitimate, decided by fit and editorial capacity.</li><li><strong>A contributed piece.</strong> Published under your own byline, common at titles of this size, and honest when it is described as a column. The format is explained in <a href=\"/guides/what-is-a-contributor-article\">what a contributor article is</a>.</li><li><strong>Sponsored placement.</strong> Paid, labelled, and a marketing product rather than reporting.</li><li><strong>A managed feature.</strong> The angle developed with you, the piece written to the publication's standard, the placement handled, and your approval on the draft.</li></ul>\n<p>We tell you in writing which route applies, because that is what lets you describe the result accurately afterwards.</p>\n<h2 id=\"what-makes-a-strong-piece\">What makes a strong piece</h2>\n<p>The name sets an expectation, so the writing should meet it. A piece here reads best when it carries figures and a view rather than adjectives.</p>\n<p>Useful shapes: what your own numbers show about how a customer segment is behaving, how a change in costs or rates affects the economics of your model, why your sector is funded and priced the way it is. Name the period and the basis so a reader can weigh what you are claiming.</p>\n<p>Leave out superlatives, anything resembling a price forecast, and anything that reads as a nudge to buy. A feature is coverage rather than a recommendation about any security, and it should never be presented as one.</p>\n<p>A practical test: could a competitor publish the same paragraph about their own business without changing a word. If they could, it is positioning rather than substance, and a finance-leaning readership is the one that reliably notices.</p>\n<h2 id=\"what-to-expect-from-the-process\">What to expect from the process</h2>\n<p>Share your story and your numbers, our team drafts the piece, you review with revisions until it is right, and nothing publishes until you approve it. Then it goes live and you have the link.</p>\n<p>Any provider who will not show you a draft before publication is not one to use, at this title or any other. If you want a view on whether this is the right place to start, <a href=\"/contact\">tell us what you are building</a> and we will give you a straight answer.</p>\n<p>What we need from you is the story and the figures you are willing to publish. The angle, the writing and the placement are ours, and nothing reaches an editor that you have not read first.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Is Wall Street Times connected to The Wall Street Journal?</h3>\n<p>No. It is an independent digital business title. The names are similar, so confirm the exact domain and describe the result by its own full name.</p>\n<h3>How much weight does a feature there carry?</h3>\n<p>Less than a national masthead and considerably more than nothing. It is a real, permanent, searchable article, which is genuinely useful early in a press record.</p>\n<h3>Can I approve the article before it publishes?</h3>\n<p>Yes. You review and revise until it is right, and nothing publishes without your approval.</p>",
+  "toc": [
+    {
+      "id": "what-wall-street-times-is",
+      "text": "What Wall Street Times is"
+    },
+    {
+      "id": "the-name-and-why-it-matters",
+      "text": "The name, and why the distinction matters"
+    },
+    {
+      "id": "where-it-sits-against-bigger-names",
+      "text": "Where it sits against the bigger names"
+    },
+    {
+      "id": "the-routes-in-and-what-to-call-them",
+      "text": "The routes in, and what to call them"
+    },
+    {
+      "id": "what-makes-a-strong-piece",
+      "text": "What makes a strong piece"
+    },
+    {
+      "id": "what-to-expect-from-the-process",
+      "text": "What to expect from the process"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Wall Street Times is an independent digital business title, distinct from The Wall Street Journal.",
+    "Contributed and sponsored routes are common here and should be labelled as what they are.",
+    "Describe the feature by its own full name, because the people who notice are the ones who matter."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-new-york-wire",
+  "h1": "How to Get Featured in New York Wire",
+  "title": "How to Get Featured in New York Wire | DNA PR",
+  "description": "New York Wire is a regional digital title, not a metro daily. What it covers, how a feature happens, and what the placement is honestly worth.",
+  "body": "<p>New York Wire is one of the more reachable ways to put a New York dateline behind your name. That is the honest appeal, and it is worth understanding properly before you chase it.</p>\n<p>Here is what the publication is, how people actually get featured, and what the feature is worth once it is live.</p>\n<h2 id=\"what-new-york-wire-is\">What New York Wire is</h2>\n<p>New York Wire is a regional digital publication covering business, founders, culture and city life in and around New York. Online only, published permanently, and indexed by search engines.</p>\n<p>It is not a metro daily and it does not behave like one. There is no print edition, no city hall bureau, no investigations desk working a single story for three months. What it has instead is proximity to a market people pay attention to, and the capacity to cover operators a national newsroom would never look at twice.</p>\n<p>That trade is the entire proposition. You give up scale and you gain access. Knowing which side of it you are buying keeps the expectations in the right place from the start.</p>\n<h2 id=\"how-accessible-it-really-is\">How accessible it really is</h2>\n<p>Smaller regional digital titles sit at a different tier from a national masthead, and the practical difference is the volume of competition for space. A national business desk turns down almost everything that reaches it. A regional digital title has room for someone with a genuine local story and no press record yet.</p>\n<p>That accessibility is a feature rather than a flaw, provided you are honest about it. If you want the difference between the tiers set out plainly, our guide to <a href=\"/guides/tier-1-vs-tier-2-publications\">tier 1 and tier 2 publications</a> covers the ground.</p>\n<p>Accessibility also changes the timing. Where a national feature can sit in a queue for months, a piece at this level moves in weeks, which matters if the story is attached to a launch, a funding round or a hire you want on the record while it is still current.</p>\n<p>The short version: a New York Wire feature is a permanent, searchable credibility asset. It is not a mark of national significance, and nobody serious will read it as one.</p>\n<h2 id=\"the-routes-in\">The routes in</h2>\n<ul><li><strong>Pitch the editors yourself.</strong> Free, legitimate, and decided by fit and editorial capacity. Read what the title publishes first, then send something short and specific.</li><li><strong>Contributed or sponsored placement.</strong> Common at this tier across the industry. The piece is supplied rather than commissioned, and where it is paid for it should carry a label saying so.</li><li><strong>Managed placement.</strong> The angle is developed with you, the piece is written to the publication's standard, and the submission is handled. You approve the draft before anything publishes.</li></ul>\n<p>There is no membership programme or paid column tier attached to this title. If you are weighing a contributed route, <a href=\"/guides/what-is-a-contributor-article\">what a contributor article is</a> explains exactly what you would be signing your name to.</p>\n<h2 id=\"what-a-feature-includes\">What a feature includes</h2>\n<p>A solo article built around you and your work, with a headline and angle that match your positioning. Typically photographs, and links to your website, LinkedIn and socials.</p>\n<p>It publishes permanently and stays indexed, which is where most of the long-term value sits. Someone researching you in two years finds a New York title writing about your work, and that changes the first impression before you have said a word to them.</p>\n<p>What it does not include is a reporter independently investigating your claims, calling your customers or checking your figures against a filing. That is the work a metro daily does and this tier does not, and it is why the two are not interchangeable however similar the finished pages look.</p>\n<h2 id=\"writing-something-worth-running\">Writing something worth running</h2>\n<p>The pieces that work here are tied to the city rather than decorated with it.</p>\n<p>That means a specific read on a market you operate in: how the customers you serve in New York have changed what they buy, what a new operator has to get right to survive here, why a model that works elsewhere fails in this one. Concrete beats abstract every time, and it is not close.</p>\n<p>You do not need to be based in New York. A real connection to the market, whether that is clients, a launch, a partnership or a trend you are seeing, makes the piece easier to place and better to read. A general company profile with a New York label bolted on reads exactly like that.</p>\n<h2 id=\"how-to-describe-it-afterwards\">How to describe it afterwards</h2>\n<p>Call it what it is: a feature in a New York digital publication. That is a true sentence and a useful one.</p>\n<p>What it is not is national press, and stretching it there is the fastest way to lose the credibility you just bought. Anyone inclined to check will check, and the gap between the claim and the link does more damage than having no coverage at all.</p>\n<p>If a provider promises you a guaranteed placement at a named title, read <a href=\"/guides/is-guaranteed-pr-legit\">our guide to guaranteed PR</a> before you pay anything. Nobody controls another publication's editorial decisions, and we do not claim to.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Do I need to be based in New York?</h3>\n<p>No. Plenty of featured founders operate elsewhere. A genuine link to the market helps the piece land and gives the writer something real to build the angle around.</p>\n<h3>Is New York Wire the same as a major New York newspaper?</h3>\n<p>No. It is a smaller regional digital title and should be described that way. The value is accessibility and permanence rather than national weight.</p>\n<h3>Can I approve the article before it publishes?</h3>\n<p>Yes. You review and revise until it reads correctly, and nothing goes live without your sign-off.</p>",
+  "toc": [
+    {
+      "id": "what-new-york-wire-is",
+      "text": "What New York Wire is"
+    },
+    {
+      "id": "how-accessible-it-really-is",
+      "text": "How accessible it really is"
+    },
+    {
+      "id": "the-routes-in",
+      "text": "The routes in"
+    },
+    {
+      "id": "what-a-feature-includes",
+      "text": "What a feature includes"
+    },
+    {
+      "id": "writing-something-worth-running",
+      "text": "Writing something worth running"
+    },
+    {
+      "id": "how-to-describe-it-afterwards",
+      "text": "How to describe it afterwards"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "New York Wire is a regional digital title covering business and founders around New York.",
+    "It is far more accessible than a national masthead, and that is the point of it.",
+    "Describe it as a New York digital feature, not as national press."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-new-york-reporter",
+  "h1": "How to Get Featured in New York Reporter",
+  "title": "How to Get Featured in New York Reporter | DNA PR",
+  "description": "New York Reporter is an independent regional digital title. What the name does not mean, who it suits and how a feature gets published there.",
+  "body": "<p>Some publications are easier to get into than they look. New York Reporter is one of them, and it is worth taking for what it is rather than for what the name suggests.</p>\n<p>What follows is the practical version: what the title covers, who it suits, and how a feature actually gets there.</p>\n<h2 id=\"what-new-york-reporter-is\">What New York Reporter is</h2>\n<p>New York Reporter is a regional digital publication covering business, founders, community and city stories around New York. Online only, permanently published, and indexed by search engines.</p>\n<p>It belongs to the same category as a lot of modern city titles: small, digital-first, quick to publish, and open to people the larger desks have no room for. A piece can move from agreed angle to live link in a fraction of the time a national feature takes, because there is no long editorial queue sitting in front of it.</p>\n<p>Speed and reachability are the genuine strengths. Treat them as the reason to use it, and the rest of the decision gets simpler.</p>\n<h2 id=\"what-the-name-does-not-mean\">What the name does not mean</h2>\n<p>A word like Reporter sets an expectation, and it is worth resetting that expectation deliberately.</p>\n<p>This is not a metro daily, a broadcaster or a wire service, and it has no connection to the larger New York mastheads whose names it echoes. Several titles across the country use similar constructions, so confirm the exact domain on any placement before you cite it anywhere.</p>\n<p>It is also worth knowing that contributed and sponsored placements are common at this tier of publishing. Where a piece is supplied or paid for, it should be labelled as such. That is not a scandal, it is how a large part of digital publishing works, and our explanation of <a href=\"/guides/what-is-earned-media\">what earned media is</a> sets out the difference cleanly. The distinction is one you want to be able to make yourself.</p>\n<h2 id=\"who-it-suits\">Who it suits</h2>\n<p>This is a good fit for founders and operators with a real New York connection and little or no press record yet. It is a poor fit for anyone whose only goal is to impress an audience that will go and check the masthead.</p>\n<p>More specifically, it tends to work for local service businesses that want to be findable and credible, founders raising a first round who need something behind their name in search, professionals whose clients research them before a first meeting, and anyone building a record of coverage rather than chasing a single headline.</p>\n<p>If you are trying to work out which titles are worth your time at all, <a href=\"/guides/how-to-choose-the-right-publication\">choosing the right publication</a> is a better starting point than a list of names.</p>\n<h2 id=\"what-you-actually-get\">What you actually get</h2>\n<p>A solo article about you and your work, angled and headlined around your positioning, usually with photographs and links back to your site and profiles.</p>\n<p>It publishes permanently and stays indexed, which is the part that keeps earning. A feature is not a campaign and it will not produce a wave of enquiries on the day it goes live. What it produces is a page sitting in your search results that answers the first question anybody has about you.</p>\n<p>That is a modest, durable thing. It is also the thing most founders are actually missing when they say they need press.</p>\n<h2 id=\"getting-a-piece-accepted\">Getting a piece accepted</h2>\n<p>You can approach the editorial team directly at no cost. Fit, quality and capacity decide it, as they do anywhere.</p>\n<p>What raises the odds is a submission that reads like a story rather than an announcement. A reported-style feature needs a subject, a tension and a reason it matters now. Something you have changed your mind about, a problem in your sector that keeps costing customers money, a shift in demand you can describe in detail: any of those gives an editor something to work with.</p>\n<p>A summary of your services gives them nothing, and it is the most common reason a submission goes unanswered. The bar is not high here, but there is a bar.</p>\n<p>Read a dozen published pieces before you write anything. The register of a title is visible inside ten minutes, and matching it is most of the work.</p>\n<h2 id=\"the-managed-route-in-practice\">The managed route in practice</h2>\n<p>Most clients use a managed placement, which is the same door with the work done for them. We agree the angle, write to the publication's standard, handle the submission, and show you the draft before anything is sent. Nothing publishes without your approval, and you can revise until it reads the way you want it to.</p>\n<p>What that buys is the writing and the placement work. It does not buy control over an editor, and any provider suggesting otherwise is describing something they cannot deliver. You can see the range of titles we place in on our <a href=\"/publications\">publications page</a>.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Is New York Reporter affiliated with a major New York newspaper?</h3>\n<p>No. It is an independent regional digital title. Several publications use similar names, so it is worth confirming the exact domain on any placement.</p>\n<h3>How quickly can a feature go live?</h3>\n<p>Faster than at a national desk, because the editorial queue is shorter. Timing still depends on capacity and on how quickly the draft is approved.</p>\n<h3>Will the article say it was contributed?</h3>\n<p>Where a placement is contributed or sponsored, it should carry a label saying so. We would rather you describe the piece accurately than oversell it.</p>",
+  "toc": [
+    {
+      "id": "what-new-york-reporter-is",
+      "text": "What New York Reporter is"
+    },
+    {
+      "id": "what-the-name-does-not-mean",
+      "text": "What the name does not mean"
+    },
+    {
+      "id": "who-it-suits",
+      "text": "Who it suits"
+    },
+    {
+      "id": "what-you-actually-get",
+      "text": "What you actually get"
+    },
+    {
+      "id": "getting-a-piece-accepted",
+      "text": "Getting a piece accepted"
+    },
+    {
+      "id": "the-managed-route-in-practice",
+      "text": "The managed route in practice"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "New York Reporter is an independent regional digital title, not a metro daily or a wire service.",
+    "Speed and reachability are its real strengths, so tie the story to something happening now.",
+    "Confirm the exact domain, because several publications use similar names."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-voyage-new-york",
+  "h1": "How to Get Featured in Voyage New York",
+  "title": "How to Get Featured in Voyage New York | DNA PR",
+  "description": "Voyage New York runs interview features with local creatives, founders and small businesses. How the format works and how to answer it well.",
+  "body": "<p>Voyage New York works differently from most titles in this category, and the difference is the reason to use it.</p>\n<p>It is built around interviews. If you can talk about your own work clearly, you are most of the way there already.</p>\n<h2 id=\"what-voyage-new-york-is\">What Voyage New York is</h2>\n<p>Voyage New York is a city title in a network of local publications that run the same format across different cities. The subject matter is local: creatives, founders, small business owners and independent practitioners in and around New York.</p>\n<p>It is digital, permanently published and indexed by search engines. It is not a metro daily and is not trying to be one. The editorial mission sits closer to a community record than to news reporting, a running catalogue of people making things in a particular place.</p>\n<h2 id=\"the-interview-format\">The interview format</h2>\n<p>Most features are interviews. You answer a set of questions about yourself and your work, and the piece publishes largely in your own words, usually alongside photographs you supply.</p>\n<p>That format changes what a good submission looks like. There is no reporter hunting for the angle on your behalf, which means the quality of the piece is decided almost entirely by the quality of your answers. A vague answer publishes as a vague answer.</p>\n<p>It also means the voice is yours. For a lot of founders that is more useful than a third-party write-up, because prospects get to hear how you actually think rather than how a writer paraphrased you.</p>\n<p>Length is on your side as well. The format gives you more room than a short news item would, so an answer that earns the space will generally get it.</p>\n<h2 id=\"what-the-questions-are-really-for\">What the questions are really for</h2>\n<p>The questions tend to cover the same ground: how you started, what the journey has been like, what you are proud of, what you want people to know about your work.</p>\n<p>They look soft. They are not. Each one is an opening to say something specific, and the difference between a forgettable feature and a good one is whether you take it.</p>\n<p>\"It has not always been easy\" is an answer everybody gives. \"We priced the first two years wrong, and here is what changed when we fixed it\" is an answer somebody remembers. Give the real detail: the decision, what it cost, what you would do differently. Nobody is going to make your story interesting on your behalf.</p>\n<h2 id=\"who-gets-covered\">Who gets covered</h2>\n<p>Independent operators, mostly. Photographers, designers, therapists, chefs, studio owners, coaches, trades, small agencies and founders a few years in.</p>\n<p>This is the part of the economy a national desk will never touch, and it is precisely why titles like this exist. If you run a genuinely local business and you have been waiting for a publication that covers people at your scale, this is one of them.</p>\n<p>The bar is not a revenue figure or a funding round. It is whether there is something to say about what you do and how you came to do it, which is a different test and a fairer one.</p>\n<p>If you are also weighing city business titles, <a href=\"/get-featured-in/new-york-wire\">New York Wire</a> covers similar ground in a reported format rather than a question-and-answer one.</p>\n<h2 id=\"how-to-put-yourself-forward\">How to put yourself forward</h2>\n<p>You can approach the title directly at no cost and be considered on fit and editorial capacity, as anywhere else. Titles in this network are reachable by design, which is the whole point of them.</p>\n<p>The managed route is the same door with the preparation done properly: we work out the angle, draft answers that actually say something, get the submission into the right shape, and you approve every word before it goes anywhere. Contributed and sponsored placements are common at this tier across the industry, and where a piece is paid for it should be labelled. <a href=\"/guides/what-is-earned-media\">Earned media</a> and supplied content are different products, and it helps to know which one you are holding.</p>\n<h2 id=\"what-the-feature-is-worth\">What the feature is worth</h2>\n<p>A permanent, searchable page about your work under a recognisable city title, in your own words, with photographs and links back to you. That is a real asset, and it keeps working every time somebody looks you up.</p>\n<p>It also does something a reported profile cannot. Because the answers are yours, a prospect reading it hears your judgement and your priorities directly, which is worth a great deal if people hire you rather than your company.</p>\n<p>It is not national significance and should never be sold as such. Describe it as an interview feature in a New York city publication and you are both accurate and fine. Stretch it and you invite the one question you do not want asked. If you want help placing this alongside other coverage, our <a href=\"/services\">services page</a> sets out how we work.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Do I have to do a live interview?</h3>\n<p>Usually not. The format is typically written questions and written answers, which gives you time to say something considered rather than something off the cuff.</p>\n<h3>Do I need professional photographs?</h3>\n<p>They help a great deal, because the format is visual. Good images of you and your work make a feature far stronger than stock photography ever will.</p>\n<h3>Does this suit a business with no press coverage yet?</h3>\n<p>Yes. It is one of the more approachable starting points for local founders and creatives, which is exactly what makes it useful as a first placement.</p>",
+  "toc": [
+    {
+      "id": "what-voyage-new-york-is",
+      "text": "What Voyage New York is"
+    },
+    {
+      "id": "the-interview-format",
+      "text": "The interview format"
+    },
+    {
+      "id": "what-the-questions-are-really-for",
+      "text": "What the questions are really for"
+    },
+    {
+      "id": "who-gets-covered",
+      "text": "Who gets covered"
+    },
+    {
+      "id": "how-to-put-yourself-forward",
+      "text": "How to put yourself forward"
+    },
+    {
+      "id": "what-the-feature-is-worth",
+      "text": "What the feature is worth"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Voyage New York is built around interview features with local creatives, founders and small businesses.",
+    "The piece publishes largely in your own words, so the answers decide the quality.",
+    "It is one of the most approachable first placements for a genuinely local business."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-miami-wire",
+  "h1": "How to Get Featured in Miami Wire",
+  "title": "How to Get Featured in Miami Wire | DNA PR",
+  "description": "Miami Wire is a smaller regional digital title covering the city's business and property scene. What a feature involves and how to earn one.",
+  "body": "<p>Miami has become a market people watch, and Miami Wire is one of the accessible ways to plant a story in it.</p>\n<p>Here is what the title is, what it is not, and how a feature gets there.</p>\n<h2 id=\"what-miami-wire-is\">What Miami Wire is</h2>\n<p>Miami Wire is a regional digital publication covering business, founders, property, hospitality and city life in and around Miami. Online only, permanently published, and indexed by search engines.</p>\n<p>It is a smaller digital title rather than a metro daily. No print edition, no newsroom of staff reporters working beats, no investigations desk. What it does have is local focus and the ability to publish quickly, which is a genuine advantage when your story is tied to something happening now.</p>\n<p>It publishes across business, property and lifestyle rather than sticking to a single beat, which helps when your story sits between categories. A hospitality operator with a technology angle, or a property firm with a service model worth explaining, has an obvious place to go.</p>\n<h2 id=\"why-a-miami-dateline-is-useful\">Why a Miami dateline is useful</h2>\n<p>Place is positioning, and Miami carries a specific set of associations: inbound business, property, hospitality, wellness, finance arriving from elsewhere, and a commercial relationship with Latin America that runs in both directions.</p>\n<p>If your work touches any of that, a Miami feature frames you more usefully than a generic business profile would. It tells a reader where you operate and what kind of market you are used to operating in.</p>\n<p>It also reads bilingually in a way few American cities do. A founder serving Spanish-speaking customers gets a dateline that says so without having to explain it.</p>\n<p>None of that makes the dateline do the work by itself. It frames the story, and the story still has to be there. But framing is not nothing, and Miami frames a growth business more favourably than most American cities would.</p>\n<h2 id=\"the-tier-question\">The tier question</h2>\n<p>Being straight about this matters more than the placement itself.</p>\n<p>Titles at this level are far more accessible than a national masthead. That accessibility comes with the territory: contributed and sponsored placements are common across regional digital publishing, and where a piece is supplied or paid for it should be labelled. What you are buying is a permanent, searchable asset with a credible city title on it, not a mark of national significance.</p>\n<p>Sold that way, it is a good product. Sold as national press, it falls apart the moment anyone clicks the link. <a href=\"/guides/tier-1-vs-tier-2-publications\">Tier 1 versus tier 2 publications</a> sets out where the line actually sits and why it matters to how you describe your coverage.</p>\n<p>The useful question is not whether a title is prestigious. It is whether the page will be read, will stay up, and will survive being checked.</p>\n<h2 id=\"how-features-happen\">How features happen</h2>\n<ul><li><strong>Direct approach.</strong> Free, and decided on fit and editorial capacity. Read the title first, then pitch something specific.</li><li><strong>Managed placement.</strong> The angle developed with you, the piece written to the publication's standard, the submission handled, and your approval required before it publishes.</li></ul>\n<p>There is no membership tier or paid column programme involved here. What a managed placement buys is the work and the relationships behind it, never a guarantee. Read <a href=\"/guides/is-guaranteed-pr-legit\">why guaranteed PR claims deserve scrutiny</a> before anyone sells you certainty about an outcome they do not control.</p>\n<h2 id=\"what-lands-with-miami-readers\">What lands with Miami readers</h2>\n<p>This is a market used to arrivals, so a story about relocating a business, opening in a new market or serving customers across two languages fits naturally.</p>\n<p>What makes it work is the operational detail behind the move: what you underestimated, what changed about your pricing or your staffing, what a new operator should know before signing a lease here. Specific beats aspirational, and Miami has heard plenty of aspirational.</p>\n<p>The seasons matter here in a way they do not in most markets. Demand in hospitality, property and services swings hard across the year, and a piece that shows you understand that cycle reads as local knowledge rather than local branding.</p>\n<p>You do not need to be based in the city, but you do need a real connection, whether that is customers, a launch, a partnership or a market you are watching closely. A profile with a Miami label attached and nothing behind it reads thin.</p>\n<h2 id=\"using-the-link-honestly\">Using the link honestly</h2>\n<p>Put it on your site, your profile and your media page, and describe it as a feature in a Miami digital publication. That sentence is accurate and it does the job perfectly well.</p>\n<p>The value compounds when it sits alongside other coverage rather than standing alone. One feature is a data point. Several across different titles is a record, and a record is what changes how somebody reads you.</p>\n<p>Which titles you add, and in what order, matters as much as the first one. Our guide to <a href=\"/guides/how-to-choose-the-right-publication\">choosing the right publication</a> covers the sequencing, because two well-chosen titles usually beat five picked at random.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Do I need to be based in Miami?</h3>\n<p>No, but you need a genuine link to the market. Clients, a launch, a partnership or a trend you are seeing all count as one.</p>\n<h3>Is Miami Wire a major daily newspaper?</h3>\n<p>No. It is a smaller regional digital title, more accessible than a national masthead, and best described as exactly what it is.</p>\n<h3>Can the piece be published in Spanish?</h3>\n<p>That depends on the publication's own editorial practice at the time, so ask before you plan around it rather than assuming it is available.</p>",
+  "toc": [
+    {
+      "id": "what-miami-wire-is",
+      "text": "What Miami Wire is"
+    },
+    {
+      "id": "why-a-miami-dateline-is-useful",
+      "text": "Why a Miami dateline is useful"
+    },
+    {
+      "id": "the-tier-question",
+      "text": "The tier question"
+    },
+    {
+      "id": "how-features-happen",
+      "text": "How features happen"
+    },
+    {
+      "id": "what-lands-with-miami-readers",
+      "text": "What lands with Miami readers"
+    },
+    {
+      "id": "using-the-link-honestly",
+      "text": "Using the link honestly"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Miami Wire is a regional digital title covering business, property and city life in Miami.",
+    "Relocation and cross-border stories fit the market, provided the detail is operational.",
+    "It is an accessible placement, and it should be described as a Miami digital feature."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-texas-today",
+  "h1": "How to Get Featured in Texas Today",
+  "title": "How to Get Featured in Texas Today | DNA PR",
+  "description": "Texas Today covers business and founders across the whole state rather than one city. What that changes, and how a feature gets published there.",
+  "body": "<p>Most regional titles are tied to one city. Texas Today is tied to a state, which changes both who it suits and what a good story looks like.</p>\n<p>Here is the practical detail, without the varnish.</p>\n<h2 id=\"what-texas-today-is\">What Texas Today is</h2>\n<p>Texas Today is a regional digital publication covering business, founders, community and state stories across Texas. Online only, permanently published, and indexed by search engines.</p>\n<p>It is a smaller digital title rather than a metro daily. There is no print run, no capitol bureau, no long-form investigations desk. The strengths are the ones this category genuinely has: local relevance, a short path to publication, and openness to operators a national business desk would pass over without finishing the first paragraph.</p>\n<h2 id=\"a-state-rather-than-a-city\">A state rather than a city</h2>\n<p>The statewide frame is the distinctive thing here, and it is worth thinking about before you decide.</p>\n<p>A city title says you matter in one place. A state title covers a market with several major metros inside it, which suits a business operating across more than one of them: a firm with offices in Houston and Dallas, a services company covering the whole state, a franchise expanding outward from Austin.</p>\n<p>It also reads well to people outside Texas, because the state is legible as an economy in its own right. A reader in another country knows roughly what a Texas business is without being told.</p>\n<p>There is a trade-off worth naming. A statewide title has less claim on any single city than a dedicated city publication does, so if your entire customer base sits inside one metro, a local title may serve you better. The state frame earns its keep when your footprint is genuinely wider than one place.</p>\n<h2 id=\"how-accessible-it-is\">How accessible it is</h2>\n<p>More accessible than a national masthead, and that is the point rather than a caveat.</p>\n<p>Across regional digital publishing, contributed and sponsored placements are common, and where a piece is supplied or paid for it should carry a label saying so. That does not make the coverage worthless. It makes it a different product from newsroom reporting, and knowing which one you have is what lets you describe it honestly afterwards. <a href=\"/guides/what-is-earned-media\">Our guide to earned media</a> sets out the distinction properly.</p>\n<p>What you get is a permanent, searchable feature under a Texas title. What you do not get is a mark of national significance, and no honest provider will tell you otherwise.</p>\n<p>None of this is a reason to avoid the tier. It is a reason to buy it with your eyes open.</p>\n<h2 id=\"what-the-feature-gives-you\">What the feature gives you</h2>\n<p>A solo article about you and your business, headlined and angled around your positioning, usually with photographs and links to your website and profiles.</p>\n<p>It stays live and stays indexed, and that is where the value accumulates. The point is not the traffic on publication day, which will be modest at any title of this size. The point is that the page is still there when a prospect, a lender or a candidate searches your name in eighteen months.</p>\n<p>For a business that currently returns nothing but a directory listing and a company registration, that is a real change in how you are read before anyone speaks to you.</p>\n<h2 id=\"the-two-routes\">The two routes</h2>\n<p>You can approach the editorial team yourself at no cost. It comes down to fit, quality and whether there is capacity, and a specific, well-read pitch does considerably better than a press release.</p>\n<p>Or you can use a managed placement, which is what most clients do: the angle agreed with you, the piece written to the publication's standard, the submission handled, and the draft approved by you before anything goes live. Nothing publishes without your sign-off, and any provider who will not show you a draft first is not one to use. Our <a href=\"/services\">services page</a> sets out how the process runs from first conversation to live link.</p>\n<h2 id=\"stories-that-fit-a-texas-readership\">Stories that fit a Texas readership</h2>\n<p>Relocation and growth are live subjects here and always have been, but the version that works is operational rather than triumphant.</p>\n<p>What to know before you move a team. How hiring changes when you cross from one metro to another. What a supplier contract looks like at this distance. What a business in energy, logistics, construction or professional services learns in its third year. Readers here are practical, and they notice when a piece has nothing in it.</p>\n<p>Avoid the language of arrival. Everyone in this market has heard a version of the story about leaving somewhere expensive for somewhere cheaper, and the interesting part was never the move itself. It was what had to change afterwards.</p>\n<p>You do not need a Texas address, though a real connection makes the placement easier and the article better. If you are weighing this against a city title, <a href=\"/guides/how-to-choose-the-right-publication\">choosing the right publication</a> is the question worth answering first.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Does a statewide title beat a city one?</h3>\n<p>Neither is better in the abstract. A statewide frame suits a business operating across several metros, and a city title suits one with a concentrated local market.</p>\n<h3>Do I have to be based in Texas?</h3>\n<p>No. A genuine connection to the state, whether that is customers, an expansion, a partnership or a market you are watching, is what makes the story work.</p>\n<h3>How should I describe the feature afterwards?</h3>\n<p>As a feature in a Texas digital publication. That is accurate, it is easy to verify, and it holds up better than any bigger claim would.</p>",
+  "toc": [
+    {
+      "id": "what-texas-today-is",
+      "text": "What Texas Today is"
+    },
+    {
+      "id": "a-state-rather-than-a-city",
+      "text": "A state rather than a city"
+    },
+    {
+      "id": "how-accessible-it-is",
+      "text": "How accessible it is"
+    },
+    {
+      "id": "what-the-feature-gives-you",
+      "text": "What the feature gives you"
+    },
+    {
+      "id": "the-two-routes",
+      "text": "The two routes"
+    },
+    {
+      "id": "stories-that-fit-a-texas-readership",
+      "text": "Stories that fit a Texas readership"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Texas Today uses a statewide frame, which suits businesses operating across several metros.",
+    "It is a smaller regional digital title and more accessible than a national masthead.",
+    "Practical, operational stories beat celebratory ones with this readership."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-the-chicago-journal",
+  "h1": "How to Get Featured in The Chicago Journal",
+  "title": "How to Get Featured in The Chicago Journal | DNA PR",
+  "description": "The Chicago Journal is a regional digital title, not a metro daily. What it runs, how placements work and how to build a piece that holds up.",
+  "body": "<p>The Chicago Journal covers a market that rewards substance over noise, and the writing that works there reflects it.</p>\n<p>Here is what the title is, how people get featured, and what to expect from the result.</p>\n<h2 id=\"what-the-chicago-journal-is\">What The Chicago Journal is</h2>\n<p>The Chicago Journal is a regional digital publication covering business, founders, community and city life in and around Chicago. Online only, permanently published, and indexed by search engines.</p>\n<p>It is a smaller digital title, not a metro daily. The name carries a weight the category does not, so it is worth saying plainly: there is no print edition, no city desk running beats, no investigations team. Confirm the exact domain on any placement, because the word Journal appears on a great many mastheads.</p>\n<p>What it does well is what this tier does well. Local relevance, a short route to publication, and room for people a national desk would never make space for.</p>\n<p>Being precise about that is not modesty. It is what keeps the placement useful when somebody senior looks it up.</p>\n<h2 id=\"the-midwest-reader\">The Midwest reader</h2>\n<p>Chicago is a working business city: logistics, manufacturing, food, finance, healthcare, trades, and the professional services wrapped around all of it.</p>\n<p>That shapes the register. A piece full of category labels and momentum language reads badly here. A piece that explains how something actually operates reads well. If your business has a mechanism, whether that is a process, a supply chain or a service model, describe it and let it do the work for you.</p>\n<p>The audience here also includes a lot of people who buy from businesses like yours: operations managers, owners of adjacent firms, professional advisers. That is a more commercially useful readership than a general audience of similar size, which is the argument for a regional title over a bigger and vaguer one.</p>\n<p>It is also a useful counterweight to a coastal press record. A founder whose coverage is all New York and Los Angeles looks different with a Midwest feature in the mix.</p>\n<h2 id=\"what-a-feature-includes\">What a feature includes</h2>\n<p>A solo article about you and your work, headlined and angled around your positioning, usually with photographs and links to your site and profiles.</p>\n<p>It stays live and stays indexed. That permanence is most of the value: a page that answers for you every time a prospect, a partner or a hiring candidate searches your name and finds nothing else.</p>\n<p>What it is not is an independent investigation. No reporter is checking your figures against a filing or calling your customers, which is exactly the work a metro daily does and this tier does not. Keeping that clear in your own mind makes it easier to describe the coverage accurately later.</p>\n<h2 id=\"routes-and-labels\">Routes and labels</h2>\n<ul><li><strong>Direct approach.</strong> No cost, decided by fit and editorial capacity.</li><li><strong>Contributed placement.</strong> You supply the article under your own byline. Common across this tier and worth understanding first, which is what <a href=\"/guides/what-is-a-contributor-article\">our guide to contributor articles</a> is for.</li><li><strong>Managed placement.</strong> We develop the angle, write to the publication's standard, handle the submission, and publish nothing without your approval.</li></ul>\n<p>Where a placement is paid for or supplied, it should be labelled as such. That label is not a problem. Pretending it is not there is the problem.</p>\n<h2 id=\"building-a-piece-that-holds-up\">Building a piece that holds up</h2>\n<p>Start with a decision rather than a description. The strongest features at titles like this one are built around a single real choice and its consequences: the client you stopped taking, the process you rebuilt after a costly failure, the reason you staff a function differently from everyone else in your sector.</p>\n<p>Anchor it in a situation a reader can picture, and avoid claims you cannot support, because your name sits on all of them permanently.</p>\n<p>Length is not the measure. A tight piece with one idea in it outperforms a long one with five, because the reader leaves with something they can repeat.</p>\n<p>Keep the Chicago connection genuine as well, whether that is where you operate, who you serve, or what you are seeing in the local market. A profile with a city label bolted on convinces nobody who lives there.</p>\n<h2 id=\"where-it-fits-in-a-press-record\">Where it fits in a press record</h2>\n<p>One feature is a starting point rather than a strategy. Coverage tends to follow coverage, and a title with something to reference takes a pitch more seriously than one starting from nothing at all.</p>\n<p>So treat this as a building block. Place it, describe it accurately, and add to it over time. You can see the range of titles we work with on our <a href=\"/publications\">publications page</a>.</p>\n<p>It is worth deciding in advance which titles you want and in what order, rather than collecting logos. <a href=\"/guides/how-to-choose-the-right-publication\">Choosing the right publication</a> is the step most founders skip, and it is the one that decides whether a press record reads as deliberate or accidental.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Is The Chicago Journal a major newspaper?</h3>\n<p>No. It is a smaller regional digital publication. It is more accessible than a metro daily, and it should be described as what it is.</p>\n<h3>Do I need to be based in Chicago?</h3>\n<p>No, though a real connection to the market helps. Customers, a site, a partnership or a trend you are watching all qualify.</p>\n<h3>Can you guarantee the piece will be published?</h3>\n<p>No, and nobody honestly can. We do the writing and the placement work, and acceptance remains an editorial decision.</p>",
+  "toc": [
+    {
+      "id": "what-the-chicago-journal-is",
+      "text": "What The Chicago Journal is"
+    },
+    {
+      "id": "the-midwest-reader",
+      "text": "The Midwest reader"
+    },
+    {
+      "id": "what-a-feature-includes",
+      "text": "What a feature includes"
+    },
+    {
+      "id": "routes-and-labels",
+      "text": "Routes and labels"
+    },
+    {
+      "id": "building-a-piece-that-holds-up",
+      "text": "Building a piece that holds up"
+    },
+    {
+      "id": "where-it-fits-in-a-press-record",
+      "text": "Where it fits in a press record"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "The Chicago Journal is a smaller regional digital title covering business and city life in Chicago.",
+    "A Midwest readership rewards explanation over momentum language.",
+    "Contributed and sponsored placements are common at this tier and should be labelled."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-hudson-weekly",
+  "h1": "How to Get Featured in Hudson Weekly",
+  "title": "How to Get Featured in Hudson Weekly | DNA PR",
+  "description": "Hudson Weekly is a regional digital title covering business, culture and lifestyle. Who it suits, how to get a piece in, and what it is worth.",
+  "body": "<p>Hudson Weekly is a smaller digital title with a name that travels better than most in its category. It is a modest advantage and it is worth using properly.</p>\n<p>Here is what the publication is and how features get there.</p>\n<h2 id=\"what-hudson-weekly-is\">What Hudson Weekly is</h2>\n<p>Hudson Weekly is a regional digital publication covering business, founders, culture and lifestyle with a New York and Hudson Valley orientation. Online only, permanently published, and indexed by search engines.</p>\n<p>It sits in the same category as the other city and regional digital titles: reachable, quick to publish, and open to people a national desk would not consider. It is not a metro daily, and there is no newsroom of staff reporters behind it.</p>\n<p>The coverage is broad rather than specialist, which suits a founder whose work does not fit neatly into a trade category. A consultancy, a studio, a food business or a wellness practice all have somewhere to sit.</p>\n<h2 id=\"a-name-that-does-not-announce-itself\">A name that does not announce itself</h2>\n<p>Most titles in this category put a city in the masthead, which fixes how the coverage reads before anyone opens it. Hudson Weekly does not, and that has a small practical effect.</p>\n<p>A reader meeting the name has no immediate assumption to correct. The piece gets read as a feature rather than as a local notice, which is occasionally useful if your customers are not concentrated in one market.</p>\n<p>It cuts the other way too, because there is no instant recognition to borrow either. Neither effect is large. It is simply worth knowing which one you are working with.</p>\n<p>Do not overthink it in either direction. The name is a small edge, not a strategy.</p>\n<h2 id=\"who-it-works-for\">Who it works for</h2>\n<p>Founders, consultants, creative businesses and lifestyle brands, particularly ones with a New York or Hudson Valley link and no substantial press record yet.</p>\n<p>It works as a first placement, as a supporting link inside a wider record, and as a searchable page for anyone whose clients look them up before a first conversation. It does not work as a substitute for national coverage, and using it that way is the one mistake genuinely worth avoiding.</p>\n<p>It also suits the specific moment before anything else exists. Most founders come to press with nothing in their search results except a company registration and a social profile, and the first real page changes that disproportionately. The second and the third change it considerably less.</p>\n<h2 id=\"how-to-get-a-piece-in\">How to get a piece in</h2>\n<p>Two routes, and neither of them is a secret.</p>\n<p>Approach the editors yourself at no cost and let fit, quality and capacity decide. Or use a managed placement: the angle developed with you, the article written to the title's standard, the submission handled, and your approval required before publication.</p>\n<p>Contributed and sponsored placements are common at this tier across the industry, and where a piece is supplied or paid for it should carry a label. If you want the categories set out cleanly, <a href=\"/guides/what-is-earned-media\">what earned media is</a> is the clearest place to start, and <a href=\"/guides/is-guaranteed-pr-legit\">guaranteed PR</a> covers the promises to be careful with.</p>\n<h2 id=\"what-to-write-about\">What to write about</h2>\n<p>Business and lifestyle overlap here, so a piece can lean either way as long as there is something in it.</p>\n<p>The shape that works is one thing you know well, explained properly: why a category of customer keeps making the same expensive mistake, what changed in how people buy what you sell, what you learned building a business outside a major metro. Detail is what makes it readable.</p>\n<p>Credentials and awards do the least work of anything you can put on a page. A reader gets nothing from them. Give them a situation, a decision and a consequence instead, and the authority arrives on its own.</p>\n<p>One more practical note: write for somebody two steps behind you rather than for your peers. The peer audience is small and already knows what you know. The reader a little further back is the one who acts on the piece.</p>\n<h2 id=\"what-it-is-worth-and-what-it-is-not\">What it is worth, and what it is not</h2>\n<p>It is worth a permanent, indexed article under a real title, with links back to you, that keeps working long after the week it published. For a founder with nothing in their search results, that is a meaningful change.</p>\n<p>It is not a mark of national significance, and describing it as national press is the quickest way to undo the credibility it was meant to build. Say what it is, a feature in a regional digital publication, and let the piece itself carry the weight. If you want help deciding where it fits alongside other titles, <a href=\"/contact\">talk to us</a> before you commit to anything.</p>\n<p>Check the domain and keep the live link. Publications reorganise and pages move, and the link is the asset rather than a screenshot of it, so capture it when the piece goes up.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Does the name mean it only covers the Hudson Valley?</h3>\n<p>Its orientation is New York and the Hudson Valley, but the coverage is broader than a single town, and featured subjects frequently operate elsewhere.</p>\n<h3>Is this a good first placement?</h3>\n<p>Yes, for most founders. It is accessible, it publishes quickly, and it gives you something real to reference when approaching other titles.</p>\n<h3>Will the article stay online?</h3>\n<p>It is published permanently and indexed, which is where the long-term value sits. No publisher can promise a page will never change, but these features are not time-limited.</p>",
+  "toc": [
+    {
+      "id": "what-hudson-weekly-is",
+      "text": "What Hudson Weekly is"
+    },
+    {
+      "id": "a-name-that-does-not-announce-itself",
+      "text": "A name that does not announce itself"
+    },
+    {
+      "id": "who-it-works-for",
+      "text": "Who it works for"
+    },
+    {
+      "id": "how-to-get-a-piece-in",
+      "text": "How to get a piece in"
+    },
+    {
+      "id": "what-to-write-about",
+      "text": "What to write about"
+    },
+    {
+      "id": "what-it-is-worth-and-what-it-is-not",
+      "text": "What it is worth, and what it is not"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Hudson Weekly is a regional digital title with a New York and Hudson Valley orientation.",
+    "The name carries no city assumption, so the piece reads as a feature rather than a notice.",
+    "It works best as a first placement or a supporting link in a wider press record."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-allure",
+  "h1": "How to Get Featured in Allure",
+  "title": "How to Get Featured in Allure | DNA PR",
+  "description": "Allure is a beauty title written by its own editors. What it covers, how products and experts get considered, and what no agency can promise you.",
+  "body": "<p>Allure treats beauty as a subject worth taking seriously: formulation, ingredients, technique and the people who know what they are talking about. That makes it a strong target for a small number of brands and experts, and the wrong target for most founders.</p>\n<p>Here is how coverage there actually works.</p>\n<h2 id=\"what-allure-covers\">What Allure covers</h2>\n<p>Skincare, make-up, hair, nails, fragrance and the science underneath all of it. The tone is testing and explanation rather than promotion: what an ingredient does, whether a claim holds up, which products a writer actually used and what happened when they did.</p>\n<p>Its readers are unusually well informed for a consumer audience. They know ingredient names, they read concentrations, and they are used to editors telling them plainly when something does not work. A pitch written for a general lifestyle desk reads as thin here almost immediately.</p>\n<p>The title also runs an annual awards programme for beauty products, which operates on its own published windows and entry rules. Anything of that kind is worth reading at source rather than taking on trust from a third party selling access to it.</p>\n<h2 id=\"who-realistically-gets-covered\">Who realistically gets covered</h2>\n<p>Two groups, and it is worth knowing which one you are in before you spend anything.</p>\n<p>The first is brands with a product that does something specific. That means a formulation with a genuine point of difference, available to buy, with pricing, launch dates, stockists and images a desk can use. A good product with a boring story still has a chance here, because the product is the story. A weak product with excellent copy does not.</p>\n<p>The second is practitioners with credentials a fact-checker can verify: dermatologists, cosmetic chemists, trichologists, licensed aestheticians and hairstylists with a real body of work behind them. Founders are generally quoted about their own brand rather than as independent experts, and that distinction is applied consistently across consumer beauty media.</p>\n<p>If you sell something unrelated to beauty, this is not your title, whatever a vendor tells you. Our guide on <a href=\"/guides/how-to-choose-the-right-publication\">choosing the right publication</a> is a more useful starting point.</p>\n<h2 id=\"the-routes-in\">The routes in</h2>\n<ul><li><strong>Earned editorial.</strong> An editor or writer decides to test, mention or quote you. Free, competitive, and entirely their decision.</li><li><strong>Product submission.</strong> Sending samples and complete product information to the relevant desk is normal practice and expected. It gets you considered, not covered.</li><li><strong>Affiliate commerce.</strong> Shopping round-ups frequently carry affiliate links, so the publication may earn a commission when a reader buys. That is a revenue disclosure, not a payment for inclusion.</li><li><strong>Advertising and branded content.</strong> Paid, produced commercially, and labelled by the publication. See <a href=\"/guides/sponsored-vs-branded-vs-advertorial\">sponsored, branded and advertorial explained</a>.</li></ul>\n<p>Nobody can sell you the first one. Anyone offering a guaranteed editorial mention at a title with its own beauty desk is describing something they do not control, which is the subject of <a href=\"/guides/is-guaranteed-pr-legit\">is guaranteed PR legit</a>.</p>\n<h2 id=\"what-makes-a-pitch-work\">What makes a pitch work</h2>\n<p>Specifics, early, in plain language.</p>\n<p>Name the active and the concentration. Say what the texture does and why it was formulated that way. Say what testing was carried out, by whom, and over what period. If a claim rests on a consumer perception study rather than a clinical one, say so in the pitch, because an editor will ask and a vague answer ends the conversation on the spot.</p>\n<p>Timing matters as much as substance. Print works months ahead and digital moves in days, so launch dates, embargo terms, regional availability and stockists need to be settled before you pitch rather than negotiated after an editor expresses interest.</p>\n<p>Assets are part of the pitch, not an afterthought. High-resolution product images on a clean background, full shade ranges, before-and-after material where it is honest to use it, and samples in a size a writer can genuinely test with are what let a busy desk act quickly.</p>\n<h2 id=\"what-a-mention-here-is-actually-worth\">What a mention here is actually worth</h2>\n<p>Beauty editors function as a filter for a category with far more launches than anyone could test. Being chosen carries weight with retail buyers, distributors and readers in a way that a page you paid for never does.</p>\n<p>It is also durable. A round-up that ranks well keeps sending people to the product long after launch week, which is the argument for doing the work properly rather than quickly. The difference between coverage you earned and coverage you bought is set out in <a href=\"/guides/what-is-earned-media\">what earned media actually means</a>.</p>\n<h2 id=\"what-we-do\">What we do</h2>\n<p>We develop the product or expert story, build the materials a beauty desk needs, and approach the right people on your behalf. You approve everything before it goes anywhere.</p>\n<p>We will also tell you when the fit is wrong, and when a realistic run of coverage elsewhere would do more for you than a long wait for one name. Where the only thing available is a paid route, we will say that it is a paid route.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Can I pay to have my product featured in Allure?</h3>\n<p>You can pay for advertising or branded content, which the publication labels as commercial. Editorial testing and product picks are decided by its editors and are not for sale.</p>\n<h3>Does sending samples get me covered?</h3>\n<p>It gets you considered. Desks receive far more product than they can test, so the information, timing and imagery around the sample decide whether it goes any further.</p>\n<h3>I am a founder rather than a dermatologist. Can I still be quoted?</h3>\n<p>Usually as the person behind the brand rather than as an independent expert. Claims about skin and health are normally attributed to qualified practitioners.</p>",
+  "toc": [
+    {
+      "id": "what-allure-covers",
+      "text": "What Allure covers"
+    },
+    {
+      "id": "who-realistically-gets-covered",
+      "text": "Who realistically gets covered"
+    },
+    {
+      "id": "the-routes-in",
+      "text": "The routes in"
+    },
+    {
+      "id": "what-makes-a-pitch-work",
+      "text": "What makes a pitch work"
+    },
+    {
+      "id": "what-a-mention-here-is-actually-worth",
+      "text": "What a mention here is actually worth"
+    },
+    {
+      "id": "what-we-do",
+      "text": "What we do"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Allure is written by its own beauty editors, so editorial mentions cannot be bought.",
+    "Product submission gets you considered; formulation detail, timing and assets decide the rest.",
+    "Credentialed practitioners are quoted as experts, founders as the brand behind the product."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-glamour",
+  "h1": "How to Get Featured in Glamour",
+  "title": "How to Get Featured in Glamour | DNA PR",
+  "description": "Glamour covers women's lives with a point of view. What its editors commission, the honest routes in, and the pitches that get nowhere near them.",
+  "body": "<p>Glamour covers the parts of women's lives that people actually argue about: work, money, health, culture, relationships, and what they are wearing while they get on with it. That breadth makes it look easy to pitch. It is not.</p>\n<p>Here is the honest version.</p>\n<h2 id=\"what-glamour-covers\">What Glamour covers</h2>\n<p>Careers and the workplace, money, physical and mental health, relationships, entertainment and the people in it, alongside fashion and beauty coverage that is closer to service journalism than to advertising.</p>\n<p>The voice is conversational and opinionated. Pieces tend to take a position rather than survey a subject neutrally, which is why a press release written in corporate language has no chance here even when the underlying story is good.</p>\n<p>The audience is mainstream and consumer, not trade. That single fact rules out most business pitches. A reader is not interested in your company; she may well be interested in something you know.</p>\n<h2 id=\"who-realistically-gets-covered\">Who realistically gets covered</h2>\n<p>Public figures and entertainers, on the strength of who they are. Authors and creators with something out. Experts with credentials, when a writer needs a health, money, career or relationship question answered properly. And ordinary people with an extraordinary experience, where the story itself carries the piece.</p>\n<p>Brands appear mainly through product coverage and shopping journalism, which turns on the product rather than the company. A founder profile, on its own, is close to unplaceable at a consumer women's title. That is not a criticism of the founder; it is what the section list allows.</p>\n<p>If your buyers are other businesses, a title like this is the wrong instrument entirely. Our guide on <a href=\"/guides/tier-1-vs-tier-2-publications\">tier one and tier two publications</a> explains where that budget usually works harder.</p>\n<h2 id=\"the-routes-in\">The routes in</h2>\n<ul><li><strong>Earned editorial.</strong> A staff editor or a commissioned freelancer decides your story fits. Free, competitive, and a newsroom decision no agency controls.</li><li><strong>Expert comment.</strong> Being genuinely available, on deadline, with something specific to say, is how most non-famous people end up quoted in consumer media.</li><li><strong>Commissioned first-person work.</strong> Essays and personal pieces are pitched to an editor and accepted on the strength of the subject and the writing.</li><li><strong>Product and shopping coverage.</strong> Often carries affiliate links, which earn the publication commission on sales. That is a revenue disclosure, not paid inclusion.</li><li><strong>Advertising and branded content.</strong> Paid, labelled, and a different product from a commissioned feature. See <a href=\"/guides/sponsored-vs-branded-vs-advertorial\">sponsored, branded and advertorial explained</a>.</li></ul>\n<h2 id=\"what-makes-a-pitch-work\">What makes a pitch work</h2>\n<p>A point of view, evidence, and a reason for it to run this month rather than any other.</p>\n<p>The strongest pitches say something a reader will recognise and then back it with detail she has not seen: what your hiring data shows about who actually gets promoted, what a practitioner sees in clinic that contradicts the standard advice, what a decision cost you and what you would do differently. Name the period, the sample and the source.</p>\n<p>First-person work needs stakes. Something has to have been risked, lost, changed or discovered, and the writing has to be honest about the unflattering parts. A tidy story where everything worked out because the author is impressive is not an essay, it is a bio.</p>\n<p>Access and timing help. A cultural moment, a season, a policy change or a date the title is already circling gives an editor the reason to schedule it now.</p>\n<h2 id=\"how-to-be-a-source-an-editor-returns-to\">How to be a source an editor returns to</h2>\n<p>Most people who appear regularly in consumer media are not famous. They are reliable.</p>\n<p>That means answering within hours rather than days, because a writer on deadline will simply use the next person on the list. It means sending quotes that are already publishable, in your own voice, without a paragraph of company positioning wrapped around them. It means having a one-line credential that can be checked, a usable photograph, and a straight answer when the honest answer is that you do not know.</p>\n<p>It also means not asking to approve the article. Editorial copy is not signed off by its sources, and asking marks you as someone who will be difficult next time. Get those things right and a single quote becomes a standing relationship, which is worth considerably more than one feature.</p>\n<h2 id=\"what-we-do\">What we do</h2>\n<p>We work out whether there is a commissionable story in what you have, shape it into something an editor can say yes to, and put it in front of the right person. You approve every word before anything is sent.</p>\n<p>We are also clear about the limit of that work. Editorial at a title like this is decided inside the newsroom, so what we sell is the development, the targeting and the approach, never the outcome. When the honest answer is that your story belongs somewhere else, we say it early rather than after you have paid for six months of pitching. You can see where we place clients consistently on our <a href=\"/publications\">publications page</a>.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Can I buy a feature in Glamour?</h3>\n<p>You can buy advertising or branded content, which the publication labels. Commissioned editorial is an editor's decision and is not available for purchase from us or anyone else.</p>\n<h3>I am a founder with no public profile. Is this realistic?</h3>\n<p>As a profile subject, rarely. As an expert source on something you genuinely know, or as the brand behind a product in shopping coverage, it is far more plausible.</p>\n<h3>How long do these things take?</h3>\n<p>Digital can move within days when a piece is tied to something happening now. Print features are planned months ahead, so the two are worth treating as separate opportunities.</p>",
+  "toc": [
+    {
+      "id": "what-glamour-covers",
+      "text": "What Glamour covers"
+    },
+    {
+      "id": "who-realistically-gets-covered",
+      "text": "Who realistically gets covered"
+    },
+    {
+      "id": "the-routes-in",
+      "text": "The routes in"
+    },
+    {
+      "id": "what-makes-a-pitch-work",
+      "text": "What makes a pitch work"
+    },
+    {
+      "id": "how-to-be-a-source-an-editor-returns-to",
+      "text": "How to be a source an editor returns to"
+    },
+    {
+      "id": "what-we-do",
+      "text": "What we do"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Glamour commissions consumer stories with a point of view, not company news.",
+    "Expert comment and first-person work are the realistic routes for non-famous people.",
+    "Paid and affiliate routes exist, are labelled, and are not an editor choosing you."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-architectural-digest",
+  "h1": "How to Get Featured in Architectural Digest",
+  "title": "How to Get Featured in Architectural Digest | DNA PR",
+  "description": "Architectural Digest covers design, architecture and interiors. What its editors consider, why photography decides everything, and the honest routes in.",
+  "body": "<p>Architectural Digest is the reference name in design media, and the one design professionals most want. It is also the title where the usual PR playbook is least useful, because the decision turns on the work and the pictures rather than on the pitch.</p>\n<h2 id=\"what-architectural-digest-covers\">What Architectural Digest covers</h2>\n<p>Houses, apartments, buildings and the people who design them. Architecture and interiors, restorations and new builds, the furniture and objects inside them, and the practitioners whose names are attached to the work.</p>\n<p>The framing is aesthetic and narrative at once. A published project usually has an idea behind it that can be explained in a sentence: a material used in an unexpected way, a difficult site solved well, a historic building brought back without being flattened into something generic, an interior that says something about how people are living now.</p>\n<p>Scale and budget are not the qualifier people assume. Small projects run. Ordinary rooms run. What does not run is work with nothing to say.</p>\n<h2 id=\"who-realistically-gets-covered\">Who realistically gets covered</h2>\n<p>Architects, interior designers, landscape designers and the makers behind the pieces in a room. Homeowners appear, but usually as the occupants of a project credited to a practitioner, which is why the designer relationship matters more than the owner's enthusiasm.</p>\n<p>Furniture, lighting, textile and homeware brands have a separate and more accessible path through product and market coverage, where the decision is about the piece itself rather than the company behind it.</p>\n<p>Developers and property businesses can be covered when the building is genuinely interesting. A sales narrative about a scheme is not a design story, and a desk will read the difference in the first line.</p>\n<p>One more group is worth naming: makers and craftspeople. A furniture maker, a ceramicist, a plasterer working in a traditional technique, a studio reviving a process almost nobody uses any more. Craft stories travel well at design titles because they answer the question a reader actually has about a beautiful object, which is how it was made and by whom.</p>\n<h2 id=\"photography-decides-everything\">Photography decides everything</h2>\n<p>This is the part most people underestimate, so it is worth stating bluntly. Without a professional architectural shoot, your project does not exist for this desk. Phone images, estate agent photographs and renderings will not be assessed on their merits, however good the building is.</p>\n<p>A publishable set means a photographer who shoots interiors and architecture for a living, proper light, a styled and finished space, and images cleared for editorial use with the photographer credited and permissions settled in writing.</p>\n<p>Permissions extend to the people involved. An owner who will not be named or photographed limits what can run, and privacy concerns are real and common at this level. Settle that before anyone pitches on your behalf.</p>\n<p>Credits are part of the package: the architect, the interior designer, the contractor, the landscape designer and the makers, listed accurately. Getting a collaborator's credit wrong in a submission is a fast way to lose a relationship you will need again.</p>\n<h2 id=\"the-routes-in\">The routes in</h2>\n<ul><li><strong>Earned editorial.</strong> An editor commissions or accepts a project. Free, highly competitive, and a decision made inside the title.</li><li><strong>Project submission.</strong> A complete package of photography, plans, credits and permissions, sent to the right editor. It gets the work looked at, not published.</li><li><strong>Product and market consideration.</strong> For design brands, the realistic first step, judged on the object rather than the business.</li><li><strong>Advertising and branded content.</strong> Paid, labelled by the publication, and priced at brand-marketing levels. A different thing from a commissioned feature, as set out in <a href=\"/guides/what-is-earned-media\">what earned media actually means</a>.</li></ul>\n<p>Exclusivity is worth understanding before you start. Design titles often want first publication of a project, so shopping the same shoot to several magazines at once can lose you all of them. Decide your order of preference and work it one at a time.</p>\n<p>Lead times work the same way. Print is planned many months ahead and seasonally, so a project finished in summer may be under consideration for an issue much later in the year. Digital moves faster and carries far more, which makes it the realistic first target for most practitioners rather than a consolation prize.</p>\n<h2 id=\"what-we-do\">What we do</h2>\n<p>We look at the work first and tell you honestly whether it is ready. If it is not, the answer is usually a proper shoot rather than a better pitch, and we would rather say that than take a fee for sending something that will be declined.</p>\n<p>When it is ready, we build the submission, get the credits and permissions straight, and approach the right editor with it. Nobody sells design editorial, and anyone who says otherwise is worth reading about in <a href=\"/guides/is-guaranteed-pr-legit\">is guaranteed PR legit</a> before you pay them. If you want to talk through a specific project, <a href=\"/contact\">get in touch</a>.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Can I pay to get my project published?</h3>\n<p>No. Advertising and branded content are available and are labelled as commercial, but a commissioned project feature is an editorial decision that is not for sale.</p>\n<h3>Does my house have to be large or expensive?</h3>\n<p>No. The qualifier is a design idea, professional photography and a credited practitioner. Modest projects with real intent are published regularly.</p>\n<h3>What if my client will not be named?</h3>\n<p>That is common and workable up to a point, since some projects run without identifying the owner. It does narrow the options, so agree it in writing before anything is submitted.</p>",
+  "toc": [
+    {
+      "id": "what-architectural-digest-covers",
+      "text": "What Architectural Digest covers"
+    },
+    {
+      "id": "who-realistically-gets-covered",
+      "text": "Who realistically gets covered"
+    },
+    {
+      "id": "photography-decides-everything",
+      "text": "Photography decides everything"
+    },
+    {
+      "id": "the-routes-in",
+      "text": "The routes in"
+    },
+    {
+      "id": "what-we-do",
+      "text": "What we do"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Without a professional architectural shoot, a project is not considered at all.",
+    "Credits, permissions and exclusivity need settling before anyone pitches.",
+    "Design brands get further through product coverage than through founder profiles."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-sports-illustrated",
+  "h1": "How to Get Featured in Sports Illustrated",
+  "title": "How to Get Featured in Sports Illustrated | DNA PR",
+  "description": "Sports Illustrated covers sport and the people who play it. Who gets written about, how access really works, and when the brand is the wrong target.",
+  "body": "<p>Sports Illustrated is one of the most recognised names in sport, built on reporting, long-form writing and photography. It is a realistic target for a narrow group of people and an unrealistic one for almost everybody else, and the second half of that sentence is the useful part.</p>\n<h2 id=\"what-sports-illustrated-covers\">What Sports Illustrated covers</h2>\n<p>Sport. Athletes, teams, coaches, results, records, rivalries, injuries, comebacks and the human stories underneath competition, alongside the business and governance questions that decide how sport is run.</p>\n<p>The writing tends to want access and detail rather than announcements. A profile works because the writer spent time with someone and came back with things nobody else has. That is a high bar, and it is the bar.</p>\n<p>Expert commentary is part of the mix as well, usually from people in sports medicine, performance, officiating, law or the economics of the game, when a story already in motion needs someone credible to explain it.</p>\n<h2 id=\"who-realistically-gets-covered\">Who realistically gets covered</h2>\n<p>Competitors, at a level where a general sports audience has a reason to care. Teams and organisations doing something consequential. Coaches and officials. People whose work shapes how a sport is played, watched, funded or governed.</p>\n<p>Brands and founders sit outside that unless the story has a genuine sporting dimension. A technology that changes how an event is officiated is a story. A supplement company run by someone who likes sport is not, and no amount of pitching turns the second into the first.</p>\n<p>If you are in that position, the honest advice is to look at where your actual buyers read. Our guide on <a href=\"/guides/how-to-choose-the-right-publication\">choosing the right publication</a> goes through how to work that out.</p>\n<h2 id=\"how-access-actually-works\">How access actually works</h2>\n<p>In sport, more than almost any other beat, the route to a writer runs through the people around the subject. Agents, clubs, governing bodies, leagues, universities and press officers control availability, and reporters work those relationships continuously.</p>\n<p>That has a practical consequence. If you represent an athlete, the useful work is making them genuinely available at the moment a story is live, with something to say and a person authorised to say yes quickly. If you do not have that access, a cold pitch about someone a reporter cannot reach goes nowhere.</p>\n<p>Timing is unforgiving. Sport runs on fixtures, seasons, transfers, drafts and results, and a story that is interesting on the Monday after a match is dead by Thursday.</p>\n<h2 id=\"the-routes-in-and-what-to-call-them\">The routes in, and what to call them</h2>\n<ul><li><strong>Earned editorial on the main masthead.</strong> A reporter or editor decides to cover you. Free, competitive, and not for sale by anyone.</li><li><strong>Expert comment.</strong> Being reachable and qualified when a live story needs explaining.</li><li><strong>Team and fan-facing sites under the brand.</strong> A broad network publishes under the name with different writers and different standards. Real coverage, but not the main title.</li><li><strong>Advertising, sponsorship and branded content.</strong> Paid, labelled, and a commercial product rather than an editorial decision.</li></ul>\n<p>Separate franchises within the brand run their own selection processes on published terms, and those are worth reading at source rather than through an intermediary offering access.</p>\n<p>Naming matters afterwards. If your piece ran on a team site under the brand, say so. Describing it as the magazine invites the one conversation you do not want, where an investor or a journalist checks and finds the claim inflated. The distinction between what you earned and what you bought is covered in <a href=\"/guides/what-is-earned-media\">what earned media actually means</a>.</p>\n<h2 id=\"what-to-do-if-you-are-not-an-athlete\">What to do if you are not an athlete</h2>\n<p>Start where the sport is actually covered. Specialist publications, governing body channels, regional and local sports desks, coaching and performance press, and the trade titles serving the business of sport all publish people the national brands will not, and they are reachable.</p>\n<p>That is not a downgrade. It is how a record gets built, and a record is what makes a national reporter take a later pitch seriously. Coverage follows coverage in sport as much as anywhere else.</p>\n<p>If your interest in sport is commercial rather than sporting, be honest about that and target accordingly. A business title covering sponsorship, broadcasting, participation or sports technology will often reach the people you actually need, and it will run the story a sports desk would decline. Our guide on <a href=\"/guides/tier-1-vs-tier-2-publications\">tier one and tier two publications</a> sets out how those trade-offs work.</p>\n<h2 id=\"what-we-do\">What we do</h2>\n<p>We start by telling you whether there is a sporting story here at all. When there is, we build it properly, get the access and assets in order, and approach the right people at the right moment in the calendar.</p>\n<p>When there is not, we say so and point the budget somewhere it can work. We do not sell placements at newsroom titles, because nobody can deliver them.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Can a business get covered here?</h3>\n<p>Only with a real sporting angle, such as technology, health, governance or economics that changes something about the sport itself. Company news alone is not enough.</p>\n<h3>Is a team site under the brand the same as the magazine?</h3>\n<p>No. It is genuine coverage, written by different people to different standards, and it should be described by what it actually is.</p>\n<h3>I am an amateur athlete. Is this realistic?</h3>\n<p>Usually not at national level, though a genuinely unusual story can travel. Local and specialist sports media is a far better starting point and builds a record that helps later.</p>",
+  "toc": [
+    {
+      "id": "what-sports-illustrated-covers",
+      "text": "What Sports Illustrated covers"
+    },
+    {
+      "id": "who-realistically-gets-covered",
+      "text": "Who realistically gets covered"
+    },
+    {
+      "id": "how-access-actually-works",
+      "text": "How access actually works"
+    },
+    {
+      "id": "the-routes-in-and-what-to-call-them",
+      "text": "The routes in, and what to call them"
+    },
+    {
+      "id": "what-to-do-if-you-are-not-an-athlete",
+      "text": "What to do if you are not an athlete"
+    },
+    {
+      "id": "what-we-do",
+      "text": "What we do"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "The subject has to be sport, not a business that sponsors it.",
+    "Access through agents, clubs and press officers matters more than a cold pitch.",
+    "A team site under the brand is real coverage, but it is not the main masthead."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-us-weekly",
+  "h1": "How to Get Featured in Us Weekly",
+  "title": "How to Get Featured in Us Weekly | DNA PR",
+  "description": "Us Weekly covers celebrity and entertainment news. Who gets written about, how access actually works, and when the honest answer is that it is not you.",
+  "body": "<p>Us Weekly is one of the most recognised consumer titles in the world, which is why founders ask about it. It is also a celebrity newsroom, which is why the honest answer is usually no.</p>\n<p>Here is how coverage there works, and how to tell whether you are anywhere near it.</p>\n<h2 id=\"what-us-weekly-covers\">What Us Weekly covers</h2>\n<p>Entertainment and the people in it. Film, television, music, reality formats, relationships, red carpets and public life, alongside lifestyle and shopping content aimed at the same reader.</p>\n<p>The currency is public interest. A piece runs because readers already have a reason to care about the person in it, or because the situation itself is remarkable enough to carry the story without a familiar name attached.</p>\n<p>That is a colder test than it sounds, and it is applied consistently. Being impressive is not the same as being of public interest, and the distinction decides most pitches before anyone reads the second paragraph.</p>\n<h2 id=\"who-realistically-gets-covered\">Who realistically gets covered</h2>\n<p>Actors, musicians, television personalities, athletes with a public profile, and people currently attached to something the audience is watching. Occasionally, people with no profile at all whose story is genuinely extraordinary and verifiable.</p>\n<p>Not, in almost all cases, a founder with a successful business and no public presence. If that describes you, this is probably not your title, and the useful thing an agency can do is say so early rather than bill you for a year of pitching into a desk that was never going to be interested.</p>\n<p>Consumer brands do have a path, but it runs through product and shopping coverage rather than through profiles. That is a real route with real value, and it is a different route.</p>\n<p>There is a third category worth understanding: people adjacent to a story already running. A lawyer acting in a case the title is covering, a former colleague with a first-hand account, a professional who can explain something readers are confused about. That is how most people without a public profile end up in celebrity media, and it turns on being reachable while the story is live rather than on pitching.</p>\n<h2 id=\"how-access-actually-works\">How access actually works</h2>\n<p>Entertainment reporting runs on representation. Publicists, managers, studios, labels, networks and event organisers decide who is available, what can be asked and when. Exclusives are given, negotiated and traded on relationships, not bought from a vendor.</p>\n<p>Practically, that means the work sits upstream of the pitch. If you have a client with a public profile, the value is in being the person a writer can reach quickly, with something usable, at the moment a story is live.</p>\n<p>Verification matters as well. An unsupported claim about a named person is a legal problem rather than a scoop, so documents, dates, named sources and clearable photography are what make an editor comfortable running something.</p>\n<h2 id=\"the-routes-in\">The routes in</h2>\n<ul><li><strong>Earned editorial.</strong> The newsroom decides. Free, competitive, and not for sale from us or anyone else.</li><li><strong>Expert comment.</strong> On the lifestyle side, a qualified voice on a health, money or relationships question can get quoted on deadline.</li><li><strong>Product and shopping coverage.</strong> Often carries affiliate links, so the publication may earn commission on a sale. That is a disclosure, not paid inclusion.</li><li><strong>Advertising and branded content.</strong> Paid, labelled by the publication, and a separate product from editorial. See <a href=\"/guides/sponsored-vs-branded-vs-advertorial\">sponsored, branded and advertorial explained</a>.</li></ul>\n<p>If someone offers you a guaranteed editorial feature at a celebrity title, read <a href=\"/guides/is-guaranteed-pr-legit\">is guaranteed PR legit</a> before you pay anything. Nobody controls that decision.</p>\n<p>It is worth being precise afterwards as well. A quote in a lifestyle piece, a product in a round-up and a profile are three different outcomes that all get described as a feature, and claiming the largest of them when you received the smallest is exactly the sort of thing an investor or a journalist eventually checks.</p>\n<h2 id=\"what-to-do-if-this-is-not-your-title\">What to do if this is not your title</h2>\n<p>Most people asking about celebrity media actually want the recognition that comes with a name their customers know. That is achievable without a celebrity story, through consumer and business titles where expertise is the qualifier rather than fame.</p>\n<p>Building a public profile is also a sequence rather than a purchase. Coverage tends to follow coverage, and a founder with a visible record of substantive features is a far easier subject for any newsroom to consider later. Our guide on <a href=\"/guides/how-to-choose-the-right-publication\">choosing the right publication</a> sets out how to sequence that.</p>\n<h2 id=\"what-we-do\">What we do</h2>\n<p>We assess the story first and tell you whether there is one. When there is, we build it properly, get the assets and the permissions in order, and approach the right people at the right time.</p>\n<p>When there is not, we say so. We do not sell placements in newsrooms we do not control, and a plan that starts with an honest no is worth more than one that starts with a promise.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Can I pay for a feature in Us Weekly?</h3>\n<p>You can pay for advertising or branded content, which the publication labels as commercial. Editorial coverage is a newsroom decision and is not available to buy.</p>\n<h3>I run a successful company. Is that enough?</h3>\n<p>On its own, usually not. Celebrity titles cover public interest rather than commercial success, so a business story generally belongs in business or consumer service media.</p>\n<h3>How do brands get into shopping coverage?</h3>\n<p>Through product submission and gifting to the relevant desk, judged on the product, price and timing. Those pages often carry affiliate links, which is disclosed by the publication.</p>",
+  "toc": [
+    {
+      "id": "what-us-weekly-covers",
+      "text": "What Us Weekly covers"
+    },
+    {
+      "id": "who-realistically-gets-covered",
+      "text": "Who realistically gets covered"
+    },
+    {
+      "id": "how-access-actually-works",
+      "text": "How access actually works"
+    },
+    {
+      "id": "the-routes-in",
+      "text": "The routes in"
+    },
+    {
+      "id": "what-to-do-if-this-is-not-your-title",
+      "text": "What to do if this is not your title"
+    },
+    {
+      "id": "what-we-do",
+      "text": "What we do"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Celebrity titles cover public interest, not commercial success.",
+    "Access runs through publicists and representation, and exclusives are given rather than bought.",
+    "For most founders the honest answer is that a different title will do more."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-ok-magazine",
+  "h1": "How to Get Featured in OK! Magazine",
+  "title": "How to Get Featured in OK! Magazine | DNA PR",
+  "description": "OK! Magazine publishes celebrity news in separate national editions. What runs, how access works, and why naming the right edition protects you.",
+  "body": "<p>OK! Magazine is a celebrity title with very broad consumer recognition, which makes it a name people want in a footer. It is also a newsroom, and the decision about what runs belongs to its editors.</p>\n<p>There is one more thing worth knowing before anything else.</p>\n<h2 id=\"which-edition-are-you-talking-about\">Which edition are you talking about</h2>\n<p>Separate national editions publish under the OK! Magazine name, each with its own editorial team and its own commissioning. A story in one does not cross into another by arrangement, and the editions cover different public figures for different audiences.</p>\n<p>That matters for how you describe the result afterwards. The accurate claim is always the edition that actually ran your story. Overstating it is the kind of detail that gets checked by exactly the person you least want checking it, and once one claim on your page is found to be inflated, the rest of it gets read differently.</p>\n<p>Stated accurately, a consumer title with this level of recognition still does its job perfectly well.</p>\n<p>The practical consequence is that you should know, before anyone approaches a desk on your behalf, which edition is being contacted and which audience it reaches. Those are different newsrooms with different priorities, and an agency that cannot tell you which one it is dealing with is not really running a campaign.</p>\n<h2 id=\"what-ok-magazine-covers\">What OK! Magazine covers</h2>\n<p>Celebrity and entertainment news: television, music, film, reality formats, public figures, relationships and the events around them, plus lifestyle and shopping content aimed at the same reader.</p>\n<p>The test is public interest. Something has happened involving someone readers already recognise, or a situation is remarkable enough to carry itself. Being successful in business is not the same thing, and this is where most founder pitches stop.</p>\n<p>Print and online behave differently here. The magazine works to a weekly cycle with pages planned in advance, while the website publishes continuously and carries far more, including lighter lifestyle and shopping material. Treat them as two targets with different lead times and different appetites.</p>\n<h2 id=\"how-access-actually-works\">How access actually works</h2>\n<p>Through representation, almost always. Publicists, agents, broadcasters, labels and event organisers control who is available for an interview, what may be asked, and when it can run. Interviews are agreed, not purchased.</p>\n<p>Verification is the other constraint. Claims about named people carry legal risk, so a desk wants supporting material: dates, documents, named sources and photography that is cleared for publication. A pitch that arrives with those attached is treated very differently from one that promises them later.</p>\n<p>Timing runs on the weekly cycle for print and continuously online, so the two behave like separate opportunities with different lead times.</p>\n<p>There is a related point about photography. Celebrity desks need images they are cleared to publish, and rights to pictures are frequently held by a photographer or an agency rather than by the subject. A pitch that arrives with properly cleared photography is materially easier to run than one that promises to sort it out later.</p>\n<h2 id=\"the-routes-in\">The routes in</h2>\n<ul><li><strong>Earned editorial.</strong> The newsroom of that edition decides. Free, competitive, and not something any agency can guarantee.</li><li><strong>Representation-led access.</strong> An interview or an account offered through the people who act for the subject.</li><li><strong>Product and shopping coverage.</strong> Judged on the product, and often carrying affiliate links that earn the publication commission on sales.</li><li><strong>Advertising and branded content.</strong> Paid, labelled by the publication, and a different product from a commissioned story. See <a href=\"/guides/what-is-earned-media\">what earned media actually means</a>.</li></ul>\n<h2 id=\"when-this-is-not-your-title\">When this is not your title</h2>\n<p>If you have no public profile and no connection to entertainment, celebrity media is a poor use of your money. That is not a reflection on the business; it is what these pages exist to cover.</p>\n<p>The recognition most founders are actually after can be built through consumer and business titles where expertise is the qualifier. Coverage also compounds, so a visible record makes every later pitch easier, including the improbable ones. Our guide on <a href=\"/guides/how-to-choose-the-right-publication\">choosing the right publication</a> walks through that sequencing, and you can see where we place clients on our <a href=\"/publications\">publications page</a>.</p>\n<p>There is also a version of this that goes wrong slowly. People buy their way onto pages that look like celebrity coverage, find the audience never converts, and then discover the claim is awkward to defend once somebody reads the label at the top of it. Paid consumer placement is perfectly legitimate when it is described accurately. The trouble starts when it is not.</p>\n<h2 id=\"what-we-do\">What we do</h2>\n<p>We work out whether there is a story, name the edition we are actually approaching, and build what a desk needs before we approach anyone. You approve everything first.</p>\n<p>We do not sell celebrity placements, because they are decided inside newsrooms that no agency controls. When the honest answer is that your budget works harder elsewhere, we say it.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Are the different editions the same publication?</h3>\n<p>They share a brand name and publish separately, each with its own editors and audience. Describe the edition that ran your story rather than the brand in general.</p>\n<h3>Can I buy an editorial feature?</h3>\n<p>You can buy advertising or branded content, which is labelled as commercial. Editorial decisions are made by the newsroom and are not for sale.</p>\n<h3>Can a consumer brand get in without a celebrity?</h3>\n<p>Sometimes, through product round-ups and gifting, where the decision turns on the product, the price and the timing rather than on the company.</p>",
+  "toc": [
+    {
+      "id": "which-edition-are-you-talking-about",
+      "text": "Which edition are you talking about"
+    },
+    {
+      "id": "what-ok-magazine-covers",
+      "text": "What OK! Magazine covers"
+    },
+    {
+      "id": "how-access-actually-works",
+      "text": "How access actually works"
+    },
+    {
+      "id": "the-routes-in",
+      "text": "The routes in"
+    },
+    {
+      "id": "when-this-is-not-your-title",
+      "text": "When this is not your title"
+    },
+    {
+      "id": "what-we-do",
+      "text": "What we do"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Separate national editions publish under the name, so claim the edition that ran your story.",
+    "Access runs through publicists and representation, and claims need supporting material.",
+    "With no public profile and no entertainment link, this is the wrong title."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-hollywood-life",
+  "h1": "How to Get Featured in Hollywood Life",
+  "title": "How to Get Featured in Hollywood Life | DNA PR",
+  "description": "Hollywood Life publishes celebrity news at daily speed. What its writers cover, how timing decides everything, and when the answer is simply no.",
+  "body": "<p>Hollywood Life publishes entertainment news quickly and continuously. That speed shapes everything about how a story gets in, and it is the reason most pitches sent to it never had a chance.</p>\n<h2 id=\"what-hollywood-life-covers\">What Hollywood Life covers</h2>\n<p>Celebrity news and popular culture: television, music, film, reality formats, relationships, public appearances and the daily churn of things people are already talking about. Lifestyle and shopping content sits alongside it, aimed at the same reader.</p>\n<p>The framing is immediate rather than reflective. Pieces respond to something that has just happened, which means the window for being useful to a writer is measured in hours.</p>\n<p>As at any entertainment title, the qualifier is public interest. Readers need a reason to care about the person before the detail becomes interesting, and commercial success is not that reason.</p>\n<p>Volume is part of the model. A site publishing many pieces a day needs material constantly, which is why reachable and accurate sources get used repeatedly, and why a slow, carefully negotiated pitch tends to miss entirely.</p>\n<h2 id=\"who-realistically-gets-covered\">Who realistically gets covered</h2>\n<p>People with a public profile, people attached to something currently being watched or listened to, and occasionally people with no profile whose situation is extraordinary and verifiable.</p>\n<p>A founder with a strong business and no public presence is a poor fit, and there is no version of a pitch that changes that. It is worth hearing plainly, because a lot of money gets spent chasing celebrity media by people whose story belongs in consumer or business titles.</p>\n<p>Brands have a narrower but genuine path through product and shopping coverage, where the decision is about the product rather than the company behind it.</p>\n<p>The other realistic category is people adjacent to a live story: someone with a first-hand account, a professional who can explain a detail readers are asking about, a person named in something already being reported. That is how most people without a public profile end up quoted in entertainment media, and it is a question of availability rather than persistence.</p>\n<h2 id=\"why-timing-decides-everything\">Why timing decides everything</h2>\n<p>At a fast desk, the pitch that wins is the one that arrives complete while the moment is live. That means the quote is written, the images are cleared for use, the dates are confirmed, and someone is available to answer a question within the hour.</p>\n<p>A story that needs three days of verification has usually stopped being a story by the time it clears. That is not carelessness on the publication's part; it is how a daily news operation works.</p>\n<p>It also means relationships matter more than volume. Writers go back to the sources who were reachable and accurate last time, which is the only reliable compounding asset in this part of the media.</p>\n<h2 id=\"the-routes-in\">The routes in</h2>\n<ul><li><strong>Earned editorial.</strong> The site's own team decides what runs. Free, and not for sale by any intermediary.</li><li><strong>Representation-led access.</strong> Interviews and statements offered through publicists and managers.</li><li><strong>Expert comment.</strong> On lifestyle pieces, a qualified voice answering the question the article is already asking.</li><li><strong>Product and shopping coverage.</strong> Frequently carries affiliate links, so the publication may earn commission on sales. That is a disclosure rather than paid inclusion.</li><li><strong>Advertising and branded content.</strong> Paid, labelled, and not an editor choosing to write about you.</li></ul>\n<p>Anyone guaranteeing editorial at a title with its own newsroom is selling something they do not control, as covered in <a href=\"/guides/is-guaranteed-pr-legit\">is guaranteed PR legit</a>.</p>\n<h2 id=\"what-to-do-if-this-is-not-your-title\">What to do if this is not your title</h2>\n<p>What most people want from celebrity media is recognition their customers understand instantly. You can get that without a celebrity story.</p>\n<p>Consumer service titles quote credentialed experts constantly. Business and trade titles cover companies on the strength of what they know and can evidence. Regional media covers people doing something visible where they live. None of that requires fame, and all of it builds the record that makes a larger newsroom take a later approach seriously.</p>\n<p>Coverage also compounds. A founder with a visible history of substantive features is an easier subject for any desk to consider, which is why the order you do things in matters more than starting at the biggest name you can think of.</p>\n<h2 id=\"what-we-do\">What we do</h2>\n<p>We tell you first whether there is a story. If there is, we prepare it so it can move at the speed the desk works at: the angle, the quote, the assets, the approvals, all settled in advance.</p>\n<p>If there is not, we say so and put the budget where it can work. For most clients that means titles where expertise is the qualifier, which is the ground covered in <a href=\"/guides/what-is-earned-media\">what earned media actually means</a>. If you want a straight assessment of your own situation, <a href=\"/contact\">get in touch</a>.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Can I pay to be covered?</h3>\n<p>You can pay for advertising or branded content, which is labelled by the publication. Editorial coverage is decided by its own team and cannot be bought.</p>\n<h3>How quickly do I need to respond to a writer?</h3>\n<p>Same day, and usually within a couple of hours. Being reachable and accurate is what gets you asked again.</p>\n<h3>My business has nothing to do with entertainment. Is there any route?</h3>\n<p>Realistically, only product coverage or an expert quote on a lifestyle piece. A personal feature is not a plausible target without a public profile.</p>",
+  "toc": [
+    {
+      "id": "what-hollywood-life-covers",
+      "text": "What Hollywood Life covers"
+    },
+    {
+      "id": "who-realistically-gets-covered",
+      "text": "Who realistically gets covered"
+    },
+    {
+      "id": "why-timing-decides-everything",
+      "text": "Why timing decides everything"
+    },
+    {
+      "id": "the-routes-in",
+      "text": "The routes in"
+    },
+    {
+      "id": "what-to-do-if-this-is-not-your-title",
+      "text": "What to do if this is not your title"
+    },
+    {
+      "id": "what-we-do",
+      "text": "What we do"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "A daily entertainment desk rewards complete, fast, verifiable material.",
+    "Public interest is the qualifier, and business success does not supply it.",
+    "Product coverage and expert comment are the only realistic routes for most brands."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-womans-world",
+  "h1": "How to Get Featured in Woman's World",
+  "title": "How to Get Featured in Woman's World | DNA PR",
+  "description": "Woman's World runs practical service journalism for women. What its editors commission, how experts get used, and how to pitch a real-life story.",
+  "body": "<p>Woman's World is a service title. Almost everything in it exists to help a reader do something this week: eat better, sleep better, spend less, feel less alone. That focus makes it one of the more reachable consumer magazines for genuine experts, and one of the least forgiving of promotional pitches.</p>\n<h2 id=\"what-womans-world-covers\">What Woman's World covers</h2>\n<p>Health and wellbeing, food and recipes, home, money and everyday problem solving, alongside real-life stories and light entertainment. It is a weekly newsstand magazine with a website that publishes more often.</p>\n<p>The register is warm, direct and practical. Pieces are short, specific and written for a reader who wants the answer rather than the background, which means advice has to survive being reduced to a few sentences without becoming meaningless.</p>\n<p>It is mainstream rather than specialist. Jargon, brand language and anything that assumes prior knowledge tends to be cut.</p>\n<p>Seasonality runs through all of it. New year health, spring cleaning, summer food, back to school, the holidays: much of the year is planned against those anchors, and a pitch that fits an upcoming one has an obvious home rather than needing an editor to invent a slot for it.</p>\n<h2 id=\"who-realistically-gets-used\">Who realistically gets used</h2>\n<p>Credentialed experts, mostly. Doctors, dietitians, nutritionists, therapists, trainers, sleep specialists, financial advisers, pet professionals and anyone else who can answer a practical question and stand behind the answer.</p>\n<p>Credentials are checked, and health claims are expected to be defensible. An expert who overstates what the evidence supports does not get used twice, which matters because the value here is in being a repeat source rather than a one-off quote.</p>\n<p>Ordinary readers appear too, through real-life stories. And products appear in round-ups where the decision turns on usefulness and price rather than on the company behind them.</p>\n<h2 id=\"the-routes-in\">The routes in</h2>\n<ul><li><strong>Expert sourcing.</strong> A writer building a service piece needs a qualified voice. Being reachable, clear and quotable is the whole job.</li><li><strong>Real-life story submission.</strong> Pitched by the person who lived it, or by someone acting for them with their consent.</li><li><strong>Product consideration.</strong> Samples and information to the relevant desk, judged on what the product does and what it costs.</li><li><strong>Advertising and any sponsored material.</strong> Paid, labelled by the publication, and not the same as being quoted in a feature. See <a href=\"/guides/sponsored-vs-branded-vs-advertorial\">sponsored, branded and advertorial explained</a>.</li></ul>\n<p>Editorial inclusion is decided by the title's own editors and the writers they commission. It is not for sale, and nobody can promise it, which is worth remembering when a vendor quotes you a price for a consumer magazine feature.</p>\n<h2 id=\"how-to-pitch-it-properly\">How to pitch it properly</h2>\n<p>Lead with the reader's problem, not with yourself. The subject line of a good pitch is the benefit, and your credentials are the reason the answer is credible rather than the point of the email.</p>\n<p>Be specific and usable. Three things a trainer changes for clients over sixty, the swap that genuinely lowers a weekly shop, what a dietitian tells patients about a habit most people think is healthy. Give numbers, timings and plain instructions.</p>\n<p>For real-life stories, the shape matters: a beginning, a turn, an outcome, and honesty about the difficult parts. Consent has to be real and in writing, and anyone else identifiable in the story needs to have agreed as well.</p>\n<p>Pitch early. Print is planned a long way ahead and heavily seasonally, so a January piece is decided in autumn while the website works to much shorter lead times.</p>\n<h2 id=\"why-being-a-repeat-source-matters\">Why being a repeat source matters</h2>\n<p>A single quote in a service magazine is pleasant. Being the person a writer calls first is worth considerably more, and it is achievable in a way that one big-name feature often is not.</p>\n<p>Writers keep short lists. They go back to the expert who replied the same day, gave a usable answer in plain English, did not oversell the evidence and never asked to approve the piece. Across a year that turns into a run of appearances at several titles, because the same freelancers write for many of them.</p>\n<p>That run is also what makes larger approaches plausible later. A visible record of being quoted as an expert is precisely the evidence a bigger newsroom uses when deciding whether to trust you on a deadline.</p>\n<h2 id=\"what-we-do\">What we do</h2>\n<p>We turn what you know into the form this kind of desk actually commissions, prepare you to be a good source, and approach the right people. You approve everything before it goes out.</p>\n<p>We will also tell you plainly when a title is wrong for you. Service journalism rewards genuine expertise, so if the qualification is not there, a different route makes more sense than a pitch that will not survive a fact-check. Our guide on <a href=\"/guides/how-to-choose-the-right-publication\">choosing the right publication</a> is a good place to start.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Can I pay to be quoted?</h3>\n<p>No. Advertising and sponsored material are available and are labelled as commercial, but expert quotes in editorial are chosen by the writer and the desk.</p>\n<h3>What makes an expert get used again?</h3>\n<p>Answering quickly, speaking plainly, and never overstating the evidence. Reliability is worth more to a writer on deadline than an impressive title.</p>\n<h3>Can I pitch a real-life story about someone else?</h3>\n<p>Only with their informed, written consent, and the desk will expect to speak to them directly. Anyone else identifiable in the story needs to agree as well.</p>",
+  "toc": [
+    {
+      "id": "what-womans-world-covers",
+      "text": "What Woman's World covers"
+    },
+    {
+      "id": "who-realistically-gets-used",
+      "text": "Who realistically gets used"
+    },
+    {
+      "id": "the-routes-in",
+      "text": "The routes in"
+    },
+    {
+      "id": "how-to-pitch-it-properly",
+      "text": "How to pitch it properly"
+    },
+    {
+      "id": "why-being-a-repeat-source-matters",
+      "text": "Why being a repeat source matters"
+    },
+    {
+      "id": "what-we-do",
+      "text": "What we do"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "This is service journalism, so the pitch has to help the reader first.",
+    "Credentialed experts who answer fast and plainly become repeat sources.",
+    "Print is planned seasonally and months ahead, so pitch early."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-the-los-angeles-times",
+  "h1": "How to Get Featured in the Los Angeles Times",
+  "title": "How to Get Featured in the Los Angeles Times | DNA PR",
+  "description": "The Los Angeles Times is a major metropolitan daily with its own newsroom. What its journalists cover, who realistically gets coverage, and the honest path.",
+  "body": "<p>The Los Angeles Times is one of the major metropolitan dailies in the United States, and it is written by its own staff.</p>\n<p>Here is an honest account of how coverage happens, and who it happens to.</p>\n<h2 id=\"what-the-los-angeles-times-is\">What the Los Angeles Times is</h2>\n<p>It is a major American metropolitan daily with a full newsroom, reporting on California news, politics, business, technology, entertainment, sport and life across Southern California.</p>\n<p>That matters more than the name does. A staffed newsroom decides what it reports, commissions its own work and answers to its own editors. There is no contributor programme to join, and no route that lets you publish yourself on the masthead.</p>\n<p>It also serves two readerships at once. One reads it as the paper of record for the region. The other reads it from outside California for entertainment, politics and the state itself. A pitch that ignores the first of those is usually the wrong pitch.</p>\n<h2 id=\"who-realistically-gets-covered\">Who realistically gets covered</h2>\n<p>People and organisations whose actions have consequences for the region or the industries it runs on. A company whose decisions affect a large number of Californians. A person at the centre of something already newsworthy. An expert who can explain a development the paper is already reporting.</p>\n<p>Being successful is not a story. Being consequential, or being able to explain something consequential, is. If your work has no connection to the region, its economy, its politics or its culture, this is very probably the wrong target.</p>\n<p>The same applies to individuals. Reporters write about people at the point where something checkable attaches to them, whether that is a filing, a ruling, a role, a contract or a dataset, rather than at the point where somebody feels ready to be written about.</p>\n<p>That is not a reason to give up on press. It is a reason to spend the year on <a href=\"/guides/how-to-choose-the-right-publication\">publications you can realistically reach</a> and that your buyers already read.</p>\n<h2 id=\"what-makes-a-story-they-will-run\">What makes a story they will run</h2>\n<p>Local and civic relevance is the gate. The test a desk applies is whether a reader in Southern California is affected by this, and whether the paper can verify it independently.</p>\n<p>What clears that gate is specific: a housing, transport or planning decision and who pays for it, a labour dispute in an industry the region depends on, state data that reframes an argument already underway, or an entertainment story with something verifiable attached to it.</p>\n<p>Your business is usually the reason you understand the story rather than the subject of it. That is a difficult adjustment for founders, and it is the single biggest reason pitches at this level go unanswered.</p>\n<p>It also helps to know which desk you are pitching. Business, entertainment, politics, food and California news all have different appetites, and a story sent to the wrong one usually dies quietly rather than being forwarded to the right person.</p>\n<h2 id=\"paid-and-commercial-routes\">Paid and commercial routes</h2>\n<p>Newspapers of this size carry advertising, and publishers in this space run clearly labelled sponsored and branded content as separate commercial products.</p>\n<p>Those are legitimate. They are bought at media rates rather than PR rates, and they are not reporting. Anyone describing labelled commercial content as a news feature is misleading you, and anyone offering a guaranteed editorial placement in a staff-written daily is <a href=\"/guides/is-guaranteed-pr-legit\">selling something they do not control</a>.</p>\n<p>Be careful with syndication claims too. A piece that runs on a smaller site and is later picked up somewhere else is not the same as being reported by this newsroom, and the difference is obvious to anyone who clicks the link.</p>\n<p>The same caution applies to the language you use afterwards. Appeared in and was reported on by are not the same claim, and the second is the one people check.</p>\n<h2 id=\"the-realistic-path\">The realistic path</h2>\n<ul><li><strong>Build the record first.</strong> Journalists at this level check whether you have said anything credible in public before. <a href=\"/guides/what-is-earned-media\">Earned coverage</a> tends to follow earned coverage.</li><li><strong>Be a usable source.</strong> Reporters need informed comment on stories already in motion, usually at short notice and often the same day.</li><li><strong>Have something checkable.</strong> Documents, data you can actually share, customers or staff who will speak on the record. A claim nobody can verify does not get printed.</li><li><strong>Get the local hook right.</strong> Tie it to the place, the people and the consequence, not to your company milestones.</li></ul>\n<p>None of that is quick, and none of it is guaranteed. It is simply what the ground under a credible pitch looks like.</p>\n<h2 id=\"what-we-do\">What we do</h2>\n<p>We are straight with clients about this tier. We build the story and the press record that make top-tier coverage plausible, and we place you consistently in <a href=\"/publications\">publications where we can actually deliver</a>.</p>\n<p>We do not sell Los Angeles Times placements, and we would be cautious of anyone who does. If your story has genuine regional consequence, we will help you shape it and take it to the right desk. If it does not, we will say so rather than spend a year of your budget chasing it.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Can you pay to be covered by the Los Angeles Times?</h3>\n<p>Not for reporting. Advertising and labelled sponsored content are separate commercial products, and neither is the same thing as a staff journalist deciding to write about you.</p>\n<h3>Do I need to be based in Los Angeles?</h3>\n<p>Not necessarily, but the story needs genuine regional relevance. A national story with no California dimension is a much harder sell here than it would be elsewhere.</p>\n<h3>What should I target instead?</h3>\n<p>Publications your actual buyers read, plus a permanent feature that stands up when someone searches your name. That usually does more, sooner, than an unreachable masthead.</p>",
+  "toc": [
+    {
+      "id": "what-the-los-angeles-times-is",
+      "text": "What the Los Angeles Times is"
+    },
+    {
+      "id": "who-realistically-gets-covered",
+      "text": "Who realistically gets covered"
+    },
+    {
+      "id": "what-makes-a-story-they-will-run",
+      "text": "What makes a story they will run"
+    },
+    {
+      "id": "paid-and-commercial-routes",
+      "text": "Paid and commercial routes"
+    },
+    {
+      "id": "the-realistic-path",
+      "text": "The realistic path"
+    },
+    {
+      "id": "what-we-do",
+      "text": "What we do"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "The Los Angeles Times is staff-written: no contributor route, no paid editorial.",
+    "Local and civic consequence is the gate, not business success.",
+    "A guaranteed placement at a staff-written daily is a warning sign."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-haute-residence",
+  "h1": "How to Get Featured in Haute Residence",
+  "title": "How to Get Featured in Haute Residence | DNA PR",
+  "description": "Haute Residence is a luxury real estate media network built around invited agents. How access really works, what it is worth, and how to describe it.",
+  "body": "<p>Haute Residence sits in a category of its own: part luxury property publication, part network built around the agents inside it.</p>\n<p>That structure is the whole story, so here is how it actually works.</p>\n<h2 id=\"what-haute-residence-is\">What Haute Residence is</h2>\n<p>Haute Residence is a luxury real estate media network. It covers high-end property, design, architecture and the agents, brokers and developers working at the top of the market, and it publishes across a group of connected sites and channels.</p>\n<p>Its output sits across profiles, articles, market commentary and promotion through the network's own channels. That is a different rhythm from a newsroom publishing against a daily news cycle, and it is worth understanding before you compare the two.</p>\n<p>Its readership is people interested in expensive homes, plus the professionals who sell them. That is a narrow audience and a valuable one, which is the reason agents pay attention to it at all.</p>\n<p>It is not a metropolitan newspaper and it is not a trade newsroom investigating the property sector. Treating it as either will lead you to describe it inaccurately.</p>\n<h2 id=\"how-access-actually-works\">How access actually works</h2>\n<p>The distinctive part is membership. Agents are invited or approved to join on a market-by-market basis, and members receive profile placement, article opportunities and promotion across the network.</p>\n<p>That is a commercial arrangement. It is a perfectly legitimate one, used widely in luxury property marketing, but it is not a journalist independently deciding that your work is worth covering. The distinction is the same one that separates <a href=\"/guides/what-is-earned-media\">earned media</a> from everything else.</p>\n<p>Criteria, terms and costs come from the network itself. Ask them directly, read what you are agreeing to, and be wary of any third party who describes the arrangement in vague language or will not put the details in writing.</p>\n<p>Editorial and partner content runs alongside membership. Again, those are separate products with separate rules.</p>\n<h2 id=\"what-it-is-worth-and-what-it-is-not\">What it is worth, and what it is not</h2>\n<p>What it is worth is targeted visibility with an audience that is actively interested in luxury property, plus a permanent, credible page about you that a prospective seller can find.</p>\n<p>In a business where listings are won in a competitive pitch, that is a real asset. Sellers compare agents, and the agent with a substantive article about their market view looks different from the agent with a headshot and a slogan.</p>\n<p>It is also durable. Buyers and sellers at this level research individuals carefully and slowly, often months before they instruct anyone, and an article that explains how you think keeps working quietly through all of that.</p>\n<p>What it is not is a national masthead. It does not carry the authority of a major newspaper or an established business title, and the <a href=\"/guides/tier-1-vs-tier-2-publications\">difference between tiers</a> is obvious to anyone who looks. Describe it as luxury property media and you are on solid ground. Describe it as national press and you are not.</p>\n<h2 id=\"what-makes-a-strong-piece\">What makes a strong piece</h2>\n<p>Property at this level is sold on judgement, so the article has to demonstrate yours.</p>\n<p>The strongest pieces take a specific read on a specific market. What has changed in inventory or pricing where you work. What buyers at this price point ask for now that they did not ask for two years ago. How a development or a planning decision altered the economics of a neighbourhood. Why a property that looked overpriced sold quickly, or why one that looked right did not.</p>\n<p>Name the market. Luxury property is intensely local, and general commentary about the high end reads as filler in any language. Describe a transaction the way the person who ran it would, staying inside what your clients have authorised you to say.</p>\n<p>Images do heavy lifting here. Poor photography of good property undermines everything the text is trying to do.</p>\n<p>Avoid the language every agent already uses. Unrivalled service, white-glove attention and passion for the market appear on thousands of pages and persuade nobody. One specific observation about your own market does more than a paragraph of adjectives.</p>\n<h2 id=\"how-to-decide-if-it-fits\">How to decide if it fits</h2>\n<ul><li><strong>Check the audience against your buyers.</strong> If you sell at the top of a market it covers, the fit is real. If you work mid-market, the money is usually better spent elsewhere.</li><li><strong>Ask what you actually receive.</strong> Placement, frequency, channels and duration should all be written down before you commit.</li><li><strong>Compare it with alternatives.</strong> A regional business title, a design publication or a strong local feature may reach the same seller.</li><li><strong>Decide how you will describe it.</strong> If the honest description does not impress you, that tells you something.</li></ul>\n<h2 id=\"what-we-do\">What we do</h2>\n<p>We develop the story and the positioning around your market and your track record, and we tell you plainly which route is open to you before anything is committed.</p>\n<p>We do not resell membership terms we do not control, and we will not describe a commercial arrangement as editorial coverage. If a different publication would serve your sellers better, we will say so. You can <a href=\"/contact\">talk it through with us</a> before you spend anything.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Is this earned media?</h3>\n<p>Membership-based placement is a commercial arrangement, not earned editorial. Both are legitimate, but they are different things and should be described differently.</p>\n<h3>Who does it suit?</h3>\n<p>Agents, brokers and developers genuinely operating at the top of a luxury market, where the audience overlaps with the people who can buy what you sell.</p>\n<h3>What should I ask before joining?</h3>\n<p>What you receive, where it appears, for how long, and what the criteria and terms are. Get the answers from the network in writing rather than from a reseller.</p>",
+  "toc": [
+    {
+      "id": "what-haute-residence-is",
+      "text": "What Haute Residence is"
+    },
+    {
+      "id": "how-access-actually-works",
+      "text": "How access actually works"
+    },
+    {
+      "id": "what-it-is-worth-and-what-it-is-not",
+      "text": "What it is worth, and what it is not"
+    },
+    {
+      "id": "what-makes-a-strong-piece",
+      "text": "What makes a strong piece"
+    },
+    {
+      "id": "how-to-decide-if-it-fits",
+      "text": "How to decide if it fits"
+    },
+    {
+      "id": "what-we-do",
+      "text": "What we do"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Access here is built around membership, which is a commercial arrangement rather than earned editorial.",
+    "Its value is targeted luxury property visibility, not national masthead authority.",
+    "Get the terms and what you receive in writing from the network itself."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-law-and-crime",
+  "h1": "How to Get Featured in Law & Crime",
+  "title": "How to Get Featured in Law & Crime | DNA PR",
+  "description": "Law & Crime covers courts, trials and criminal justice with its own team. How lawyers get used as sources, and the conduct rules that still apply.",
+  "body": "<p>Law & Crime is one of the better routes for a practising lawyer to reach a wide audience, and one of the easiest to get wrong.</p>\n<p>Here is what it covers, how coverage happens, and what you have to be careful about.</p>\n<h2 id=\"what-law-and-crime-is\">What Law & Crime is</h2>\n<p>Law & Crime is an established outlet covering court cases, trials, criminal justice and true crime. It has its own editorial team, reporting on live matters for an audience that follows cases closely.</p>\n<p>That audience is unusual. It is general rather than professional, but it is far more informed about procedure than a typical news reader, because it follows hearings and rulings as they happen.</p>\n<p>Coverage is an editorial decision made inside that team. There is no route that lets you publish yourself on the masthead, and <a href=\"/guides/what-is-earned-media\">earned coverage</a> is exactly what it sounds like.</p>\n<h2 id=\"who-gets-used-as-a-source\">Who gets used as a source</h2>\n<p>The realistic route in for a professional is commentary. An editor or producer needs someone who can explain what a ruling means, why a motion matters, or what is likely to happen next in a matter already being covered.</p>\n<p>Credentials are the currency. Your practice area, the courts you appear in, the kinds of matters you have actually handled: that is what decides whether you get used. A criminal defence lawyer who has tried cases is useful on a trial. A commercial solicitor is not, however senior.</p>\n<p>Availability matters nearly as much as expertise. These stories move in hours, not weeks. The lawyer who answers the phone at four o'clock gets quoted, and the one who replies the following morning does not.</p>\n<p>Getting on the list is mostly logistics. A short biography that states your jurisdiction and practice area, a number somebody can actually reach, a recent clip if you have one, and a willingness to say when a question falls outside your expertise.</p>\n<h2 id=\"what-makes-good-legal-commentary\">What makes good legal commentary</h2>\n<p>Explanation, not advocacy for your own practice.</p>\n<p>What gets used is plain language about a technical thing: what a charge actually requires the prosecution to prove, why a judge ruled the way they did, what the defence is likely to argue next, what a sentencing range really means in practice. If a viewer finishes the segment understanding something they did not understand before, you have done the job.</p>\n<p>Be careful with certainty. Predicting outcomes in a matter you are not party to is where commentators damage themselves, and it is also where conduct rules start to bite. Explaining the range of possibilities is more useful and more defensible than calling the result.</p>\n<p>Nobody is interested in how good your firm is. Say something worth hearing about the case and the credibility follows on its own.</p>\n<p>Brevity helps more than people expect. A usable quote is one or two sentences that stand on their own, and a commentator who answers in paragraphs tends to be cut down to the least interesting part of the answer.</p>\n<h2 id=\"professional-conduct-rules-still-apply\">Professional conduct rules still apply</h2>\n<p>This is the part that makes legal media different from every other kind, and it is the part people skip.</p>\n<p>Lawyers commenting publicly on cases remain bound by their own bar association or regulator's rules. Those typically cover publicity and advertising, client confidentiality, conflicts, comments on live or pending matters, and claims about outcomes. The specifics vary by jurisdiction and by the type of admission you hold.</p>\n<p>We are not your regulator, and nothing on this page is legal advice. Check the current rules that apply to you, and clear anything you are unsure about through your own firm's process before you speak. In practice that usually means avoiding outcome claims, avoiding anything touching a client matter that has not been properly authorised, and being careful about live proceedings.</p>\n<h2 id=\"the-routes-in\">The routes in</h2>\n<ul><li><strong>Expert commentary.</strong> Being reachable, quotable and right about a case already in the news. Earned, and the most durable route by far.</li><li><strong>News with substance.</strong> A matter you are involved in that has genuine public interest, within what you are permitted to discuss.</li><li><strong>Advertising and sponsored content.</strong> Separate commercial products, labelled where they appear, and not the same as editorial.</li></ul>\n<p>Be sceptical of anyone guaranteeing the first two. If you want something more reachable to build a record with first, a <a href=\"/get-featured-in/law-news-day\">smaller legal title</a> is a more honest starting point.</p>\n<p>Building a record first makes all of this easier. Editors and producers are far more likely to use someone who has been quoted credibly elsewhere, because it tells them you will not create a problem on air or in print.</p>\n<h2 id=\"what-we-do\">What we do</h2>\n<p>We develop the angle, prepare you as a credible commentator with the material an editor needs, and take it where the fit is genuine. You approve everything before it goes anywhere, which matters more in a regulated profession than almost anywhere else.</p>\n<p>We will also tell you when this is the wrong target, and when your own compliance process needs to see something before we do.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Can I buy editorial coverage here?</h3>\n<p>No. Advertising and labelled sponsored content are separate commercial products. Editorial coverage is decided by the editorial team and is not for sale.</p>\n<h3>What kind of lawyer gets used?</h3>\n<p>Practitioners with direct experience in the area a story concerns, usually criminal law, litigation or a specialism a case turns on, who can explain it clearly and quickly.</p>\n<h3>Do my bar rules apply to media appearances?</h3>\n<p>Generally yes. Publicity, confidentiality and comment rules apply to media work as they do to marketing. Check with your own regulator, because we cannot advise you on them.</p>",
+  "toc": [
+    {
+      "id": "what-law-and-crime-is",
+      "text": "What Law & Crime is"
+    },
+    {
+      "id": "who-gets-used-as-a-source",
+      "text": "Who gets used as a source"
+    },
+    {
+      "id": "what-makes-good-legal-commentary",
+      "text": "What makes good legal commentary"
+    },
+    {
+      "id": "professional-conduct-rules-still-apply",
+      "text": "Professional conduct rules still apply"
+    },
+    {
+      "id": "the-routes-in",
+      "text": "The routes in"
+    },
+    {
+      "id": "what-we-do",
+      "text": "What we do"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Coverage is an editorial decision; commentary on live cases is the realistic route in.",
+    "Credentials and availability decide who gets used as a source.",
+    "Your bar or regulator's conduct rules apply to media work; check them before you speak."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-law-news-day",
+  "h1": "How to Get Featured in Law News Day",
+  "title": "How to Get Featured in Law News Day | DNA PR",
+  "description": "Law News Day is a smaller digital legal title. What it is, how much weight it carries, the routes in, and the professional rules you still have to follow.",
+  "body": "<p>When a prospective client searches your name before they call, what they find is your reputation. A permanent article is one of the few things you can put there on purpose.</p>\n<p>Here is what Law News Day is, what it is not, and how lawyers get featured in it.</p>\n<h2 id=\"what-law-news-day-is\">What Law News Day is</h2>\n<p>Law News Day is a digital publication covering legal news, practice and the lawyers, firms and legal businesses working across the profession. Online only, permanently live, and indexed by search engines.</p>\n<p>Its remit is broad across legal subject matter, which means fit is rarely the obstacle. The quality of what you have to say is.</p>\n<p>It is not an established legal trade with a full newsroom, and the two should not be confused when you describe where you have been published.</p>\n<h2 id=\"how-much-weight-it-carries\">How much weight it carries</h2>\n<p>Being straight about this is the point of the page.</p>\n<p>A smaller digital title is more accessible than an established trade or a national masthead, and it carries correspondingly less authority. Judges, regulators and large firms know the difference between publications, and inflating it is the fastest way to look unserious in front of exactly the people you want to impress.</p>\n<p>What it does give you is real. A substantive, permanent article about your expertise that appears when a prospective client searches you, that you can link from a profile or a proposal, and that gives a stranger something to read instead of a directory listing. For a solo practitioner or a small firm with thin search results, that is a meaningful change.</p>\n<p>Treat it as the first entry on a public record rather than as the record itself, and the <a href=\"/guides/tier-1-vs-tier-2-publications\">tier question</a> takes care of itself.</p>\n<p>It is durable in a way advertising is not. Referral sources and prospective clients research individuals carefully before they make contact, and an article explaining how you approach a problem keeps working long after the week it published.</p>\n<h2 id=\"the-routes-in\">The routes in</h2>\n<ul><li><strong>Pitch directly.</strong> Free and legitimate, subject to fit and editorial capacity.</li><li><strong>Contributed or sponsored placement.</strong> Smaller digital titles accept <a href=\"/guides/what-is-a-contributor-article\">contributed articles</a> far more readily than staff-written publications do. That is a paid route and should be labelled as one.</li><li><strong>Use a professional feature service.</strong> A team develops the angle, writes to the publication's standard and handles the placement. Faster and more predictable, which is why most firms choose it.</li></ul>\n<p>Whichever route you use, the description you give afterwards should match what actually happened.</p>\n<h2 id=\"what-makes-a-strong-piece\">What makes a strong piece</h2>\n<p>Write something a reader can use.</p>\n<p>The pieces that work explain a rule that has changed and who it affects, or what a process really involves for the person going through it, or what you see going wrong repeatedly in a particular kind of matter. Concrete beats comprehensive: one thing explained properly is worth more than a survey of an entire area of law.</p>\n<p>Write it for the person with the problem, not for other lawyers. That is who finds an article like this through search, and clarity reads as competence to a non-lawyer far more than technical vocabulary does.</p>\n<p>Name the jurisdiction. Procedure and rules differ, and vague national commentary is no help to anyone and slightly suspect to a colleague.</p>\n<p>A simple structure helps. Set out the situation, what the rule or the process actually requires, where people get caught out, and what to do about it. That is easy to read and easy for an editor to accept without rewriting.</p>\n<h2 id=\"the-rules-you-still-have-to-follow\">The rules you still have to follow</h2>\n<p>A contributed article is marketing material with your name on it, and your regulator treats it accordingly.</p>\n<p>Rules on publicity, claims about results, comparisons with other firms and client confidentiality apply to a published piece exactly as they apply to your website. The specifics vary by jurisdiction and by the admission you hold, so check the current requirements that apply to you and run it through your firm's own approval process where one exists. Nothing here is legal advice and we are not your regulator.</p>\n<p>In practice that means no outcome claims, no superlatives about your own practice, and no client detail you have not cleared in writing.</p>\n<h2 id=\"what-to-expect-from-the-process\">What to expect from the process</h2>\n<p>Share the angle, our team drafts the piece, you review with revisions until it is right, and nothing publishes until you approve it. Then it goes live and you get the link.</p>\n<p>Any provider who cannot show you the draft first is not one to use, and that goes double in a regulated profession. If a stronger legal outlet is a better fit for your practice, we will say so rather than place the easy thing.</p>\n<p>Expect to be asked questions you would rather skip, because the specific answers are what make the piece worth reading. A draft assembled from your website will read exactly like your website.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Is this the same as an established legal trade?</h3>\n<p>No. It is a smaller digital title, easier to place in and carrying less weight. It is useful as a permanent, searchable asset rather than as professional recognition.</p>\n<h3>Will it bring me clients?</h3>\n<p>It supports the moment when someone is already checking you out. Treat it as something that helps you convert attention, not as a source of it.</p>\n<h3>Do I need to clear it with my firm or regulator?</h3>\n<p>Check your own publicity and confidentiality rules and use your firm's approval process. We cannot advise you on them, and the responsibility stays with you.</p>",
+  "toc": [
+    {
+      "id": "what-law-news-day-is",
+      "text": "What Law News Day is"
+    },
+    {
+      "id": "how-much-weight-it-carries",
+      "text": "How much weight it carries"
+    },
+    {
+      "id": "the-routes-in",
+      "text": "The routes in"
+    },
+    {
+      "id": "what-makes-a-strong-piece",
+      "text": "What makes a strong piece"
+    },
+    {
+      "id": "the-rules-you-still-have-to-follow",
+      "text": "The rules you still have to follow"
+    },
+    {
+      "id": "what-to-expect-from-the-process",
+      "text": "What to expect from the process"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Law News Day is a smaller digital title, not an established legal trade.",
+    "Its value is a permanent article a prospective client finds when they search you.",
+    "Publicity and confidentiality rules apply to contributed articles; check yours first."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-music-observer",
+  "h1": "How to Get Featured in Music Observer",
+  "title": "How to Get Featured in Music Observer | DNA PR",
+  "description": "Music Observer is a smaller digital music title. What a feature includes, how much weight it really carries, and how artists get featured in it.",
+  "body": "<p>Most artists do not have a problem making the work. They have a problem being findable when someone goes looking.</p>\n<p>Here is what Music Observer is, what it is worth, and how features happen.</p>\n<h2 id=\"what-music-observer-is\">What Music Observer is</h2>\n<p>Music Observer is a digital publication covering artists, releases, the music business and the people working across the industry. Online only, permanently live and indexed by search engines.</p>\n<p>Its remit is broad across genres and roles, which means an independent artist, a producer, a manager or a music business can all fit. Breadth like that makes placement easier and puts the whole burden on the story.</p>\n<p>It is not the established music press and it is not a tastemaker title, which is the thing to be clear about before anything else.</p>\n<p>It publishes quickly by the standards of print media and the article stays up, which is a different proposition from a review that runs once and then disappears behind a paywall.</p>\n<h2 id=\"how-much-weight-it-carries\">How much weight it carries</h2>\n<p>A feature in a smaller digital title does not carry the authority of a national magazine or a specialist music publication with its own critics. Anyone in the industry can tell the difference in a second, and overstating it costs you with the exact people you want to reach.</p>\n<p>What it does provide is a real asset. A dedicated, permanent article about you and your work that shows up in search, that you can send to a promoter, a venue, a sync agency or a brand, and that gives a stranger something substantive instead of a streaming profile and a link tree.</p>\n<p>Most importantly, nobody is reviewing the record. It is a profile, not criticism, so it is not a review and should never be described as one. The line between <a href=\"/guides/what-is-earned-media\">earned coverage</a> and a placed feature is one the industry watches closely.</p>\n<p>It is also durable. Bookers, sync agents and brand partners research people before they commit, often months after first hearing a name, and a substantive article keeps answering the obvious questions while you are asleep.</p>\n<h2 id=\"what-a-feature-includes\">What a feature includes</h2>\n<p>A solo, dedicated article built around you and the work, with a headline and angle that match how you actually want to be described. Usually images, and links to your releases, socials and site.</p>\n<p>It publishes permanently and stays indexed, so it keeps working every time somebody looks you up before a booking, a meeting or a deal.</p>\n<p>It is a profile rather than a news report, which means it needs a story in it, not an announcement.</p>\n<p>What it will not include is a critical verdict, an award or a chart position. Those are different things, earned differently, and a profile does not stand in for any of them.</p>\n<h2 id=\"how-to-get-featured\">How to get featured</h2>\n<ul><li><strong>Pitch directly.</strong> Free and legitimate, subject to fit and editorial capacity.</li><li><strong>Contributed or sponsored placement.</strong> Accepted far more readily here than at staff-written publications. It is a paid route and it should be named as one.</li><li><strong>Use a professional feature service.</strong> A team writes it to the publication's standard and handles the placement, which is faster and more predictable.</li></ul>\n<p>If you are choosing between titles rather than chasing all of them, <a href=\"/guides/how-to-choose-the-right-publication\">start with who you actually need to reach</a>.</p>\n<h2 id=\"what-makes-a-strong-piece\">What makes a strong piece</h2>\n<p>The work and the decisions behind it.</p>\n<p>What the record is about, how it was made, what changed in the writing or the production and why, who you made it with, what you tried that did not work. That reads. A list of streaming numbers and playlist adds does not, and it dates badly within a year.</p>\n<p>A release, a tour, a collaboration or a signing gives the piece a reason to exist now, which makes it easier to place and better to read. Without one you are asking an editor to run a biography.</p>\n<p>Audio and images matter as much as the text, because a reader will click before they finish the first paragraph. And keep the claims defensible. Describe your actual position rather than borrowing language that belongs to artists at a different level, because the people who matter will check.</p>\n<p>Have one thing you want a reader to remember. Most artist profiles fail because they try to cover a whole career, and the reader finishes with an impression of activity rather than a sense of who you actually are.</p>\n<h2 id=\"what-to-expect-from-the-process\">What to expect from the process</h2>\n<p>Share the story, our team drafts the feature, you revise until it reads like you, and nothing publishes without your approval. Then it goes live and you get the link.</p>\n<p>We work with Music Observer and a wide network of digital <a href=\"/publications\">publications</a>, and we will tell you when a more specialist outlet would do more for your audience than a general one.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Is this a review?</h3>\n<p>No. It is a profile feature built around you and your work. Nobody is assessing the music critically, and presenting it as criticism is a mistake the industry notices.</p>\n<h3>Who does it suit?</h3>\n<p>Independent artists, producers, managers, labels and music businesses who need a searchable article that explains what they do to someone outside the room.</p>\n<h3>Can I approve the article first?</h3>\n<p>Yes. You review and revise until it is right, and nothing publishes without your approval.</p>",
+  "toc": [
+    {
+      "id": "what-music-observer-is",
+      "text": "What Music Observer is"
+    },
+    {
+      "id": "how-much-weight-it-carries",
+      "text": "How much weight it carries"
+    },
+    {
+      "id": "what-a-feature-includes",
+      "text": "What a feature includes"
+    },
+    {
+      "id": "how-to-get-featured",
+      "text": "How to get featured"
+    },
+    {
+      "id": "what-makes-a-strong-piece",
+      "text": "What makes a strong piece"
+    },
+    {
+      "id": "what-to-expect-from-the-process",
+      "text": "What to expect from the process"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Music Observer is a smaller digital title, not the established music press.",
+    "It is a profile, never a review, and should be described that way.",
+    "A release or a collaboration gives the piece a reason to run now."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-muscle-and-fitness",
+  "h1": "How to Get Featured in Muscle & Fitness",
+  "title": "How to Get Featured in Muscle & Fitness | DNA PR",
+  "description": "Muscle & Fitness is an established fitness title with its own editors. Who gets covered, what makes a story they will run, and the honest routes in.",
+  "body": "<p>Muscle & Fitness is a specialist title, and specialist titles work differently from general media in ways that decide whether you get anywhere.</p>\n<p>Here is what it covers and how coverage actually happens.</p>\n<h2 id=\"what-muscle-and-fitness-is\">What Muscle & Fitness is</h2>\n<p>Muscle & Fitness is an established fitness publication with its own editorial team, covering strength training, programming, nutrition, physique, recovery and the athletes and coaches working across all of it.</p>\n<p>Its readers train. That single fact changes everything about what gets published, because an audience that lifts can tell within a paragraph whether the person writing knows what they are talking about.</p>\n<p>Coverage is commissioned and edited inside that team. There is no contributor programme that lets you publish yourself on the masthead, and <a href=\"/guides/what-is-earned-media\">earned coverage</a> means what it says.</p>\n<p>It publishes across print and digital, and the two run on different lead times. Digital can respond to something current within days, while the magazine is planned a long way in advance.</p>\n<h2 id=\"who-realistically-gets-covered\">Who realistically gets covered</h2>\n<p>Coaches and trainers with a method and the results to back it. Athletes with something verifiable behind them. Practitioners in nutrition or sports science who can explain a mechanism clearly. Brands, where a product is genuinely relevant to a piece an editor is already planning.</p>\n<p>Expertise and credentials are the currency here. Certifications, the athletes and clients you actually work with, competition history, published work, a track record someone can check. A large following on its own does not substitute for any of that at a title with real editors.</p>\n<p>If you sell into fitness but have no technical expertise to offer, the honest answer is that this is a hard target, and a <a href=\"/guides/how-to-choose-the-right-publication\">better-matched publication</a> will do more for you sooner.</p>\n<p>Timing matters as much as credentials. Editors plan around seasons, competitions and recurring subjects, and a pitch that arrives while a desk is already thinking about that topic gets read properly rather than skimmed.</p>\n<h2 id=\"what-makes-a-story-they-will-run\">What makes a story they will run</h2>\n<p>Something a reader can train with on Monday.</p>\n<p>What lands is a method explained properly: why you programme a lift the way you do, what you changed when an athlete stalled and what happened next, how you structure a cut without losing strength, what a common coaching cue actually gets wrong and what to say instead.</p>\n<p>Specificity carries it. Sets, progressions, timelines, the trade-off you accepted. Vague advice about consistency and discipline is the fastest route to being ignored, because this audience has read it a thousand times.</p>\n<p>Your expertise is the reason the method is credible, not the subject of the piece. Nobody is commissioning an article about how good you are at coaching. They are commissioning the coaching.</p>\n<p>Write for someone who already trains. Explaining what a deadlift is wastes the paragraph where you could have explained why your setup differs and what problem it fixes.</p>\n<p>Stay inside your lane on health claims. A fitness feature is not medical guidance, and overclaiming on supplements, recovery or body composition loses the editor and the informed reader at the same moment.</p>\n<h2 id=\"paid-and-commercial-routes\">Paid and commercial routes</h2>\n<p>Fitness media carries a lot of commercial activity. Advertising, clearly labelled sponsored and branded content, affiliate-driven product coverage and partnerships are all normal in this category.</p>\n<p>They are legitimate products, and they are not editorial. A brand should know exactly which one it is buying and should not describe a labelled commercial placement as a feature the editors chose to run.</p>\n<p>Anyone offering a guaranteed editorial placement in a staffed title is <a href=\"/guides/is-guaranteed-pr-legit\">describing something they do not control</a>. That is as true here as it is at a national newspaper.</p>\n<h2 id=\"the-realistic-path\">The realistic path</h2>\n<ul><li><strong>Be a usable expert.</strong> Editors need people who can explain a technique or a study quickly and correctly, on deadline.</li><li><strong>Bring a method, not a message.</strong> Turn what you actually do with clients into something a reader can apply.</li><li><strong>Make the credentials easy to check.</strong> Qualifications, athletes, results, prior published work, all in one place.</li><li><strong>Build the record.</strong> Coverage in smaller fitness and health outlets makes a pitch to a bigger one credible.</li></ul>\n<p>None of that is fast. It is the ordinary work of becoming someone an editor calls, and nothing being sold actually replaces it.</p>\n<h2 id=\"what-we-do\">What we do</h2>\n<p>We develop the angle around your expertise, prepare the material an editor needs and pitch where the fit is genuine. You approve everything before it goes anywhere.</p>\n<p>We do not sell guaranteed editorial in staffed titles, and we will tell you plainly when your story is not yet strong enough for one. Where that is the case, we build the record first in outlets where we can deliver.</p>\n<p>Where a story is genuinely strong, we prepare it properly: the method written out, the credentials in one place, and the images and evidence ready before anyone is approached.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Can a supplement or equipment brand get covered?</h3>\n<p>Through editorial, only if the product genuinely fits a piece an editor is planning. Advertising and labelled sponsored content are separate paid products and should be described as such.</p>\n<h3>Do I need competition credentials?</h3>\n<p>Not necessarily, but you need demonstrable expertise. Coaching qualifications, the athletes you work with and results you can evidence all count for more than a follower count.</p>\n<h3>Can I give health or medical advice in a piece?</h3>\n<p>Stay within your scope of practice. Training and nutrition guidance is one thing; clinical claims are another, and editors are careful about the difference.</p>",
+  "toc": [
+    {
+      "id": "what-muscle-and-fitness-is",
+      "text": "What Muscle & Fitness is"
+    },
+    {
+      "id": "who-realistically-gets-covered",
+      "text": "Who realistically gets covered"
+    },
+    {
+      "id": "what-makes-a-story-they-will-run",
+      "text": "What makes a story they will run"
+    },
+    {
+      "id": "paid-and-commercial-routes",
+      "text": "Paid and commercial routes"
+    },
+    {
+      "id": "the-realistic-path",
+      "text": "The realistic path"
+    },
+    {
+      "id": "what-we-do",
+      "text": "What we do"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Muscle & Fitness has its own editors, so coverage is an editorial decision.",
+    "Expertise and checkable credentials are the currency, not audience size.",
+    "Sponsored and affiliate product coverage is a separate paid product from editorial."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-blk-news",
+  "h1": "How to Get Featured in BLK News",
+  "title": "How to Get Featured in BLK News | DNA PR",
+  "description": "BLK News is a smaller digital title covering Black founders, business and culture. What a feature includes, the weight it carries, and how to get one.",
+  "body": "<p>A community title reaches people who are actively looking for someone like you. That is a narrower audience than a national outlet and often a more useful one.</p>\n<p>Here is what BLK News is, what it is worth, and how features happen.</p>\n<h2 id=\"what-blk-news-is\">What BLK News is</h2>\n<p>BLK News is a digital publication covering news, business and culture with a focus on Black founders, professionals and communities. Online only, permanently live and indexed by search engines.</p>\n<p>The remit is broad across subject matter, so a founder, a professional, a creative or a community organisation can all fit. What narrows it is the audience it is written for, and that focus is the reason it is worth anything to you.</p>\n<p>It is not a national masthead with its own newsroom, and the two should never be described as though they were interchangeable.</p>\n<p>It publishes quickly and the article stays up, which makes it useful as a reference point rather than as a news moment that passes within a day.</p>\n<h2 id=\"how-much-weight-it-carries\">How much weight it carries</h2>\n<p>Being straight about this matters more than a flattering sentence would.</p>\n<p>A smaller digital title is far more reachable than a national publication and carries correspondingly less authority. Anyone who checks can see the difference, and the <a href=\"/guides/tier-1-vs-tier-2-publications\">gap between tiers</a> is not something a confident description closes.</p>\n<p>What it gives you is genuine. A dedicated, permanent article about your work that appears in search, that you can link from a proposal, a grant application or a speaker profile, and that puts a real story in front of readers who care about the thing you are doing. For someone whose search results are currently thin, that is a meaningful change.</p>\n<p>Use it as a foundation to build on, not as a claim to lean on.</p>\n<p>It is also durable. Partners, funders and organisers research people carefully before they commit, often long after an article ran, and a substantive piece keeps answering the obvious questions on your behalf.</p>\n<h2 id=\"what-a-feature-includes\">What a feature includes</h2>\n<p>A solo, dedicated article about you and your work, with a headline and angle built around your positioning. Typically photographs and links to your site and socials.</p>\n<p>It publishes permanently and stays indexed, so it keeps working every time somebody looks you up before a meeting, a partnership or a decision.</p>\n<p>It is a profile rather than a news report, which means it needs a narrative rather than an announcement.</p>\n<p>What it does not include is independent verification of your claims, which is one more reason to keep them modest and checkable.</p>\n<h2 id=\"how-to-get-featured\">How to get featured</h2>\n<ul><li><strong>Pitch directly.</strong> Free and legitimate, subject to fit and editorial capacity.</li><li><strong>Contributed or sponsored placement.</strong> Smaller digital titles accept <a href=\"/guides/what-is-a-contributor-article\">contributed articles</a> far more readily than staff-written publications do. It is a paid route and it should be labelled as one.</li><li><strong>Use a professional feature service.</strong> A team writes the piece to the publication's standard and handles the placement, which is faster and more predictable.</li></ul>\n<p>Whichever route you take, describe it afterwards the way it actually happened.</p>\n<h2 id=\"what-makes-a-strong-piece\">What makes a strong piece</h2>\n<p>A person and a purpose.</p>\n<p>What you built, who you built it for, what stood in the way, and what changed for the people around you as a result. That shape reads. A list of achievements and job titles does not, and readers stop before the third one.</p>\n<p>Community relevance gives the piece its reason to run, so be concrete about it. The neighbourhood, the sector, the customers, the people you hire, the thing that is different because you are the one doing it. Specific detail is what separates a story from a statement of values.</p>\n<p>Numbers help when you can evidence them and hurt when you cannot. Avoid the language of a mission statement entirely, because it reads as filler to anyone outside the organisation.</p>\n<p>Keep the claims defensible. The article outlives the moment it was written for, and anything you would not stand behind in two years should not be in it.</p>\n<p>One idea per piece works better than a survey of everything you do. A reader who finishes with a single clear impression of what you are building will remember it, and one who finishes with six will remember none of them.</p>\n<h2 id=\"what-to-expect-from-the-process\">What to expect from the process</h2>\n<p>Share the story, our team drafts the piece, you review with revisions until it is right, and nothing publishes until you approve it. Then it goes live and you get the link.</p>\n<p>Any provider who will not show you the draft first is not one to use. If a different outlet would reach your audience better, <a href=\"/contact\">tell us who you are trying to reach</a> and we will say so rather than place the easy thing.</p>\n<p>Expect to be asked for specifics you would not put on a website. The moment something almost failed, the thing you got wrong first, the person who changed your mind. Those are what make a profile readable.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Is this the same as national press?</h3>\n<p>No. It is a smaller digital title, easier to place in and carrying less weight. Its value is as a permanent, searchable article rather than as national recognition.</p>\n<h3>Who does it suit?</h3>\n<p>Black founders, professionals, creatives and community organisations who want a substantive article that explains their work to someone encountering it for the first time.</p>\n<h3>Can I approve the article before it publishes?</h3>\n<p>Yes. You review and revise until it is right, and nothing publishes without your approval.</p>",
+  "toc": [
+    {
+      "id": "what-blk-news-is",
+      "text": "What BLK News is"
+    },
+    {
+      "id": "how-much-weight-it-carries",
+      "text": "How much weight it carries"
+    },
+    {
+      "id": "what-a-feature-includes",
+      "text": "What a feature includes"
+    },
+    {
+      "id": "how-to-get-featured",
+      "text": "How to get featured"
+    },
+    {
+      "id": "what-makes-a-strong-piece",
+      "text": "What makes a strong piece"
+    },
+    {
+      "id": "what-to-expect-from-the-process",
+      "text": "What to expect from the process"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "BLK News is a smaller community-focused digital title, not a national masthead.",
+    "Contributed and sponsored placement is common here and should be labelled honestly.",
+    "Concrete community detail beats mission-statement language every time."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-reality-times",
+  "h1": "How to Get Featured in Reality Times",
+  "title": "How to Get Featured in Reality Times | DNA PR",
+  "description": "Reality Times is a smaller digital entertainment title. What it is good for, how much weight it carries, the routes in, and what makes a strong profile.",
+  "body": "<p>Entertainment is a business of being looked up. What someone finds when they search you is doing work whether you manage it or not.</p>\n<p>Here is what Reality Times is, what it is good for, and how people get featured.</p>\n<h2 id=\"what-reality-times-is\">What Reality Times is</h2>\n<p>Reality Times is a digital publication covering entertainment, television, culture and the personalities and public figures around them. Online only, permanently live and indexed by search engines.</p>\n<p>Its remit is broad, so a television personality, a creator, a host or a consumer brand with an entertainment angle can all fit. Breadth makes placement easier and puts the whole burden on the story being worth reading.</p>\n<p>It is not an established entertainment masthead with its own newsroom, and nothing is gained by blurring that.</p>\n<p>It publishes quickly and the article stays up, which makes it a reference point rather than a news moment that passes within a day.</p>\n<h2 id=\"what-it-is-good-for\">What it is good for</h2>\n<p>A permanent article that shows up when a booker, a brand partner, a casting contact or a journalist searches your name and finds otherwise thin results.</p>\n<p>It gives a stranger something substantive to read instead of a social profile, and it gives you something to link from a media kit, a pitch or a proposal. In a category where people are assessed quickly and often, that is practical value.</p>\n<p>It works best alongside everything else you control. A profile, a site and a media kit that all say the same thing are far more persuasive than any one of them on its own.</p>\n<p>What it will not do is confer status. It does not make you a bigger name, and it is not a substitute for the work that does.</p>\n<p>It is also durable. People in this business check names repeatedly and often months apart, and a substantive article keeps answering the obvious questions while you are doing something else.</p>\n<h2 id=\"how-much-weight-it-carries\">How much weight it carries</h2>\n<p>Less than an established entertainment title, and that is worth saying plainly rather than discovering later.</p>\n<p>People in this industry check. Agents, producers and publicists can tell the difference between a title with its own reporters and a digital outlet that accepts contributed work, and inflating what you have is how you lose credibility with exactly the people who could book you. The distinction between <a href=\"/guides/what-is-earned-media\">earned coverage</a> and a placed feature is one they read quickly.</p>\n<p>Claim it accurately and it is an asset. Claim it as something else and it becomes a liability.</p>\n<p>There is a simple test. Write out the sentence you would use in a bio, then imagine the person reading it clicking the link. If the two do not match, change the sentence rather than hoping nobody checks.</p>\n<h2 id=\"the-routes-in\">The routes in</h2>\n<ul><li><strong>Pitch directly.</strong> Free and legitimate, subject to fit and editorial capacity.</li><li><strong>Contributed or sponsored placement.</strong> Accepted far more readily here than at staff-written publications. That is a paid route and should be named as one.</li><li><strong>Use a professional feature service.</strong> A team develops the angle, writes to the publication's standard and handles the placement, which is faster and more predictable.</li></ul>\n<p>If you are weighing this against a bigger target, <a href=\"/guides/how-to-choose-the-right-publication\">start from who you need to reach</a> rather than from the name.</p>\n<h2 id=\"what-makes-a-strong-piece\">What makes a strong piece</h2>\n<p>A personality piece needs a person in it.</p>\n<p>What you are known for, how you got in front of an audience, what the work actually involves on a bad day, what you would tell someone trying to do the same thing now. That shape reads. A list of credits and appearances does not, and it tells a reader nothing about you.</p>\n<p>A show, a launch, a tour or a new venture gives the piece a reason to run now, which makes it easier to place and better to read. Without one, you are asking for a biography.</p>\n<p>One idea per piece. A profile that tries to cover an entire career leaves a reader with an impression of activity rather than a sense of who you are.</p>\n<p>Images matter. An entertainment profile with weak pictures undersells the person in it, and good photography is the cheapest improvement available to most people.</p>\n<p>Keep the claims defensible and describe your position accurately rather than inflating it. This article will outlive the moment it was written for, and anyone considering working with you will read it closely.</p>\n<h2 id=\"what-to-expect-from-the-process\">What to expect from the process</h2>\n<p>Share the story, our team drafts the feature, you revise until it sounds like you, and nothing publishes until you approve it. Then it goes live and you get the link.</p>\n<p>We work with Reality Times and a wide network of digital <a href=\"/publications\">publications</a>, and we will tell you when a different outlet is the better fit for what you are actually trying to achieve.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Is this the same as being covered by a major entertainment outlet?</h3>\n<p>No. It is a smaller digital title, more accessible and carrying less weight. It is useful as a permanent, searchable profile rather than as industry recognition.</p>\n<h3>Who does it suit?</h3>\n<p>Television personalities, creators, hosts and consumer brands who need a substantive article that stands up when someone searches their name.</p>\n<h3>Can I approve the article first?</h3>\n<p>Yes. You review and revise until it is right, and nothing publishes without your approval.</p>",
+  "toc": [
+    {
+      "id": "what-reality-times-is",
+      "text": "What Reality Times is"
+    },
+    {
+      "id": "what-it-is-good-for",
+      "text": "What it is good for"
+    },
+    {
+      "id": "how-much-weight-it-carries",
+      "text": "How much weight it carries"
+    },
+    {
+      "id": "the-routes-in",
+      "text": "The routes in"
+    },
+    {
+      "id": "what-makes-a-strong-piece",
+      "text": "What makes a strong piece"
+    },
+    {
+      "id": "what-to-expect-from-the-process",
+      "text": "What to expect from the process"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Reality Times is a smaller digital title, not an established entertainment masthead.",
+    "Its value is a permanent, searchable profile for people who check you out.",
+    "A show, launch or venture gives the piece a reason to run now."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-flaunt",
+  "h1": "How to Get Featured in Flaunt",
+  "title": "How to Get Featured in Flaunt | DNA PR",
+  "description": "Flaunt is an established fashion and culture magazine. What it publishes, the routes in, what makes a story land, and how to prepare before you pitch.",
+  "body": "<p>Flaunt is a magazine about creative work, which makes it a strong fit for some brands and a waste of effort for others.</p>\n<p>Here is what it publishes and how coverage actually happens.</p>\n<h2 id=\"what-flaunt-is\">What Flaunt is</h2>\n<p>Flaunt is an established fashion and culture magazine covering style, art, music, film and the people working across them. It runs in print and online, and it has its own editorial team making its own decisions.</p>\n<p>Its register is creative rather than commercial. It is interested in how something was made and what it is in conversation with, far more than in how well a business is performing.</p>\n<p>Print and online work to different clocks. Online can move relatively quickly; the magazine plans a long way ahead. Treating them as one opportunity is a common and expensive mistake.</p>\n<p>Its output ranges from short online pieces to commissioned features and shoots, and those are very different asks. A first appearance is far more likely to be a mention or a line in a round-up than a full profile.</p>\n<h2 id=\"why-a-culture-title-is-different\">Why a culture title is different</h2>\n<p>A business publication asks what you have achieved. A culture title asks what you have made.</p>\n<p>That changes the entire pitch. Revenue, funding and growth are close to irrelevant here, while the creative idea, the collaborators, the imagery and the context are everything. Founders used to pitching business media usually have to rebuild the story from scratch.</p>\n<p>The credential is also different in kind. It signals taste and cultural relevance rather than commercial standing, which is valuable to the right brand and meaningless to the wrong one. Work out which you are before spending anything, because <a href=\"/guides/how-to-choose-the-right-publication\">the right publication</a> is the one your buyers actually read.</p>\n<p>The people involved matter too. Photographers, stylists, directors and artists carry their own weight with an editor, and a project with credible names attached is easier to place than the same project without them.</p>\n<h2 id=\"the-routes-in\">The routes in</h2>\n<ul><li><strong>Earned editorial.</strong> An editor decides your work belongs in the magazine. Competitive, free, and entirely their call.</li><li><strong>Advertising.</strong> Paid space, identified as such.</li><li><strong>Sponsored or branded content.</strong> Produced to the title's standard and labelled where it appears. Legitimate, and not the same as editorial.</li><li><strong>Agency-assisted pitching.</strong> You pay for the work of developing the angle and taking it to the right editor, not for the outcome.</li></ul>\n<p>A mention, a place in a round-up and a commissioned feature all get called a feature, and they are plainly not the same thing. Anyone guaranteeing you editorial in a staffed magazine is <a href=\"/guides/is-guaranteed-pr-legit\">promising something they do not control</a>.</p>\n<h2 id=\"what-makes-a-story-land\">What makes a story land</h2>\n<p>Taste and a point of view, not a product announcement.</p>\n<p>The way in is the work itself: what you made, why it looks the way it does, who you made it with, what it is responding to. Collaboration reads strongly at a title like this, because it places you in a context the magazine already cares about.</p>\n<p>Access does a great deal of the work. A shoot, a location, a subject genuinely worth an editor's time, images that stand up on a page. A pitch that offers nothing to look at is asking an editor to do the hard part for you.</p>\n<p>Timing gives it urgency. A collection, a release, an exhibition, a moment the title is already circling. A brand story with no creative idea inside it will not clear the bar, however well the business is currently doing.</p>\n<p>Relationships beat volume. Editors at a title like this respond to people who send them the right thing occasionally rather than everything constantly, and who make it easy to say yes: assets ready, facts checkable, someone who answers.</p>\n<h2 id=\"what-to-prepare-before-you-pitch\">What to prepare before you pitch</h2>\n<ul><li><strong>Imagery.</strong> High-resolution, properly credited, cleared for use. This is not negotiable at a visual title.</li><li><strong>A one-line idea.</strong> If you cannot say what the piece is about in a sentence, it is not ready.</li><li><strong>The collaborators.</strong> Names, roles and what each brought to it.</li><li><strong>A date.</strong> What is happening, and when, that makes this the right moment.</li></ul>\n<p>If three of those four are missing, the pitch is not ready, and sending it early costs you the contact rather than saving you time.</p>\n<h2 id=\"what-we-do\">What we do</h2>\n<p>We develop the angle, build the assets around it and pitch where the fit is real. You approve everything before it goes anywhere.</p>\n<p>We will also say when the fit is not real. A consumer culture title is the wrong home for a business story, and a logo on your site is not worth paying for if the audience was never yours. Where a different route serves you better, we place you in <a href=\"/publications\">outlets where we can actually deliver</a>.</p>\n<p>We are also clear about what we do not control. An editor decides what runs and when, and a title working to a print schedule can move or drop a planned piece for something more current.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Can you pay to be in Flaunt?</h3>\n<p>You can pay for advertising or clearly labelled sponsored content. Editorial is decided by the magazine's own team and is not for sale.</p>\n<h3>Does a business story work here?</h3>\n<p>Rarely on its own. The story has to have a creative idea inside it. Funding and growth figures are not what this readership is there for.</p>\n<h3>How far ahead should I pitch?</h3>\n<p>Online can move relatively quickly, while print plans much further ahead. If your moment has a date attached, start earlier than feels necessary.</p>",
+  "toc": [
+    {
+      "id": "what-flaunt-is",
+      "text": "What Flaunt is"
+    },
+    {
+      "id": "why-a-culture-title-is-different",
+      "text": "Why a culture title is different"
+    },
+    {
+      "id": "the-routes-in",
+      "text": "The routes in"
+    },
+    {
+      "id": "what-makes-a-story-land",
+      "text": "What makes a story land"
+    },
+    {
+      "id": "what-to-prepare-before-you-pitch",
+      "text": "What to prepare before you pitch"
+    },
+    {
+      "id": "what-we-do",
+      "text": "What we do"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Flaunt is an established culture magazine with its own editors and its own standards.",
+    "The way in is the creative work, not business performance.",
+    "Imagery, collaborators and timing do most of the work in a successful pitch."
+  ]
+},
+{
+  "slug": "how-to-get-featured-in-celebrity-news",
+  "h1": "How to Get Featured in Celebrity News",
+  "title": "How to Get Featured in Celebrity News | DNA PR",
+  "description": "Celebrity News is a smaller digital title covering public figures. What a feature includes, how much weight it carries, and how people get featured.",
+  "body": "<p>When someone searches your name, what they find is your reputation. A permanent article is one of the few things you can put there deliberately.</p>\n<p>Here is what Celebrity News is, what it is not, and how people get featured in it.</p>\n<h2 id=\"what-celebrity-news-is\">What Celebrity News is</h2>\n<p>Celebrity News is a digital publication covering entertainment, public figures and the people building a name in front of an audience. Online only, permanently live and indexed by search engines.</p>\n<p>The remit is broad rather than specialist, which makes it flexible about subject matter and means it works best when the story is about a person rather than a product.</p>\n<p>Because the remit is wide, fit is rarely the obstacle. The quality of the story is, and that puts the burden entirely on you to make the piece worth somebody's time.</p>\n<p>It publishes quickly and the article stays up, which makes it a reference point rather than a news moment that passes in a day.</p>\n<h2 id=\"how-much-weight-it-carries\">How much weight it carries</h2>\n<p>This is the part worth reading twice.</p>\n<p>A feature in a smaller digital title is not coverage in an established entertainment masthead with its own reporters. It does not confer the same authority, and describing it as though it did is the quickest way to lose credibility with anyone who bothers to click.</p>\n<p>What it does provide is a real asset: a dedicated, permanent article about you that appears in search, that you can link from a media kit or a proposal, and that gives a stranger something substantive to read instead of nothing. The <a href=\"/guides/tier-1-vs-tier-2-publications\">difference between tiers</a> is easy to describe honestly, and doing so costs you nothing.</p>\n<p>Use it as a foundation. It is the first entry on a public record rather than the record itself.</p>\n<p>There is a simple test for how you describe it. Write the sentence you would put in a bio, then imagine the reader clicking the link. If the two do not match, change the sentence rather than hoping nobody checks.</p>\n<h2 id=\"what-a-feature-includes\">What a feature includes</h2>\n<p>A solo, dedicated article about you and your work, with a headline and angle built around your positioning. Usually photographs, and links to your site and socials.</p>\n<p>It publishes permanently and stays indexed, so it keeps working every time somebody looks you up.</p>\n<p>It is a profile rather than a news report, and it should read like a piece about a person rather than an announcement.</p>\n<p>What it does not include is independent verification of your claims, which is one more reason to keep them modest and checkable.</p>\n<h2 id=\"how-to-get-featured\">How to get featured</h2>\n<ul><li><strong>Pitch directly.</strong> Free and legitimate, subject to fit and editorial capacity.</li><li><strong>Contributed or sponsored placement.</strong> Smaller digital titles accept <a href=\"/guides/what-is-a-contributor-article\">contributed articles</a> far more readily than staff-written publications do. That is a paid route and it should be described as one.</li><li><strong>Use a professional feature service.</strong> A team writes it to the publication's standard and places it, which is faster and more predictable.</li></ul>\n<p>If you want something with more industry weight later, build the record here first and <a href=\"/get-featured-in/flaunt\">aim higher</a> once there is something to point at.</p>\n<h2 id=\"what-makes-a-strong-profile\">What makes a strong profile</h2>\n<p>A profile only works if there is a person inside it.</p>\n<p>The pieces that land have a shape: what you set out to do, what got in the way, what you learned, what you are working on now. A decision that cost you something is more convincing than any credential, and a list of achievements reads as a CV that nobody finishes.</p>\n<p>Write so that someone outside your world understands the point in the first paragraph. General-audience titles reward clarity over vocabulary, every time.</p>\n<p>One idea per piece works better than a survey of everything you have done. A reader who finishes with a single clear impression will remember it, and one who finishes with six will remember none of them.</p>\n<p>Keep the claims defensible. Follower counts you cannot evidence, brand names you have not cleared and superlatives about your own work do not belong in an article that outlives the moment it was written for.</p>\n<h2 id=\"what-to-expect-from-the-process\">What to expect from the process</h2>\n<p>Share the story, our team drafts the piece, you review with revisions until it is right, and nothing publishes until you approve it. Then it goes live and you get the link.</p>\n<p>Any provider who cannot show you the draft first is not one to use. We will also tell you when a more specialist title would do more for your audience than a general one.</p>\n<p>Expect to be asked for specifics you would normally leave out: the job before this one, the thing that nearly did not happen, what you would tell someone starting now. Those details are what make a profile readable rather than polite.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Is this the same as a major entertainment publication?</h3>\n<p>No. It is a smaller digital title, easier to place in and carrying less weight. It is useful as a permanent, searchable asset rather than as a substitute for a masthead.</p>\n<h3>Who does Celebrity News suit?</h3>\n<p>Creators, performers, personalities and people building a personal brand who need something substantive for a stranger to read.</p>\n<h3>Can I approve the article before it publishes?</h3>\n<p>Yes. You review and revise until it is right, and nothing publishes without your approval.</p>",
+  "toc": [
+    {
+      "id": "what-celebrity-news-is",
+      "text": "What Celebrity News is"
+    },
+    {
+      "id": "how-much-weight-it-carries",
+      "text": "How much weight it carries"
+    },
+    {
+      "id": "what-a-feature-includes",
+      "text": "What a feature includes"
+    },
+    {
+      "id": "how-to-get-featured",
+      "text": "How to get featured"
+    },
+    {
+      "id": "what-makes-a-strong-profile",
+      "text": "What makes a strong profile"
+    },
+    {
+      "id": "what-to-expect-from-the-process",
+      "text": "What to expect from the process"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "text": "Frequently asked questions"
+    }
+  ],
+  "takeaways": [
+    "Celebrity News is a smaller general-interest digital title, not an entertainment masthead.",
+    "Its value is a permanent profile that appears when someone searches your name.",
+    "A story with a decision and a lesson beats a list of achievements."
+  ]
 }
 ];
 

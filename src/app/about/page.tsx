@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import styles from "./about.module.css";
+import { getTrustpilotData } from "@/lib/trustpilot";
 
 const SITE = "https://www.digitalnetworkingagency.com";
 
@@ -44,7 +45,8 @@ const PRINCIPLES = [
   },
 ];
 
-export default function AboutPage() {
+export default async function AboutPage() {
+  const tp = await getTrustpilotData();
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
@@ -110,7 +112,7 @@ export default function AboutPage() {
             <span className={styles.statL}>Publication outlets</span>
           </div>
           <div className={styles.stat}>
-            <span className={styles.statN}>4.6</span>
+            <span className={styles.statN}>{tp.score.toFixed(1)}</span>
             <span className={styles.statL}>Trustpilot rating</span>
           </div>
           <div className={styles.stat}>
