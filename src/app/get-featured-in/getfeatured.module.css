@@ -568,3 +568,16 @@
     grid-template-columns: 1fr;
   }
 }
+
+.cover {
+  max-width: 880px;
+  margin: 34px auto 0;
+  padding: 0 22px;
+}
+.cover img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 16px;
+  border: 1px solid rgba(143, 255, 0, 0.18);
+}

@@ -176,6 +176,19 @@ export default async function OutletLanding({
         </div>
       </section>
 
+      {/* The generated card, shown in-content so it is indexable by Google
+          Images with descriptive alt text. */}
+      <figure className={styles.cover}>
+        <img
+          src={`/get-featured-in/${o.slug}/opengraph-image`}
+          alt={`Get featured in ${o.name} — Digital Networking Agency`}
+          width={1200}
+          height={630}
+          loading="lazy"
+          decoding="async"
+        />
+      </figure>
+
       <div className={styles.body}>
         {/* The query itself, answered immediately. Competitors win this snippet
             with a direct Q&A high on the page; ours was buried in the FAQ. */}
