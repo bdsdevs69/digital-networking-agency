@@ -156,6 +156,7 @@ export const GUIDE_PUBLISHED: Record<string, string> = {
   "how-to-get-featured-in-times-square-journal": "2026-09-16",
   "how-to-get-featured-in-the-icon": "2026-09-16",
   "how-to-get-featured-in-fluenciaga": "2026-09-16",
+  "usa-today-op-ed-submission": "2026-09-18",
 };
 
 export const GUIDE_UPDATED: Record<string, string> = {};
