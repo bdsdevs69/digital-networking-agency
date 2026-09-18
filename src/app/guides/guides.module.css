@@ -782,3 +782,17 @@
   height: auto;
   aspect-ratio: 1200 / 630;
 }
+
+/* Link from a guide to the commercial page for the same outlet. */
+.serviceLine {
+  font-family: "DM Mono", monospace;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: var(--muted);
+  margin: 18px 0 0;
+}
+.serviceLine a {
+  color: var(--lime);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(143, 255, 0, 0.4);
+}

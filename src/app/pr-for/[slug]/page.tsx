@@ -76,8 +76,6 @@ export default async function ServicePage({
       "@id": url,
       name: service.h1,
       description: service.description,
-      datePublished: updated,
-      dateModified: updated,
       inLanguage: "en-US",
       isPartOf: { "@id": `${SITE}/#website` },
     },

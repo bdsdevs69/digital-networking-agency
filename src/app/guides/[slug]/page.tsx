@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { GUIDES, getGuide } from "@/content/guides";
+import { OUTLETS } from "@/content/outlets";
 import styles from "../guides.module.css";
 import { ProofCards } from "../ProofCards";
 import { clampDescription, clampTitle } from "@/lib/meta";
-import { guideDates, formatGuideDate } from "@/content/guideDates";
 import { extractFaq } from "@/lib/faq";
 
 const SITE = "https://www.digitalnetworkingagency.com";
@@ -76,10 +76,12 @@ export default async function GuidePage({
   if (!guide) notFound();
 
   const url = `${SITE}/guides/${guide.slug}`;
-  const { published, modified } = guideDates(guide.slug);
   const [bodyTop, bodyRest] = splitBody(guide.body);
 
   const faqs = extractFaq(guide.body);
+  // The commercial page for this outlet, if this guide has one. Linking to it
+  // from high on the guide points the query at the page meant to rank for it.
+  const outlet = OUTLETS.find((o) => o.guideSlug === guide.slug);
 
   const jsonLd = [
     {
@@ -95,8 +97,6 @@ export default async function GuidePage({
         width: 1200,
         height: 630,
       },
-      datePublished: published,
-      dateModified: modified,
       inLanguage: "en-US",
       author: {
         "@type": "Person",
@@ -172,12 +172,18 @@ export default async function GuidePage({
         <header className={styles.header}>
           <h1>{guide.h1}</h1>
           <p className={styles.byline}>
-            By {AUTHOR}, Digital Networking Agency ·{" "}
-            <time dateTime={modified}>
-              {modified === published ? "Published" : "Updated"} {formatGuideDate(modified)}
-            </time>
+            By {AUTHOR}, Digital Networking Agency
           </p>
         </header>
+
+        {outlet ? (
+          <p className={styles.serviceLine}>
+            Want us to do it for you?{" "}
+            <Link href={`/get-featured-in/${outlet.slug}`}>
+              Get featured in {outlet.name}
+            </Link>
+          </p>
+        ) : null}
 
         <figure className={styles.cover}>
           <img
