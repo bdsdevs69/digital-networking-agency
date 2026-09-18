@@ -11,6 +11,15 @@ import styles from "../../guides/guides.module.css";
 
 const SITE = "https://www.digitalnetworkingagency.com";
 
+// People search "get featured in <region>", not "PR in <region>". The title
+// targets the phrase; the H1 and body keep the broader framing.
+const SEARCH_TITLE: Record<string, string> = {
+  uae: "Get Featured in Middle East Media | DNA PR",
+  uk: "Get Featured in UK Media | Digital Networking Agency",
+  australia: "Get Featured in Australian Media | DNA PR",
+  canada: "Get Featured in Canadian Media | DNA PR",
+};
+
 const COUNTRY: Record<string, string> = {
   uae: "United Arab Emirates",
   uk: "United Kingdom",
@@ -35,7 +44,7 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
   const r = getRegion(region);
   if (!r) return {};
   const url = `${SITE}/pr-in/${r.slug}`;
-  const title = clampTitle(r.title);
+  const title = clampTitle(SEARCH_TITLE[r.slug] ?? r.title);
   const description = clampDescription(r.description);
   return {
     title,
@@ -132,6 +141,13 @@ export default async function RegionPage({ params }: { params: Promise<{ region:
           ))}
         </ul>
       </section>
+
+      {faqs.length ? (
+        <section className={styles.gsection}>
+          <h2 className={styles.gsectionTitle}>How do I get featured in {r.region}?</h2>
+          <p className={styles.gsectionBlurb}>{faqs[0].a}</p>
+        </section>
+      ) : null}
 
       {guides.length ? (
         <section className={styles.more}>
