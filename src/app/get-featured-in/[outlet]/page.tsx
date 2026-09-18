@@ -177,6 +177,13 @@ export default async function OutletLanding({
       </section>
 
       <div className={styles.body}>
+        {/* The query itself, answered immediately. Competitors win this snippet
+            with a direct Q&A high on the page; ours was buried in the FAQ. */}
+        <section className={styles.block}>
+          <h2>How do I get featured in {o.name}?</h2>
+          <p>{faqs[0].a}</p>
+        </section>
+
         {/* About */}
         <section className={styles.block}>
           <h2>About {o.name}</h2>
@@ -262,7 +269,7 @@ export default async function OutletLanding({
         <section className={styles.block}>
           <h2>Questions about {o.name}</h2>
           <div className={styles.faqs}>
-            {faqs.map((f) => (
+            {faqs.slice(1).map((f) => (
               <details key={f.q} className={styles.faq}>
                 <summary>{f.q}</summary>
                 <p>{f.a}</p>
