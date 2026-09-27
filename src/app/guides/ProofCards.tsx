@@ -1,3 +1,4 @@
+import { focal } from "@/lib/focal";
 import styles from "./guides.module.css";
 
 export type Proof = {
@@ -16,18 +17,17 @@ export const PROOF: Record<string, { title: string; items: Proof[] }> = {
     items: [
       {
         outlet: "MSN",
-        kind: "Full feature",
-        headline:
-          "The body isn't a machine: Inside Dr. Kirk Sanford's case for honest regenerative medicine",
-        href: "https://www.msn.com/en-us/news/other/the-body-isn%E2%80%99t-a-machine-inside-dr-kirk-sanford%E2%80%99s-case-for-honest-regenerative-medicine/ar-AA2705OB",
-        img: "/placement-kirk-msn.webp"
-      },
-      {
-        outlet: "MSN",
         kind: "Feature listicle",
         headline: "The entrepreneurs everyone is talking about in 2026",
         href: "https://www.msn.com/en-us/news/other/the-entrepreneurs-everyone-is-talking-about-in-2026/ar-AA25j5ca",
         img: "/placement-entrepreneurs-msn.webp"
+      },
+      {
+        outlet: "MSN",
+        kind: "Full feature",
+        headline: "Beverly D Flaxington | Business owner, bestselling author, international public speaker & college professor",
+        href: "https://www.msn.com/en-us/news/other/beverly-d-flaxington--business-owner-bestselling-author--college-professor-/ar-AA2cHdsl",
+        img: "/placement-flaxington.jpg"
       }
     ]
   }
@@ -55,7 +55,7 @@ export function ProofCards({ slug }: { slug: string }) {
             rel="noopener noreferrer"
           >
             <span className={styles.proofShot}>
-              <img src={p.img} alt={p.headline} loading="lazy" />
+              <img src={p.img} style={{ objectPosition: focal(p.img) }} alt={p.headline} loading="lazy" />
             </span>
             <span className={styles.proofBody}>
               <span className={styles.proofMeta}>

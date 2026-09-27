@@ -3,10 +3,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CASE_STUDIES, getCaseStudy } from "@/content/caseStudies";
 import styles from "../case.module.css";
+import { focal } from "@/lib/focal";
 import { clampDescription } from "@/lib/meta";
 
 const SITE = "https://www.digitalnetworkingagency.com";
-const BOOKING = "/contact";
 
 export const dynamicParams = false;
 
@@ -84,72 +84,81 @@ export default async function CaseStudyPage({
   ];
 
   return (
-    <div className={styles.page}>
+    <main className={styles.page}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <div className={styles.detail}>
-        <div className={styles.crumbs} role="navigation" aria-label="Breadcrumb">
+      <div className={`v-wrap ${styles.detail}`}>
+        <nav className={styles.crumbs} aria-label="Breadcrumb">
           <Link href="/">Home</Link>
           <span aria-hidden="true">/</span>
           <Link href="/case-studies">Case Studies</Link>
-        </div>
+          <span aria-hidden="true">/</span>
+          <span>{c.name}</span>
+        </nav>
 
         <div className={styles.detailHead}>
           <div className={styles.detailText}>
-            <span className={styles.detailOutlet}>Featured in {c.outlet}</span>
+            <span className={styles.detailOutlet}>Featured in {c.features && c.features.length > 1 ? c.features.map((f) => f.outlet).join(" · ") : c.outlet}</span>
             <h1>{c.name}</h1>
             <p className={styles.detailRole}>{c.role}</p>
             <p className={styles.detailQuote}>{c.quote}</p>
-            <a
-              className={styles.readLive}
-              href={c.url}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Read the live article on {c.outlet} <span aria-hidden="true">&rarr;</span>
+            <a className="v-btn v-btn--lg" href={c.url} target="_blank" rel="noopener noreferrer">
+              Read it live on {c.outlet} <span aria-hidden="true">&#8599;</span>
             </a>
           </div>
-          <a
-            className={styles.detailShot}
-            href={c.url}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={c.image} alt={`${c.name} featured in ${c.outlet}`} />
+          <a className={styles.detailShot} href={c.url} target="_blank" rel="noopener noreferrer">
+            <img src={c.image} alt={`${c.name} featured in ${c.outlet}`} style={{ objectPosition: focal(c.image) }} />
+            <span className={styles.live}>Live on {c.features && c.features.length > 1 ? `${c.features.length} publications` : c.outlet}</span>
           </a>
         </div>
 
+        {c.features && c.features.length > 1 ? (
+          <section className={styles.coverage} aria-label="The coverage">
+            <div className={styles.coverageHead}>
+              <span className="v-label v-label--lime">The coverage</span>
+              <h2>
+                {c.features.length} publications. <span className="v-hl">All live.</span>
+              </h2>
+            </div>
+            <ol className={styles.coverageList}>
+              {c.features.map((f, i) => (
+                <li key={f.url}>
+                  <a href={f.url} target="_blank" rel="noopener noreferrer">
+                    <span className={styles.covN}>0{i + 1}</span>
+                    <span className={styles.covOutlet}>{f.outlet}</span>
+                    <span className={styles.covHead}>{f.headline}</span>
+                    <span className={styles.covMeta}>
+                      {new Date(f.date + "T00:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
+                      {" · "}
+                      {f.kind}
+                    </span>
+                    <span className={styles.covGo} aria-hidden="true">↗</span>
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </section>
+        ) : null}
+
         <div className={styles.detailBody}>
-          {sections.map((s) => (
-            <section key={s.h} className={`${styles.detailSection} sr`}>
+          {sections.map((s, i) => (
+            <section key={s.h} className={styles.detailSection}>
+              <span className={styles.secN}>0{i + 1}</span>
               <h2>{s.h}</h2>
               <p>{s.b}</p>
             </section>
           ))}
         </div>
 
-        <aside className={styles.cta}>
-          <h2>
-            Want a feature like <em>this?</em>
-          </h2>
-          <p>
-            Book a 30-minute call. We&rsquo;ll tell you honestly which
-            publications fit your story.
-          </p>
-          <a className={styles.ctaBtn} href={BOOKING} target="_blank" rel="noopener noreferrer">
-            Book a Free Call <span aria-hidden="true">&rarr;</span>
-          </a>
-        </aside>
-
         <section className={styles.more} aria-label="More case studies">
           <h2>More case studies</h2>
           <div className={styles.moreGrid}>
             {others.map((x) => (
               <Link key={x.slug} href={`/case-studies/${x.slug}`}>
-                <img src={x.image} alt={x.name} loading="lazy" />
+                <img src={x.image} alt={x.name} loading="lazy" style={{ objectPosition: focal(x.image) }} />
                 <span>{x.name}</span>
                 <small>{x.outlet}</small>
               </Link>
@@ -157,6 +166,6 @@ export default async function CaseStudyPage({
           </div>
         </section>
       </div>
-    </div>
+    </main>
   );
 }

@@ -22,7 +22,7 @@
   transform: translateX(-50%);
   width: 600px;
   height: 600px;
-  background: radial-gradient(circle, rgba(143, 255, 0, 0.09), transparent 66%);
+  background: radial-gradient(circle, rgba(203,255,0, 0.09), transparent 66%);
   pointer-events: none;
 }
 .crumbs {
@@ -31,7 +31,7 @@
   gap: 10px;
   justify-content: center;
   align-items: center;
-  font-family: "DM Mono", monospace;
+  font-family: var(--f-label);
   font-size: 10px;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -45,7 +45,7 @@
 .kicker {
   position: relative;
   display: inline-block;
-  font-family: "DM Mono", monospace;
+  font-family: var(--f-label);
   font-size: 10px;
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -54,20 +54,20 @@
 }
 .h1 {
   position: relative;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: var(--f-display);
   font-size: clamp(42px, 6.6vw, 82px);
   letter-spacing: 1.3px;
   line-height: 0.95;
   margin: 0 0 18px;
   color: transparent;
-  -webkit-text-stroke: 1.3px rgba(143, 255, 0, 0.6);
+  -webkit-text-stroke: 1.3px rgba(203,255,0, 0.6);
   background: linear-gradient(
     100deg,
-    rgba(143, 255, 0, 0) 0%,
-    rgba(143, 255, 0, 0) 43%,
-    rgba(143, 255, 0, 0.95) 50%,
-    rgba(143, 255, 0, 0) 57%,
-    rgba(143, 255, 0, 0) 100%
+    rgba(203,255,0, 0) 0%,
+    rgba(203,255,0, 0) 43%,
+    rgba(203,255,0, 0.95) 50%,
+    rgba(203,255,0, 0) 57%,
+    rgba(203,255,0, 0) 100%
   );
   background-size: 240% 100%;
   -webkit-background-clip: text;
@@ -83,7 +83,7 @@
 }
 .lede {
   position: relative;
-  font-family: "Cormorant Garamond", serif;
+  font-family: var(--f-body);
   font-size: clamp(17px, 2vw, 20px);
   line-height: 1.6;
   color: var(--muted);
@@ -105,11 +105,11 @@
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  font-family: "DM Mono", monospace;
+  font-family: var(--f-label);
   font-size: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #101117;
+  color: var(--bg);
   background: var(--lime);
   padding: 15px 30px;
   border-radius: 9px;
@@ -117,13 +117,13 @@
   transition: box-shadow 0.35s, transform 0.35s;
 }
 .btn:hover {
-  box-shadow: 0 0 32px rgba(143, 255, 0, 0.42);
+  box-shadow: 0 0 32px rgba(203,255,0, 0.42);
   transform: translateY(-2px);
 }
 .btnGhost {
   display: inline-flex;
   align-items: center;
-  font-family: "DM Mono", monospace;
+  font-family: var(--f-label);
   font-size: 12px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -150,14 +150,14 @@
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 .catHead h2 {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: var(--f-display);
   font-size: clamp(24px, 3vw, 32px);
   letter-spacing: 1px;
   color: var(--white);
   margin: 0 0 6px;
 }
 .catHead p {
-  font-family: "Cormorant Garamond", serif;
+  font-family: var(--f-body);
   font-size: 17px;
   color: var(--muted);
   margin: 0 0 20px;
@@ -175,7 +175,7 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-family: "Playfair Display", serif;
+  font-family: var(--f-press);
   font-size: 16px;
   padding: 10px 16px;
   border-radius: 30px;
@@ -189,7 +189,7 @@
 .linked {
   color: var(--white);
   text-decoration: none;
-  border-color: rgba(143, 255, 0, 0.3);
+  border-color: rgba(203,255,0, 0.3);
 }
 .linked:hover {
   border-color: var(--lime);
@@ -197,17 +197,17 @@
   background: #242838;
 }
 .tag {
-  font-family: "DM Mono", monospace;
+  font-family: var(--f-label);
   font-size: 8px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: #101117;
+  color: var(--bg);
   background: var(--lime);
   padding: 3px 7px;
   border-radius: 20px;
 }
 .note {
-  font-family: "Cormorant Garamond", serif;
+  font-family: var(--f-body);
   font-size: 16px;
   line-height: 1.7;
   color: var(--muted);
@@ -225,7 +225,7 @@
 .endCtaInner {
   text-align: center;
   padding: 54px 34px;
-  background: linear-gradient(150deg, #23283a, #1b1f2b);
+  background: linear-gradient(150deg, var(--bg-3), var(--bg-2));
   border: 1px solid var(--border);
   border-radius: 20px;
   position: relative;
@@ -241,7 +241,7 @@
   background: linear-gradient(90deg, transparent, var(--lime), transparent);
 }
 .endCtaInner h2 {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: var(--f-display);
   font-size: clamp(28px, 4.4vw, 46px);
   letter-spacing: 1px;
   color: var(--white);
@@ -253,7 +253,7 @@
   text-shadow: 0 0 22px var(--limeglow);
 }
 .endCtaInner p {
-  font-family: "Cormorant Garamond", serif;
+  font-family: var(--f-body);
   font-size: 18px;
   color: var(--muted);
   max-width: 460px;
@@ -273,7 +273,7 @@
 .hubLink {
   display: inline-block;
   margin: -8px 0 18px;
-  font-family: "DM Mono", monospace;
+  font-family: var(--f-label);
   font-size: 11px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -283,3 +283,28 @@
 .hubLink:hover {
   text-decoration: underline;
 }
+
+/* ── v3 overrides ───────────────────────────────────────────── */
+.page { padding-top: 0; background: var(--bg); }
+.hero { max-width: 1000px; padding-top: clamp(8rem, 12vw, 10rem); }
+.hero::after { top: -30vmax; width: 70vmax; height: 70vmax; background: radial-gradient(closest-side, rgba(203,255,0,.2), transparent 72%); }
+.crumbs { font: 500 13px var(--f-body); letter-spacing: 0; text-transform: none; color: var(--faint); }
+.crumbs a { color: var(--muted); }
+.crumbs a:hover { color: var(--lime); }
+.kicker { display: inline-flex; gap: .9em; font: 500 13px var(--f-label); letter-spacing: .16em; }
+.kicker::before { content: "["; } .kicker::after { content: "]"; }
+.h1 {
+  color: var(--ink); -webkit-text-stroke: 0; background: none; animation: none;
+  font: 800 clamp(3rem, 7.6vw, 6.8rem)/.9 var(--f-display); letter-spacing: -0.05em; text-wrap: balance;
+}
+.lede { font-size: clamp(1.05rem, 1.35vw, 1.25rem); line-height: 1.55; }
+.btn, .btnGhost {
+  display: inline-flex; align-items: center; gap: 10px; padding: 16px 28px; border-radius: 999px;
+  font: 600 15.5px var(--f-body); letter-spacing: 0; text-transform: none; text-decoration: none;
+  transition: transform .25s var(--ease), background-color .2s, border-color .2s;
+}
+.btn { background: var(--lime); color: var(--lime-ink); border: 1px solid var(--lime); }
+.btn:hover { transform: translateY(-2px); background: #d9ff4d; }
+.btnGhost { background: rgba(255,255,255,.06); color: var(--ink); border: 1px solid var(--line-2); }
+.btnGhost:hover { background: rgba(255,255,255,.1); }
+.endCta { display: none; }

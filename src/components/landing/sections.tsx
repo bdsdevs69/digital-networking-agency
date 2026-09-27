@@ -268,6 +268,15 @@ export function BrandingSection() {
 // so in the placements carousel you reach them via the arrow.
 export const clientPlacements: Placement[] = [
     {
+      outlet: "Wall Street Times",
+      headline: "Beyond the Brief: Krishan Thakker on Law, Leadership, and Social Impact",
+      meta: "November 6, 2025",
+      href: "https://wallstreettimes.com/beyond-the-brief-krishan-thakker-on-law-leadership-and-social-impact/",
+      img: "/krishan-thakker.jpg",
+      logo: null,
+      logoWhite: true
+    },
+    {
       outlet: "Yahoo Finance",
       headline:
         "PointOne Partners Launches Texas Real Estate Investment Platform With Four Active Development Projects",
@@ -297,12 +306,12 @@ export const clientPlacements: Placement[] = [
       logoWhite: true
     },
     {
-      outlet: "Healthcare Business Today",
+      outlet: "MSN",
       headline:
-        "The 25-Year Mission Behind a New Standard in Addiction Recovery",
-      meta: "May 23, 2025",
-      href: "https://www.healthcarebusinesstoday.com/the-25-year-mission-behind-a-new-standard-in-addiction-recovery/",
-      img: "/placement-mark.webp",
+        "Beverly D Flaxington | Business owner, bestselling author, international public speaker & college professor",
+      meta: "September 22, 2026",
+      href: "https://www.msn.com/en-us/news/other/beverly-d-flaxington--business-owner-bestselling-author--college-professor-/ar-AA2cHdsl",
+      img: "/placement-flaxington.jpg",
       logo: null,
       logoWhite: true
     },
@@ -335,12 +344,11 @@ export const clientPlacements: Placement[] = [
       logoWhite: true
     },
     {
-      outlet: "MSN",
-      headline:
-        "The body isn't a machine: Inside Dr. Kirk Sanford's case for honest regenerative medicine",
-      meta: "Full feature · MSN",
-      href: "https://www.msn.com/en-us/news/other/the-body-isn%E2%80%99t-a-machine-inside-dr-kirk-sanford%E2%80%99s-case-for-honest-regenerative-medicine/ar-AA2705OB",
-      img: "/placement-kirk-msn.webp",
+      outlet: "Entrepreneur",
+      headline: "Dr. Kirk Sanford Wants More Honesty in Regenerative Medicine",
+      meta: "September 23, 2026",
+      href: "https://www.entrepreneur.com/entrepreneurs/dr-kirk-sanford-wants-more-honesty-in-regenerative-medicine",
+      img: "/kirk-sanford-v3.jpg",
       logo: null,
       logoWhite: true
     },
@@ -475,40 +483,43 @@ export function CtaFooterSection() {
   );
 }
 
+// Real publication logos from the original site.
+export const PRESS_LOGOS: { name: string; src?: string }[] = [
+  { name: "Forbes", src: "/logo-forbes.webp" },
+  { name: "Business Insider", src: "/logo-bi.webp" },
+  { name: "Rolling Stone", src: "/logo-rollingstone.webp" },
+  { name: "Esquire", src: "/logo-esquire.webp" },
+  { name: "Maxim", src: "/logo-maxim.webp" },
+  { name: "Allure", src: "/logo-allure.webp" },
+  { name: "Glamour", src: "/logo-glamour.webp" },
+  { name: "Architectural Digest", src: "/logo-ad.webp" },
+  { name: "Haute Beauty", src: "/logo-harpersbazaar.webp" },
+  { name: "Sports Illustrated", src: "/logo-si.webp" },
+  { name: "Us Weekly", src: "/logo-usweekly.webp" },
+  { name: "Los Angeles Times", src: "/logo-latimes.webp" },
+  { name: "Entrepreneur", src: "/logo-entrepreneur.webp" },
+  { name: "Hollywood Life", src: "/logo-hollywoodlife.webp" },
+  { name: "OK! Magazine", src: "/logo-ok.webp" },
+  { name: "Success Magazine", src: "/logo-success.webp" },
+  { name: "Muscle & Fitness", src: "/logo-musclefitness.webp" },
+  { name: "Woman's World", src: "/logo-womansworld.webp" },
+  { name: "IBTimes", src: "/logo-ibtimes.webp" },
+  { name: "Investing.com", src: "/logo-investing.webp" },
+  { name: "Flaunt", src: "/logo-flaunt.webp" },
+  { name: "Haute Residence", src: "/logo-haute.webp" },
+  { name: "The Business Journals", src: "/logo-bizjournals.webp" },
+  { name: "Law & Crime", src: "/logo-lawcrime.webp" },
+  { name: "Law News Day", src: "/logo-lawnewsday.webp" },
+  { name: "USA Today", src: "/USA-Today-removebg-preview.webp" },
+  { name: "Benzinga", src: "/Benzinga-Logo-removebg-preview.webp" },
+  { name: "FOX", src: "/fox-scg-logo.svg" },
+  { name: "CEO Weekly", src: "/CEO_Weekly-removebg-preview.webp" },
+  { name: "New York Weekly", src: "/NY-Weekly-removebg-preview.webp" }
+];
+
 export function PressMarquee() {
   // Real publication logos, shown on white chips so every mark stays legible.
-  const outlets: { name: string; src?: string }[] = [
-    { name: "Forbes", src: "/logo-forbes.webp" },
-    { name: "Business Insider", src: "/logo-bi.webp" },
-    { name: "Rolling Stone", src: "/logo-rollingstone.webp" },
-    { name: "Esquire", src: "/logo-esquire.webp" },
-    { name: "Maxim", src: "/logo-maxim.webp" },
-    { name: "Allure", src: "/logo-allure.webp" },
-    { name: "Glamour", src: "/logo-glamour.webp" },
-    { name: "Architectural Digest", src: "/logo-ad.webp" },
-    { name: "Haute Beauty", src: "/logo-harpersbazaar.webp" },
-    { name: "Sports Illustrated", src: "/logo-si.webp" },
-    { name: "Us Weekly", src: "/logo-usweekly.webp" },
-    { name: "Los Angeles Times", src: "/logo-latimes.webp" },
-    { name: "Entrepreneur", src: "/logo-entrepreneur.webp" },
-    { name: "Hollywood Life", src: "/logo-hollywoodlife.webp" },
-    { name: "OK! Magazine", src: "/logo-ok.webp" },
-    { name: "Success Magazine", src: "/logo-success.webp" },
-    { name: "Muscle & Fitness", src: "/logo-musclefitness.webp" },
-    { name: "Woman's World", src: "/logo-womansworld.webp" },
-    { name: "IBTimes", src: "/logo-ibtimes.webp" },
-    { name: "Investing.com", src: "/logo-investing.webp" },
-    { name: "Flaunt", src: "/logo-flaunt.webp" },
-    { name: "Haute Residence", src: "/logo-haute.webp" },
-    { name: "The Business Journals", src: "/logo-bizjournals.webp" },
-    { name: "Law & Crime", src: "/logo-lawcrime.webp" },
-    { name: "Law News Day", src: "/logo-lawnewsday.webp" },
-    { name: "USA Today", src: "/USA-Today-removebg-preview.webp" },
-    { name: "Benzinga", src: "/Benzinga-Logo-removebg-preview.webp" },
-    { name: "FOX", src: "/fox-scg-logo.svg" },
-    { name: "CEO Weekly", src: "/CEO_Weekly-removebg-preview.webp" },
-    { name: "New York Weekly", src: "/NY-Weekly-removebg-preview.webp" }
-  ];
+  const outlets = PRESS_LOGOS;
   const row = [...outlets, ...outlets];
   return (
     <section className="press-marquee">
@@ -530,7 +541,10 @@ export function PressMarquee() {
   );
 }
 
-export async function TestimonialsSection() {
+/** Every client review on the site: the hand-collected ones plus live 5★
+ *  Trustpilot reviews, deduped by name and opening text. One source, so the
+ *  homepage and the reviews section can never drift apart. */
+export async function getAllReviews() {
   const reviews = [
     {
       name: "David",
@@ -632,7 +646,11 @@ export async function TestimonialsSection() {
       text: r.body
     }));
 
-  const allReviews = [...reviews, ...tpReviews];
+  return [...reviews, ...tpReviews];
+}
+
+export async function TestimonialsSection() {
+  const allReviews = await getAllReviews();
 
   return (
     <section className="tst-section" id="testimonials">

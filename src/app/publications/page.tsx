@@ -65,6 +65,9 @@ const CATEGORIES: { name: string; blurb: string; items: string[]; hub?: string }
       "Digital Journal",
       "Success Magazine",
       "Market Daily",
+      "Entrepreneur Today",
+      "Times Square Journal",
+      "The Icon",
     ],
   },
   {
@@ -121,6 +124,7 @@ const CATEGORIES: { name: string; blurb: string; items: string[]; hub?: string }
       "The Hollywood Reporter",
       "Artist Weekly",
       "Famous Times",
+      "Fluenciaga",
     ],
   },
   {
@@ -174,17 +178,6 @@ const CATEGORIES: { name: string; blurb: string; items: string[]; hub?: string }
       "Montreal Gazette",
       "Vancouver Sun",
       "Elle Canada",
-    ],
-  },
-  {
-    name: "Our publishing network",
-    blurb:
-      "Titles in our own publishing network. Because they are our titles we can commit to a piece running, and running quickly.",
-    items: [
-      "Entrepreneur Today",
-      "Times Square Journal",
-      "The Icon",
-      "Fluenciaga",
     ],
   },
 ];

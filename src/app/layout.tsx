@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { Archivo, Instrument_Sans, Playfair_Display, Syne, Bodoni_Moda, Unbounded } from "next/font/google";
 import "./globals.css";
+import "./v3.css";
 import { NavMenu } from "@/components/landing/NavMenu";
 import { FloatingContact } from "@/components/FloatingContact";
 import { ScrollReveal } from "@/components/ScrollReveal";
@@ -8,8 +10,34 @@ import { SiteFooter } from "@/components/SiteFooter";
 
 const GA_ID = "G-GPMPT68ZE6";
 
-const FONT_HREF =
-  "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400;500&family=Bebas+Neue&display=swap";
+// Self-hosted by next/font: no third-party request, no render-blocking, and
+// size-adjusted fallbacks so text doesn't jump when the font lands.
+//   Archivo          — display. Heavy, with a width axis for the big type.
+//   Instrument Sans  — body and the [ bracket ] labels.
+//   Playfair Display — used only for headlines of articles we placed.
+const fDisplay = Archivo({
+  subsets: ["latin"],
+  axes: ["wdth"],
+  display: "swap",
+  variable: "--font-archivo"
+});
+const fBody = Instrument_Sans({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-instrument"
+});
+const fPress = Playfair_Display({
+  subsets: ["latin"],
+  style: ["normal", "italic"],
+  display: "swap",
+  variable: "--font-playfair"
+});
+// chunky, rounded display face for the "Get featured" buttons only
+// newspaper masthead + headline on the homepage hero
+const fMast = Bodoni_Moda({ subsets: ["latin"], weight: ["700", "900"], style: ["normal", "italic"], display: "swap", variable: "--font-bodoni" });
+// wide, sharp face for the footer wordmark
+const fSyne = Syne({ subsets: ["latin"], weight: ["800"], display: "swap", variable: "--font-syne" });
+const fFunk = Unbounded({ subsets: ["latin"], weight: ["700", "900"], display: "swap", variable: "--font-unbounded" });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.digitalnetworkingagency.com"),
@@ -112,30 +140,20 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en">
+    <html
+      lang="en"
+      className={`${fDisplay.variable} ${fBody.variable} ${fPress.variable} ${fFunk.variable} ${fSyne.variable} ${fMast.variable}`}
+      suppressHydrationWarning
+    >
       <head>
-        {/* Fonts were render-blocking (~990ms per Lighthouse). Preconnect, then
-            load the stylesheet asynchronously via the media="print" swap so it
-            never blocks first paint. display=swap is already in the URL, and the
-            <noscript> keeps it working without JS. */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
+        {/* Homepage intro (Wynn-style tile wipe): decide before first paint so
+            it plays once per visit and never flashes on repeat views. */}
         <script
           dangerouslySetInnerHTML={{
             __html:
-              "(function(){var l=document.createElement('link');l.rel='stylesheet';" +
-              "l.href=" + JSON.stringify(FONT_HREF) + ";l.media='print';" +
-              "l.onload=function(){this.media='all';this.onload=null;};" +
-              "document.head.appendChild(l);})();",
+              "try{if(location.pathname==='/'&&!sessionStorage.getItem('dna-intro')&&!matchMedia('(prefers-reduced-motion: reduce)').matches){document.documentElement.classList.add('intro-play');sessionStorage.setItem('dna-intro','1')}}catch(e){}",
           }}
         />
-        <noscript>
-          <link rel="stylesheet" href={FONT_HREF} />
-        </noscript>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}

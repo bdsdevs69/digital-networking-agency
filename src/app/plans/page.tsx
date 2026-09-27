@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ReviewsSection } from "@/components/landing/ReviewsSection";
 import { getTrustpilotData } from "@/lib/trustpilot";
-import { PressMarquee, clientPlacements } from "@/components/landing/sections";
-import { PlacementsCarousel } from "@/components/landing/PlacementsCarousel";
+import { clientPlacements } from "@/components/landing/sections";
+import { LogoMarquee } from "@/components/home/HomeSections";
+import { Rail } from "@/components/home/Rail";
+import hs from "@/components/home/home.module.css";
+import { focal } from "@/lib/focal";
+import s from "./plans.module.css";
 
 export const metadata: Metadata = {
   title: "Client Plans — DNA PR",
@@ -105,141 +108,213 @@ const faqs = [
   }
 ];
 
+const Arrow = () => (
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+);
+
+const COMPARE: { row: string; v: [string, string, string] }[] = [
+  { row: "Standard feature / month", v: ["yes", "yes", "yes"] },
+  { row: "Premier feature / month", v: ["yes", "no", "yes"] },
+  { row: "Flagship feature within 3 months", v: ["no", "no", "yes"] },
+  { row: "Commitment", v: ["3-mo min", "Cancel anytime", "3-mo min"] },
+];
+
 export default async function PlansPage() {
   const trustpilot = await getTrustpilotData();
+  const reviews = trustpilot.reviews.slice(0, 3);
+  const cell = (v: string) =>
+    v === "yes" ? <span className={s.yes} aria-label="Included">✓</span>
+    : v === "no" ? <span className={s.no} aria-label="Not included">—</span>
+    : v;
+
   return (
-    <main className="plans-page">
-      <header className="plans-top">
-        <Link href="/" className="nav-logo" aria-label="DNA PR — Home">
-          <img src="/black_logo.webp" alt="DNA PR" className="nav-logo-img" />
-        </Link>
-        <span className="plans-top-tag">Client Plans</span>
+    <main className={s.page}>
+      {/* hero */}
+      <header className={s.hero}>
+        <div className="v-glow" aria-hidden="true" />
+        <div className={`v-wrap ${s.heroInner}`}>
+          <span className="v-label v-label--lime">Exclusive · For our clients</span>
+          <h1 className={s.h1}>
+            Keep the <span className="v-hl">momentum going.</span>
+          </h1>
+          <p className={s.sub}>
+            You&apos;re in — now let&apos;s keep your name in front of the right
+            audiences. Pick the plan that fits your next phase of growth.
+          </p>
+          <ul className={s.assure}>
+            {assurances.map((a) => (
+              <li key={a}>{a}</li>
+            ))}
+          </ul>
+        </div>
       </header>
 
-      <section className="plans-hero">
-        <div className="stag plans-stag">Exclusive · For Our Clients</div>
-        <h1 className="stitle plans-title">Keep The Momentum Going</h1>
-        <p className="plans-sub">
-          You&apos;re in — now let&apos;s keep your name in front of the right
-          audiences. Pick the plan that fits your next phase of growth.
-        </p>
-      </section>
+      <LogoMarquee />
 
-      <PressMarquee />
-
-      <section className="plans-section">
-        <div className="pkg-grid plans-grid">
-          {plans.map((p) => (
-            <div
-              className={p.featured ? "pkg-card feat" : "pkg-card"}
-              key={p.name}
-            >
-              <div className="pt">{p.kind}</div>
-              <div className="pn">{p.name}</div>
-              <div className="ptag">{p.tagline}</div>
-              <div className="pp">
-                <div className="ppn">{p.price}</div>
-                <div className="ppm">{p.per}</div>
-              </div>
-              <div className="pcom">{p.commitment}</div>
-              <ul className="pf">
-                {p.features.map((f) => (
-                  <li key={f}>{f}</li>
-                ))}
-              </ul>
-              <Link
-                href={`/plans/${p.name.toLowerCase()}`}
-                className="pkg-articles-link"
-              >
-                View articles →
-              </Link>
+      {/* the plans */}
+      <section className="v-sec v-light v-panel" id="plans">
+        <div className="v-wrap">
+          <div className="v-head">
+            <div>
+              <span className="v-label">Client plans</span>
+              <h2 className="v-h2">
+                Pick your <span className="v-hl">plan.</span>
+              </h2>
             </div>
-          ))}
-        </div>
+          </div>
+          <div className={s.plans}>
+            {plans.map((p) => (
+              <article key={p.name} className={`${s.plan} ${p.featured ? s.planFeat : ""}`}>
+                {p.featured ? <span className={s.flag}>Cancel anytime</span> : null}
+                <span className={s.kind}>{p.kind}</span>
+                <h3 className={s.name}>{p.name}</h3>
+                <span className={s.tag}>{p.tagline}</span>
+                <div className={s.price}>
+                  {p.price}
+                  <small>{p.per}</small>
+                </div>
+                <span className={s.commit}>{p.commitment}</span>
+                <ul className={s.list}>
+                  {p.features.map((f) => (
+                    <li key={f}>{f}</li>
+                  ))}
+                </ul>
+                <div className={s.actions}>
+                  <a href={p.href} className={`v-btn ${p.featured ? "" : "v-btn--dark"} ${s.choose}`}>
+                    {p.cta} <Arrow />
+                  </a>
+                  <Link href={`/plans/${p.name.toLowerCase()}`} className={s.articles}>
+                    View articles <Arrow />
+                  </Link>
+                </div>
+              </article>
+            ))}
+          </div>
 
-        <div className="plans-assurance">
-          {assurances.map((a) => (
-            <div className="plans-assurance-item" key={a}>
-              <span className="tick" aria-hidden="true">✓</span>
-              <span>{a}</span>
+          {/* at a glance */}
+          <div className={s.compare}>
+            <h3 className={s.compareTitle}>Plans at a glance</h3>
+            <div className={s.tableScroll}>
+              <table className={s.table}>
+                <thead>
+                  <tr>
+                    <th />
+                    <th>Spotlight</th>
+                    <th className={s.colFeat}>Momentum</th>
+                    <th>Authority</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {COMPARE.map((r) => (
+                    <tr key={r.row}>
+                      <th scope="row">{r.row}</th>
+                      <td>{cell(r.v[0])}</td>
+                      <td className={s.colFeat}>{cell(r.v[1])}</td>
+                      <td>{cell(r.v[2])}</td>
+                    </tr>
+                  ))}
+                  <tr className={s.priceRow}>
+                    <th scope="row">Price</th>
+                    <td>$700<small>/mo</small></td>
+                    <td className={s.colFeat}>$300<small>/mo</small></td>
+                    <td>$1,300<small>/mo</small></td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-          ))}
-        </div>
-
-        <div className="plans-compare">
-          <div className="plans-tiers-title">Plans at a glance</div>
-          <div className="plans-compare-scroll">
-            <table className="plans-compare-table">
-              <thead>
-                <tr>
-                  <th />
-                  <th>Spotlight</th>
-                  <th className="cmp-feat">Momentum</th>
-                  <th>Authority</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Standard feature / month</td>
-                  <td><span className="cmp-yes">✓</span></td>
-                  <td className="cmp-feat"><span className="cmp-yes">✓</span></td>
-                  <td><span className="cmp-yes">✓</span></td>
-                </tr>
-                <tr>
-                  <td>Premier feature / month</td>
-                  <td><span className="cmp-yes">✓</span></td>
-                  <td className="cmp-feat"><span className="cmp-no">—</span></td>
-                  <td><span className="cmp-yes">✓</span></td>
-                </tr>
-                <tr>
-                  <td>Flagship feature · within 3 months</td>
-                  <td><span className="cmp-no">—</span></td>
-                  <td className="cmp-feat"><span className="cmp-no">—</span></td>
-                  <td><span className="cmp-yes">✓</span></td>
-                </tr>
-                <tr>
-                  <td>Commitment</td>
-                  <td>3-mo min</td>
-                  <td className="cmp-feat">Cancel anytime</td>
-                  <td>3-mo min</td>
-                </tr>
-                <tr className="cmp-price-row">
-                  <td>Price</td>
-                  <td>$700<span className="cmp-mo">/mo</span></td>
-                  <td className="cmp-feat">$300<span className="cmp-mo">/mo</span></td>
-                  <td>$1,300<span className="cmp-mo">/mo</span></td>
-                </tr>
-              </tbody>
-            </table>
           </div>
         </div>
+      </section>
 
-        <div className="plans-placements">
-          <div className="plans-tiers-title">Proof of Authority</div>
-          <h2 className="plans-placements-h">Client Placements</h2>
-          <PlacementsCarousel placements={clientPlacements} />
-        </div>
-
-        <ReviewsSection data={trustpilot} />
-
-        <div className="plans-faq">
-          <div className="plans-tiers-title">Questions, answered</div>
-          {faqs.map((f) => (
-            <details className="plans-faq-item" key={f.q}>
-              <summary>{f.q}</summary>
-              <div className="plans-faq-a">{f.a}</div>
-            </details>
+      {/* proof */}
+      <section className="v-sec">
+        <Rail
+          label="Client placements"
+          head={
+            <>
+              <span className="v-label v-label--lime">Proof of authority</span>
+              <h2 className="v-h2">
+                Client <span className="v-hl">placements.</span>
+              </h2>
+            </>
+          }
+        >
+          {clientPlacements.map((p) => (
+            <a key={p.href} className={hs.work} href={p.href} target="_blank" rel="noopener noreferrer">
+              <span className={hs.workImg}>
+                {p.img ? <img src={p.img} alt="" loading="lazy" style={{ objectPosition: focal(p.img) }} /> : null}
+              </span>
+              <span className={hs.workBody}>
+                <span className={hs.workMeta}>
+                  <span className={hs.workOutlet}>{p.outlet}</span>
+                  <span>{p.meta.replace(/\s*·\s*MSN$/, "")}</span>
+                </span>
+                <span className={hs.workHead}>{p.headline}</span>
+                <span className={hs.workRead}>Read on {p.outlet} ↗</span>
+              </span>
+            </a>
           ))}
-        </div>
+        </Rail>
+      </section>
 
-        <div className="plans-note">
-          Not sure which fits? <a href="mailto:sam@digitalnetworkingagency.com?subject=Which%20plan%20is%20right%20for%20me">Reply to your strategist</a> and we&apos;ll map it to your goals.
+      {/* reviews */}
+      <section className="v-sec" style={{ paddingTop: 0 }}>
+        <div className="v-wrap">
+          <div className="v-head">
+            <div>
+              <span className="v-label v-label--lime">Verified on Trustpilot</span>
+              <h2 className="v-h2">
+                Rated {trustpilot.score.toFixed(1)} <span className="v-hl">by clients.</span>
+              </h2>
+            </div>
+            <a className="v-btn v-btn--ghost" href={trustpilot.profileUrl} target="_blank" rel="noopener noreferrer">
+              Read every review <Arrow />
+            </a>
+          </div>
+          <div className={s.reviews}>
+            {reviews.map((r, i) => (
+              <figure key={`${r.author}-${i}`} className={s.review}>
+                <span className={s.stars} aria-label={`${r.rating} out of 5 stars`}>{"★".repeat(Math.round(r.rating))}</span>
+                <strong className={s.rTitle}>{r.title}</strong>
+                <blockquote className={s.rBody}>{r.body}</blockquote>
+                <figcaption className={s.rWho}>
+                  <span className={s.rAv} aria-hidden="true">{r.author.charAt(0).toUpperCase()}</span>
+                  {r.author}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
         </div>
       </section>
 
-      <footer className="plans-foot">
-        © 2026 Digital Networking Agency LLC · It&apos;s in our DNA
-      </footer>
+      {/* faq */}
+      <section className="v-sec" style={{ paddingTop: 0 }}>
+        <div className={`v-wrap ${s.faqWrap}`}>
+          <div className={s.faqSide}>
+            <span className="v-label v-label--lime">Questions, answered</span>
+            <h2 className="v-h2">
+              Before you <span className="v-hl">pick.</span>
+            </h2>
+            <p className={s.note}>
+              Not sure which fits?{" "}
+              <a href="mailto:sam@digitalnetworkingagency.com?subject=Which%20plan%20is%20right%20for%20me">
+                Reply to your strategist
+              </a>{" "}
+              and we&apos;ll map it to your goals.
+            </p>
+          </div>
+          <div className={s.faqs}>
+            {faqs.map((f, i) => (
+              <details className={s.faq} key={f.q} open={i === 0}>
+                <summary>{f.q}</summary>
+                <p>{f.a}</p>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

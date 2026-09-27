@@ -58,30 +58,41 @@ export function HomeFAQ() {
   };
 
   return (
-    <section className={styles.faq} id="faq">
+    <section className={`v-sec ${styles.faq}`} id="faq">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <div className="stag reveal">Common Questions</div>
-      <div className="stitle reveal">Frequently Asked Questions</div>
-      <div className="sdiv reveal" />
+      <div className={`v-wrap ${styles.wrap}`}>
+        <div className={styles.side}>
+          <span className="v-label v-label--lime">06 · FAQ</span>
+          <h2 className="v-h2">
+            Questions, <span className="v-hl">answered.</span>
+          </h2>
+          <p className="v-lede">
+            The things founders ask us most before their first feature.
+          </p>
+          <div className={styles.ask}>
+            <p className={styles.askTitle}>Still have a question?</p>
+            <p className={styles.askText}>Ask us directly — we reply within 24 hours.</p>
+            <a className="v-btn v-btn--dark" href="mailto:sam@digitalnetworkingagency.com">
+              Email the team
+            </a>
+          </div>
+        </div>
 
-      <div className={styles.grid}>
-        {FAQS.map((f, i) => (
-          <details
-            key={f.q}
-            className={`${styles.item} reveal`}
-            style={{ transitionDelay: `${Math.min(i, 5) * 0.05}s` }}
-            open={i === 0}
-          >
-            <summary className={styles.q}>
-              <span>{f.q}</span>
-              <span className={styles.chev} aria-hidden="true" />
-            </summary>
-            <p className={styles.a}>{f.a}</p>
-          </details>
-        ))}
+        <div className={styles.list}>
+          {FAQS.map((f, i) => (
+            <details key={f.q} className={styles.item} open={i === 0}>
+              <summary className={styles.q}>
+                <span className={styles.n}>{String(i + 1).padStart(2, "0")}</span>
+                <span className={styles.qText}>{f.q}</span>
+                <span className={styles.plus} aria-hidden="true" />
+              </summary>
+              <p className={styles.a}>{f.a}</p>
+            </details>
+          ))}
+        </div>
       </div>
     </section>
   );

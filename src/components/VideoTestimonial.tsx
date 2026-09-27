@@ -11,7 +11,8 @@ const VIDEO_SRC = "/client-testimonial.mp4";
 const POSTER_SRC = "/testimonial-poster.webp";
 const CAPTIONS_SRC = "/client-testimonial.vtt";
 
-export function VideoTestimonial() {
+/** The capped video player on its own, so other sections can place it. */
+export function VideoPlayer({ className = "" }: { className?: string }) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [playing, setPlaying] = useState(false);
 
@@ -32,6 +33,47 @@ export function VideoTestimonial() {
   }
 
   return (
+    <div className={`${styles.player} ${playing ? styles.isPlaying : ""} ${className}`}>
+      <video
+        ref={videoRef}
+        className={styles.video}
+        poster={POSTER_SRC}
+        playsInline
+        controls={playing}
+        onTimeUpdate={onTimeUpdate}
+        onEnded={() => setPlaying(false)}
+        onPause={() => setPlaying(false)}
+        onPlay={() => setPlaying(true)}
+      >
+        <source src={VIDEO_SRC} type="video/mp4" />
+        <track
+          default
+          kind="subtitles"
+          srcLang="en"
+          label="English"
+          src={CAPTIONS_SRC}
+        />
+      </video>
+
+      {!playing && (
+        <button
+          type="button"
+          className={styles.playBtn}
+          onClick={play}
+          aria-label="Play client testimonial"
+        >
+          <span className={styles.playRing} aria-hidden="true" />
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M8 5v14l11-7z" />
+          </svg>
+        </button>
+      )}
+    </div>
+  );
+}
+
+export function VideoTestimonial() {
+  return (
     <section className={styles.wrap} aria-label="Client video testimonial">
       <div className={styles.inner}>
         <div className={styles.copy}>
@@ -47,42 +89,7 @@ export function VideoTestimonial() {
           <p className={styles.attrib}>&mdash; Krishan Thakker</p>
         </div>
 
-        <div className={`${styles.player} ${playing ? styles.isPlaying : ""}`}>
-          <video
-            ref={videoRef}
-            className={styles.video}
-            poster={POSTER_SRC}
-            playsInline
-            controls={playing}
-            onTimeUpdate={onTimeUpdate}
-            onEnded={() => setPlaying(false)}
-            onPause={() => setPlaying(false)}
-            onPlay={() => setPlaying(true)}
-          >
-            <source src={VIDEO_SRC} type="video/mp4" />
-            <track
-              default
-              kind="subtitles"
-              srcLang="en"
-              label="English"
-              src={CAPTIONS_SRC}
-            />
-          </video>
-
-          {!playing && (
-            <button
-              type="button"
-              className={styles.playBtn}
-              onClick={play}
-              aria-label="Play client testimonial"
-            >
-              <span className={styles.playRing} aria-hidden="true" />
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M8 5v14l11-7z" />
-              </svg>
-            </button>
-          )}
-        </div>
+        <VideoPlayer />
       </div>
     </section>
   );

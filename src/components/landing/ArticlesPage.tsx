@@ -1,4 +1,6 @@
 import Link from "next/link";
+import a from "./articles.module.css";
+import { FunkyCta } from "@/components/FunkyCta";
 
 export type Pub = { name: string; dr: number; url?: string; note?: string };
 export type Group = { category: string; pubs: Pub[] };
@@ -30,109 +32,81 @@ export function ArticlesPage({
   const topDr = allPubs.reduce((m, p) => Math.max(m, p.dr), 0);
 
   return (
-    <main className="plans-page">
-      <header className="plans-top articles-top">
-        <Link href="/plans" className="articles-back-btn">
-          <span aria-hidden="true">←</span> Back to Plans
-        </Link>
-        <span className="plans-top-tag">{plan} · Publications</span>
+    <main className={a.page}>
+      <header className={a.hero}>
+        <div className="v-glow" aria-hidden="true" />
+        <div className={`v-wrap ${a.heroInner}`}>
+          <Link href="/plans" className={a.back}>
+            <span aria-hidden="true">←</span> Back to plans
+          </Link>
+          <span className="v-label v-label--lime">{plan} · Publications</span>
+          <h1 className={a.h1}>
+            {plan} <span className="v-hl">publications.</span>
+          </h1>
+          <p className={a.sub}>{tagline}</p>
+
+          {total > 0 ? (
+            <div className={a.stats}>
+              <div className={a.stat}>
+                <span className={a.statN}>{total}</span>
+                <span className={a.statL}>Publications</span>
+              </div>
+              <div className={a.stat}>
+                <span className={a.statN}>{topDr}</span>
+                <span className={a.statL}>Top domain rating</span>
+              </div>
+              <div className={a.stat}>
+                <span className={a.statN}>1/mo</span>
+                <span className={a.statL}>Published feature</span>
+              </div>
+            </div>
+          ) : null}
+        </div>
       </header>
 
-      <section className="plans-hero">
-        <h1 className="stitle plans-title">{plan} Publications</h1>
-        <p className="plans-sub">{tagline}</p>
-
-        {total > 0 ? (
-          <div className="articles-stats">
-            <div className="articles-stat">
-              <span className="articles-stat-num">{total}</span>
-              <span className="articles-stat-lbl">Publications</span>
-            </div>
-            <div className="articles-stat">
-              <span className="articles-stat-num">{topDr}</span>
-              <span className="articles-stat-lbl">Top Domain Rating</span>
-            </div>
-            <div className="articles-stat">
-              <span className="articles-stat-num">1/mo</span>
-              <span className="articles-stat-lbl">Published Feature</span>
-            </div>
-          </div>
-        ) : null}
-      </section>
-
-      <section className="plans-section">
-        {note ? <div className="articles-note">{note}</div> : null}
-        {groups.map((g) => (
-          <div className="articles-group" key={g.category}>
-            <div className="articles-group-title">
-              <span>{g.category}</span>
-              <span className="articles-group-count">{g.pubs.length}</span>
-            </div>
-            <div className="articles-grid">
-              {g.pubs.map((p) => {
-                const logo = logoFor(p.url);
-                const left = (
-                  <span className="article-pub-left">
-                    {logo ? (
-                      <img
-                        className="article-pub-logo"
-                        src={logo}
-                        alt=""
-                        loading="lazy"
-                      />
-                    ) : null}
-                    <span className="article-pub-name">{p.name}</span>
-                  </span>
-                );
-                return p.url ? (
-                  <a
-                    className="article-pub"
-                    key={p.name}
-                    href={p.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {left}
-                    <span className="article-pub-meta">
-                      {p.note ? (
-                        <span className="article-pub-note">{p.note}</span>
-                      ) : null}
-                      <span className="article-pub-dr">DR {p.dr}</span>
-                      <span className="article-pub-arrow" aria-hidden="true">
-                        ↗
+      <section className="v-sec v-light v-panel" style={{ paddingTop: "clamp(2.5rem, 5vw, 4rem)" }}>
+        <div className="v-wrap">
+          {note ? <p className={a.note}>{note}</p> : null}
+          {groups.map((g) => (
+            <div className={a.group} key={g.category}>
+              <h2 className={a.groupTitle}>
+                {g.category}
+                <span>{g.pubs.length}</span>
+              </h2>
+              <div className={a.grid}>
+                {g.pubs.map((p) => {
+                  const logo = logoFor(p.url);
+                  const inner = (
+                    <>
+                      <span className={a.pubLeft}>
+                        {logo ? <img className={a.logo} src={logo} alt="" loading="lazy" /> : null}
+                        <span className={a.pubName}>{p.name}</span>
                       </span>
-                    </span>
-                  </a>
-                ) : (
-                  <div className="article-pub" key={p.name}>
-                    {left}
-                    <span className="article-pub-meta">
-                      {p.note ? (
-                        <span className="article-pub-note">{p.note}</span>
-                      ) : null}
-                      <span className="article-pub-dr">DR {p.dr}</span>
-                    </span>
-                  </div>
-                );
-              })}
+                      <span className={a.pubMeta}>
+                        {p.note ? <span className={a.pubNote}>{p.note}</span> : null}
+                        <span className={a.dr}>DR {p.dr}</span>
+                        {p.url ? <span className={a.go} aria-hidden="true">↗</span> : null}
+                      </span>
+                    </>
+                  );
+                  return p.url ? (
+                    <a className={a.pub} key={p.name} href={p.url} target="_blank" rel="noopener noreferrer">
+                      {inner}
+                    </a>
+                  ) : (
+                    <div className={a.pub} key={p.name}>{inner}</div>
+                  );
+                })}
+              </div>
             </div>
+          ))}
+
+          <div className={a.cta}>
+            <p>These are live, indexed publications — every feature stays online permanently.</p>
+            <FunkyCta href="/plans#plans" label="Choose your plan" />
           </div>
-        ))}
-      </section>
-
-      <div className="articles-cta">
-        <div className="articles-cta-text">
-          These are live, indexed publications — every feature stays online
-          permanently.
         </div>
-        <Link href="/plans" className="btn-p articles-cta-btn">
-          <span>Choose your plan →</span>
-        </Link>
-      </div>
-
-      <footer className="plans-foot">
-        © 2026 Digital Networking Agency LLC · It&apos;s in our DNA
-      </footer>
+      </section>
     </main>
   );
 }

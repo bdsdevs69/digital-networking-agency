@@ -28,28 +28,28 @@
   background: #242838;
 }
 .svcNum {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: var(--f-display);
   font-size: 30px;
   letter-spacing: 1px;
   color: var(--lime);
   line-height: 1;
 }
 .svcTag {
-  font-family: "DM Mono", monospace;
+  font-family: var(--f-label);
   font-size: 10px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: var(--muted);
 }
 .svcCard h3 {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: var(--f-display);
   font-size: 25px;
   letter-spacing: 0.5px;
   color: var(--white);
   margin: 2px 0 0;
 }
 .svcCard p {
-  font-family: "Cormorant Garamond", serif;
+  font-family: var(--f-body);
   font-size: 16px;
   line-height: 1.55;
   color: #cfd3da;
@@ -57,7 +57,7 @@
   flex: 1;
 }
 .svcMore {
-  font-family: "DM Mono", monospace;
+  font-family: var(--f-label);
   font-size: 11px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -88,7 +88,7 @@
   max-width: 620px;
   margin: 0 auto;
   text-align: center;
-  font-family: "Cormorant Garamond", serif;
+  font-family: var(--f-body);
   font-size: 20px;
   line-height: 1.6;
   color: var(--muted);
@@ -119,7 +119,7 @@
   display: block;
   height: 210px;
   overflow: hidden;
-  background: #0f1218;
+  background: var(--bg);
 }
 .csShot img {
   width: 100%;
@@ -135,11 +135,11 @@
   position: absolute;
   top: 14px;
   left: 14px;
-  font-family: "DM Mono", monospace;
+  font-family: var(--f-label);
   font-size: 10px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: #101117;
+  color: var(--bg);
   background: var(--lime);
   padding: 6px 12px;
   border-radius: 20px;
@@ -151,20 +151,20 @@
   padding: 22px 22px 24px;
 }
 .csName {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: var(--f-display);
   font-size: 26px;
   letter-spacing: 0.5px;
   color: var(--white);
 }
 .csRole {
-  font-family: "DM Mono", monospace;
+  font-family: var(--f-label);
   font-size: 10px;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: var(--muted);
 }
 .csMore {
-  font-family: "DM Mono", monospace;
+  font-family: var(--f-label);
   font-size: 11px;
   letter-spacing: 1.5px;
   text-transform: uppercase;

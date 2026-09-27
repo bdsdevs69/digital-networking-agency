@@ -7,7 +7,7 @@
 }
 .outletsLabel {
   display: block;
-  font-family: "DM Mono", monospace;
+  font-family: var(--f-label);
   font-size: 10px;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -20,7 +20,7 @@
   gap: 10px;
 }
 .outletChip {
-  font-family: "DM Mono", monospace;
+  font-family: var(--f-label);
   font-size: 11px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -57,7 +57,7 @@
 .shot {
   display: block;
   overflow: hidden;
-  background: #0f1218;
+  background: var(--bg);
   aspect-ratio: 16 / 10;
 }
 .shot img {
@@ -75,20 +75,20 @@
   justify-content: center;
 }
 .meta {
-  font-family: "DM Mono", monospace;
+  font-family: var(--f-label);
   font-size: 10px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: var(--lime);
 }
 .headline {
-  font-family: "Cormorant Garamond", serif;
+  font-family: var(--f-body);
   font-size: 20px;
   line-height: 1.4;
   color: var(--white);
 }
 .read {
-  font-family: "DM Mono", monospace;
+  font-family: var(--f-label);
   font-size: 11px;
   letter-spacing: 2px;
   text-transform: uppercase;

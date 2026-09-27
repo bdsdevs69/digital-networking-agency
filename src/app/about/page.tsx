@@ -58,107 +58,153 @@ export default async function AboutPage() {
   };
 
   return (
-    <div className={styles.page}>
+    <main className={styles.page}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <section className={styles.hero}>
-        <div className={styles.crumbs}>
-          <Link href="/">Home</Link>
-          <span aria-hidden="true">/</span>
-          <span>About</span>
+      {/* ── hero ─────────────────────────────────────────────── */}
+      <header className={styles.hero}>
+        <div className="v-glow" aria-hidden="true" />
+        <div className={`v-wrap ${styles.heroInner}`}>
+          <nav className={styles.crumbs} aria-label="Breadcrumb">
+            <Link href="/">Home</Link>
+            <span aria-hidden="true">/</span>
+            <span>About</span>
+          </nav>
+          <h1 className={styles.h1}>
+            <span className={styles.h1Big}>About</span>
+            <span className={styles.h1Sub}>
+              Digital Networking Agency &mdash; <em>it&rsquo;s in our DNA.</em>
+            </span>
+          </h1>
+          <div className={styles.heroFoot}>
+            <p className={styles.lede}>
+              Digital Networking Agency is a public relations and media placement
+              firm. We turn founders and brands into recognised names by developing
+              their story and placing it with publications their audience already
+              trusts.
+            </p>
+            <div className={styles.heroActions}>
+              <Link href="/contact" className="v-btn v-btn--lg">
+                Get featured <Arrow />
+              </Link>
+              <Link href="/case-studies" className="v-btn v-btn--ghost v-btn--lg">
+                See the work
+              </Link>
+            </div>
+          </div>
         </div>
-        <span className={styles.kicker}>Who we are</span>
-        <h1 className={styles.h1}>It&rsquo;s in our DNA.</h1>
-        <p className={styles.lede}>
-          Digital Networking Agency is a public relations and media placement
-          firm. We turn founders and brands into recognised names by developing
-          their story and placing it with publications their audience already
-          trusts.
-        </p>
+      </header>
+
+      {/* ── manifesto ────────────────────────────────────────── */}
+      <section className="v-sec v-light v-panel">
+        <div className="v-wrap">
+          <span className="v-label">01 · What we actually do</span>
+          <p className={styles.manifesto}>
+            Most people come to us with the same problem. They are good at what
+            they do, but when someone searches their name, <mark>nothing credible
+            comes back</mark> &mdash; just their own website saying how good they are.
+          </p>
+          <div className={styles.manifestoCols}>
+            <p>
+              <strong>We fix that.</strong> Our team develops a story angle worth
+              publishing, writes it to editorial standard, and places it with outlets
+              that carry weight: MSN, USA Today, Yahoo Finance, Entrepreneur, Benzinga,
+              AP News and over 1,100 others. The result is a permanent, searchable
+              article that does the credibility work for you.
+            </p>
+            <p>
+              We focus on modern media &mdash; digital, TV, podcast and speaking
+              opportunities &mdash; because that is where the people you are trying to
+              reach actually are.
+            </p>
+          </div>
+        </div>
       </section>
 
-      <div className={styles.wrap}>
-        <section className={`${styles.block} sr`}>
-          <h2>What we actually do</h2>
-          <p>
-            Most people come to us with the same problem. They are good at what
-            they do, but when someone searches their name, nothing credible
-            comes back &mdash; just their own website saying how good they are.
-          </p>
-          <p>
-            We fix that. Our team develops a story angle worth publishing,
-            writes it to editorial standard, and places it with outlets that
-            carry weight: MSN, USA Today, Yahoo Finance, Entrepreneur, Benzinga,
-            AP News and over 1,100 others. The result is a permanent,
-            searchable article that does the credibility work for you.
-          </p>
-          <p>
-            We focus on modern media &mdash; digital, TV, podcast and speaking
-            opportunities &mdash; because that is where the people you are
-            trying to reach actually are.
-          </p>
-        </section>
-
-        <section className={`${styles.stats} sr`}>
+      {/* ── numbers ──────────────────────────────────────────── */}
+      <section className="v-sec v-sec--tight">
+        <div className={`v-wrap ${styles.stats}`}>
           <div className={styles.stat}>
-            <span className={styles.statN}>45+</span>
+            <span className={styles.statN}><span data-count="45">45</span><em>+</em></span>
             <span className={styles.statL}>Publicists &amp; journalists</span>
           </div>
           <div className={styles.stat}>
-            <span className={styles.statN}>1100+</span>
+            <span className={styles.statN}><span data-count="1100">1,100</span><em>+</em></span>
             <span className={styles.statL}>Publication outlets</span>
           </div>
           <div className={styles.stat}>
-            <span className={styles.statN}>{tp.score.toFixed(1)}</span>
+            <span className={styles.statN}><span data-count={tp.score.toFixed(1)}>{tp.score.toFixed(1)}</span><em>★</em></span>
             <span className={styles.statL}>Trustpilot rating</span>
           </div>
           <div className={styles.stat}>
-            <span className={styles.statN}>24hr</span>
+            <span className={styles.statN}><span data-count="24">24</span><em>h</em></span>
             <span className={styles.statL}>Reply time</span>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section className={`${styles.block} sr`}>
-          <h2>The team</h2>
-          <p>
-            DNA is led by <strong>Sam Harris</strong>, and our growing team of
-            45+ experienced publicists, journalists, broadcasters, writers and
-            marketers work directly with clients on every campaign. When you
-            work with us you deal with people by name &mdash; not a ticket
-            queue.
-          </p>
-          <p>
-            That is the part clients tend to mention in their reviews: that the
-            process was clear, that someone answered, and that the piece
-            actually sounded like them.
-          </p>
-          <Link href="/reviews" className={styles.inlineLink}>
-            Read what clients say on Trustpilot &rarr;
-          </Link>
-        </section>
+      {/* ── team ─────────────────────────────────────────────── */}
+      <section className="v-sec">
+        <div className={`v-wrap ${styles.team}`}>
+          <div className={styles.teamHead}>
+            <span className="v-label v-label--lime">02 · The team</span>
+            <h2 className="v-h2">
+              People by name, <span className="v-hl">not a ticket queue.</span>
+            </h2>
+          </div>
+          <div className={styles.teamBody}>
+            <p>
+              DNA is led by <strong>Sam Harris</strong>, and our growing team of 45+
+              experienced publicists, journalists, broadcasters, writers and marketers
+              work directly with clients on every campaign. When you work with us you
+              deal with people by name &mdash; not a ticket queue.
+            </p>
+            <p>
+              That is the part clients tend to mention in their reviews: that the
+              process was clear, that someone answered, and that the piece actually
+              sounded like them.
+            </p>
+            <Link href="/reviews" className="v-btn v-btn--ghost">
+              Read what clients say <Arrow />
+            </Link>
+          </div>
+        </div>
+      </section>
 
-        <section className={`${styles.block} sr`}>
-          <h2>How we work</h2>
-          <div className={styles.principles}>
+      {/* ── principles ───────────────────────────────────────── */}
+      <section className="v-sec" style={{ paddingTop: 0 }}>
+        <div className="v-wrap">
+          <div className="v-head">
+            <div>
+              <span className="v-label v-label--lime">03 · How we work</span>
+              <h2 className="v-h2">
+                Four rules we <span className="v-hl">don&rsquo;t break.</span>
+              </h2>
+            </div>
+          </div>
+          <ol className={styles.rules}>
             {PRINCIPLES.map((p) => (
-              <div key={p.n} className={styles.principle}>
-                <span className={styles.pn}>{p.n}</span>
+              <li key={p.n} className={styles.rule}>
+                <span className={styles.ruleN}>{p.n}</span>
                 <h3>{p.t}</h3>
                 <p>{p.d}</p>
-              </div>
+              </li>
             ))}
-          </div>
-        </section>
+          </ol>
+        </div>
+      </section>
 
-        <section className={`${styles.block} sr`}>
-          <h2>Where to find us</h2>
-          <div className={styles.contactGrid}>
-            <div>
-              <span className={styles.cLabel}>Office</span>
-              <p className={styles.cVal}>
+      {/* ── where to find us ─────────────────────────────────── */}
+      <section className="v-sec" style={{ paddingTop: 0 }}>
+        <div className="v-wrap">
+          <span className="v-label v-label--lime">04 · Where to find us</span>
+          <div className={styles.find}>
+            <div className={styles.findCard}>
+              <span className={styles.findLabel}>Office</span>
+              <p>
                 Digital Networking Agency LLC
                 <br />
                 6545 Market Ave N, Suite 100
@@ -166,12 +212,10 @@ export default async function AboutPage() {
                 Canton, OH 44721, United States
               </p>
             </div>
-            <div>
-              <span className={styles.cLabel}>Get in touch</span>
-              <p className={styles.cVal}>
-                <a href="mailto:sam@digitalnetworkingagency.com">
-                  sam@digitalnetworkingagency.com
-                </a>
+            <div className={`${styles.findCard} ${styles.findLime}`}>
+              <span className={styles.findLabel}>Get in touch</span>
+              <p>
+                <a href="mailto:sam@digitalnetworkingagency.com">sam@digitalnetworkingagency.com</a>
                 <br />
                 <a href="tel:+13302276337">+1 (330) 227-6337</a>
                 <br />
@@ -179,23 +223,14 @@ export default async function AboutPage() {
               </p>
             </div>
           </div>
-        </section>
-      </div>
-
-      <section className={styles.endCta}>
-        <div className={styles.endCtaInner}>
-          <h2>
-            Trust us with <em>your story.</em>
-          </h2>
-          <p>
-            Tell us who you want to reach. We&rsquo;ll recommend the outlets
-            that fit and handle the writing and placement, start to finish.
-          </p>
-          <Link href="/contact" className={styles.btn}>
-            Get featured <span aria-hidden="true">&rarr;</span>
-          </Link>
         </div>
       </section>
-    </div>
+    </main>
   );
 }
+
+const Arrow = () => (
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+);

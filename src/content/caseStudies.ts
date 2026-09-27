@@ -3,23 +3,68 @@ export type CaseStudy = {
   slug: string; name: string; outlet: string; role: string;
   image: string; url: string; quote: string;
   client: string; goal: string; did: string; result: string;
+  /** every article in the campaign, oldest first (multi-outlet case studies) */
+  features?: { outlet: string; kind: string; date: string; headline: string; url: string }[];
 };
 
 export const CASE_META = {"title": "Client Case Studies | Digital Networking Agency", "description": "Real client features placed by DNA \u2014 founders and experts published in MSN, USA Today, Wall Street Times and more."};
 
 export const CASE_STUDIES: CaseStudy[] = [
   {
-    "slug": "dr-kirk-sanford",
-    "name": "Dr. Kirk Sanford",
-    "outlet": "MSN",
-    "role": "Founder & CEO, Longevity Medical Institute",
-    "image": "/placement-kirk-msn.webp",
-    "url": "https://www.msn.com/en-us/news/other/the-body-isn%E2%80%99t-a-machine-inside-dr-kirk-sanford%E2%80%99s-case-for-honest-regenerative-medicine/ar-AA2705OB",
-    "quote": "A permanent, searchable feature that establishes Dr. Sanford as a credible voice in honest regenerative medicine.",
-    "client": "Dr. Kirk Sanford is the founder and CEO of Longevity Medical Institute, a regenerative medicine and longevity center. His work sits at the intersection of clinical practice and a more candid, evidence-minded philosophy of how the body actually heals and ages.",
-    "goal": "For a practitioner in regenerative medicine, credibility is everything. Patients, referring physicians and partners routinely search a founder's name before engaging, and a respected third-party outlet carries far more weight than a self-published bio. The aim was a substantive feature that framed his point of view and showed up when people look him up.",
-    "did": "We developed a story angle around his central argument — that the body isn't a machine — and built it into a feature written to editorial standard. We placed the piece with MSN and worked with Dr. Sanford so that he approved every word before it went live, keeping the medical framing accurate and his voice intact.",
-    "result": "The feature published on MSN under the headline \"The body isn't a machine: Inside Dr. Kirk Sanford's case for honest regenerative medicine.\" It remains permanently live and searchable, giving him a genuine \"as seen in\" credibility asset he can point patients and partners toward."
+      "slug": "dr-kirk-sanford",
+      "name": "Dr. Kirk Sanford",
+      "outlet": "USA Today",
+      "role": "Founder & CEO, Longevity Medical Institute",
+      "image": "/kirk-sanford-v3.jpg",
+      "url": "https://www.usatoday.com/story/special/contributor-content/2026/07/29/dr-kirk-sanford-on-the-power-of-regenerative-medicine-and-the-language-of-healing/91094764007/",
+      "quote": "One story, four publications in twelve weeks — MSN, USA Today, Times Square Journal and Entrepreneur.com.",
+      "client": "Dr. Kirk Sanford is the founder and CEO of Longevity Medical Institute, a regenerative medicine and longevity center. His work sits at the intersection of clinical practice and a more candid, evidence-minded philosophy of how the body actually heals and ages.",
+      "goal": "For a practitioner in regenerative medicine, credibility is everything. Patients, referring physicians and partners routinely search a founder's name before engaging, and a respected third-party outlet carries far more weight than a self-published bio. The aim was not one article but a body of coverage — so that whoever looks him up finds a consistent, credible account of his point of view.",
+      "did": "We built the campaign around his central argument — that the body isn't a machine — and developed it into features written to editorial standard. It ran first on MSN, then as a contributor feature on USA Today, then on Times Square Journal and on Entrepreneur.com. Each piece took a different angle on the same idea, and Dr. Sanford approved every word before each one went live.",
+      "result": "Four permanent, searchable articles in twelve weeks, across four mastheads — MSN, USA Today, Times Square Journal and Entrepreneur.com. Whoever searches his name now finds the same message told by four publications, and he has a genuine \"as seen in\" line he can point patients and partners toward.",
+      "features": [
+          {
+              "outlet": "MSN",
+              "kind": "Syndicated feature",
+              "date": "2026-07-01",
+              "headline": "The body isn't a machine: Inside Dr. Kirk Sanford's case for honest regenerative medicine",
+              "url": "https://www.msn.com/en-us/news/other/the-body-isn%E2%80%99t-a-machine-inside-dr-kirk-sanford%E2%80%99s-case-for-honest-regenerative-medicine/ar-AA2705OB"
+          },
+          {
+              "outlet": "USA Today",
+              "kind": "Contributor feature",
+              "date": "2026-07-29",
+              "headline": "Dr. Kirk Sanford on the Power of Regenerative Medicine and The Language of Healing",
+              "url": "https://www.usatoday.com/story/special/contributor-content/2026/07/29/dr-kirk-sanford-on-the-power-of-regenerative-medicine-and-the-language-of-healing/91094764007/"
+          },
+          {
+              "outlet": "Times Square Journal",
+              "kind": "Feature",
+              "date": "2026-09-18",
+              "headline": "Dr. Kirk Sanford Wants More Honesty in Regenerative Medicine",
+              "url": "https://timesquarejournal.com/business/dr-kirk-sanford-wants-more-honesty-in-regenerative-medicine"
+          },
+          {
+              "outlet": "Entrepreneur",
+              "kind": "Feature",
+              "date": "2026-09-23",
+              "headline": "Dr. Kirk Sanford Wants More Honesty in Regenerative Medicine",
+              "url": "https://www.entrepreneur.com/entrepreneurs/dr-kirk-sanford-wants-more-honesty-in-regenerative-medicine"
+          }
+      ]
+  },
+  {
+      "slug": "krishan-thakker",
+      "name": "Krishan Thakker",
+      "outlet": "Wall Street Times",
+      "role": "Legal & regulatory compliance counsel · President, SABA Florida",
+      "image": "/krishan-thakker.jpg",
+      "url": "https://wallstreettimes.com/beyond-the-brief-krishan-thakker-on-law-leadership-and-social-impact/",
+      "quote": "A profile that shows the lawyer behind the counsel — sixteen years advising global companies, and a career built around social impact.",
+      "client": "Krishan \"Krish\" Thakker is a legal and regulatory compliance counsel with over 16 years of experience advising global companies in technology, social media, e-commerce and manufacturing, working with clients from India to the USA, the Middle East and Africa. He is president of the South Asian Bar Association of Florida, previously Treasurer of SABA DC and an advocacy contributor at SABA National.",
+      "goal": "Compliance counsel is quiet work: the better it goes, the less anyone sees it. Krish wanted people who look him up to find more than a job title — the global perspective, the bar-association leadership and the social-impact work that actually define how he practises.",
+      "did": "We built the feature around leadership beyond the brief: his international client work, his roles across SABA, his philanthropy — from coral reef restoration programs that engage children with disabilities to his commitment to education — and the chess-player's view of calculated risk that shapes how he advises. We wrote it to editorial standard and Krish approved every word before it went live.",
+      "result": "The profile ran in the Wall Street Times as \"Beyond the Brief: Krishan Thakker on Law, Leadership, and Social Impact.\" It stays live and searchable — the first thing someone finds about the person, not just the practice. Krish talks about the experience in his own words in the video on our homepage."
   },
   {
     "slug": "matthew-brick",

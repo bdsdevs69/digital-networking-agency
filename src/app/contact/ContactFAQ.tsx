@@ -91,7 +91,7 @@ export function ContactFAQ() {
     <section className={styles.faq} aria-label="Frequently asked questions">
       <div className={styles.head}>
         <span className={styles.bar} />
-        <h2 className={styles.title}>Frequently Asked Questions</h2>
+        <h2 className={styles.title}>Questions, <span className="v-hl">answered.</span></h2>
         <div className={styles.tabs} role="tablist">
           {CATEGORIES.map((c, i) => (
             <button

@@ -1,20 +1,20 @@
-import { LandingEffects } from "@/components/landing/effects";
-import {
-  AboutSection,
-  CtaFooterSection,
-  GuidesSection,
-  HeroSection,
-  PressMarquee,
-  ProofSection,
-  StatsSection,
-  TestimonialsSection
-} from "@/components/landing/sections";
-import { ServicesTeaser } from "@/components/landing/HomeExtras";
-import { VideoTestimonial } from "@/components/VideoTestimonial";
-import { HomeFAQ } from "@/components/landing/HomeFAQ";
 import type { Metadata } from "next";
+import { Intro } from "@/components/home/Intro";
+import { HomeFAQ } from "@/components/landing/HomeFAQ";
+import {
+  Guides,
+  HomeHero,
+  KirkJourney,
+  KrishanStory,
+  Numbers,
+  LogoMarquee,
+  Process,
+  Reviews,
+  Services,
+  WorkGrid
+} from "@/components/home/HomeSections";
 
-// Refresh the homepage (and its Trustpilot testimonials) every 6 hours.
+// Refresh the homepage (and its Trustpilot rating and reviews) every 6 hours.
 export const revalidate = 21600;
 
 // The homepage was the only route without a canonical.
@@ -24,23 +24,19 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <>
-      <div className="cursor" id="cur" />
-      <div className="cursor-ring" id="curR" />
-      <div id="progress" />
-
-      <HeroSection />
-      <StatsSection />
-      <PressMarquee />
-      <AboutSection />
-      <ProofSection />
-      <ServicesTeaser />
-      <VideoTestimonial />
-      <TestimonialsSection />
-      <GuidesSection />
+    <main>
+      <Intro />
+      <HomeHero />
+      <LogoMarquee />
+      <WorkGrid />
+      <Numbers />
+      <KrishanStory />
+      <KirkJourney />
+      <Process />
+      <Services />
+      <Reviews />
+      <Guides />
       <HomeFAQ />
-      <CtaFooterSection />
-      <LandingEffects />
-    </>
+    </main>
   );
 }

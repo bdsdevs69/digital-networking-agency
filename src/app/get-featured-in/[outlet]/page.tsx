@@ -8,7 +8,6 @@ import styles from "../getfeatured.module.css";
 import { clampDescription, clampTitle } from "@/lib/meta";
 
 const SITE = "https://www.digitalnetworkingagency.com";
-const BOOKING = "/contact";
 
 export const dynamicParams = false;
 
@@ -150,46 +149,62 @@ export default async function OutletLanding({
 
       {/* Hero */}
       <section className={styles.hero}>
+        <div className="v-glow" aria-hidden="true" />
         <div className={styles.heroInner}>
+          <nav className={styles.crumbs} aria-label="Breadcrumb">
+            <Link href="/">Home</Link>
+            <span aria-hidden="true">/</span>
+            <Link href="/get-featured-in">Get Featured</Link>
+            <span aria-hidden="true">/</span>
+            <span>{o.name}</span>
+          </nav>
           {/* The full "Get featured in <Outlet>" phrase lives inside the H1 so
               the target query is in the heading; the kicker is styled, not split out. */}
           <h1>
             <span className={styles.kicker}>Get featured in</span>{" "}
-            {o.name}
+            <span className={styles.name}>{o.name}</span>
           </h1>
           <p className={styles.subhead}>{o.subhead}</p>
           <p className={styles.value}>{o.value}</p>
           <div className={styles.heroCtas}>
             {/* Scrolls to the form on this page. It used to open /contact in a
                 new tab, which took ad traffic away from the form it had landed on. */}
-            <a className={styles.btnPrimary} href="#enquire">
+            <a className="v-btn v-btn--lg" href="#enquire">
               Get featured in {o.name} <span aria-hidden="true">&darr;</span>
             </a>
-            <Link className={styles.btnGhost} href={`/guides/${o.guideSlug}`}>
-              Read the full guide
-            </Link>
+            {o.guideSlug ? (
+              <Link className="v-btn v-btn--ghost v-btn--lg" href={`/guides/${o.guideSlug}`}>
+                Read the full guide
+              </Link>
+            ) : (
+              <Link className="v-btn v-btn--ghost v-btn--lg" href="/case-studies">
+                See client work
+              </Link>
+            )}
           </div>
           <ul className={styles.badges}>
             <li>You approve every word</li>
             <li>Unlimited revisions</li>
+            <li>Reply within 24 hours</li>
           </ul>
         </div>
       </section>
 
-      {/* The generated card, shown in-content so it is indexable by Google
-          Images with descriptive alt text. */}
-      <figure className={styles.cover}>
-        <img
-          src={`/get-featured-in/${o.slug}/opengraph-image`}
-          alt={`Get featured in ${o.name} — Digital Networking Agency`}
-          width={1200}
-          height={630}
-          loading="lazy"
-          decoding="async"
-        />
-      </figure>
+      <div className={styles.layout}>
+        <div className={styles.main}>
+          {/* The generated card, shown in-content so it is indexable by Google
+              Images with descriptive alt text. */}
+          <figure className={styles.cover}>
+            <img
+              src={`/get-featured-in/${o.slug}/opengraph-image`}
+              alt={`Get featured in ${o.name} — Digital Networking Agency`}
+              width={1200}
+              height={630}
+              loading="lazy"
+              decoding="async"
+            />
+          </figure>
 
-      <div className={styles.body}>
         {/* The query itself, answered immediately. Competitors win this snippet
             with a direct Q&A high on the page; ours was buried in the FAQ. */}
         <section className={styles.block}>
@@ -268,16 +283,6 @@ export default async function OutletLanding({
           </div>
         </section>
 
-        {/* Enquiry form, on the page itself */}
-        <section className={styles.formSection} id="enquire">
-          <h2>Ask about {o.name}</h2>
-          <p className={styles.formLede}>
-            Tell us the story in a sentence. We reply within 24 hours and we will say plainly
-            whether {o.name} is realistic for you, and which route it would take.
-          </p>
-          <OutletForm outlet={o.name} />
-        </section>
-
         {/* FAQ */}
         <section className={styles.block}>
           <h2>Questions about {o.name}</h2>
@@ -291,30 +296,6 @@ export default async function OutletLanding({
           </div>
         </section>
 
-        {/* Footer CTA */}
-        <section className={styles.footerCta}>
-          <h2>
-            Ready to appear in <em>{o.name}?</em>
-          </h2>
-          <p>
-            Book a 30-minute call. We&rsquo;ll confirm {o.name} is the right fit
-            and walk you through exactly how it works.
-          </p>
-          <a
-            className={styles.btnPrimary}
-            href={BOOKING}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Get featured now <span aria-hidden="true">&rarr;</span>
-          </a>
-          <p className={styles.contactline}>
-            <a href="mailto:sam@digitalnetworkingagency.com">sam@digitalnetworkingagency.com</a>
-            <span aria-hidden="true">·</span>
-            <a href="tel:+13302276337">+1 (330) 227-6337</a>
-          </p>
-        </section>
-
         {/* Other outlets */}
         <section className={styles.block}>
           <h2>Get featured in other publications</h2>
@@ -326,6 +307,20 @@ export default async function OutletLanding({
             ))}
           </div>
         </section>
+        </div>
+
+        {/* Enquiry form — sticky beside the article */}
+        <aside className={styles.aside}>
+          <section className={styles.formSection} id="enquire">
+            <span className="v-label">Ask about {o.name}</span>
+            <h2>Is {o.name} right for you?</h2>
+            <p className={styles.formLede}>
+              Tell us the story in a sentence. We reply within 24 hours and say plainly
+              whether {o.name} is realistic, and which route it would take.
+            </p>
+            <OutletForm outlet={o.name} />
+          </section>
+        </aside>
       </div>
     </div>
   );
