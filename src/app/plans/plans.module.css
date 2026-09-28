@@ -1,9 +1,9 @@
 /* Client plans (hidden upsell page) — v3, same palette as Services. */
 .page { position: relative; }
 
-.hero { position: relative; overflow: hidden; padding: clamp(8rem, 12vw, 10rem) 0 clamp(2.5rem, 5vw, 4rem); }
+.hero { position: relative; overflow: hidden; padding: clamp(6.8rem, 9vw, 8.2rem) 0 clamp(2.5rem, 5vw, 4rem); }
 .heroInner { position: relative; z-index: 1; display: grid; justify-items: center; text-align: center; gap: 22px; }
-.h1 { margin: 0; max-width: 12ch; font: 800 clamp(3.2rem, 9vw, 8rem)/.88 var(--f-display); letter-spacing: -0.05em; }
+.h1 { margin: 0; max-width: 12ch; font: 800 clamp(2.88rem, 7.38vw, 6.56rem)/.88 var(--f-display); letter-spacing: -0.05em; }
 .sub { margin: 0; max-width: 50ch; color: var(--muted); font-size: clamp(1.05rem, 1.35vw, 1.25rem); line-height: 1.55; }
 .assure { list-style: none; margin: 4px 0 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
 .assure li {
@@ -26,9 +26,9 @@
   background: var(--lime); color: var(--lime-ink); font: 700 11px var(--f-label); letter-spacing: .12em; text-transform: uppercase;
 }
 .kind { font: 600 12px var(--f-label); letter-spacing: .14em; text-transform: uppercase; opacity: .55; }
-.name { margin: 0; font: 800 clamp(2rem, 3vw, 2.6rem)/1 var(--f-display); letter-spacing: -0.04em; }
+.name { margin: 0; font: 800 clamp(1.8rem, 2.46vw, 2.13rem)/1 var(--f-display); letter-spacing: -0.04em; }
 .tag { font-size: 15px; opacity: .7; }
-.price { margin-top: 8px; font: 800 clamp(2.6rem, 4vw, 3.4rem)/1 var(--f-display); letter-spacing: -0.05em; }
+.price { margin-top: 8px; font: 800 clamp(2.34rem, 3.28vw, 2.79rem)/1 var(--f-display); letter-spacing: -0.05em; }
 .planFeat .price { color: var(--lime); }
 .price small { margin-left: 4px; font: 500 15px var(--f-body); letter-spacing: 0; opacity: .6; }
 .commit { font: 600 12px var(--f-label); letter-spacing: .1em; text-transform: uppercase; opacity: .6; padding-bottom: 14px; border-bottom: 1px solid rgba(128,128,128,.25); }
@@ -50,7 +50,7 @@
 
 /* at a glance */
 .compare { margin-top: clamp(3rem, 6vw, 4.5rem); }
-.compareTitle { margin: 0 0 18px; font: 800 clamp(1.6rem, 2.6vw, 2.2rem)/1 var(--f-display); letter-spacing: -0.035em; }
+.compareTitle { margin: 0 0 18px; font: 800 clamp(1.52rem, 2.34vw, 1.98rem)/1 var(--f-display); letter-spacing: -0.035em; }
 .tableScroll { overflow-x: auto; border-radius: var(--r-lg); background: #fff; box-shadow: 0 20px 40px -30px rgba(11,11,12,.4); }
 .table { width: 100%; min-width: 620px; border-collapse: collapse; font-size: 15.5px; }
 .table th, .table td { padding: 16px 20px; text-align: center; border-bottom: 1px solid rgba(11,11,12,.07); }

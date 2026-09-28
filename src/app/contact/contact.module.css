@@ -1,9 +1,9 @@
 /* Contact — v3. Dark hero, then a pale-lime sheet: a white form card on the
    left, a black "what happens next" card and direct lines on the right. */
 
-.chero { position: relative; overflow: hidden; padding: clamp(8rem, 12vw, 10rem) 0 clamp(2.5rem, 5vw, 4rem); }
+.chero { position: relative; overflow: hidden; padding: clamp(6.8rem, 9vw, 8.2rem) 0 clamp(2.5rem, 5vw, 4rem); }
 .cheroInner { position: relative; z-index: 1; display: grid; justify-items: center; text-align: center; gap: 22px; }
-.ch1 { margin: 0; max-width: 12ch; font: 800 clamp(3.2rem, 9vw, 8rem)/.88 var(--f-display); letter-spacing: -0.05em; }
+.ch1 { margin: 0; max-width: 12ch; font: 800 clamp(2.88rem, 7.38vw, 6.56rem)/.88 var(--f-display); letter-spacing: -0.05em; }
 .csub { margin: 0; max-width: 52ch; color: var(--muted); font-size: clamp(1.05rem, 1.35vw, 1.25rem); line-height: 1.55; }
 .cbadges { list-style: none; margin: 4px 0 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
 .cbadges li {
@@ -26,7 +26,7 @@
 }
 .formHeadIcon svg { width: 20px; height: 20px; }
 .formHeadText { display: grid; gap: 4px; }
-.formHeadText strong { font: 800 clamp(1.5rem, 2.4vw, 2rem)/1 var(--f-display); letter-spacing: -0.035em; }
+.formHeadText strong { font: 800 clamp(1.42rem, 2.16vw, 1.8rem)/1 var(--f-display); letter-spacing: -0.035em; }
 .formHeadText span { font-size: 15px; color: rgba(11,11,12,.6); }
 
 .form { display: grid; gap: 18px; }

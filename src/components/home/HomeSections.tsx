@@ -345,63 +345,65 @@ export function KirkJourney() {
         </div>
       </div>
 
-      <div className={`v-wrap ${s.kjGrid}`}>
-        <aside className={s.kjSide}>
-          <div className={s.kjPortrait}>
-            <img src={kirk.image} alt={`${kirk.name}`} loading="lazy" style={{ objectPosition: focal(kirk.image) }} />
-            <span className={s.kjWho}>
-              <span className={s.kjTag}>
-                <i aria-hidden="true" />
-                Featured {steps.length}× in {weeks} weeks
-              </span>
-              <strong>{kirk.name}</strong>
-              {kirk.role}
-            </span>
+      <div className={`v-wrap ${s.kjWrap}`}>
+        {/* heading with the intro beside it, so the whole case fits one screen */}
+        <div className={s.kjTop}>
+          <div className={s.kjTopL}>
+            <span className="v-label v-label--lime">Case study · {kirk.name}</span>
+            <h2 id="kirk-title" className={s.kjTitle}>
+              One story. {steps.length === 4 ? "Four" : steps.length} mastheads.{" "}
+              <span className="v-hl">{weeks === 12 ? "Twelve" : weeks} weeks.</span>
+            </h2>
           </div>
-          <div className={s.kjStats}>
-            <span><b data-count={steps.length}>{steps.length}</b>publications</span>
-            <span><b data-count={weeks}>{weeks}</b>weeks</span>
-            <span><b>1</b>story</span>
-          </div>
-        </aside>
-
-        <div className={s.kjMain}>
-          <span className="v-label v-label--lime">Case study · {kirk.name}</span>
-          <h2 id="kirk-title" className={s.kjTitle}>
-            One story. {steps.length === 4 ? "Four" : steps.length} mastheads.{" "}
-            <span className="v-hl">{weeks === 12 ? "Twelve" : weeks} weeks.</span>
-          </h2>
           <p className={s.kjLede}>
             A regenerative-medicine founder with one argument worth hearing &mdash; that
             the body isn&rsquo;t a machine. We turned it into a campaign, not a one-off:
             each piece a new angle, every word approved by him.
           </p>
+        </div>
 
-          <ol className={s.kjTl}>
-            {steps.map((f, i) => (
-              <li key={f.url} className={i === steps.length - 1 ? s.kjLast : undefined}>
-                <span className={s.kjDot} aria-hidden="true" />
-                <a href={f.url} target="_blank" rel="noopener noreferrer" className={s.kjStep}>
-                  <span className={s.kjMeta}>
-                    <span>{i === 0 ? "Start" : `+${weeksIn(f.date)} weeks`}</span>
-                    <span>{fmtDate(f.date)}</span>
-                  </span>
-                  <span className={s.kjOutlet}>{f.outlet}</span>
-                  <span className={s.kjHead}>{f.headline}</span>
-                  <span className={s.kjFoot}>
-                    <span className={s.kjKind}>{f.kind}</span>
-                    <span className={s.kjGo}>Read it live <i aria-hidden="true">↗</i></span>
-                  </span>
-                </a>
-              </li>
-            ))}
-          </ol>
+        <div className={s.kjBody}>
+          <aside className={s.kjSide}>
+            <div className={s.kjPortrait}>
+              <img src={kirk.image} alt={`${kirk.name}`} loading="lazy" style={{ objectPosition: focal(kirk.image) }} />
+              <span className={s.kjWho}>
+                <strong>{kirk.name}</strong>
+                {kirk.role}
+              </span>
+            </div>
+            <div className={s.kjStats}>
+              <span><b data-count={steps.length}>{steps.length}</b>publications</span>
+              <span><b data-count={weeks}>{weeks}</b>weeks</span>
+              <span><b>1</b>story</span>
+            </div>
+          </aside>
 
-          <div className={s.kjCtas}>
-            <Link href={`/case-studies/${kirk.slug}`} className={s.railMore}>
-              Read Kirk&rsquo;s case study <Arrow />
-            </Link>
-            <FunkyCta href="/contact" label="Get featured now" className="v-cta--sm" />
+          <div className={s.kjMain}>
+            <ol className={s.kjCards}>
+              {steps.map((f, i) => (
+                <li key={f.url} className={i === steps.length - 1 ? s.kjLast : undefined}>
+                  <a href={f.url} target="_blank" rel="noopener noreferrer" className={s.kjStep}>
+                    <span className={s.kjMeta}>
+                      <span>{String(i + 1).padStart(2, "0")} · {i === 0 ? "Start" : `+${weeksIn(f.date)} weeks`}</span>
+                      <span>{fmtDate(f.date)}</span>
+                    </span>
+                    <span className={s.kjOutlet}>{f.outlet}</span>
+                    <span className={s.kjHead}>{f.headline}</span>
+                    <span className={s.kjFoot}>
+                      <span />
+                      <span className={s.kjGo}>Read it live <i aria-hidden="true">↗</i></span>
+                    </span>
+                  </a>
+                </li>
+              ))}
+            </ol>
+
+            <div className={s.kjCtas}>
+              <Link href={`/case-studies/${kirk.slug}`} className={s.railMore}>
+                Read Kirk&rsquo;s case study <Arrow />
+              </Link>
+              <FunkyCta href="/contact" label="Get featured now" className="v-cta--sm" />
+            </div>
           </div>
         </div>
       </div>
@@ -518,29 +520,51 @@ export function CaseStudies() {
 }
 
 /* ═══ [05] REVIEWS ════════════════════════════════════════════ */
+// Reviewer photos, keyed by the name on the review. Drop the file in
+// public/reviews/ and add a line here; anyone without one shows their initial.
+export const REVIEW_PHOTOS: Record<string, string> = {
+  David: "/reviews/david.jpg",
+  "Julie Krivanek": "/reviews/julie.jpg",
+  "Sahar Maknouni": "/reviews/sahar.jpg",
+  "Uch Mobayode": "/reviews/uche.jpg",
+  "Matthew Brick": "/reviews/matthew.jpg",
+  "Brian Harbin": "/reviews/brian-2.jpg",
+  "Alan Araujo": "/reviews/alan.jpg",
+  "Ben Labra": "/reviews/ben.jpg",
+};
+
 export async function Reviews() {
   const reviews = (await getAllReviews()).slice(0, 9);
   return (
     <section className="v-sec" id="testimonials">
-      <div className="v-wrap">
-        <div className="v-head">
-          <div>
+      <Rail
+        label="Client reviews"
+        head={
+          <>
             <span className="v-label v-label--lime">04 · Client voices</span>
             <h2 className="v-h2">
               In their <span className="v-hl">own words.</span>
             </h2>
-          </div>
-          <Link href="/reviews" className="v-btn v-btn--ghost">
+          </>
+        }
+        foot={
+          <Link href="/reviews" className={s.railMore}>
             All reviews <Arrow />
           </Link>
-        </div>
-        <div className={s.reviews}>
-          {reviews.map((r) => (
+        }
+      >
+        {reviews.map((r) => {
+          const photo = REVIEW_PHOTOS[r.name];
+          return (
             <figure className={s.review} key={`${r.name}-${r.text.slice(0, 20)}`}>
               <span className={s.reviewMark} aria-hidden="true">&ldquo;</span>
               <blockquote className={s.reviewText}>{r.text}</blockquote>
               <figcaption className={s.reviewWho}>
-                <span className={s.reviewAv} aria-hidden="true">{r.name.charAt(0)}</span>
+                {photo ? (
+                  <img className={s.reviewPhoto} src={photo} alt={r.name} loading="lazy" />
+                ) : (
+                  <span className={s.reviewAv} aria-hidden="true">{r.name.charAt(0)}</span>
+                )}
                 <span>
                   <span className={s.reviewName}>{r.name}</span>
                   <br />
@@ -548,9 +572,9 @@ export async function Reviews() {
                 </span>
               </figcaption>
             </figure>
-          ))}
-        </div>
-      </div>
+          );
+        })}
+      </Rail>
     </section>
   );
 }

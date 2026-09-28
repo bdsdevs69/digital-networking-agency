@@ -333,7 +333,7 @@
 
 /* ── v3 overrides ───────────────────────────────────────────── */
 .page { padding-top: 0; background: var(--bg); }
-.hero { max-width: 1000px; padding-top: clamp(8rem, 12vw, 10rem); }
+.hero { max-width: 1000px; padding-top: clamp(6.8rem, 9vw, 8.2rem); }
 .hero::after { top: -30vmax; width: 70vmax; height: 70vmax; background: radial-gradient(closest-side, rgba(203,255,0,.2), transparent 72%); }
 .crumbs { font: 500 13px var(--f-body); letter-spacing: 0; text-transform: none; color: var(--faint); }
 .crumbs a { color: var(--muted); }
@@ -342,7 +342,7 @@
 .kicker::before { content: "["; } .kicker::after { content: "]"; }
 .h1 {
   color: var(--ink); -webkit-text-stroke: 0; background: none; animation: none;
-  font: 800 clamp(3rem, 7.6vw, 6.8rem)/.9 var(--f-display); letter-spacing: -0.05em; text-wrap: balance;
+  font: 800 clamp(2.7rem, 6.23vw, 5.58rem)/.9 var(--f-display); letter-spacing: -0.05em; text-wrap: balance;
 }
 .lede { font-size: clamp(1.05rem, 1.35vw, 1.25rem); line-height: 1.55; }
 .btn, .btnGhost {

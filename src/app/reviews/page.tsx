@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { getTrustpilotData } from "@/lib/trustpilot";
-import { KrishanStory } from "@/components/home/HomeSections";
+import { KrishanStory, REVIEW_PHOTOS } from "@/components/home/HomeSections";
 import styles from "./reviews.module.css";
 
 // Refresh cached Trustpilot reviews every 6 hours.
@@ -137,9 +137,13 @@ export default async function ReviewsPage() {
                 <h3 className={styles.cardTitle}>{r.title}</h3>
                 <p className={styles.cardBody}>{r.body}</p>
                 <div className={styles.cardFoot}>
-                  <span className={styles.avatar} aria-hidden="true">
-                    {r.author.charAt(0).toUpperCase()}
-                  </span>
+                  {REVIEW_PHOTOS[r.author] ? (
+                    <img className={styles.avatarImg} src={REVIEW_PHOTOS[r.author]} alt={r.author} loading="lazy" />
+                  ) : (
+                    <span className={styles.avatar} aria-hidden="true">
+                      {r.author.charAt(0).toUpperCase()}
+                    </span>
+                  )}
                   <span className={styles.cardMeta}>
                     <span className={styles.author}>{r.author}</span>
                     <span className={styles.date}>{fmt(r.date)}</span>

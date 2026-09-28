@@ -268,6 +268,33 @@ export function BrandingSection() {
 // so in the placements carousel you reach them via the arrow.
 export const clientPlacements: Placement[] = [
     {
+      outlet: "New York Weekly",
+      headline: "The Shape of an Absence: Spojmie Nasiri’s Journey From Refugee to Immigration Attorney",
+      meta: "July 22, 2026",
+      href: "https://nyweekly.com/business/the-shape-of-an-absence-spojmie-nasiris-journey-from-refugee-to-immigration-attorney/",
+      img: "/placement-spojmie.jpg",
+      logo: null,
+      logoWhite: true
+    },
+    {
+      outlet: "TechBullion",
+      headline: "From Physics to AI: How Dr. David Z. Jacome Is Reshaping Business Education",
+      meta: "June 25, 2026",
+      href: "https://techbullion.com/from-physics-to-ai-how-dr-david-z-jacome-is-reshaping-business-education/",
+      img: "/placement-jacome.jpg",
+      logo: null,
+      logoWhite: true
+    },
+    {
+      outlet: "Yahoo Finance",
+      headline: "How Grit.org \u2018Unintentionally\u2019 Built a YouTube Channel with Over 1 Million Subscribers",
+      meta: "November 13, 2025",
+      href: "https://finance.yahoo.com/news/grit-org-unintentionally-built-youtube-184500003.html",
+      img: "/placement-brian-harbin-2.jpg",
+      logo: null,
+      logoWhite: true
+    },
+    {
       outlet: "Wall Street Times",
       headline: "Beyond the Brief: Krishan Thakker on Law, Leadership, and Social Impact",
       meta: "November 6, 2025",
@@ -560,7 +587,7 @@ export async function getAllReviews() {
     },
     {
       name: "Sahar Maknouni",
-      meta: "Featured in CEO Weekly",
+      meta: "Featured in Digital Journal",
       text:
         "Honestly didn't expect it to move this fast. Sam pitched my story, kept me looped in the whole way, and the CEO Weekly piece read exactly how I'd describe my own work. Already lining up the next one."
     },
@@ -571,8 +598,8 @@ export async function getAllReviews() {
         "What stood out to me was the writing — it actually sounded like me, not a recycled press release. We went through a couple rounds of edits and they were patient with every note."
     },
     {
-      name: "Brian Haarbin",
-      meta: "Featured in CEO Weekly",
+      name: "Brian Harbin",
+      meta: "Featured in Yahoo Finance",
       text:
         "Communication was the best part. I always knew where things stood, and what they said would happen, happened. The feature came out better than I'd pictured."
     },
@@ -584,7 +611,7 @@ export async function getAllReviews() {
     },
     {
       name: "Matthew Brick",
-      meta: "Featured in CEO Weekly",
+      meta: "Featured in Wall Street Times",
       text:
         "I'm particular about how I'm represented, so I appreciated how carefully they handled my story. Responsive, detail-oriented, and the final piece held up to scrutiny."
     },
@@ -593,12 +620,6 @@ export async function getAllReviews() {
       meta: "Featured in CEO Weekly",
       text:
         "They took the time to actually understand what I do before writing a word — that's why the article didn't feel templated. Would work with them again."
-    },
-    {
-      name: "Atulh Jindal",
-      meta: "Featured in CEO Weekly",
-      text:
-        "Straightforward and no nonsense. Delivered what was promised without the endless back-and-forth I've had with other firms."
     },
     {
       name: "Jennifer O'Connor",

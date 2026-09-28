@@ -2,7 +2,7 @@
 .faq { max-width: 1180px; margin: 0 auto; padding: clamp(4rem, 8vw, 6.5rem) var(--gut); }
 .head { display: grid; gap: 22px; margin-bottom: clamp(1.8rem, 3.5vw, 2.6rem); }
 .bar { display: none; }
-.title { margin: 0; font: 800 clamp(2.4rem, 5.6vw, 4.8rem)/.92 var(--f-display); letter-spacing: -0.045em; color: var(--ink); }
+.title { margin: 0; font: 800 clamp(2.16rem, 4.59vw, 3.94rem)/.92 var(--f-display); letter-spacing: -0.045em; color: var(--ink); }
 .tabs { display: flex; flex-wrap: wrap; gap: 8px; }
 .tab {
   padding: 10px 18px; border-radius: 999px; cursor: pointer; font: 600 14.5px var(--f-body);
@@ -38,7 +38,7 @@
 .aMeta { display: flex; align-items: center; gap: 12px; }
 .aNum { font: 800 1.6rem/1 var(--f-display); letter-spacing: -0.04em; }
 .aCat { font: 600 12px var(--f-label); letter-spacing: .14em; text-transform: uppercase; color: rgba(11,11,12,.55); }
-.aQ { margin: 0; font: 800 clamp(1.6rem, 2.6vw, 2.2rem)/1.02 var(--f-display); letter-spacing: -0.035em; }
+.aQ { margin: 0; font: 800 clamp(1.52rem, 2.34vw, 1.98rem)/1.02 var(--f-display); letter-spacing: -0.035em; }
 .aA { margin: 0; font-size: 16.5px; line-height: 1.7; color: rgba(11,11,12,.76); }
 .aLink {
   justify-self: start; margin-top: 6px; display: inline-flex; align-items: center; gap: 8px; padding: 11px 18px; border-radius: 999px;

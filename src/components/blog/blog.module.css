@@ -1,7 +1,7 @@
 /* Blog index — Publisive-style layout in DNA's black + lime. */
 .head { position: relative; overflow: hidden; padding: clamp(8.5rem, 13vw, 10.5rem) 0 clamp(2.5rem, 5vw, 4rem); }
 .headInner { position: relative; z-index: 1; display: grid; justify-items: center; text-align: center; gap: 22px; }
-.h1 { margin: 0; max-width: 16ch; font: 800 clamp(2.8rem, 7vw, 6.2rem)/.92 var(--f-display); letter-spacing: -0.045em; }
+.h1 { margin: 0; max-width: 16ch; font: 800 clamp(2.52rem, 5.74vw, 5.08rem)/.92 var(--f-display); letter-spacing: -0.045em; }
 .sub { margin: 0; max-width: 56ch; color: var(--muted); font-size: clamp(1.05rem, 1.3vw, 1.2rem); line-height: 1.6; }
 
 /* filters + search */
@@ -57,7 +57,7 @@
 .coverMid { align-self: center; text-align: center; display: grid; gap: 6px; padding-inline: 4px; }
 .coverPre { font: 700 clamp(.62rem, .8vw, .72rem) var(--f-label); letter-spacing: .18em; text-transform: uppercase; opacity: .78; }
 .coverMain {
-  font: 800 clamp(1.35rem, 2.2vw, 2rem)/.92 var(--f-display); letter-spacing: -0.035em; text-transform: uppercase;
+  font: 800 clamp(1.28rem, 1.98vw, 1.8rem)/.92 var(--f-display); letter-spacing: -0.035em; text-transform: uppercase;
   font-variation-settings: "wdth" 88; color: var(--c-acc);
   display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
 }

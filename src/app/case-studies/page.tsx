@@ -3,6 +3,7 @@ import Link from "next/link";
 import { CASE_STUDIES, CASE_META } from "@/content/caseStudies";
 import styles from "./case.module.css";
 import { focal } from "@/lib/focal";
+import { CaseGrid } from "./CaseGrid";
 
 const SITE = "https://www.digitalnetworkingagency.com";
 
@@ -35,7 +36,14 @@ export default function CaseStudiesIndex() {
     })),
   };
 
-  const [featured, ...rest] = CASE_STUDIES;
+  // Kirk leads; the rest are ordered by the weight of the masthead
+  const ORDER = [
+    "dr-kirk-sanford", "dr-bhuvanendram-indrakrishnan", "beverly-d-flaxington", "brian-harbin",
+    "krishan-thakker", "spojmie-nasiri", "dr-david-z-jacome", "matthew-brick", "shermel-a-jeffers-chandwani",
+    "daniel-sharpe", "andr-a-albright", "patrick-kelly", "shams-merchant", "mark-manderson", "michael-lissack",
+  ];
+  const rank = (slug: string) => { const i = ORDER.indexOf(slug); return i === -1 ? ORDER.length : i; };
+  const [featured, ...rest] = [...CASE_STUDIES].sort((a, b) => rank(a.slug) - rank(b.slug));
   const outlets = Array.from(new Set(CASE_STUDIES.flatMap((c) => (c.features?.length ? c.features.map((f) => f.outlet) : [c.outlet]))));
 
   return (
@@ -87,8 +95,12 @@ export default function CaseStudiesIndex() {
           </span>
         </Link>
 
-        <div className={styles.grid}>
-          {rest.map((c) => (
+        <div className={styles.gridHead}>
+          <h2>More client stories</h2>
+        </div>
+        <CaseGrid
+          extra={1}
+          cards={rest.map((c) => (
             <Link key={c.slug} className={styles.card} href={`/case-studies/${c.slug}`}>
               <span className={styles.shot}>
                 <img
@@ -109,7 +121,7 @@ export default function CaseStudiesIndex() {
               </span>
             </Link>
           ))}
-        </div>
+        />
       </div>
     </main>
   );

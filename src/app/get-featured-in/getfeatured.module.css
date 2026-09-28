@@ -5,7 +5,7 @@
 .page { position: relative; }
 
 /* ── hero ───────────────────────────────────────────────────── */
-.hero { position: relative; overflow: hidden; padding: clamp(8rem, 12vw, 10rem) var(--gut) clamp(3rem, 6vw, 5rem); }
+.hero { position: relative; overflow: hidden; padding: clamp(6.8rem, 9vw, 8.2rem) var(--gut) clamp(3rem, 6vw, 5rem); }
 .heroInner { position: relative; z-index: 1; max-width: 1180px; margin: 0 auto; display: grid; justify-items: center; text-align: center; gap: 22px; }
 .crumbs { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; font-size: 13px; color: var(--faint); }
 .crumbs a { color: var(--muted); text-decoration: none; }
@@ -16,10 +16,10 @@
 }
 .kicker::before { content: "["; } .kicker::after { content: "]"; }
 .name {
-  font: 800 clamp(3.2rem, 10vw, 9rem)/.86 var(--f-display); letter-spacing: -0.055em; color: var(--ink);
+  font: 800 clamp(2.88rem, 8.2vw, 7.38rem)/.86 var(--f-display); letter-spacing: -0.055em; color: var(--ink);
   text-wrap: balance;
 }
-.hero h1.indexTitle { display: block; font: 800 clamp(3.2rem, 9vw, 8rem)/.88 var(--f-display); letter-spacing: -0.05em; }
+.hero h1.indexTitle { display: block; font: 800 clamp(2.88rem, 7.38vw, 6.56rem)/.88 var(--f-display); letter-spacing: -0.05em; }
 .subhead {
   margin: 0; display: inline-block; padding: 6px 16px; border-radius: 999px;
   background: var(--lime); color: var(--lime-ink); font: 700 clamp(.95rem, 1.2vw, 1.1rem) var(--f-body);
@@ -47,7 +47,7 @@
 .block { padding-block: clamp(1.4rem, 2.6vw, 2rem); border-top: 1px solid var(--line); }
 .block:first-of-type { border-top: 0; padding-top: 0; }
 .block h2 {
-  margin: 0 0 14px; font: 800 clamp(1.6rem, 2.8vw, 2.3rem)/1.02 var(--f-display); letter-spacing: -0.035em; color: var(--ink);
+  margin: 0 0 14px; font: 800 clamp(1.52rem, 2.52vw, 2.07rem)/1.02 var(--f-display); letter-spacing: -0.035em; color: var(--ink);
   text-wrap: balance;
 }
 .block p { margin: 0 0 12px; color: rgba(245,245,242,.8); font-size: 17px; line-height: 1.72; }
@@ -110,7 +110,7 @@
   background: var(--lime-soft); color: var(--lime-ink); scroll-margin-top: 110px;
 }
 .formSection :global(.v-label) { color: rgba(11,11,12,.55); }
-.formSection h2 { margin: 0; font: 800 clamp(1.6rem, 2.4vw, 2rem)/1 var(--f-display); letter-spacing: -0.035em; }
+.formSection h2 { margin: 0; font: 800 clamp(1.52rem, 2.16vw, 1.8rem)/1 var(--f-display); letter-spacing: -0.035em; }
 .formLede { margin: 0 0 4px; font-size: 15px; line-height: 1.55; color: rgba(11,11,12,.7); }
 .formBlock { display: grid; gap: 12px; }
 .formRow { display: grid; gap: 12px; }
@@ -162,7 +162,7 @@
 }
 .card[hidden] { display: none; }
 .card:hover { background: var(--lime); transform: translateY(-4px); box-shadow: 0 22px 40px -26px rgba(11,11,12,.55); }
-.cardName { font: 800 clamp(1.2rem, 1.7vw, 1.5rem)/1.02 var(--f-display); letter-spacing: -0.035em; }
+.cardName { font: 800 clamp(1.14rem, 1.53vw, 1.35rem)/1.02 var(--f-display); letter-spacing: -0.035em; }
 .cardSub { font-size: 14px; line-height: 1.45; color: rgba(11,11,12,.62); }
 .cardCta { margin-top: auto; padding-top: 8px; display: inline-flex; align-items: center; gap: 8px; font: 700 13.5px var(--f-body); }
 .cardCta i {
@@ -210,6 +210,6 @@
 .idxGroup[hidden] { display: none; }
 .idxGroup + .idxGroup { margin-top: clamp(2.2rem, 4.5vw, 3.2rem); }
 .idxGroupHead { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 24px; margin-bottom: 16px; padding-bottom: 12px; border-bottom: 2px solid var(--lime-ink); }
-.idxGroupHead h2 { margin: 0; display: flex; align-items: center; gap: 10px; font: 800 clamp(1.5rem, 2.6vw, 2.1rem)/1 var(--f-display); letter-spacing: -0.035em; color: var(--lime-ink); }
+.idxGroupHead h2 { margin: 0; display: flex; align-items: center; gap: 10px; font: 800 clamp(1.42rem, 2.34vw, 1.89rem)/1 var(--f-display); letter-spacing: -0.035em; color: var(--lime-ink); }
 .idxGroupHead h2 span { padding: 3px 10px; border-radius: 999px; background: var(--lime); font: 700 13px var(--f-body); letter-spacing: 0; }
 .idxGroupHead p { margin: 0; font-size: 14.5px; color: rgba(11,11,12,.6); max-width: 52ch; }

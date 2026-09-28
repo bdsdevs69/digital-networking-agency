@@ -11,8 +11,8 @@
 
 /* ── Layout ─────────────────────────────────────────────────── */
 .v-wrap { width: 100%; max-width: 1320px; margin-inline: auto; padding-inline: var(--gut); }
-.v-sec  { padding-block: clamp(4.5rem, 9vw, 8.5rem); position: relative; }
-.v-sec--tight { padding-block: clamp(3rem, 6vw, 5rem); }
+.v-sec  { padding-block: clamp(3.5rem, 7vw, 6.5rem); position: relative; }
+.v-sec--tight { padding-block: clamp(2.5rem, 4.5vw, 4rem); }
 
 /* pale-lime section (Wynn) — gives the page rhythm between black blocks */
 .v-light { background: var(--lime-soft); color: var(--lime-ink); }
@@ -30,9 +30,9 @@
   line-height: .95;
   margin: 0;
 }
-.v-h1 { font-size: clamp(3rem, 8.4vw, 7.6rem); letter-spacing: -0.045em; line-height: .9; }
-.v-h2 { font-size: clamp(2.3rem, 5.4vw, 4.6rem); }
-.v-h3 { font-size: clamp(1.35rem, 2.1vw, 1.85rem); letter-spacing: -0.02em; line-height: 1.08; }
+.v-h1 { font-size: clamp(2.7rem, 6.89vw, 6.23rem); letter-spacing: -0.045em; line-height: .9; }
+.v-h2 { font-size: clamp(2.07rem, 4.43vw, 3.77rem); }
+.v-h3 { font-size: clamp(1.28rem, 1.89vw, 1.67rem); letter-spacing: -0.02em; line-height: 1.08; }
 .v-hl { color: var(--lime); }                       /* ForYou-style highlight word */
 .v-light .v-hl { color: var(--lime-ink); background: var(--lime); padding: 0 .12em; }
 .v-lede { font-size: clamp(1.05rem, 1.35vw, 1.3rem); line-height: 1.55; color: var(--muted); max-width: 52ch; margin: 0; }
@@ -56,8 +56,8 @@
 /* ── Buttons (ScaleLab pills) ───────────────────────────────── */
 .v-btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 10px;
-  padding: 15px 26px; border-radius: 999px; border: 1px solid transparent;
-  font-family: var(--f-body); font-size: 15px; font-weight: 600; line-height: 1;
+  padding: 13px 22px; border-radius: 999px; border: 1px solid transparent;
+  font-family: var(--f-body); font-size: 14px; font-weight: 600; line-height: 1;
   text-decoration: none; cursor: pointer; white-space: nowrap;
   background: var(--lime); color: var(--lime-ink);
   transition: transform .25s var(--ease), background-color .2s, color .2s, border-color .2s;
@@ -69,7 +69,7 @@
 .v-btn--ghost:hover { background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.28); }
 .v-btn--dark { background: var(--lime-ink); color: var(--lime); }
 .v-btn--dark:hover { background: #1c1c1f; }
-.v-btn--lg { padding: 18px 30px; font-size: 16px; }
+.v-btn--lg { padding: 15px 26px; font-size: 15px; }
 
 /* ── Surfaces ───────────────────────────────────────────────── */
 .v-card {
@@ -146,8 +146,8 @@
 }
 /* nav links in the masthead's type: small, wide, heavy capitals */
 .v-nav-links a {
-  position: relative; text-decoration: none; padding: 10px 14px; border-radius: 999px;
-  font-family: var(--f-display); font-weight: 800; font-size: 12px; letter-spacing: .06em; text-transform: uppercase;
+  position: relative; text-decoration: none; padding: 9px 12px; border-radius: 999px;
+  font-family: var(--f-display); font-weight: 800; font-size: 11px; letter-spacing: .06em; text-transform: uppercase;
   font-variation-settings: "wdth" 112; color: rgba(245,245,242,.7);
   transition: color .25s, background-color .25s;
 }
@@ -166,12 +166,12 @@
 a:hover .v-roll > span, a:focus-visible .v-roll > span { transform: translateY(-1.25em); }
 
 /* the nav's Get featured: the funky CTA, sized for the bar */
-.v-cta.v-nav-cta { justify-self: end; padding: 7.5px 7.5px 7.5px 18.5px; gap: 10px; font-size: .76rem; box-shadow: 0 10px 26px -14px rgba(203,255,0,.6); }
-.v-cta.v-nav-cta .v-cta-ic { width: 36px; height: 36px; }
-.v-cta.v-nav-cta .v-cta-arrows, .v-cta.v-nav-cta .v-cta-arrows svg { width: 15px; height: 15px; }
+.v-cta.v-nav-cta { justify-self: end; padding: 6px 6px 6px 15px; gap: 9px; font-size: .68rem; box-shadow: 0 10px 26px -14px rgba(203,255,0,.6); }
+.v-cta.v-nav-cta .v-cta-ic { width: 30px; height: 30px; }
+.v-cta.v-nav-cta .v-cta-arrows, .v-cta.v-nav-cta .v-cta-arrows svg { width: 13px; height: 13px; }
 .v-cta.v-nav-cta .v-cta-star { margin-right: -4px; }
-.v-nav.is-scrolled .v-cta.v-nav-cta { padding: 5.5px 5.5px 5.5px 16.5px; }
-.v-nav.is-scrolled .v-cta.v-nav-cta .v-cta-ic { width: 32px; height: 32px; }
+.v-nav.is-scrolled .v-cta.v-nav-cta { padding: 5px 5px 5px 14px; }
+.v-nav.is-scrolled .v-cta.v-nav-cta .v-cta-ic { width: 28px; height: 28px; }
 
 .v-nav-menu {
   display: none; align-items: center; gap: 10px; background: none; border: 0; cursor: pointer;
@@ -196,7 +196,7 @@ a:hover .v-roll > span, a:focus-visible .v-roll > span { transform: translateY(-
 .v-menu a.v-menu-link {
   display: flex; align-items: baseline; justify-content: space-between;
   padding: 14px 0; text-decoration: none; color: var(--ink);
-  font: 800 clamp(1.9rem, 8vw, 3rem)/1 var(--f-display); letter-spacing: -0.035em;
+  font: 800 clamp(1.71rem, 6.56vw, 2.46rem)/1 var(--f-display); letter-spacing: -0.035em;
 }
 .v-menu a.v-menu-link::after { content: "0" counter(m); font: 500 12px var(--f-label); letter-spacing: .14em; color: var(--muted); }
 .v-menu a.v-menu-link:hover { color: var(--lime); }
@@ -299,10 +299,10 @@ html.sr-on .sr:not(.sr-in) .v-hl, html.sr-on .sr:not(.sr-in).v-head .v-hl { back
    out and a fresh one slides in. (Magnetic pull lives in FunkyCta.tsx.) */
 .v-cta {
   position: relative; isolation: isolate; overflow: hidden;
-  display: inline-flex; align-items: center; gap: 18px;
-  padding: 10.5px 10.5px 10.5px 24.5px; border-radius: 999px; text-decoration: none;
+  display: inline-flex; align-items: center; gap: 14px;
+  padding: 8.5px 8.5px 8.5px 20.5px; border-radius: 999px; text-decoration: none;
   background: transparent; color: var(--lime-ink);
-  font: 900 clamp(.92rem, 1.25vw, 1.1rem)/1 var(--font-unbounded), var(--f-display);
+  font: 900 clamp(.82rem, 1vw, .95rem)/1 var(--font-unbounded), var(--f-display);
   letter-spacing: -0.01em; text-transform: uppercase;
   box-shadow: 0 18px 40px -18px rgba(203,255,0,.6);
   transition: color .45s var(--ease), box-shadow .45s var(--ease);
@@ -340,12 +340,12 @@ html.sr-on .sr:not(.sr-in) .v-hl, html.sr-on .sr:not(.sr-in).v-head .v-hl { back
 
 /* arrow that shoots out and comes back */
 .v-cta-ic {
-  position: relative; width: 50px; height: 50px; border-radius: 50%; display: grid; place-items: center; flex: 0 0 auto; overflow: hidden;
+  position: relative; width: 42px; height: 42px; border-radius: 50%; display: grid; place-items: center; flex: 0 0 auto; overflow: hidden;
   background: var(--lime-ink); color: var(--lime);
   transition: background-color .45s var(--ease), color .45s var(--ease), transform .5s var(--ease);
 }
-.v-cta-arrows { position: relative; width: 20px; height: 20px; }
-.v-cta-arrows svg { position: absolute; inset: 0; width: 20px; height: 20px; transition: transform .45s cubic-bezier(.7,0,.2,1); }
+.v-cta-arrows { position: relative; width: 17px; height: 17px; }
+.v-cta-arrows svg { position: absolute; inset: 0; width: 17px; height: 17px; transition: transform .45s cubic-bezier(.7,0,.2,1); }
 .v-cta-arrows svg + svg { transform: translateX(-180%); }
 .v-cta:hover .v-cta-ic { background: var(--lime); color: var(--lime-ink); transform: rotate(-45deg) scale(1.06); }
 .v-cta:hover .v-cta-arrows svg:first-child { transform: translateX(180%); }
@@ -358,19 +358,19 @@ html.sr-on .sr:not(.sr-in) .v-hl, html.sr-on .sr:not(.sr-in).v-head .v-hl { back
 }
 
 /* a smaller CTA for inside sections */
-.v-cta.v-cta--sm { padding: 7.5px 7.5px 7.5px 18.5px; gap: 11px; font-size: .8rem; }
-.v-cta.v-cta--sm .v-cta-ic { width: 38px; height: 38px; }
+.v-cta.v-cta--sm { padding: 6.5px 6.5px 6.5px 16.5px; gap: 10px; font-size: .74rem; }
+.v-cta.v-cta--sm .v-cta-ic { width: 34px; height: 34px; }
 .v-cta.v-cta--sm .v-cta-arrows, .v-cta.v-cta--sm .v-cta-arrows svg { width: 16px; height: 16px; }
 
 /* the floating "Get featured" button, bottom-right on every page */
 .v-cta--float {
   position: fixed; right: clamp(14px, 2vw, 26px); bottom: clamp(14px, 2vw, 26px); z-index: 450;
-  padding: 9.5px 9.5px 9.5px 20.5px; gap: 12px; font-size: .88rem;
+  padding: 7px 7px 7px 17px; gap: 10px; font-size: .76rem;
   box-shadow: 0 0 0 3px var(--lime-ink), 0 14px 34px -10px rgba(0,0,0,.55), 0 10px 30px -14px rgba(203,255,0,.55);
   animation: floatIn .6s .8s var(--ease) both;
 }
-.v-cta--float .v-cta-ic { width: 40px; height: 40px; }
-.v-cta--float .v-cta-arrows, .v-cta--float .v-cta-arrows svg { width: 17px; height: 17px; }
+.v-cta--float .v-cta-ic { width: 34px; height: 34px; }
+.v-cta--float .v-cta-arrows, .v-cta--float .v-cta-arrows svg { width: 15px; height: 15px; }
 html.intro-play .v-cta--float { animation-delay: 1.9s; }
 .v-menu.is-open ~ .v-cta--float, .v-nav.is-open ~ .v-cta--float { opacity: 0; pointer-events: none; }
 @keyframes floatIn { from { opacity: 0; transform: translateY(20px) scale(.9); } }
@@ -390,3 +390,12 @@ html.sr-on .w-in .w-word { transform: none; }
 
 /* phones: the nav bar already carries "Get featured", so no floating copy */
 @media (max-width: 760px) { .v-cta--float { display: none; } }
+
+/* small phones: logo + Get featured + Menu must fit in one bar */
+@media (max-width: 560px) {
+  .v-nav-bar { gap: 8px; padding-left: 16px; }
+  .v-cta.v-nav-cta { padding: 5px 5px 5px 12px; gap: 7px; font-size: .62rem; }
+  .v-cta.v-nav-cta .v-cta-star { display: none; }
+  .v-cta.v-nav-cta .v-cta-ic { width: 28px; height: 28px; }
+  .v-nav-menu { padding: 8px 6px; gap: 8px; }
+}

@@ -1,19 +1,19 @@
 /* About — v3, after Wynn: a giant word, a pale-lime manifesto, ruled rules. */
 .page { position: relative; }
 
-.hero { position: relative; overflow: hidden; padding: clamp(7.5rem, 11vw, 9.5rem) 0 clamp(3rem, 6vw, 5rem); }
+.hero { position: relative; overflow: hidden; padding: clamp(6.6rem, 8.6vw, 8rem) 0 clamp(3rem, 6vw, 5rem); }
 .heroInner { position: relative; z-index: 1; display: grid; gap: clamp(1.5rem, 3vw, 2.5rem); }
 .crumbs { display: flex; gap: 10px; font-size: 13px; color: var(--faint); }
 .crumbs a { color: var(--muted); text-decoration: none; }
 .crumbs a:hover { color: var(--lime); }
 .h1 { margin: 0; display: grid; gap: clamp(.6rem, 1.5vw, 1.2rem); }
 .h1Big {
-  display: block; font: 800 clamp(5.5rem, 22vw, 21rem)/.78 var(--f-display); letter-spacing: -0.065em;
+  display: block; font: 800 clamp(4.95rem, 18.04vw, 17.22rem)/.78 var(--f-display); letter-spacing: -0.065em;
   margin-left: -.04em; color: var(--ink);
   animation: aboutRise 1s var(--ease) both;
 }
 .h1Sub {
-  font: 800 clamp(1.5rem, 3.4vw, 3rem)/1 var(--f-display); letter-spacing: -0.035em; color: var(--ink);
+  font: 800 clamp(1.35rem, 2.79vw, 2.46rem)/1 var(--f-display); letter-spacing: -0.035em; color: var(--ink);
   animation: aboutRise 1s .12s var(--ease) both;
 }
 .h1Sub em { font-style: normal; color: var(--lime); }
@@ -29,7 +29,7 @@
 /* manifesto */
 .manifesto {
   margin: 22px 0 0; max-width: 24ch;
-  font: 800 clamp(2rem, 4.6vw, 4.2rem)/1.02 var(--f-display); letter-spacing: -0.04em;
+  font: 800 clamp(1.8rem, 3.77vw, 3.44rem)/1.02 var(--f-display); letter-spacing: -0.04em;
 }
 .manifesto mark { background: var(--lime); color: var(--lime-ink); padding: 0 .12em; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
 .manifestoCols {
@@ -44,7 +44,7 @@
 .stat { display: grid; gap: 12px; padding: clamp(1.4rem, 2.4vw, 2rem); border-radius: var(--r-lg); background: var(--bg-2); border: 1px solid var(--line); }
 .stat:nth-child(1) { background: var(--lime); border-color: var(--lime); color: var(--lime-ink); }
 .stat:nth-child(3) { background: var(--lime-soft); border-color: var(--lime-soft); color: var(--lime-ink); }
-.statN { font: 800 clamp(2.6rem, 5vw, 4.2rem)/.9 var(--f-display); letter-spacing: -0.05em; }
+.statN { font: 800 clamp(2.34rem, 4.1vw, 3.44rem)/.9 var(--f-display); letter-spacing: -0.05em; }
 .statN em { font-style: normal; color: var(--lime); }
 .stat:nth-child(1) .statN em, .stat:nth-child(3) .statN em { color: var(--lime-ink); }
 .statL { font-size: 15px; color: var(--muted); }
@@ -65,8 +65,8 @@
   transition: padding .4s var(--ease);
 }
 .rule:hover { padding-left: 14px; }
-.ruleN { font: 800 clamp(1.6rem, 2.4vw, 2.2rem)/1 var(--f-display); letter-spacing: -0.04em; color: var(--lime); }
-.rule h3 { margin: 0; font: 800 clamp(1.4rem, 2.4vw, 2.1rem)/1.05 var(--f-display); letter-spacing: -0.035em; }
+.ruleN { font: 800 clamp(1.52rem, 2.16vw, 1.98rem)/1 var(--f-display); letter-spacing: -0.04em; color: var(--lime); }
+.rule h3 { margin: 0; font: 800 clamp(1.33rem, 2.16vw, 1.89rem)/1.05 var(--f-display); letter-spacing: -0.035em; }
 .rule p { margin: 0; color: var(--muted); font-size: 16px; line-height: 1.65; }
 
 /* where to find us */
