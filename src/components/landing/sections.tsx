@@ -575,7 +575,7 @@ export async function getAllReviews() {
   const reviews = [
     {
       name: "David",
-      meta: "Featured in MSN",
+      meta: "Featured in TechBullion",
       text:
         "I have had a great experience working with Digital Networking Agency. Sam Harris and his team consistently do an excellent job of promoting brands and helping businesses stand out in a competitive market. Their professionalism, expertise, and dedication to delivering results are evident in everything they do. I truly enjoy working with them and highly recommend their services to anyone looking to enhance their brand visibility and online presence."
     },
@@ -616,16 +616,10 @@ export async function getAllReviews() {
         "I'm particular about how I'm represented, so I appreciated how carefully they handled my story. Responsive, detail-oriented, and the final piece held up to scrutiny."
     },
     {
-      name: "Uch Mobayode",
+      name: "Uche Mobayode",
       meta: "Featured in CEO Weekly",
       text:
         "They took the time to actually understand what I do before writing a word — that's why the article didn't feel templated. Would work with them again."
-    },
-    {
-      name: "Jennifer O'Connor",
-      meta: "Featured in MSN",
-      text:
-        "The MSN placement came through exactly as described. Clear timelines, easy to reach, no surprises — rarer than it should be these days."
     },
     {
       name: "Lem Garcia",

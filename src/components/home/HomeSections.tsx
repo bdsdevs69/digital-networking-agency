@@ -526,7 +526,7 @@ export const REVIEW_PHOTOS: Record<string, string> = {
   David: "/reviews/david.jpg",
   "Julie Krivanek": "/reviews/julie.jpg",
   "Sahar Maknouni": "/reviews/sahar.jpg",
-  "Uch Mobayode": "/reviews/uche.jpg",
+  "Uche Mobayode": "/reviews/uche.jpg",
   "Matthew Brick": "/reviews/matthew.jpg",
   "Brian Harbin": "/reviews/brian-2.jpg",
   "Alan Araujo": "/reviews/alan.jpg",
@@ -534,7 +534,8 @@ export const REVIEW_PHOTOS: Record<string, string> = {
 };
 
 export async function Reviews() {
-  const reviews = (await getAllReviews()).slice(0, 9);
+  // the homepage row only shows reviews we have a photo for, so every card has a face
+  const reviews = (await getAllReviews()).filter((r) => REVIEW_PHOTOS[r.name]).slice(0, 9);
   return (
     <section className="v-sec" id="testimonials">
       <Rail
