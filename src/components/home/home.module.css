@@ -514,53 +514,62 @@
 @keyframes sheetIn { from { opacity: 0; } }
 
 /* masthead: just the name, in a soft wonky italic, with room around it */
-.mastHead { display: grid; justify-items: center; padding-bottom: clamp(1rem, 2.4vw, 1.8rem); border-bottom: 1px solid var(--rule); }
+.mastHead { display: grid; justify-items: center; padding-bottom: clamp(.9rem, 2vw, 1.4rem); border-bottom: 1px solid var(--rule); }
+/* the nameplate: Syne caps, NETWORKING in lime with a self-drawing underline */
 .mast {
-  margin: 0; text-align: center; white-space: nowrap; color: var(--pi);
-  font-family: var(--f-display); font-weight: 900; font-variation-settings: "wdth" 110;
-  font-size: clamp(1.26rem, 3.53vw, 3.48rem); line-height: 1.05; letter-spacing: -0.04em;
+  margin: 0; display: grid; justify-items: center;
+  text-align: center; white-space: nowrap; color: var(--pi);
+  font-family: var(--font-syne), var(--f-display); font-weight: 800;
+  font-size: clamp(1.25rem, 2.7vw, 2.4rem); line-height: 1; letter-spacing: -0.02em; text-transform: uppercase;
 }
-.mastWord { position: relative; display: inline-block; white-space: nowrap; clip-path: inset(-40% -30% -8% -30%); }
-.mastWord + .mastWord { margin-left: .18em; }
+.mastRow { display: inline-flex; align-items: baseline; justify-content: center; white-space: nowrap; }
+.mastWord { position: relative; display: inline-block; white-space: nowrap; clip-path: inset(-40% -30% -60% -30%); }
+.mastWord + .mastWord { margin-left: .42em; }
 .mastHit { display: inline-block; }
 .mastL {
-  display: inline-block; transform-origin: 50% 90%;
-  /* lit like the page: cream at the top fading into the olive glow */
-  background: linear-gradient(180deg, #f7f5ec 0%, #e3e6c4 48%, #9aab4c 100%);
-  -webkit-background-clip: text; background-clip: text; color: transparent;
-  font-variation-settings: "wdth" 110, "wght" 900;
+  display: inline-block; color: var(--pi);
   animation: mastIn .9s cubic-bezier(.16,1,.3,1) backwards; /* releases when done, so hover works */
-  animation-delay: calc(.2s + var(--k) * 14ms);
+  animation-delay: calc(.2s + var(--k) * 18ms);
   transition: transform .3s cubic-bezier(.16,1,.3,1), color .25s;
 }
-@keyframes mastIn {
-  from { transform: translateY(105%); }
-  to   { transform: none; }
+@keyframes mastIn { from { transform: translateY(105%); } to { transform: none; } }
+.mastHit:hover .mastL { transform: translateY(-8%); color: var(--lime); }
+
+/* NETWORKING: rises as a lime outline, then fills with lime ink letter by letter
+   (left → right) in step with the underline drawing beneath it */
+.mastLime .mastL {
+  color: transparent; -webkit-text-stroke: .045em var(--lime); paint-order: stroke fill;
+  animation:
+    mastIn .9s cubic-bezier(.16,1,.3,1) backwards,
+    inkFill .35s ease-out forwards,
+    limeRipple 6s 4s ease-in-out infinite;
+  animation-delay: calc(.2s + var(--k) * 18ms), calc(1.05s + var(--k) * 60ms), 4s;
 }
-/* hover: the letter under the cursor goes thin and pops */
-.mastHit:hover .mastL { transform: translateY(-6%); background-image: linear-gradient(180deg, #eaff7a, var(--lime) 55%, #7c9a00); }
-.mastLime .mastHit:hover .mastL { color: #fff; }
-/* "NETWORKING": black letters on a tilted lime slab that slams in from the left */
-.mastLime { padding: 0 .2em 0 .18em; margin-inline: .06em; isolation: isolate; clip-path: none; }
-.mastLime .mastHit { overflow: hidden; vertical-align: top; padding-block: .06em; margin-block: -.06em; }
-.mastLime .mastL { background: none; color: var(--lime-ink); position: relative; z-index: 2; }
-.mastLime .mastHit:hover .mastL { background: none; color: #2a2f14; }
-.slab {
-  position: absolute; inset: .04em 0 -.02em; z-index: 1; border-radius: .08em; overflow: hidden;
-  background: var(--lime); transform: rotate(-1.6deg) skewX(-6deg); transform-origin: 0 50%;
-  box-shadow: 0 .16em .5em -.12em rgba(203,255,0,.55), .06em .08em 0 #0b0b0c;
-  animation: slabIn .75s .45s cubic-bezier(.76,0,.24,1) backwards;
+@keyframes inkFill { to { color: var(--lime); } }
+@keyframes limeRipple { 0%, 10%, 100% { color: var(--lime); } 5% { color: #f6ffc4; } }
+.mastLime .mastHit:hover .mastL { color: #fff; -webkit-text-stroke-color: #fff; }
+/* the underline: a bar that draws left → right, led by a bright head on its own layer */
+.ul { position: absolute; left: .02em; right: .02em; bottom: -.26em; height: .11em; pointer-events: none; }
+.ul::before {
+  content: ""; position: absolute; inset: 0; border-radius: .06em; background: var(--lime);
+  box-shadow: 0 0 .5em rgba(203,255,0,.45);
+  transform: scaleX(0); transform-origin: 0 50%;
+  animation: ulDraw .9s 1.05s cubic-bezier(.76,0,.24,1) forwards;
+  transition: transform .3s var(--ease);
 }
-.slab::after {                     /* the glint */
-  content: ""; position: absolute; top: -20%; bottom: -20%; left: 0; width: 22%;
-  background: linear-gradient(100deg, transparent, rgba(255,255,255,.8), transparent);
-  transform: translateX(-140%) skewX(-20deg); will-change: transform; animation: slabGlint 4.5s 1.8s ease-in-out infinite;
+.ul i {
+  position: absolute; top: 50%; left: 0; width: .3em; height: .3em; border-radius: 50%; translate: -50% -50%;
+  background: #fff; box-shadow: 0 0 .6em .12em rgba(255,255,255,.85), 0 0 1.2em .3em rgba(203,255,0,.6);
+  opacity: 0; animation: ulHead .9s 1.05s cubic-bezier(.76,0,.24,1) forwards, ulHeadOut .5s 1.95s ease-out forwards;
 }
-@keyframes slabIn { from { transform: rotate(-1.6deg) skewX(-6deg) scaleX(0); } }
-@keyframes slabGlint { 0%, 55% { transform: translateX(-140%) skewX(-20deg); } 80%, 100% { transform: translateX(520%) skewX(-20deg); } }
+@keyframes ulDraw { to { transform: scaleX(1); } }
+@keyframes ulHead { from { left: 0; opacity: 1; } to { left: 100%; opacity: 1; } }
+@keyframes ulHeadOut { to { opacity: 0; } }
+.mastLime:hover .ul::before { transform: scaleX(1) scaleY(2) translateY(.03em); }
 @media (prefers-reduced-motion: reduce) {
-  .mastL, .mastLime .mastL { animation: none; }
-  .slab, .slab::after { animation: none; }
+  .mastL, .mastLime .mastL, .ul::before, .ul i { animation: none; }
+  .mastLime .mastL { color: var(--lime); }
+  .ul::before { transform: none; } .ul i { display: none; }
 }
 
 .front { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr); gap: 0; padding-block: clamp(1.4rem, 2.6vw, 2.2rem); }
@@ -569,15 +578,17 @@
 .kicker { display: flex; align-items: center; gap: 12px; font: italic 700 1.05rem var(--font-bodoni), var(--f-press); color: var(--pi); }
 .kicker::before { content: ""; width: 10px; height: 10px; border-radius: 50%; background: var(--lime); box-shadow: 0 0 0 2px var(--ink2); }
 .kicker::after { content: ""; flex: 0 0 64px; height: 1px; background: var(--rule); }
-.newsH1 { margin: 0; font: 900 clamp(2.07rem, 3.69vw, 3.61rem)/1 var(--font-bodoni), var(--f-press); letter-spacing: -0.02em; color: var(--pi); }
+.newsH1 { margin: 0; font: 800 clamp(1.1rem, 2.2vw, 1.95rem)/1.05 var(--font-syne), var(--f-display); letter-spacing: -0.02em; text-transform: uppercase; color: var(--pi); }
+.h1Top { white-space: nowrap; }
 /* on paper the rotating outlet is ink, italic, with a lime highlighter swiping behind it */
 .news .rot { height: 1.24em; margin-top: .02em; padding-bottom: .06em; }
 .news .rotItem { color: var(--lime); padding: 0 .04em; transition: transform .75s cubic-bezier(.7,0,.2,1), opacity .5s; }
-/* each outlet in a style that echoes its own masthead */
-.news .rot--sans { font-family: var(--f-display); font-weight: 800; font-style: normal; letter-spacing: -0.045em; }
-.news .rot--sansItalic { font-family: var(--f-display); font-weight: 800; font-style: italic; letter-spacing: -0.045em; }
-.news .rot--serif { font-family: var(--font-bodoni), var(--f-press); font-weight: 900; font-style: normal; letter-spacing: -0.02em; }
-.news .rot--italic { font-family: var(--f-press); font-weight: 900; font-style: italic; letter-spacing: -0.02em; }
+/* every outlet in the same voice as the line above it, centred beneath it */
+.news .newsH1 { display: grid; justify-items: center; width: max-content; max-width: 100%; }
+.news .rot { justify-items: center; }
+.news .rot--sans, .news .rot--sansItalic, .news .rot--serif, .news .rot--italic {
+  font-family: var(--font-syne), var(--f-display); font-weight: 800; font-style: normal; letter-spacing: -0.02em; text-transform: uppercase;
+}
 .cols { columns: 2; column-gap: 28px; column-rule: 1px solid rgba(242,240,232,.25); font: 400 16px/1.6 var(--f-press); color: rgba(242,240,232,.86); max-width: 720px; }
 .cols p { margin: 0 0 .8em; break-inside: avoid-column; }
 .cols p:first-child::first-letter {
@@ -654,12 +665,16 @@
 }
 @media (max-width: 560px) {
   .cols { columns: 1; }
-  .mast { font-size: 4.6vw; }
+  .mast { font-size: 3.5vw; letter-spacing: -0.01em; }
+  .newsH1 { font-size: 5.2vw; }
+  .mastWord + .mastWord { margin-left: .3em; }
 }
 @media (prefers-reduced-motion: reduce) { .sheet { animation: none; } .breakingTrack { animation: none; } }
 /* when the opening intro plays, the masthead waits for the panels to lift */
-:global(html.intro-play) .mastL { animation-delay: calc(1.3s + var(--k) * 14ms); }
-:global(html.intro-play) .slab { animation-delay: 1.7s; }
+:global(html.intro-play) .mastL { animation-delay: calc(1.3s + var(--k) * 18ms); }
+:global(html.intro-play) .mastLime .mastL { animation-delay: calc(1.3s + var(--k) * 18ms), calc(2.15s + var(--k) * 60ms), 5s; }
+:global(html.intro-play) .ul::before { animation-delay: 2.15s; }
+:global(html.intro-play) .ul i { animation-delay: 2.15s, 3.05s; }
 
 /* ═══ KIRK — one-screen layout ═══════════════════════════════════ */
 .kj { padding-block: clamp(1rem, 2vw, 1.6rem) clamp(2.5rem, 5vw, 4rem); }
