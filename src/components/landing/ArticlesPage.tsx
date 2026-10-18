@@ -4,6 +4,8 @@ import { FunkyCta } from "@/components/FunkyCta";
 
 export type Pub = { name: string; dr: number; url?: string; note?: string };
 export type Group = { category: string; pubs: Pub[] };
+/** One level of a plan, e.g. "Premier — 1 feature every month", with its outlets. */
+export type Tier = { name: string; detail: string; groups: Group[] };
 
 // A publication's brand icon, resolved from its domain via Google's favicon
 // service (reliable for every domain; returns a fallback if none exists).
@@ -19,15 +21,17 @@ function logoFor(url?: string): string | null {
 export function ArticlesPage({
   plan,
   tagline,
-  groups,
+  tiers,
+  perMonth,
   note
 }: {
   plan: string;
   tagline: string;
-  groups: Group[];
+  tiers: Tier[];
+  perMonth: { value: string; label: string };
   note?: string;
 }) {
-  const allPubs = groups.flatMap((g) => g.pubs);
+  const allPubs = tiers.flatMap((t) => t.groups.flatMap((g) => g.pubs));
   const total = allPubs.length;
   const topDr = allPubs.reduce((m, p) => Math.max(m, p.dr), 0);
 
@@ -56,8 +60,8 @@ export function ArticlesPage({
                 <span className={a.statL}>Top domain rating</span>
               </div>
               <div className={a.stat}>
-                <span className={a.statN}>1/mo</span>
-                <span className={a.statL}>Published feature</span>
+                <span className={a.statN}>{perMonth.value}</span>
+                <span className={a.statL}>{perMonth.label}</span>
               </div>
             </div>
           ) : null}
@@ -67,8 +71,16 @@ export function ArticlesPage({
       <section className="v-sec v-light v-panel" style={{ paddingTop: "clamp(2.5rem, 5vw, 4rem)" }}>
         <div className="v-wrap">
           {note ? <p className={a.note}>{note}</p> : null}
-          {groups.map((g) => (
-            <div className={a.group} key={g.category}>
+          {tiers.map((t) => (
+            <div className={a.tier} key={t.name}>
+              {tiers.length > 1 ? (
+                <div className={a.tierHead}>
+                  <span className={a.tierName}>{t.name}</span>
+                  <span className={a.tierDetail}>{t.detail}</span>
+                </div>
+              ) : null}
+              {t.groups.map((g) => (
+            <div className={a.group} key={`${t.name}-${g.category}`}>
               <h2 className={a.groupTitle}>
                 {g.category}
                 <span>{g.pubs.length}</span>
@@ -98,6 +110,8 @@ export function ArticlesPage({
                   );
                 })}
               </div>
+            </div>
+          ))}
             </div>
           ))}
 

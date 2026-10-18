@@ -51,3 +51,12 @@ a.pub:hover .go { transform: rotate(45deg); background: var(--lime-ink); color: 
   .grid { grid-template-columns: 1fr; }
   .stats { grid-template-columns: 1fr; width: 100%; }
 }
+
+/* tier sections (Flagship / Premier / Standard) */
+.tier + .tier { margin-top: clamp(2.6rem, 5vw, 3.6rem); }
+.tierHead {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin-bottom: clamp(1.2rem, 2.4vw, 1.8rem);
+  padding: 14px 18px; border-radius: 18px; background: var(--lime-ink); color: var(--ink);
+}
+.tierName { padding: 6px 14px; border-radius: 999px; background: var(--lime); color: var(--lime-ink); font: 800 13px var(--f-display); letter-spacing: .06em; text-transform: uppercase; }
+.tierDetail { font: 600 15px var(--f-body); color: rgba(245,245,242,.85); }
