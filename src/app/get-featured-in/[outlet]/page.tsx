@@ -29,7 +29,7 @@ export async function generateMetadata({
   const o = getOutlet(outlet);
   if (!o) return {};
   const url = `${SITE}/get-featured-in/${o.slug}`;
-  const description = clampDescription(`Get featured in ${o.name}. ${o.value}`);
+  const description = clampDescription(o.metaDescription ?? `Get featured ${o.prep ?? "in"} ${o.name}. ${o.value}`);
   return {
     title: clampTitle(o.title),
     description,
@@ -77,7 +77,7 @@ export default async function OutletLanding({
 
   const faqs = [
     {
-      q: `How do I get featured in ${o.name}?`,
+      q: `How do I get featured ${o.prep ?? "in"} ${o.name}?`,
       a: `We develop your story, write the feature to editorial standard, and manage the placement. You approve every word before anything goes live.`,
     },
     {
@@ -110,7 +110,7 @@ export default async function OutletLanding({
       "@context": "https://schema.org",
       "@type": "Service",
       "@id": `${url}#service`,
-      name: `Get featured in ${o.name}`,
+      name: `Get featured ${o.prep ?? "in"} ${o.name}`,
       description: o.value,
       serviceType: "Public relations and media placement",
       provider: { "@id": `${SITE}/#organization` },
@@ -177,7 +177,7 @@ export default async function OutletLanding({
           {/* The full "Get featured in <Outlet>" phrase lives inside the H1 so
               the target query is in the heading; the kicker is styled, not split out. */}
           <h1>
-            <span className={styles.kicker}>Get featured in</span>{" "}
+            <span className={styles.kicker}>Get featured {o.prep ?? "in"}</span>{" "}
             <span className={styles.name}>{o.name}</span>
           </h1>
           <p className={styles.subhead}>{o.subhead}</p>
@@ -186,7 +186,7 @@ export default async function OutletLanding({
             {/* Scrolls to the form on this page. It used to open /contact in a
                 new tab, which took ad traffic away from the form it had landed on. */}
             <a className="v-btn v-btn--lg" href="#enquire">
-              Get featured in {o.name} <span aria-hidden="true">&darr;</span>
+              Get featured {o.prep ?? "in"} {o.name} <span aria-hidden="true">&darr;</span>
             </a>
             {o.guideSlug ? (
               <a className="v-btn v-btn--ghost v-btn--lg" href="#guide">
@@ -213,7 +213,7 @@ export default async function OutletLanding({
           <figure className={styles.cover}>
             <img
               src={`/get-featured-in/${o.slug}/opengraph-image`}
-              alt={`Get featured in ${o.name} — Digital Networking Agency`}
+              alt={`Get featured ${o.prep ?? "in"} ${o.name} — Digital Networking Agency`}
               width={1200}
               height={630}
               loading="lazy"
@@ -224,7 +224,7 @@ export default async function OutletLanding({
         {/* The query itself, answered immediately. Competitors win this snippet
             with a direct Q&A high on the page; ours was buried in the FAQ. */}
         <section className={styles.block}>
-          <h2>How do I get featured in {o.name}?</h2>
+          <h2>How do I get featured {o.prep ?? "in"} {o.name}?</h2>
           <p>{faqs[0].a}</p>
         </section>
 

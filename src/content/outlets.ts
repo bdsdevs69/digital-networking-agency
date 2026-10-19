@@ -13,6 +13,8 @@ export type Outlet = {
   audience: string; // short list of who it suits
   routes?: string; // how coverage actually happens at this outlet
   story?: string; // the kind of story that lands there
+  prep?: "on"; // "Get featured on <outlet>" where that is how people search it; default "in"
+  metaDescription?: string; // overrides the generated meta description (140–158 chars)
 };
 
 export const OUTLETS: Outlet[] = [
@@ -68,7 +70,9 @@ export const OUTLETS: Outlet[] = [
     slug: "yahoo-finance",
     guideSlug: "how-to-get-featured-in-yahoo-finance",
     name: "Yahoo Finance",
-    title: "Get Featured in Yahoo Finance | Digital Networking Agency",
+    prep: "on",
+    metaDescription: "How to get featured on Yahoo Finance: the newswire route and its ticker rule, the editorial route most private companies use, and the free Community option.",
+    title: "Get Featured on Yahoo Finance | Digital Networking Agency",
     subhead: "One of the most-visited finance sites in the world",
     value:
       "We develop your story and place it with an outlet that reaches Yahoo Finance. We tell you exactly which route fits your business first.",
@@ -276,7 +280,9 @@ export const OUTLETS: Outlet[] = [
     slug: "business-insider",
     guideSlug: "how-to-get-featured-in-business-insider",
     name: "Business Insider",
-    title: "Get Featured in Business Insider | Digital Networking Agency",
+    prep: "on",
+    metaDescription: "How to get featured on Business Insider: what its contributor and first-person routes accept, what it turns away, and how to build a story its editors run.",
+    title: "How to Get Featured on Business Insider | DNA PR",
     subhead: "Hard to get, and worth it for that reason",
     value:
       "We build the story and the press record that make coverage at this level plausible, then pitch on your behalf. We are honest with you about the odds before we start.",
@@ -285,13 +291,14 @@ export const OUTLETS: Outlet[] = [
     why:
       "Because it is genuinely difficult. A Business Insider mention signals that a working journalist judged your story worth telling — and its readers are the people in a position to act on it.",
     audience: "Founders and executives with a substantive, evidenced story.",
-    routes: "Almost everything on Business Insider is written by its own reporters, and there is no contributor network to join, which makes it unlike Forbes or Entrepreneur. That leaves two honest routes. A reporter decides to cover you or quote you, which is a newsroom decision and cannot be bought or guaranteed by anyone. Or you appear in clearly labelled sponsored content, which is a commercial product and should never be described as editorial. The way we work toward the first is to make you useful: available for expert comment on stories already in motion, with evidence a reporter can check, and a record of substantive coverage behind you. We will say plainly whether this is a near-term target or something to build toward.",
+    routes: "Most of Business Insider is written by its own reporters, and a reporter deciding to cover or quote you is a newsroom decision that nobody can buy or guarantee. There is also a door for outside writers. Business Insider's own “How to write for Business Insider” page (checked 20 October 2026) says it accepts pitches from contributors, typically executives, investors, founders, academics, attorneys and other experts, and first-person stories from freelancers, written as a personal essay or told in as-told-to style. The same page says it does not accept promotional or sponsored posts, that pitches must be exclusive to Business Insider, and that conflicts of interest must be disclosed. So the realistic routes are being a useful source for a reporter, or a first-person piece with real candour and detail about work, money or a hard decision, which an editor still chooses to take or not. We help shape the angle and the pitch, you approve it, and the editor decides.",
     story: "This newsroom runs on specifics, so the currency is information other people do not have: internal numbers, documents, a first-person account of how something actually worked, or a trend evidenced with data rather than opinion. A founder willing to say what a decision genuinely cost, with the figures attached, is far more interesting here than one describing growth. Expert comment counts too, and being the person who can credibly explain a development in your sector at short notice is how most relationships with reporters at this level begin. It sits in the company, careers, markets or tech coverage depending on the desk. A company announcement with nothing checkable behind it goes nowhere, whatever the size of the business.",
   },
   {
     slug: "bloomberg",
     guideSlug: "how-to-get-featured-in-bloomberg",
     name: "Bloomberg",
+    metaDescription: "Get featured in Bloomberg: who its newsroom covers, why its tips line is not for pitches, how founders become usable sources, and what to target first.",
     title: "Get Featured in Bloomberg | Digital Networking Agency",
     subhead: "The top of the financial media stack",
     value:
@@ -301,7 +308,7 @@ export const OUTLETS: Outlet[] = [
     why:
       "Few names carry more weight with investors. Coverage here signals genuine financial significance — which is exactly why it cannot be bought.",
     audience: "Companies with real financial or market significance.",
-    routes: "There is no contributor programme, no council, and no route that lets you publish yourself. Coverage is a newsroom decision, while advertising and sponsorship are separate commercial products that are labelled as such. That leaves being covered or being used as a source, and we sell neither as a guaranteed outcome. What can be worked on is the ground underneath a pitch: a visible record of substantive coverage, a public position on your market that a journalist can check, and genuine availability when a reporter needs credible comment on a story already moving. We will tell you plainly whether this is realistic for your business, because chasing it when your story has no financial dimension can cost you a year you could spend building coverage elsewhere.",
+    routes: "There is no contributor programme, no council, and no route that lets you publish yourself. Coverage is a newsroom decision, while advertising and sponsorship are separate commercial products that are labelled as such. Bloomberg's own tips page (checked 20 October 2026) asks people not to use its tip channels to send press releases or story pitches, so the approach is to the reporter who covers your sector. That leaves being covered or being used as a source, and we sell neither as a guaranteed outcome. What can be worked on is the ground underneath a pitch: a visible record of substantive coverage, a public position on your market that a journalist can check, and genuine availability when a reporter needs credible comment on a story already moving. We will tell you plainly whether this is realistic for your business, because chasing it when your story has no financial dimension can cost you a year you could spend building coverage elsewhere.",
     story: "The threshold is material consequence for markets or capital, not success. What gets covered is a financing event with a notable investor, numbers that reframe how a sector is performing, a regulatory shift someone is positioned to explain, or a commercial first that changes the economics for competitors. An operator who can explain with data why a whole category's margins are moving is more useful to this newsroom than one with an impressive company behind them. It sits in the markets, industry or company coverage, read by investors and finance professionals making decisions with money. If your story has no financial dimension this is the wrong target, and a strong feature in a respected business title will do more, sooner.",
   },
   {
@@ -324,6 +331,7 @@ export const OUTLETS: Outlet[] = [
     slug: "inc",
     guideSlug: "how-to-get-featured-in-inc",
     name: "Inc.",
+    metaDescription: "Get featured in Inc.: how its writers and columnists choose stories, the Inc. 5000 eligibility rules, the contributor route, and what a pitch needs to land.",
     title: "Get Featured in Inc. Magazine | Digital Networking Agency",
     subhead: "Written for founders, read by founders",
     value:
@@ -333,7 +341,7 @@ export const OUTLETS: Outlet[] = [
     why:
       "Its audience is founders and operators, so the coverage reaches actual peers and buyers rather than a general audience. Commercially useful, not just flattering.",
     audience: "Founders and growing private companies.",
-    routes: "Inc. coverage is a newsroom and columnist decision, and no fee changes that. Staff writers and the regular columnists choose what they run. The Inc. 5000 sits alongside as a separate, criteria-based ranking with a formal application and verified growth requirements, so the published eligibility rules are worth checking at source well ahead of the window rather than relying on anyone's summary of them. Sponsored content is a paid, labelled commercial product and reads as one to anybody paying attention. Agency-assisted pitching is the fourth route: developing the angle, writing it to the standard the desk expects and taking it to the person who covers your space. That is the work you buy. Publication remains the editor's call, and we would be wary of anyone describing it otherwise.",
+    routes: "Inc. coverage is a newsroom and columnist decision, and no fee changes that. Staff writers and regular columnists choose what they run. The Inc. 5000 sits alongside as a criteria-based ranking: for the 2026 list, Inc.'s application page (checked 20 October 2026) required at least $100,000 in 2022 revenue and $2 million in 2025 revenue from a private, independent, for-profit US company, and the top 500 are featured in the magazine. Contributor status is a third route: Inc.'s contact page directs would-be contributors to contributors@inc.com and says it does not accept unsolicited manuscripts, so you apply to write rather than send an article. Sponsored content is a paid, labelled product. Agency-assisted pitching is the last route: developing the angle, writing it to the standard the desk expects and taking it to the person who covers your space. Publication remains the editor's call.",
     story: "The pieces that work read like one founder telling another what actually happened. A usable angle is narrow: the hire that went wrong and the process you rebuilt afterwards, a pricing change and what it did to retention, the call you made when cash was tight. Readers expect the mechanics set out precisely enough to borrow from: what you tried, in what order, what it cost in time or margin. It sits in the growth, leadership, hiring or operations coverage rather than a news slot. Milestones do not travel here, because a round, a rebrand or an anniversary hands a reader nothing they can apply. Be willing to include the part that does not flatter you, since that is usually the part worth publishing.",
   },
   {
