@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { guideHref } from "@/lib/merged";
 
 export type GuideCard = {
   slug: string;
@@ -103,7 +104,7 @@ export function GuidesCarousel({ guides }: { guides: GuideCard[] }) {
               key={`${g.slug}-${i}`}
               style={{ flex: `0 0 ${cardPct}%` }}
             >
-              <Link className="gc" href={`/guides/${g.slug}`}>
+              <Link className="gc" href={guideHref(g.slug)}>
                 <div className="gc-panel">
                   <img
                     src="/black_logo.webp"

@@ -10,6 +10,7 @@ import { HeroRotator, type RotItem } from "./HeroRotator";
 import { MastName } from "./MastName";
 import { FunkyCta } from "@/components/FunkyCta";
 import { VideoPlayer } from "@/components/VideoTestimonial";
+import { guideHref } from "@/lib/merged";
 
 const TRUSTPILOT = "https://www.trustpilot.com/review/digitalnetworkingagency.com";
 
@@ -607,7 +608,7 @@ export function Guides() {
         </div>
         <div className={s.guides}>
           {picks.map((g) => (
-            <Link key={g.slug} href={`/guides/${g.slug}`} className={s.guide}>
+            <Link key={g.slug} href={guideHref(g.slug)} className={s.guide}>
               <span className={s.guideTag}>Guide</span>
               <span className={s.guideTitle}>{g.h1}</span>
               <span className={s.guideDesc}>{g.description}</span>

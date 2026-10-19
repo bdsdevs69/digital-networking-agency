@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { GUIDES } from "@/content/guides";
+import { isMergedGuide } from "@/lib/merged";
 import { guideDates } from "@/content/guideDates";
 import { SERVICES } from "@/content/services";
 import { OUTLETS } from "@/content/outlets";
@@ -122,7 +123,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  const guideRoutes: MetadataRoute.Sitemap = GUIDES.map((guide) => ({
+  const guideRoutes: MetadataRoute.Sitemap = GUIDES.filter((g) => !isMergedGuide(g.slug)).map((guide) => ({
     url: `${SITE}/guides/${guide.slug}`,
     lastModified: new Date(guideDates(guide.slug).modified),
     changeFrequency: "monthly",

@@ -7,6 +7,7 @@ import { LandingArticle } from "@/components/LandingArticle";
 import { extractFaq } from "@/lib/faq";
 import { clampDescription, clampTitle } from "@/lib/meta";
 import styles from "../guides/guides.module.css";
+import { guideHref } from "@/lib/merged";
 
 const SITE = "https://www.digitalnetworkingagency.com";
 const URL = `${SITE}/pr-for-eb1a-o1-visa`;
@@ -80,7 +81,7 @@ export default function Page() {
           <ul>
             {related.map((g) => (
               <li key={g.slug}>
-                <Link href={`/guides/${g.slug}`}>{g.h1}</Link>
+                <Link href={guideHref(g.slug)}>{g.h1}</Link>
               </li>
             ))}
           </ul>

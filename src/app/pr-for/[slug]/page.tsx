@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { SERVICES, getService } from "@/content/services";
 import { GUIDES } from "@/content/guides";
 import styles from "../../guides/guides.module.css";
+import { guideHref } from "@/lib/merged";
 
 const SITE = "https://www.digitalnetworkingagency.com";
 const AUTHOR = "Sam Harris";
@@ -221,7 +222,7 @@ export default async function ServicePage({
           <ul>
             {related.map((g) => (
               <li key={g.slug}>
-                <Link href={`/guides/${g.slug}`}>{g.h1}</Link>
+                <Link href={guideHref(g.slug)}>{g.h1}</Link>
               </li>
             ))}
           </ul>

@@ -8,6 +8,7 @@ import { LandingArticle } from "@/components/LandingArticle";
 import { extractFaq } from "@/lib/faq";
 import { clampDescription, clampTitle } from "@/lib/meta";
 import styles from "../../guides/guides.module.css";
+import { guideHref } from "@/lib/merged";
 
 const SITE = "https://www.digitalnetworkingagency.com";
 
@@ -62,7 +63,7 @@ export default async function RegionPage({ params }: { params: Promise<{ region:
 
   const url = `${SITE}/pr-in/${r.slug}`;
   const outlets = r.outlets.map(getOutlet).filter((o): o is NonNullable<typeof o> => Boolean(o));
-  const guideSlugs = [...outlets.map((o) => o.guideSlug), ...(REGION_GUIDES[r.slug] ?? [])];
+  const guideSlugs = [...(REGION_GUIDES[r.slug] ?? [])];
   const guides = guideSlugs.map((s) => GUIDES.find((g) => g.slug === s)).filter((g): g is NonNullable<typeof g> => Boolean(g));
   const faqs = extractFaq(r.body);
 
@@ -155,7 +156,7 @@ export default async function RegionPage({ params }: { params: Promise<{ region:
           <ul>
             {guides.map((g) => (
               <li key={g.slug}>
-                <Link href={`/guides/${g.slug}`}>{g.h1}</Link>
+                <Link href={guideHref(g.slug)}>{g.h1}</Link>
               </li>
             ))}
           </ul>

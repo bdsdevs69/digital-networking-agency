@@ -1,4 +1,5 @@
 import { GUIDES } from "@/content/guides";
+import { isMergedGuide } from "@/lib/merged";
 import { OUTLETS } from "@/content/outlets";
 import { SERVICES } from "@/content/services";
 import { REGIONS } from "@/content/regions";
@@ -74,7 +75,7 @@ export function GET() {
   }
   lines.push("");
   lines.push("## Guides");
-  for (const g of GUIDES) {
+  for (const g of GUIDES.filter((x) => !isMergedGuide(x.slug))) {
     lines.push(`- [${g.h1}](${SITE}/guides/${g.slug}): ${g.description}`);
   }
   lines.push("");

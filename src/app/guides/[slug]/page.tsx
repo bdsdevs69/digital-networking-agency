@@ -8,6 +8,7 @@ import { ProofCards } from "../ProofCards";
 import { clampDescription, clampTitle } from "@/lib/meta";
 import { extractFaq } from "@/lib/faq";
 import { autoLink } from "@/lib/autolink";
+import { isMergedGuide, guideHref } from "@/lib/merged";
 
 const SITE = "https://www.digitalnetworkingagency.com";
 const AUTHOR = "Sam Harris";
@@ -28,7 +29,7 @@ function splitBody(html: string, beforeHeading = 3) {
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return GUIDES.map((guide) => ({ slug: guide.slug }));
+  return GUIDES.filter((g) => !isMergedGuide(g.slug)).map((guide) => ({ slug: guide.slug }));
 }
 
 export async function generateMetadata({
@@ -284,7 +285,7 @@ export default async function GuidePage({
         <ul>
           {GUIDES.filter((g) => g.slug !== guide.slug).map((g) => (
             <li key={g.slug}>
-              <Link href={`/guides/${g.slug}`}>{g.h1}</Link>
+              <Link href={guideHref(g.slug)}>{g.h1}</Link>
             </li>
           ))}
         </ul>

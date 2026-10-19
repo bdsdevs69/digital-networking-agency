@@ -6,6 +6,11 @@ import { CASE_STUDIES } from "@/content/caseStudies";
 import { OutletForm } from "@/components/OutletForm";
 import styles from "../getfeatured.module.css";
 import { clampDescription, clampTitle } from "@/lib/meta";
+import { getGuide } from "@/content/guides";
+import { extractFaq } from "@/lib/faq";
+import { autoLink } from "@/lib/autolink";
+import { stripFaqSection, unwrapSelfLinks } from "@/lib/merged";
+import gstyles from "../../guides/guides.module.css";
 
 const SITE = "https://www.digitalnetworkingagency.com";
 
@@ -89,6 +94,17 @@ export default async function OutletLanding({
     },
   ];
 
+  // This outlet's long guide used to live at its own URL and compete with this
+  // page for the same searches. It now lives here (see src/lib/merged.ts).
+  const self = `/get-featured-in/${o.slug}`;
+  const guide = o.guideSlug ? getGuide(o.guideSlug) : undefined;
+  const guideBody = guide ? unwrapSelfLinks(autoLink(stripFaqSection(guide.body), self), self) : "";
+  const seenQ = new Set(faqs.map((f) => f.q.toLowerCase()));
+  const allFaqs = [
+    ...faqs,
+    ...(guide ? extractFaq(guide.body).filter((f) => !seenQ.has(f.q.toLowerCase())) : []),
+  ];
+
   const jsonLd = [
     {
       "@context": "https://schema.org",
@@ -104,7 +120,7 @@ export default async function OutletLanding({
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      mainEntity: faqs.map((f) => ({
+      mainEntity: allFaqs.map((f) => ({
         "@type": "Question",
         name: f.q,
         acceptedAnswer: { "@type": "Answer", text: f.a },
@@ -173,9 +189,9 @@ export default async function OutletLanding({
               Get featured in {o.name} <span aria-hidden="true">&darr;</span>
             </a>
             {o.guideSlug ? (
-              <Link className="v-btn v-btn--ghost v-btn--lg" href={`/guides/${o.guideSlug}`}>
+              <a className="v-btn v-btn--ghost v-btn--lg" href="#guide">
                 Read the full guide
-              </Link>
+              </a>
             ) : (
               <Link className="v-btn v-btn--ghost v-btn--lg" href="/case-studies">
                 See client work
@@ -269,6 +285,15 @@ export default async function OutletLanding({
           </section>
         ) : null}
 
+        {/* The full guide, merged in from its old URL */}
+        {guide ? (
+          <section className={styles.block} id="guide">
+            <span className="v-label">The full guide</span>
+            <h2>{guide.h1}</h2>
+            <div className={gstyles.body} dangerouslySetInnerHTML={{ __html: guideBody }} />
+          </section>
+        ) : null}
+
         {/* How it works */}
         <section className={styles.block}>
           <h2>How we get you in {o.name}</h2>
@@ -287,7 +312,7 @@ export default async function OutletLanding({
         <section className={styles.block}>
           <h2>Questions about {o.name}</h2>
           <div className={styles.faqs}>
-            {faqs.slice(1).map((f) => (
+            {allFaqs.slice(1).map((f) => (
               <details key={f.q} className={styles.faq}>
                 <summary>{f.q}</summary>
                 <p>{f.a}</p>
