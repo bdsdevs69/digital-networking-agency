@@ -7,6 +7,7 @@ import styles from "../guides.module.css";
 import { ProofCards } from "../ProofCards";
 import { clampDescription, clampTitle } from "@/lib/meta";
 import { extractFaq } from "@/lib/faq";
+import { autoLink } from "@/lib/autolink";
 
 const SITE = "https://www.digitalnetworkingagency.com";
 const AUTHOR = "Sam Harris";
@@ -76,7 +77,7 @@ export default async function GuidePage({
   if (!guide) notFound();
 
   const url = `${SITE}/guides/${guide.slug}`;
-  const [bodyTop, bodyRest] = splitBody(guide.body);
+  const [bodyTop, bodyRest] = splitBody(autoLink(guide.body, `/guides/${guide.slug}`));
 
   const faqs = extractFaq(guide.body);
   // The commercial page for this outlet, if this guide has one. Linking to it

@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { CASE_STUDIES, getCaseStudy } from "@/content/caseStudies";
 import styles from "../case.module.css";
 import { focal } from "@/lib/focal";
-import { clampDescription } from "@/lib/meta";
+import { clampDescription, clampTitle } from "@/lib/meta";
 
 const SITE = "https://www.digitalnetworkingagency.com";
 
@@ -27,11 +27,11 @@ export async function generateMetadata({
     `How Digital Networking Agency featured ${c.name} in ${c.outlet}. ${c.quote}`
   );
   return {
-    title: `${c.name} in ${c.outlet} | DNA Case Study`,
+    title: clampTitle(`${c.name} in ${c.outlet} | DNA Case Study`),
     description,
     alternates: { canonical: url },
     openGraph: {
-      title: `${c.name} in ${c.outlet} | DNA Case Study`,
+      title: clampTitle(`${c.name} in ${c.outlet} | DNA Case Study`),
       description,
       url,
       siteName: "Digital Networking Agency",
