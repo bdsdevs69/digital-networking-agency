@@ -10,6 +10,9 @@ export type Region = {
   body: string;
   toc: { id: string; text: string }[];
   takeaways: string[];
+  kind?: "country" | "state" | "city"; // default country
+  area?: string; // schema areaServed name for states and cities
+  pubCount?: number; // publications listed in the body, for the index card
 };
 
 export const REGIONS: Region[] = [

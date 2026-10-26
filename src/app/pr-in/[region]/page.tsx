@@ -77,7 +77,10 @@ export default async function RegionPage({ params }: { params: Promise<{ region:
       description: clampDescription(r.description),
       url,
       image: `${url}/opengraph-image`,
-      areaServed: { "@type": "Country", name: COUNTRY[r.slug] ?? r.region },
+      areaServed: {
+        "@type": r.kind === "city" ? "City" : r.kind === "state" ? "State" : "Country",
+        name: COUNTRY[r.slug] ?? r.area ?? r.region,
+      },
       provider: {
   "@type": "ProfessionalService",
   "@id": `${SITE}/#organization`,
@@ -85,7 +88,7 @@ export default async function RegionPage({ params }: { params: Promise<{ region:
   url: `${SITE}/`,
 },
     },
-    {
+    ...(outlets.length ? [{
       "@context": "https://schema.org",
       "@type": "ItemList",
       name: `Publications in ${r.region}`,
@@ -95,13 +98,13 @@ export default async function RegionPage({ params }: { params: Promise<{ region:
         name: `Get featured in ${o.name}`,
         url: `${SITE}/get-featured-in/${o.slug}`,
       })),
-    },
+    }] : []),
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Home", item: `${SITE}/` },
-        { "@type": "ListItem", position: 2, name: "PR by Country", item: `${SITE}/pr-in` },
+        { "@type": "ListItem", position: 2, name: "PR by Location", item: `${SITE}/pr-in` },
         { "@type": "ListItem", position: 3, name: r.h1, item: url },
       ],
     },
@@ -116,7 +119,7 @@ export default async function RegionPage({ params }: { params: Promise<{ region:
 
   return (
     <LandingArticle
-      crumbs={[{ href: "/", label: "Home" }, { href: "/pr-in", label: "PR by Country" }]}
+      crumbs={[{ href: "/", label: "Home" }, { href: "/pr-in", label: "PR by Location" }]}
       h1={r.h1}
       lede={r.intro}
       cover={{ src: `/pr-in/${r.slug}/opengraph-image`, alt: `${r.h1} — publications and PR from DNA` }}
@@ -125,6 +128,7 @@ export default async function RegionPage({ params }: { params: Promise<{ region:
       body={r.body}
       jsonLd={jsonLd}
     >
+      {outlets.length ? (
       <section className={styles.gsection}>
         <h2 className={styles.gsectionTitle}>Publications we place in across {r.region}</h2>
         <p className={styles.gsectionBlurb}>Each has its own page explaining what it publishes and which routes in are realistic.</p>
@@ -142,6 +146,7 @@ export default async function RegionPage({ params }: { params: Promise<{ region:
           ))}
         </ul>
       </section>
+      ) : null}
 
       {faqs.length ? (
         <section className={styles.gsection}>
