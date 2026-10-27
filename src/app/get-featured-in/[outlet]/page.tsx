@@ -7,6 +7,7 @@ import { OutletForm } from "@/components/OutletForm";
 import styles from "../getfeatured.module.css";
 import { clampDescription, clampTitle } from "@/lib/meta";
 import { getGuide } from "@/content/guides";
+import { REGIONS } from "@/content/regions";
 import { extractFaq } from "@/lib/faq";
 import { autoLink } from "@/lib/autolink";
 import { stripFaqSection, unwrapSelfLinks } from "@/lib/merged";
@@ -320,6 +321,26 @@ export default async function OutletLanding({
             ))}
           </div>
         </section>
+
+        {/* Location pages that list this outlet: city first, then state, then country */}
+        {(() => {
+          const rank = { city: 0, state: 1, country: 2 } as const;
+          const places = REGIONS.filter((r) => r.outlets.includes(o.slug)).sort(
+            (a, b) => rank[a.kind ?? "country"] - rank[b.kind ?? "country"],
+          );
+          return places.length ? (
+            <section className={styles.block}>
+              <h2>PR where {o.name} is read</h2>
+              <div className={styles.outletGrid}>
+                {places.map((r) => (
+                  <Link key={r.slug} href={`/pr-in/${r.slug}`}>
+                    {r.h1}
+                  </Link>
+                ))}
+              </div>
+            </section>
+          ) : null;
+        })()}
 
         {/* Other outlets */}
         <section className={styles.block}>

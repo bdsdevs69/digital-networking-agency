@@ -12,40 +12,56 @@ export type Service = {
 export const SERVICES: Service[] = [
   {
     "slug": "startups",
-    "h1": "PR for Startups",
+    "h1": "Startup PR Agency",
     "title": "Startup PR Agency: PR for Startups | DNA PR",
-    "description": "Press coverage for startup founders — what it does for fundraising and hiring, where we place clients, and how the process works.",
-    "body": "<p>Every founder hits the same wall: the product is good, the traction is real, and nobody outside the company has heard of you.</p>\n<p>Press is how you close that gap.</p>\n<h2 id=\"why-press-works-for-startups\">Why press works for startups</h2>\n<p>Startups get judged on signals before they get judged on numbers.</p>\n<p>An investor doing diligence, a senior hire weighing an offer, an enterprise buyer checking whether you will exist in two years — all of them search your name first. What they find decides whether the conversation continues.</p>\n<p>A founder with press reads as established. A founder with nothing reads as early. Same company, different outcome.</p>\n<h2 id=\"what-most-founders-get-wrong\">What most founders get wrong</h2>\n<p>They wait for the funding announcement.</p>\n<p>The round is the least interesting story you have. What editors actually publish is the insight: the thing you learned building in your market, the data only you have, the reason the conventional approach is wrong. That story exists long before the raise, and it works harder afterward.</p>\n<h2 id=\"where-we-place-startup-clients\">Where we place startup clients</h2>\n<p>We work across business and technology publications whose readers include founders, operators and investors — including MSN, Yahoo Finance, Benzinga, CEO Weekly, NY Weekly and Digital Journal.</p>\n<p>Which publication fits depends on your market and who you need to reach. We tell you where we are pitching and why before anything is written.</p>\n<h2 id=\"what-a-feature-does-for-your-business\">What a feature does for your business</h2>\n<p>A permanent, indexed article about you and your company that appears when someone searches your name. Something to send an investor. A line in your deck. Credibility your website cannot manufacture on its own.</p>\n<p>It also compounds. Coverage makes further coverage easier, because editors take a founder with a track record more seriously than one without.</p>\n<h2 id=\"how-it-works\">How it works</h2>\n<p>Share your story and where you want to be. We develop the angle, write the piece to editorial standard, and manage placement. You review and revise until it is right, and nothing publishes without your approval.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Do I need funding or traction to get press?</h3>\n<p>No. You need a story — a genuine insight, a real problem you are solving, or data worth citing. Plenty of coverage goes to companies pre-round.</p>\n<h3>Will press help us raise?</h3>\n<p>It will not raise the round for you. It removes friction: investors who search you find substance instead of silence, and warm introductions land better.</p>\n<h3>How fast can we get published?</h3>\n<p>Timelines vary by publication, typically weeks rather than days. Anyone promising a guaranteed date is promising something they do not control.</p>",
+    "description": "Startup PR agency for founders: what PR for startups involves, when to hire one, how to choose, and where we place startups so investors find you.",
+    "body": "<p>A startup PR agency gets your company written about in the publications your investors, hires and customers read, and makes sure that coverage is what they find when they search your name. Every founder hits the same wall: the product is good, the traction is real, and nobody outside the company has heard of you.</p>\n<p>Press is how you close that gap. This page explains what PR for startups actually involves, when it is worth doing, how to choose an agency, and how we work.</p>\n<h2 id=\"why-press-works-for-startups\">Why press works for startups</h2>\n<p>Startups get judged on signals before they get judged on numbers.</p>\n<p>An investor doing diligence, a senior hire weighing an offer, an enterprise buyer checking whether you will exist in two years — all of them search your name first. What they find decides whether the conversation continues.</p>\n<p>A founder with press reads as established. A founder with nothing reads as early. Same company, different outcome.</p>\n<h2 id=\"what-a-startup-pr-agency-does\">What a startup PR agency actually does</h2>\n<ul><li><strong>Finds the story.</strong> Not the funding round, but the insight underneath the company: the problem you understand better than anyone, the data you have, the reason the usual approach fails.</li><li><strong>Writes it to the publication&#39;s standard.</strong> A piece that reads like the title it appears in, not like a press release.</li><li><strong>Places it.</strong> Matching the story to publications your audience actually reads, and managing the process through to a live link.</li><li><strong>Times it.</strong> Lining coverage up with the moments that matter: a launch, a raise, a hiring push, a partnership.</li><li><strong>Builds your search results.</strong> Several features across different publications, so a search for you or your company shows substance rather than silence.</li></ul>\n<h2 id=\"when-to-hire-a-startup-pr-agency\">When to hire a startup PR agency</h2>\n<p>Earlier than most founders think. The most useful moments are just before you start fundraising, before a product launch, before a senior hiring round, and when you enter a new market. In each case people are about to search you, and you want them to find something.</p>\n<p>The wrong moment is the week of the announcement. By then the story has to be written, placed and live, and that takes weeks rather than days.</p>\n<h2 id=\"what-most-founders-get-wrong\">What most founders get wrong</h2>\n<p>They wait for the funding announcement.</p>\n<p>The round is the least interesting story you have. What publications want is the insight: the thing you learned building in your market, the data only you have, the reason the conventional approach is wrong. That story exists long before the raise, and it works harder afterward.</p>\n<p>The second mistake is chasing one famous name. A single feature in a title nobody in your market reads does less than steady coverage in the publications your buyers and investors actually open.</p>\n<h2 id=\"where-we-place-startup-clients\">Where we place startup clients</h2>\n<p>We work across business and technology publications whose readers include founders, operators and investors — including <a href=\"/get-featured-in/msn\">MSN</a>, <a href=\"/get-featured-in/yahoo-finance\">Yahoo Finance</a>, <a href=\"/get-featured-in/benzinga\">Benzinga</a>, <a href=\"/get-featured-in/ceo-weekly\">CEO Weekly</a>, <a href=\"/get-featured-in/hackernoon\">HackerNoon</a>, <a href=\"/get-featured-in/techbullion\">TechBullion</a> and <a href=\"/get-featured-in/digital-journal\">Digital Journal</a>.</p>\n<p>For the bigger business names, such as <a href=\"/get-featured-in/inc\">Inc.</a>, <a href=\"/get-featured-in/entrepreneur\">Entrepreneur</a> and <a href=\"/get-featured-in/fast-company\">Fast Company</a>, each page explains honestly how coverage happens there and what is realistic. We tell you where we are pitching and why before anything is written.</p>\n<h2 id=\"how-to-choose-a-startup-pr-agency\">How to choose a startup PR agency</h2>\n<p>Ask every agency the same questions, and judge the answers:</p>\n<ul><li><strong>Which publications, specifically?</strong> A vague answer usually means a vague result.</li><li><strong>Who writes the piece?</strong> You want writers who can turn your story into something a reader finishes.</li><li><strong>Do I approve everything before it goes live?</strong> The answer should be yes, every time.</li><li><strong>What are you promising?</strong> Be careful with guaranteed coverage at staff-written titles. Our guide on <a href=\"/guides/is-guaranteed-pr-legit\">whether guaranteed PR is legit</a> explains what to check.</li></ul>\n<p>If you are comparing options, our round-up of the <a href=\"/guides/best-pr-agencies-for-startups\">best PR agencies for startups</a> sets out the main models side by side.</p>\n<h2 id=\"what-startup-pr-costs\">What startup PR costs</h2>\n<p>It depends on the publications, how many features you need and over what period. We quote each startup individually rather than selling a fixed package. For a full picture of how agencies charge, and what retainers and per-placement models actually buy, see <a href=\"/guides/how-much-does-a-pr-agency-cost\">how much a PR agency costs</a>.</p>\n<h2 id=\"what-a-feature-does-for-your-business\">What a feature does for your business</h2>\n<p>A permanent, indexed article about you and your company that appears when someone searches your name. Something to send an investor. A line in your deck. Credibility your website cannot create on its own.</p>\n<p>It also compounds. Coverage makes further coverage easier, because publications take a founder with a track record more seriously than one without.</p>\n<h2 id=\"how-it-works\">How it works</h2>\n<p>Share your story and where you want to be. We develop the angle, write the piece to the publication&#39;s standard, and manage the placement. You review and revise until it is right, and nothing publishes without your approval. Our guide to <a href=\"/guides/how-to-get-press-for-your-startup\">getting press for your startup</a> covers the groundwork you can do yourself first.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>What does a startup PR agency do?</h3>\n<p>It finds the story in your company, writes it to the standard of the publication, places it where your investors, hires and customers will see it, and times coverage around launches and raises so people who search you find substance.</p>\n<h3>Will press help us raise?</h3>\n<p>It will not raise the round for you. It removes friction: investors who search you find substance instead of silence, and warm introductions land better.</p>\n<h3>How fast can we get published?</h3>\n<p>Timelines vary by publication, typically weeks rather than days. Anyone promising a guaranteed date is promising something they do not control.</p>",
     "toc": [
-      {
-        "id": "why-press-works-for-startups",
-        "text": "Why press works for startups"
-      },
-      {
-        "id": "what-most-founders-get-wrong",
-        "text": "What most founders get wrong"
-      },
-      {
-        "id": "where-we-place-startup-clients",
-        "text": "Where we place startup clients"
-      },
-      {
-        "id": "what-a-feature-does-for-your-business",
-        "text": "What a feature does for your business"
-      },
-      {
-        "id": "how-it-works",
-        "text": "How it works"
-      },
-      {
-        "id": "frequently-asked-questions",
-        "text": "Frequently asked questions"
-      }
+          {
+                "id": "why-press-works-for-startups",
+                "text": "Why press works for startups"
+          },
+          {
+                "id": "what-a-startup-pr-agency-does",
+                "text": "What a startup PR agency actually does"
+          },
+          {
+                "id": "when-to-hire-a-startup-pr-agency",
+                "text": "When to hire a startup PR agency"
+          },
+          {
+                "id": "what-most-founders-get-wrong",
+                "text": "What most founders get wrong"
+          },
+          {
+                "id": "where-we-place-startup-clients",
+                "text": "Where we place startup clients"
+          },
+          {
+                "id": "how-to-choose-a-startup-pr-agency",
+                "text": "How to choose a startup PR agency"
+          },
+          {
+                "id": "what-startup-pr-costs",
+                "text": "What startup PR costs"
+          },
+          {
+                "id": "what-a-feature-does-for-your-business",
+                "text": "What a feature does for your business"
+          },
+          {
+                "id": "how-it-works",
+                "text": "How it works"
+          },
+          {
+                "id": "frequently-asked-questions",
+                "text": "Frequently asked questions"
+          }
     ],
     "takeaways": [
-      "Press is what makes a startup look real to investors, hires and customers.",
-      "You do not need a funding round to have a story worth publishing.",
-      "Coverage compounds — each placement makes the next one easier."
+          "A startup PR agency finds the story, writes it, places it and times it around launches and raises.",
+          "Start before you need it: coverage takes weeks rather than days to go live.",
+          "Steady coverage in titles your market reads beats one famous name."
     ]
   },
   {
@@ -126,40 +142,52 @@ export const SERVICES: Service[] = [
   },
   {
     "slug": "consultants",
-    "h1": "PR for Consultants",
-    "title": "PR for Consultants | Digital Networking Agency",
-    "description": "Press coverage for independent consultants and firms — winning larger engagements, where we place features, and how it works.",
-    "body": "<p>By the time a client contacts you, they have already narrowed the field. What you want is to be the name that survives the search.</p>\n<h2 id=\"why-press-works-for-consultants\">Why press works for consultants</h2>\n<p>Clients hiring a consultant are managing risk — their own. Choosing wrong costs them budget and credibility internally.</p>\n<p>Published expertise reduces that risk. A feature in a business publication signals that your thinking has been vetted by someone with no stake in the outcome. On a shortlist of equally qualified people, it is often the tiebreaker nobody names out loud.</p>\n<h2 id=\"what-most-consultants-get-wrong\">What most consultants get wrong</h2>\n<p>They lead with their methodology.</p>\n<p>Nobody outside your firm cares about the framework. What editors publish — and what clients respond to — is the diagnosis: what you see going wrong in your sector, the mistake you watch companies repeat, the shift your clients are unprepared for.</p>\n<p>Show the thinking. The methodology sells itself afterward.</p>\n<h2 id=\"where-we-place-consulting-clients\">Where we place consulting clients</h2>\n<p>Business and industry publications read by executives and decision-makers — including CEO Weekly, MSN, Yahoo Finance, NY Weekly, Digital Journal and Benzinga.</p>\n<p>We match the publication to the buyer you are trying to reach.</p>\n<h2 id=\"what-a-feature-does-for-your-business\">What a feature does for your business</h2>\n<p>A permanent, indexed article that appears during due diligence. A credential in proposals and pitch decks. Something a procurement team can point to when justifying the choice internally.</p>\n<p>It also supports pricing. Consultants with visible published expertise defend higher fees more comfortably, because the client has independent evidence of the value.</p>\n<h2 id=\"how-it-works\">How it works</h2>\n<p>Share your perspective and your market. We develop the angle, write the piece to editorial standard, and manage placement. You review and revise until it is right, and nothing publishes without your approval.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Does this work for a solo consultant?</h3>\n<p>Yes, and often better. Editors publish individuals with clear expertise more readily than firms with committee-written positioning.</p>\n<h3>What if my work is confidential?</h3>\n<p>We write around it. A strong piece can rest entirely on patterns and principles without naming a single client or engagement.</p>\n<h3>How does this compare to LinkedIn content?</h3>\n<p>They do different jobs. LinkedIn reaches your existing network; a published feature reaches people who have never heard of you and carries the publication's credibility rather than your own.</p>",
+    "h1": "PR for Consulting Firms and Consultants",
+    "title": "PR for Consulting Firms and Consultants | DNA PR",
+    "description": "PR for consulting firms and independent consultants: partner profiles, thought leadership and features that show up when clients research your firm.",
+    "body": "<p>PR for a consulting firm means getting your partners and your firm&#39;s thinking published in the business and industry titles your clients read, so that when a buyer shortlists firms, yours is the name with visible expertise behind it. By the time a client contacts you, they have already narrowed the field. What you want is to be the name that survives the search.</p>\n<h2 id=\"why-press-works-for-consultants\">Why press works for consulting firms</h2>\n<p>Clients hiring a consultant are managing risk — their own. Choosing wrong costs them budget and credibility internally.</p>\n<p>Published expertise reduces that risk. A feature in a business publication gives a buyer something outside your own website to point to. On a shortlist of equally qualified firms, it is often the tiebreaker nobody names out loud.</p>\n<h2 id=\"what-pr-for-a-consulting-firm-looks-like\">What PR for a consulting firm looks like</h2>\n<ul><li><strong>Partner and principal profiles.</strong> Features on the people clients actually hire, built around what they know rather than their CV.</li><li><strong>Thought leadership.</strong> A clear, defensible view on a problem in your sector, written to the standard of the publication.</li><li><strong>Patterns from your work.</strong> What you see across engagements, anonymised so no client is named.</li><li><strong>Search results that hold up.</strong> Several features across different titles, so due diligence on your firm turns up substance.</li></ul>\n<h2 id=\"firms-and-independent-consultants\">Consulting firms and independent consultants</h2>\n<p>The approach differs slightly. A firm usually needs coverage that carries both the brand and two or three named partners, so clients see depth. An independent consultant is the brand, so the coverage is personal: your perspective, your sector, your name on the page.</p>\n<p>Both work. Publications respond to individuals with clear expertise more readily than to committee-written positioning, so even firm coverage tends to lead with a person.</p>\n<h2 id=\"what-most-consultants-get-wrong\">What most consultants get wrong</h2>\n<p>They lead with their methodology.</p>\n<p>Nobody outside your firm cares about the framework. What publications run — and what clients respond to — is the diagnosis: what you see going wrong in your sector, the mistake you watch companies repeat, the shift your clients are unprepared for.</p>\n<p>Show the thinking. The methodology sells itself afterward.</p>\n<h2 id=\"where-we-place-consulting-clients\">Where we place consulting clients</h2>\n<p>Business and industry publications read by executives and decision-makers — including <a href=\"/get-featured-in/ceo-weekly\">CEO Weekly</a>, <a href=\"/get-featured-in/msn\">MSN</a>, <a href=\"/get-featured-in/yahoo-finance\">Yahoo Finance</a>, <a href=\"/get-featured-in/ny-weekly\">NY Weekly</a>, <a href=\"/get-featured-in/digital-journal\">Digital Journal</a> and <a href=\"/get-featured-in/benzinga\">Benzinga</a>.</p>\n<p>We match the publication to the buyer you are trying to reach. A firm selling to finance leaders needs different titles from one selling to founders.</p>\n<h2 id=\"what-a-feature-does-for-your-business\">What a feature does for your business</h2>\n<p>A permanent, indexed article that appears during due diligence. A credential in proposals and pitch decks. Something a procurement team can point to when justifying the choice internally.</p>\n<p>It also supports pricing. Consultants with visible published expertise defend higher fees more comfortably, because the client has evidence of the value before the first meeting.</p>\n<h2 id=\"what-it-costs\">What it costs</h2>\n<p>We quote each firm individually, based on the publications, the number of people featured and the period. For how agencies generally charge, see <a href=\"/guides/how-much-does-a-pr-agency-cost\">how much a PR agency costs</a>.</p>\n<h2 id=\"how-it-works\">How it works</h2>\n<p>Share your perspective and your market. We develop the angle, write the piece to the publication&#39;s standard, and manage the placement. You review and revise until it is right, and nothing publishes without your approval.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>Does PR work for a small consulting firm or a solo consultant?</h3>\n<p>Yes, and often better. Publications respond to individuals with clear expertise more readily than to firms with committee-written positioning.</p>\n<h3>What if our client work is confidential?</h3>\n<p>We write around it. A strong piece can rest entirely on patterns and principles without naming a single client or engagement.</p>\n<h3>How does this compare to LinkedIn content?</h3>\n<p>They do different jobs. LinkedIn reaches your existing network; a published feature reaches people who have never heard of you and carries the publication&#39;s name rather than only your own.</p>",
     "toc": [
-      {
-        "id": "why-press-works-for-consultants",
-        "text": "Why press works for consultants"
-      },
-      {
-        "id": "what-most-consultants-get-wrong",
-        "text": "What most consultants get wrong"
-      },
-      {
-        "id": "where-we-place-consulting-clients",
-        "text": "Where we place consulting clients"
-      },
-      {
-        "id": "what-a-feature-does-for-your-business",
-        "text": "What a feature does for your business"
-      },
-      {
-        "id": "how-it-works",
-        "text": "How it works"
-      },
-      {
-        "id": "frequently-asked-questions",
-        "text": "Frequently asked questions"
-      }
+          {
+                "id": "why-press-works-for-consultants",
+                "text": "Why press works for consulting firms"
+          },
+          {
+                "id": "what-pr-for-a-consulting-firm-looks-like",
+                "text": "What PR for a consulting firm looks like"
+          },
+          {
+                "id": "firms-and-independent-consultants",
+                "text": "Consulting firms and independent consultants"
+          },
+          {
+                "id": "what-most-consultants-get-wrong",
+                "text": "What most consultants get wrong"
+          },
+          {
+                "id": "where-we-place-consulting-clients",
+                "text": "Where we place consulting clients"
+          },
+          {
+                "id": "what-a-feature-does-for-your-business",
+                "text": "What a feature does for your business"
+          },
+          {
+                "id": "what-it-costs",
+                "text": "What it costs"
+          },
+          {
+                "id": "how-it-works",
+                "text": "How it works"
+          },
+          {
+                "id": "frequently-asked-questions",
+                "text": "Frequently asked questions"
+          }
     ],
     "takeaways": [
-      "Consulting is sold on credibility before capability.",
-      "Press is what separates you from the other three names on the shortlist.",
-      "Published expertise supports higher fees more effectively than a longer CV."
+          "Clients research consultants to reduce their own risk; published expertise helps them choose you.",
+          "Lead with the diagnosis, not the methodology.",
+          "Firm coverage still works best when it leads with a named person."
     ]
   },
   {
@@ -430,40 +458,52 @@ export const SERVICES: Service[] = [
   },
   {
     "slug": "personal-brands",
-    "h1": "PR for Personal Brands",
-    "title": "PR for Personal Brands | Digital Networking Agency",
-    "description": "Press coverage for personal brands and public figures — owning your search results and building durable authority.",
-    "body": "<p>Every opportunity that matters starts with someone searching your name. A partner, a client, a journalist, an investor, a hiring committee.</p>\n<p>Whatever they find is your reputation, decided before you speak.</p>\n<h2 id=\"why-press-works-for-personal-brands\">Why press works for personal brands</h2>\n<p>Social media builds audience. Press builds authority. They are not the same thing, and only one of them survives a platform change.</p>\n<p>Anyone can publish anything about themselves — audiences know this and discount it accordingly. A published feature is different precisely because you did not control the platform. That is the entire value.</p>\n<p>It is also durable. A post disappears in a day; an indexed article works for years.</p>\n<h2 id=\"what-most-people-get-wrong\">What most people get wrong</h2>\n<p>They lead with themselves.</p>\n<p>\"Entrepreneur builds successful business\" is not a story. What gets published is what you know: the perspective you have earned, the thing your field gets wrong, the pattern you can see because of where you sit.</p>\n<p>Be useful. The profile builds itself.</p>\n<h2 id=\"where-we-place-personal-brand-clients\">Where we place personal brand clients</h2>\n<p>Business, lifestyle and general-interest publications matched to your positioning — including CEO Weekly, Women's Journal, MSN, NY Weekly, LA Wire and Digital Journal.</p>\n<h2 id=\"what-a-feature-does-for-you\">What a feature does for you</h2>\n<p>Control over what appears when someone searches your name. A credential for your bio, your profiles and your pitches. Something that makes the first conversation start warmer, because the other person arrives already convinced.</p>\n<p>For anyone building a business on their own name, it is infrastructure rather than marketing.</p>\n<h2 id=\"how-it-works\">How it works</h2>\n<p>Share your positioning and your perspective. We develop the angle, write the piece to editorial standard, and manage placement. You review and revise until it is right, and nothing publishes without your approval.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>How many features do I need?</h3>\n<p>More than one. A single article is an anecdote; several across different publications reads as a track record. Most clients build over months rather than buying one placement.</p>\n<h3>Will this fix negative search results?</h3>\n<p>Not by itself, and be careful with anyone promising that. Consistent positive coverage improves what people find, but genuine reputation problems need addressing directly rather than buried.</p>\n<h3>Do I need a large following first?</h3>\n<p>No. Editors publish ideas, not audience size. Plenty of people with modest followings get published because they have something specific to say.</p>",
+    "h1": "Personal Branding PR",
+    "title": "Personal Branding PR Services | DNA PR",
+    "description": "Personal branding PR services: features in publications your audience reads, so a search for your name shows credible coverage, not only your profiles.",
+    "body": "<p>Personal branding PR gets you featured in publications that matter to your audience, so that when a client, partner, investor or journalist searches your name, they find credible coverage rather than only your own profiles. Every opportunity that matters starts with that search.</p>\n<p>Whatever they find is your reputation, decided before you speak.</p>\n<h2 id=\"why-press-works-for-personal-brands\">Why press works for personal brands</h2>\n<p>Social media builds audience. Press builds authority. They are not the same thing, and only one of them survives a platform change.</p>\n<p>Anything you post about yourself is read as self-promotion, and audiences discount it accordingly. A feature in a publication sits on someone else&#39;s masthead, alongside their other journalism, and is read differently.</p>\n<p>It is also durable. A post disappears in a day; an indexed article works for years.</p>\n<h2 id=\"what-personal-branding-pr-services-include\">What personal branding PR services include</h2>\n<ul><li><strong>Positioning.</strong> Deciding what you want to be known for, so every feature points the same way.</li><li><strong>Story development.</strong> Turning what you know into angles a publication will run.</li><li><strong>Writing.</strong> Features written to the standard of each title, approved by you.</li><li><strong>Placement.</strong> Matching each piece to publications your audience actually reads.</li><li><strong>Search results.</strong> Building several features over time, so a search for your name shows a track record.</li><li><strong>Using it.</strong> An &quot;as featured in&quot; line for your site, bio and pitches. Our guide on <a href=\"/guides/how-to-use-your-as-featured-in\">using your as featured in</a> covers how.</li></ul>\n<h2 id=\"who-personal-branding-pr-suits\">Who personal branding PR suits</h2>\n<p>Anyone whose business runs on their name: founders, consultants, coaches, speakers, authors, advisers and creators. If people hire you, invest in you or book you because of who you are, what they find when they search you is part of the sale.</p>\n<h2 id=\"what-most-people-get-wrong\">What most people get wrong</h2>\n<p>They lead with themselves.</p>\n<p>&quot;Entrepreneur builds successful business&quot; is not a story. What gets published is what you know: the perspective you have built up, the thing your field gets wrong, the pattern you can see because of where you sit.</p>\n<p>Be useful. The profile builds itself.</p>\n<h2 id=\"where-we-place-personal-brand-clients\">Where we place personal brand clients</h2>\n<p>Business, lifestyle and general-interest publications matched to your positioning — including <a href=\"/get-featured-in/ceo-weekly\">CEO Weekly</a>, <a href=\"/get-featured-in/womens-journal\">Women&#39;s Journal</a>, <a href=\"/get-featured-in/msn\">MSN</a>, <a href=\"/get-featured-in/ny-weekly\">NY Weekly</a>, <a href=\"/get-featured-in/la-wire\">LA Wire</a> and <a href=\"/get-featured-in/digital-journal\">Digital Journal</a>.</p>\n<p>If you are comparing providers, our round-up of the <a href=\"/guides/best-pr-agencies-for-personal-brands\">best PR agencies for personal brands</a> sets out what each model offers.</p>\n<h2 id=\"what-a-feature-does-for-you\">What a feature does for you</h2>\n<p>Control over what appears when someone searches your name. A credential for your bio, your profiles and your pitches. Something that makes the first conversation start warmer, because the other person arrives already convinced.</p>\n<p>For anyone building a business on their own name, it is infrastructure rather than marketing.</p>\n<h2 id=\"what-it-costs\">What it costs</h2>\n<p>We quote each person individually, based on the publications and how many features you want over what period. For how agencies generally charge, see <a href=\"/guides/how-much-does-a-pr-agency-cost\">how much a PR agency costs</a>.</p>\n<h2 id=\"how-it-works\">How it works</h2>\n<p>Share your positioning and your perspective. We develop the angle, write the piece to the publication&#39;s standard, and manage the placement. You review and revise until it is right, and nothing publishes without your approval.</p>\n<h2 id=\"frequently-asked-questions\">Frequently asked questions</h2>\n<h3>How many features do I need for a personal brand?</h3>\n<p>More than one. A single article is an anecdote; several across different publications reads as a track record. Most clients build over months rather than buying one placement.</p>\n<h3>Will personal branding PR fix negative search results?</h3>\n<p>Not by itself, and be careful with anyone promising that. Consistent positive coverage improves what people find, but genuine reputation problems need addressing directly rather than buried.</p>\n<h3>Do I need a large following first?</h3>\n<p>No. Publications care about ideas, not audience size. Plenty of people with modest followings get featured because they have something specific to say.</p>",
     "toc": [
-      {
-        "id": "why-press-works-for-personal-brands",
-        "text": "Why press works for personal brands"
-      },
-      {
-        "id": "what-most-people-get-wrong",
-        "text": "What most people get wrong"
-      },
-      {
-        "id": "where-we-place-personal-brand-clients",
-        "text": "Where we place personal brand clients"
-      },
-      {
-        "id": "what-a-feature-does-for-you",
-        "text": "What a feature does for you"
-      },
-      {
-        "id": "how-it-works",
-        "text": "How it works"
-      },
-      {
-        "id": "frequently-asked-questions",
-        "text": "Frequently asked questions"
-      }
+          {
+                "id": "why-press-works-for-personal-brands",
+                "text": "Why press works for personal brands"
+          },
+          {
+                "id": "what-personal-branding-pr-services-include",
+                "text": "What personal branding PR services include"
+          },
+          {
+                "id": "who-personal-branding-pr-suits",
+                "text": "Who personal branding PR suits"
+          },
+          {
+                "id": "what-most-people-get-wrong",
+                "text": "What most people get wrong"
+          },
+          {
+                "id": "where-we-place-personal-brand-clients",
+                "text": "Where we place personal brand clients"
+          },
+          {
+                "id": "what-a-feature-does-for-you",
+                "text": "What a feature does for you"
+          },
+          {
+                "id": "what-it-costs",
+                "text": "What it costs"
+          },
+          {
+                "id": "how-it-works",
+                "text": "How it works"
+          },
+          {
+                "id": "frequently-asked-questions",
+                "text": "Frequently asked questions"
+          }
     ],
     "takeaways": [
-      "Your search results are your reputation, whether you manage them or not.",
-      "Press is the only asset you do not control that vouches for you.",
-      "Coverage outlasts algorithms in a way social content does not."
+          "Personal branding PR shapes what people find when they search your name.",
+          "Lead with what you know, not with yourself.",
+          "Several features over time read as a track record; one reads as an anecdote."
     ]
   },
 {

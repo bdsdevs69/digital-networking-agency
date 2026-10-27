@@ -15,6 +15,8 @@ const TARGETS: Target[] = [
   { re: /\bHARO\b/, href: "/guides/haro-alternatives" },
   { re: /\b(?:PR agency (?:costs?|pricing)|cost of PR)\b/i, href: "/guides/how-much-does-a-pr-agency-cost" },
   { re: /\b(?:startup PR|PR for startups)\b/i, href: "/pr-for/startups" },
+  { re: /\bpersonal brand(?:ing)? PR\b/i, href: "/pr-for/personal-brands" },
+  { re: /\bPR for (?:consultants|consulting firms?)\b/i, href: "/pr-for/consultants" },
   { re: /\bInc\.(?= magazine|com\b| coverage| feature)/, href: "/get-featured-in/inc" },
   { re: /\bBloomberg\b/, href: "/get-featured-in/bloomberg" },
   { re: /\bBusiness Insider\b/, href: "/get-featured-in/business-insider" },
