@@ -22,7 +22,7 @@ const plans = [
     kind: "Subscription",
     name: "Spotlight",
     tagline: "A high-impact prestige placement",
-    price: "$700",
+    price: "$1,000",
     per: "/month",
     commitment: "3-month minimum",
     featured: false,
@@ -40,7 +40,7 @@ const plans = [
     kind: "Monthly Subscription",
     name: "Momentum",
     tagline: "Stay consistently visible",
-    price: "$300",
+    price: "$500",
     per: "/month",
     commitment: "Billed monthly · cancel anytime",
     featured: true,
@@ -59,7 +59,7 @@ const plans = [
     kind: "Subscription",
     name: "Authority",
     tagline: "Build compounding authority",
-    price: "$1,300",
+    price: "$2,000",
     per: "/month",
     commitment: "3-month minimum",
     featured: false,
@@ -217,9 +217,9 @@ export default async function PlansPage() {
                   ))}
                   <tr className={s.priceRow}>
                     <th scope="row">Price</th>
-                    <td>$700<small>/mo</small></td>
-                    <td className={s.colFeat}>$300<small>/mo</small></td>
-                    <td>$1,300<small>/mo</small></td>
+                    <td>$1,000<small>/mo</small></td>
+                    <td className={s.colFeat}>$500<small>/mo</small></td>
+                    <td>$2,000<small>/mo</small></td>
                   </tr>
                 </tbody>
               </table>
