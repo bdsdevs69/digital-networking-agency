@@ -55,6 +55,7 @@ export const OUTLETS: Outlet[] = [
     slug: "usa-today",
     guideSlug: "how-to-get-featured-in-usa-today",
     name: "USA Today",
+    metaDescription: "Get featured in USA Today: the routes in, USA Today op-ed submission guidelines, contributor content, and how we write and manage a feature for you.",
     title: "Get Featured in USA Today | Digital Networking Agency",
     subhead: "Mainstream reach, national recognition",
     value:
@@ -1399,6 +1400,7 @@ export const OUTLETS: Outlet[] = [
   {
     slug: "techbullion",
     name: "TechBullion",
+    metaDescription: "Get featured in TechBullion, the technology and fintech publication. We develop and place a dedicated feature about you, and you approve every word first.",
     title: "Get Featured in TechBullion | Digital Networking Agency",
     subhead: "Technology and fintech",
     value: "We develop and place a dedicated feature about you in TechBullion. You approve every word before it goes live.",

@@ -127,7 +127,8 @@ export function SiteFooter() {
               <Link href="/publications">Publications</Link>
               <Link href="/compare">Compare Options</Link>
               <Link href="/pr-for">Industries</Link>
-              <Link href="/pr-in">PR by Country</Link>
+              <Link href="/pr-for/startups">Startup PR Agency</Link>
+              <Link href="/pr-in">PR by Location</Link>
               {GLOSSARY ? <Link href="/glossary">Glossary</Link> : null}
             </nav>
 

@@ -24,6 +24,10 @@ const TARGETS: Target[] = [
   { re: /\bUSA Today\b(?! op-ed)/, href: "/get-featured-in/usa-today" },
   { re: /\bForbes\b(?! (?:Australia|Middle East|Councils|BrandVoice))/, href: "/get-featured-in/forbes" },
   { re: /\bMSN\b/, href: "/get-featured-in/msn" },
+  { re: /\bTechBullion\b/, href: "/get-featured-in/techbullion" },
+  { re: /\bFast Company\b/, href: "/get-featured-in/fast-company" },
+  { re: /\bCEO Weekly\b/, href: "/get-featured-in/ceo-weekly" },
+  { re: /\bEntrepreneur(?= magazine|\.com| or | and |,)/, href: "/get-featured-in/entrepreneur" },
 ];
 
 const MAX_PER_PAGE = 6;
