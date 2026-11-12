@@ -425,6 +425,7 @@
   transition: transform .35s var(--ease), border-color .25s, background-color .3s;
 }
 .kjStep:hover { transform: translateX(6px); border-color: rgba(203,255,0,.5); }
+.kjStatic, .kjStatic:hover { transform: none; border-color: var(--line); cursor: default; }
 .kjMeta { display: flex; justify-content: space-between; gap: 10px; font: 600 12px var(--f-label); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
 .kjMeta span:first-child { color: var(--lime); }
 .kjOutlet { font: 800 clamp(1.53rem, 2.46vw, 2.05rem)/1 var(--f-display); letter-spacing: -0.045em; text-transform: uppercase; }

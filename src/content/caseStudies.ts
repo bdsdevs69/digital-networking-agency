@@ -4,10 +4,11 @@ export type CaseStudy = {
   image: string; url: string; quote: string;
   client: string; goal: string; did: string; result: string;
   /** every article in the campaign, oldest first (multi-outlet case studies) */
+  /** url is empty when the piece is no longer online (we still count it, we just don't link it) */
   features?: { outlet: string; kind: string; date: string; headline: string; url: string }[];
 };
 
-export const CASE_META = {"title": "Client Case Studies | Digital Networking Agency", "description": "Real client features placed by DNA \u2014 founders and experts published in MSN, USA Today, Wall Street Times and more."};
+export const CASE_META = {"title": "Client Case Studies | Digital Networking Agency", "description": "Real client features placed by DNA \u2014 founders and experts published in Forbes, USA Today, MSN, Wall Street Times and more."};
 
 export const CASE_STUDIES: CaseStudy[] = [
   {
@@ -28,7 +29,7 @@ export const CASE_STUDIES: CaseStudy[] = [
               "kind": "Syndicated feature",
               "date": "2026-07-01",
               "headline": "The body isn't a machine: Inside Dr. Kirk Sanford's case for honest regenerative medicine",
-              "url": "https://www.msn.com/en-us/news/other/the-body-isn%E2%80%99t-a-machine-inside-dr-kirk-sanford%E2%80%99s-case-for-honest-regenerative-medicine/ar-AA2705OB"
+              "url": ""
           },
           {
               "outlet": "USA Today",
@@ -50,6 +51,49 @@ export const CASE_STUDIES: CaseStudy[] = [
               "date": "2026-09-23",
               "headline": "Dr. Kirk Sanford Wants More Honesty in Regenerative Medicine",
               "url": "https://www.entrepreneur.com/entrepreneurs/dr-kirk-sanford-wants-more-honesty-in-regenerative-medicine"
+          }
+      ]
+  },
+  {
+      "slug": "wayne-allyn-root",
+      "name": "Wayne Allyn Root",
+      "outlet": "Forbes",
+      "role": "CEO, The WAYNE-Stream Media · Host, Real America's Voice",
+      "image": "/wayne-allyn-root.jpg",
+      "url": "https://www.forbes.com/sites/terdawn-deboe/2026/11/11/why-leadership-reinvention-doesnt-have-an-expiration-date/",
+      "quote": "A 40-year television career, a release on Yahoo Finance, AP News and Business Insider, then a Forbes feature on reinventing yourself at 65.",
+      "client": "Wayne Allyn Root is CEO of The WAYNE-Stream Media, a nationally syndicated radio and television host and the author of 19 books. He first made his name in sports handicapping as Jimmy \"the Greek\" Snyder's television partner, was the Libertarian Party's 2008 vice-presidential nominee, and today hosts America's Top Ten Countdown and America Speaks on Real America's Voice alongside WAR Zone Live, his daily podcast and syndicated radio show.",
+      "goal": "At 65, with a television career that began in 1985, Wayne was starting a third act: fitness and healthy aging for older Americans. He wanted that announcement to land with weight — in the business press, not on a blog — and then to be taken seriously as a story about reinvention rather than a celebrity side project.",
+      "did": "We wrote the announcement — the Bronx butcher's son who became \"America's Oddsmaker\", the four new shows landed in his sixties, the new mission — and distributed it through ACCESS Newswire, where it ran on Yahoo Finance, AP News and Business Insider on September 7, 2026. We then took the reinvention story to Forbes, where contributor TerDawn DeBoe built a Small Business Strategy feature around it, setting Wayne's third career against the research on why founders over 50 succeed more often than the myth allows, and quoting him throughout.",
+      "result": "Two months, four mastheads. The release is live on Yahoo Finance, AP News and Business Insider, and on November 11, 2026 Forbes published \"Why Leadership Reinvention Doesn't Have An Expiration Date\" — a Forbes.com feature that treats his third act as a case study in how experience compounds. He now has a Forbes feature to point every partner and viewer toward.",
+      "features": [
+          {
+              "outlet": "Yahoo Finance",
+              "kind": "Press release · ACCESS Newswire",
+              "date": "2026-09-07",
+              "headline": "Wayne Allyn Root Announces Third Career in Health and Fitness as His Television Run Passes 40 Years",
+              "url": "https://finance.yahoo.com/healthcare/articles/wayne-allyn-root-announces-third-193000293.html"
+          },
+          {
+              "outlet": "AP News",
+              "kind": "Press release · ACCESS Newswire",
+              "date": "2026-09-07",
+              "headline": "Wayne Allyn Root Announces Third Career in Health and Fitness as His Television Run Passes 40 Years",
+              "url": "https://apnews.com/press-release/access-newswire/press-release-49c8b8d8da4ad881094f538d04f068e5"
+          },
+          {
+              "outlet": "Business Insider",
+              "kind": "Press release · ACCESS Newswire",
+              "date": "2026-09-07",
+              "headline": "Wayne Allyn Root Announces Third Career in Health and Fitness as His Television Run Passes 40 Years",
+              "url": "https://markets.businessinsider.com/news/stocks/wayne-allyn-root-announces-third-career-in-health-and-fitness-as-his-television-run-passes-40-years-1036526846"
+          },
+          {
+              "outlet": "Forbes",
+              "kind": "Contributor feature",
+              "date": "2026-11-11",
+              "headline": "Why Leadership Reinvention Doesn't Have An Expiration Date",
+              "url": "https://www.forbes.com/sites/terdawn-deboe/2026/11/11/why-leadership-reinvention-doesnt-have-an-expiration-date/"
           }
       ]
   },

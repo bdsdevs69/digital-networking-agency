@@ -333,12 +333,11 @@ export const clientPlacements: Placement[] = [
       logoWhite: true
     },
     {
-      outlet: "MSN",
-      headline:
-        "Beverly D Flaxington | Business owner, bestselling author, international public speaker & college professor",
-      meta: "September 22, 2026",
-      href: "https://www.msn.com/en-us/news/other/beverly-d-flaxington--business-owner-bestselling-author--college-professor-/ar-AA2cHdsl",
-      img: "/placement-flaxington.jpg",
+      outlet: "Forbes",
+      headline: "Why Leadership Reinvention Doesn't Have An Expiration Date",
+      meta: "November 11, 2026",
+      href: "https://www.forbes.com/sites/terdawn-deboe/2026/11/11/why-leadership-reinvention-doesnt-have-an-expiration-date/",
+      img: "/wayne-allyn-root.jpg",
       logo: null,
       logoWhite: true
     },

@@ -38,7 +38,7 @@ export default function CaseStudiesIndex() {
 
   // Kirk leads; the rest are ordered by the weight of the masthead
   const ORDER = [
-    "dr-kirk-sanford", "dr-bhuvanendram-indrakrishnan", "beverly-d-flaxington", "brian-harbin",
+    "dr-kirk-sanford", "wayne-allyn-root", "dr-bhuvanendram-indrakrishnan", "brian-harbin",
     "krishan-thakker", "spojmie-nasiri", "dr-david-z-jacome", "matthew-brick", "shermel-a-jeffers-chandwani",
     "daniel-sharpe", "andr-a-albright", "patrick-kelly", "shams-merchant", "mark-manderson", "michael-lissack",
   ];

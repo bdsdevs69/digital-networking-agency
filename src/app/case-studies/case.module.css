@@ -113,12 +113,12 @@
 .coverageHead { display: grid; gap: 14px; margin-bottom: 20px; }
 .coverageHead h2 { margin: 0; font: 800 clamp(1.8rem, 3.28vw, 2.79rem)/.95 var(--f-display); letter-spacing: -0.045em; }
 .coverageList { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
-.coverageList a {
+.coverageList a, .coverageList .covStatic {
   position: relative; display: grid; gap: 10px; align-content: start; height: 100%; padding: 20px 20px 22px; border-radius: 22px;
   text-decoration: none; background: var(--bg-2); border: 1px solid var(--line); color: var(--ink);
   transition: transform .35s var(--ease), border-color .25s, background-color .3s;
 }
-.coverageList li:last-child a { background: var(--lime); border-color: var(--lime); color: var(--lime-ink); }
+.coverageList li:last-child a, .coverageList li:last-child .covStatic { background: var(--lime); border-color: var(--lime); color: var(--lime-ink); }
 .coverageList a:hover { transform: translateY(-4px); border-color: rgba(203,255,0,.5); }
 .covN { font: 600 12px var(--f-label); letter-spacing: .12em; color: var(--lime); }
 .coverageList li:last-child .covN { color: rgba(11,11,12,.55); }

@@ -111,7 +111,7 @@ export default async function CaseStudyPage({
           </div>
           <a className={styles.detailShot} href={c.url} target="_blank" rel="noopener noreferrer">
             <img src={c.image} alt={`${c.name} featured in ${c.outlet}`} style={{ objectPosition: focal(c.image) }} />
-            <span className={styles.live}>Live on {c.features && c.features.length > 1 ? `${c.features.length} publications` : c.outlet}</span>
+            <span className={styles.live}>Live on {c.features && c.features.length > 1 ? `${c.features.filter((f) => f.url).length} publications` : c.outlet}</span>
           </a>
         </div>
 
@@ -120,23 +120,34 @@ export default async function CaseStudyPage({
             <div className={styles.coverageHead}>
               <span className="v-label v-label--lime">The coverage</span>
               <h2>
-                {c.features.length} publications. <span className="v-hl">All live.</span>
+                {c.features.length} publications.{" "}
+                <span className="v-hl">{c.features.every((f) => f.url) ? "All live." : `${c.features.filter((f) => f.url).length} live.`}</span>
               </h2>
             </div>
             <ol className={styles.coverageList}>
               {c.features.map((f, i) => (
-                <li key={f.url}>
-                  <a href={f.url} target="_blank" rel="noopener noreferrer">
-                    <span className={styles.covN}>0{i + 1}</span>
-                    <span className={styles.covOutlet}>{f.outlet}</span>
-                    <span className={styles.covHead}>{f.headline}</span>
-                    <span className={styles.covMeta}>
-                      {new Date(f.date + "T00:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
-                      {" · "}
-                      {f.kind}
-                    </span>
-                    <span className={styles.covGo} aria-hidden="true">↗</span>
-                  </a>
+                <li key={f.outlet + f.date}>
+                  {(() => {
+                    const inner = (
+                      <>
+                        <span className={styles.covN}>0{i + 1}</span>
+                        <span className={styles.covOutlet}>{f.outlet}</span>
+                        <span className={styles.covHead}>{f.headline}</span>
+                        <span className={styles.covMeta}>
+                          {new Date(f.date + "T00:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
+                          {" · "}
+                          {f.kind}
+                        </span>
+                        {f.url ? <span className={styles.covGo} aria-hidden="true">↗</span> : null}
+                      </>
+                    );
+                    // no longer online: shown, counted, not linked
+                    return f.url ? (
+                      <a href={f.url} target="_blank" rel="noopener noreferrer">{inner}</a>
+                    ) : (
+                      <div className={styles.covStatic}>{inner}</div>
+                    );
+                  })()}
                 </li>
               ))}
             </ol>

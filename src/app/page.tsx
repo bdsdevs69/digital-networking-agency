@@ -5,6 +5,7 @@ import {
   Guides,
   HomeHero,
   KirkJourney,
+  RootJourney,
   KrishanStory,
   Numbers,
   LogoMarquee,
@@ -32,6 +33,7 @@ export default function Home() {
       <Numbers />
       <KrishanStory />
       <KirkJourney />
+      <RootJourney />
       <Process />
       <Services />
       <Reviews />

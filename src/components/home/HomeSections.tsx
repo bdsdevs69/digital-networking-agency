@@ -154,9 +154,9 @@ export function LogoMarquee() {
 /* ═══ [01] THE WORK — one swipeable row ══════════════════════ */
 // Order on the homepage row (anything not listed follows in its usual order).
 const WORK_ORDER = [
+  "/wayne-allyn-root.jpg",              // Forbes
   "/placement-shams.webp",              // Yahoo Finance
   "/kirk-sanford-v3.jpg",                  // Entrepreneur
-  "/placement-flaxington.jpg",          // MSN
   "/placement-indran.webp",             // USA Today
   "/krishan-thakker.jpg",               // Wall Street Times
   "/placement-brick.webp",              // Wall Street Times
@@ -320,8 +320,12 @@ export function KrishanStory() {
 const fmtDate = (d: string) =>
   new Date(d + "T00:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
 
-export function KirkJourney() {
-  const kirk = CASE_STUDIES.find((c) => c.slug === "dr-kirk-sanford");
+const WORDS: Record<number, string> = { 2: "Two", 3: "Three", 4: "Four", 5: "Five", 6: "Six", 8: "Eight", 9: "Nine", 10: "Ten", 12: "Twelve" };
+const word = (n: number) => WORDS[n] ?? String(n);
+
+/** One client's multi-outlet campaign as a timeline. Kirk and Wayne each get one. */
+function Journey({ slug, id, first, lede }: { slug: string; id: string; first: string; lede: React.ReactNode }) {
+  const kirk = CASE_STUDIES.find((c) => c.slug === slug);
   const steps = kirk?.features ?? [];
   if (!kirk || steps.length < 2) return null;
   const t0 = new Date(steps[0].date).getTime();
@@ -331,7 +335,7 @@ export function KirkJourney() {
   const strip = [...steps, ...steps, ...steps];
 
   return (
-    <section className={`v-sec ${s.kj}`} id="kirk" aria-labelledby="kirk-title">
+    <section className={`v-sec ${s.kj}`} id={id} aria-labelledby={`${id}-title`}>
       <div className="v-glow" aria-hidden="true" />
 
       {/* the mastheads, rolling */}
@@ -351,16 +355,12 @@ export function KirkJourney() {
         <div className={s.kjTop}>
           <div className={s.kjTopL}>
             <span className="v-label v-label--lime">Case study · {kirk.name}</span>
-            <h2 id="kirk-title" className={s.kjTitle}>
-              One story. {steps.length === 4 ? "Four" : steps.length} mastheads.{" "}
-              <span className="v-hl">{weeks === 12 ? "Twelve" : weeks} weeks.</span>
+            <h2 id={`${id}-title`} className={s.kjTitle}>
+              One story. {word(steps.length)} mastheads.{" "}
+              <span className="v-hl">{word(weeks)} weeks.</span>
             </h2>
           </div>
-          <p className={s.kjLede}>
-            A regenerative-medicine founder with one argument worth hearing &mdash; that
-            the body isn&rsquo;t a machine. We turned it into a campaign, not a one-off:
-            each piece a new angle, every word approved by him.
-          </p>
+          <p className={s.kjLede}>{lede}</p>
         </div>
 
         <div className={s.kjBody}>
@@ -382,26 +382,36 @@ export function KirkJourney() {
           <div className={s.kjMain}>
             <ol className={s.kjCards}>
               {steps.map((f, i) => (
-                <li key={f.url} className={i === steps.length - 1 ? s.kjLast : undefined}>
-                  <a href={f.url} target="_blank" rel="noopener noreferrer" className={s.kjStep}>
-                    <span className={s.kjMeta}>
-                      <span>{String(i + 1).padStart(2, "0")} · {i === 0 ? "Start" : `+${weeksIn(f.date)} weeks`}</span>
-                      <span>{fmtDate(f.date)}</span>
-                    </span>
-                    <span className={s.kjOutlet}>{f.outlet}</span>
-                    <span className={s.kjHead}>{f.headline}</span>
-                    <span className={s.kjFoot}>
-                      <span />
-                      <span className={s.kjGo}>Read it live <i aria-hidden="true">↗</i></span>
-                    </span>
-                  </a>
+                <li key={f.outlet + f.date} className={i === steps.length - 1 ? s.kjLast : undefined}>
+                  {(() => {
+                    const inner = (
+                      <>
+                        <span className={s.kjMeta}>
+                          <span>{String(i + 1).padStart(2, "0")} · {i === 0 ? "Start" : weeksIn(f.date) === 0 ? "Same day" : `+${weeksIn(f.date)} weeks`}</span>
+                          <span>{fmtDate(f.date)}</span>
+                        </span>
+                        <span className={s.kjOutlet}>{f.outlet}</span>
+                        <span className={s.kjHead}>{f.headline}</span>
+                        <span className={s.kjFoot}>
+                          <span />
+                          {f.url ? <span className={s.kjGo}>Read it live <i aria-hidden="true">↗</i></span> : <span className={s.kjGo}>Published on {f.outlet}</span>}
+                        </span>
+                      </>
+                    );
+                    // a piece that is no longer online is shown but not linked
+                    return f.url ? (
+                      <a href={f.url} target="_blank" rel="noopener noreferrer" className={s.kjStep}>{inner}</a>
+                    ) : (
+                      <div className={`${s.kjStep} ${s.kjStatic}`}>{inner}</div>
+                    );
+                  })()}
                 </li>
               ))}
             </ol>
 
             <div className={s.kjCtas}>
               <Link href={`/case-studies/${kirk.slug}`} className={s.railMore}>
-                Read Kirk&rsquo;s case study <Arrow />
+                Read {first}&rsquo;s case study <Arrow />
               </Link>
               <FunkyCta href="/contact" label="Get featured now" className="v-cta--sm" />
             </div>
@@ -409,6 +419,41 @@ export function KirkJourney() {
         </div>
       </div>
     </section>
+  );
+}
+
+export function KirkJourney() {
+  return (
+    <Journey
+      slug="dr-kirk-sanford"
+      id="kirk"
+      first="Kirk"
+      lede={
+        <>
+          A regenerative-medicine founder with one argument worth hearing &mdash; that
+          the body isn&rsquo;t a machine. We turned it into a campaign, not a one-off:
+          each piece a new angle, every word approved by him.
+        </>
+      }
+    />
+  );
+}
+
+export function RootJourney() {
+  return (
+    <Journey
+      slug="wayne-allyn-root"
+      id="root"
+      first="Wayne"
+      lede={
+        <>
+          A television host of forty years starting a third career at 65. We put the
+          announcement on the wire &mdash; Yahoo Finance, AP News, Business Insider &mdash;
+          then took the reinvention story to Forbes, where it ran as a feature on why
+          experience compounds.
+        </>
+      }
+    />
   );
 }
 
