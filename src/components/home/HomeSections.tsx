@@ -40,7 +40,9 @@ export async function HomeHero() {
     .map((p) => ({ ...p, date: new Date(p.meta) }))
     .filter((p) => !Number.isNaN(p.date.getTime()))
     .sort((a, b) => b.date.getTime() - a.date.getTime());
-  const edition = dated.filter((p) => p.img).slice(0, 5);
+  // Pieces kept off "In this edition" (still in the work rail and the wire).
+  const EDITION_SKIP = ["nyweekly.com/business/the-shape-of-an-absence"];
+  const edition = dated.filter((p) => p.img && !EDITION_SKIP.some((k) => p.href.includes(k))).slice(0, 5);
 
   return (
     <section className={s.news}>
@@ -155,6 +157,7 @@ export function LogoMarquee() {
 // Order on the homepage row (anything not listed follows in its usual order).
 const WORK_ORDER = [
   "/wayne-allyn-root.jpg",              // Forbes
+  "/lauretta-zucchetti-tsj.jpg",        // Times Square Journal
   "/placement-shams.webp",              // Yahoo Finance
   "/kirk-sanford-v3.jpg",                  // Entrepreneur
   "/placement-indran.webp",             // USA Today
@@ -253,26 +256,41 @@ export async function Numbers() {
   );
 }
 
-/* ═══ KRISHAN — the video, and the feature behind it ═══════════ */
-export function KrishanStory() {
-  const k = CASE_STUDIES.find((c) => c.slug === "krishan-thakker");
+/* ═══ THE VIDEO STORIES — a client on camera, and the feature behind it ═══
+   Krishan and Lauretta each get one; same card, different video. */
+type StoryProps = {
+  slug: string; id: string; first: string;
+  title: React.ReactNode;
+  roleLine: string;
+  clip: { headline: string; date: string };
+  facts: React.ReactNode[];
+  video: { src?: string; poster?: string; captions?: string | null; maxSeconds?: number; portrait?: boolean };
+};
+
+function Story({ slug, id, first, title, roleLine, clip, facts, video }: StoryProps) {
+  const k = CASE_STUDIES.find((c) => c.slug === slug);
   if (!k) return null;
   return (
-    <section className={`v-sec ${s.ks}`} id="krishan" aria-labelledby="krishan-title">
+    <section className={`v-sec ${s.ks}`} id={id} aria-labelledby={`${id}-title`}>
       <div className="v-wrap">
         <div className={s.ksHead}>
           <span className="v-label v-label--lime">In their words · Case study</span>
-          <h2 id="krishan-title" className={s.ksTitle}>
-            Hear it from <span className="v-hl">the client.</span>
-          </h2>
+          <h2 id={`${id}-title`} className={s.ksTitle}>{title}</h2>
         </div>
 
-        <div className={s.ksGrid}>
+        <div className={`${s.ksGrid} ${video.portrait ? s.ksGridTall : ""}`}>
           <div className={s.ksVideo}>
-            <VideoPlayer className={s.ksPlayer} />
+            <VideoPlayer
+              className={`${s.ksPlayer} ${video.portrait ? s.ksPlayerTall : ""}`}
+              src={video.src}
+              poster={video.poster}
+              captions={video.captions}
+              maxSeconds={video.maxSeconds}
+              label={`Play ${k.name}'s review`}
+            />
             <p className={s.ksCaption}>
               <span className={s.ksLiveDot} aria-hidden="true" />
-              Krishan Thakker on working with DNA
+              {k.name} on working with DNA
             </p>
           </div>
 
@@ -281,36 +299,66 @@ export function KrishanStory() {
               <img src={k.image} alt={k.name} loading="lazy" style={{ objectPosition: focal(k.image) }} />
               <span>
                 <strong>{k.name}</strong>
-                President, South Asian Bar Association of Florida
+                {roleLine}
               </span>
             </div>
 
             <a className={s.ksClip} href={k.url} target="_blank" rel="noopener noreferrer">
               <span className={s.ksClipTop}>
                 <span className={s.ksMast}>{k.outlet}</span>
-                <span>Nov 6, 2025</span>
+                <span>{clip.date}</span>
               </span>
-              <span className={s.ksClipHead}>
-                Beyond the Brief: Krishan Thakker on Law, Leadership, and Social Impact
-              </span>
+              <span className={s.ksClipHead}>{clip.headline}</span>
               <span className={s.ksClipGo}>
                 Read it live <i aria-hidden="true">↗</i>
               </span>
             </a>
 
             <ul className={s.ksFacts}>
-              <li><b>16+</b> years advising global companies</li>
-              <li><b>4</b> regions of clients — India, the US, the Middle East, Africa</li>
-              <li><b>1</b> profile of the person, not just the practice</li>
+              {facts.map((f, i) => <li key={i}>{f}</li>)}
             </ul>
 
             <Link href={`/case-studies/${k.slug}`} className={s.ksMore}>
-              Read Krishan&rsquo;s case study <Arrow />
+              Read {first}&rsquo;s case study <Arrow />
             </Link>
           </article>
         </div>
       </div>
     </section>
+  );
+}
+
+export function KrishanStory() {
+  return (
+    <Story
+      slug="krishan-thakker" id="krishan" first="Krishan"
+      title={<>Hear it from <span className="v-hl">the client.</span></>}
+      roleLine="President, South Asian Bar Association of Florida"
+      clip={{ headline: "Beyond the Brief: Krishan Thakker on Law, Leadership, and Social Impact", date: "Nov 6, 2025" }}
+      facts={[
+        <><b>16+</b> years advising global companies</>,
+        <><b>4</b> regions of clients — India, the US, the Middle East, Africa</>,
+        <><b>1</b> profile of the person, not just the practice</>,
+      ]}
+      video={{}}
+    />
+  );
+}
+
+export function LaurettaStory() {
+  return (
+    <Story
+      slug="lauretta-zucchetti" id="lauretta" first="Lauretta"
+      title={<>And one more, <span className="v-hl">in her own words.</span></>}
+      roleLine="Author, speaker & transpersonal coach · ex-Apple sales executive"
+      clip={{ headline: "From Italy to Apple and Back to Herself: Lauretta Zucchetti on Unlearning Who She Was Taught to Be", date: "Nov 13, 2026" }}
+      facts={[
+        <><b>4</b> years running in Apple&rsquo;s President&rsquo;s Club</>,
+        <><b>2</b> features — MSN first, then Times Square Journal</>,
+        <><b>1</b> story told whole, from Italy to Apple to the work she does now</>,
+      ]}
+      video={{ src: "/lauretta-zucchetti-review.mp4", poster: "/lauretta-zucchetti-poster.jpg", captions: null, portrait: true }}
+    />
   );
 }
 

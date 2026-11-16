@@ -111,6 +111,19 @@ export const CASE_STUDIES: CaseStudy[] = [
       "result": "The profile ran in the Wall Street Times as \"Beyond the Brief: Krishan Thakker on Law, Leadership, and Social Impact.\" It stays live and searchable — the first thing someone finds about the person, not just the practice. Krish talks about the experience in his own words in the video on our homepage."
   },
   {
+      "slug": "lauretta-zucchetti",
+      "name": "Lauretta Zucchetti",
+      "outlet": "Times Square Journal",
+      "role": "Author, speaker & transpersonal coach · Former Apple sales executive",
+      "image": "/lauretta-zucchetti-tsj.jpg",
+      "url": "https://timesquarejournal.com/media-and-influence/from-italy-to-apple-and-back-to-herself-lauretta-zucchetti-on-unlearning-who-she",
+      "quote": "From a girl raised in Italy to Apple's President's Club four years running, then a second life as an author and coach — a feature on MSN, then the whole story in Times Square Journal.",
+      "client": "Lauretta Zucchetti is an author, motivational speaker and transpersonal coach who helps women unlearn who they were taught to be so they can become who they actually are. Raised in Italy, she immigrated to California in her early twenties, became a top sales rep at Xerox within a year and went on to make Apple's President's Club four years in a row. After a devastating loss at 40 she left corporate life, earned a B.A. in Women's Studies and a Master's in Transpersonal Psychology, and now writes, speaks and coaches at the intersection of identity, self-trust and conscious choice. Her memoir, Painted Red, is on its way.",
+      "goal": "Lauretta's story had only ever been told in pieces — an essay here, a Substack post there, an anthology win years ago. Nothing put the Xerox and Apple years, the loss that changed everything and the work she does now in one place, under a masthead people trust. She wanted the full arc told properly, where the women who might hire her as a coach and the organisers who might book her as a speaker would actually find it.",
+      "did": "We ran it in two steps. First a feature on MSN, which put her name in front of a mass audience. Then we took the deeper story to Times Square Journal: the childhood in Italy, the phone call that turned into a year travelling the world for Apple, the 120-to-2 interview process that got her into Apple headquarters, the loss at 40, and the degrees and the practice that followed. We wrote it to editorial standard and Lauretta approved every word before it went live.",
+      "result": "The profile ran in Times Square Journal on November 13, 2026 as \"From Italy to Apple and Back to Herself: Lauretta Zucchetti on Unlearning Who She Was Taught to Be.\" It stays live and searchable — the first thing anyone finds about her is now the whole story, not a fragment. Lauretta recorded a video about working with us; you can watch it on our homepage."
+  },
+  {
       "slug": "brian-harbin",
       "name": "Brian Harbin",
       "outlet": "Yahoo Finance",

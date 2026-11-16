@@ -492,6 +492,10 @@
 .ksMore:hover { transform: translateY(-2px); }
 .ksMore svg { width: 16px; height: 16px; }
 
+/* portrait (phone-shot) video: narrower column, player kept to 9:16, card centred beside it */
+.ksGridTall { grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); align-items: center; }
+.ksGridTall .ksVideo { justify-items: center; }
+.ksPlayerTall { aspect-ratio: 9 / 16 !important; width: 100%; max-width: 400px; }
 @media (max-width: 960px) { .ksGrid { grid-template-columns: 1fr; } }
 
 /* ═══ HERO — the front page ═════════════════════════════════════

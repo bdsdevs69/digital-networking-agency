@@ -7,6 +7,7 @@ import {
   KirkJourney,
   RootJourney,
   KrishanStory,
+  LaurettaStory,
   Numbers,
   LogoMarquee,
   Process,
@@ -34,6 +35,7 @@ export default function Home() {
       <KrishanStory />
       <KirkJourney />
       <RootJourney />
+      <LaurettaStory />
       <Process />
       <Services />
       <Reviews />

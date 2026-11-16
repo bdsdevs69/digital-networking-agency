@@ -295,6 +295,15 @@ export const clientPlacements: Placement[] = [
       logoWhite: true
     },
     {
+      outlet: "Times Square Journal",
+      headline: "From Italy to Apple and Back to Herself: Lauretta Zucchetti on Unlearning Who She Was Taught to Be",
+      meta: "November 13, 2026",
+      href: "https://timesquarejournal.com/media-and-influence/from-italy-to-apple-and-back-to-herself-lauretta-zucchetti-on-unlearning-who-she",
+      img: "/lauretta-zucchetti-tsj.jpg",
+      logo: null,
+      logoWhite: true
+    },
+    {
       outlet: "Wall Street Times",
       headline: "Beyond the Brief: Krishan Thakker on Law, Leadership, and Social Impact",
       meta: "November 6, 2025",

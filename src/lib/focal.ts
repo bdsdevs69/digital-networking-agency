@@ -22,7 +22,8 @@ const FOCAL: Record<string, string> = {
   "placement-albright": "50% 18%",
   "placement-kelly": "50% 15%",
   "placement-flaxington": "50% 22%",
-  "wayne-allyn-root": "48% 20%"
+  "wayne-allyn-root": "48% 20%",
+  "lauretta-zucchetti-tsj": "50% 36%"
 };
 
 /** object-position for an image path like "/placement-kirk-msn.webp". */

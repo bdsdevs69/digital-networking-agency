@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { getTrustpilotData } from "@/lib/trustpilot";
-import { KrishanStory, REVIEW_PHOTOS } from "@/components/home/HomeSections";
+import { KrishanStory, LaurettaStory, REVIEW_PHOTOS } from "@/components/home/HomeSections";
 import styles from "./reviews.module.css";
 
 // Refresh cached Trustpilot reviews every 6 hours.
@@ -110,6 +110,7 @@ export default async function ReviewsPage() {
       </header>
 
       <KrishanStory />
+      <LaurettaStory />
 
       <section className="v-sec v-light v-panel">
         <div className="v-wrap">

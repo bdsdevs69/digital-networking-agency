@@ -3,31 +3,51 @@
 import { useRef, useState } from "react";
 import styles from "./VideoTestimonial.module.css";
 
-// Playback is capped so only the first 28 seconds play (up to "the global
-// stage"), without needing to re-encode the source file.
-const MAX_SECONDS = 28;
 
 const VIDEO_SRC = "/client-testimonial.mp4";
 const POSTER_SRC = "/testimonial-poster.webp";
 const CAPTIONS_SRC = "/client-testimonial.vtt";
 
+type PlayerProps = {
+  className?: string;
+  src?: string;
+  poster?: string;
+  /** WebVTT file; omit when the captions are burned into the video. */
+  captions?: string | null;
+  /** stop playback here; 0 (default) = play the whole file */
+  maxSeconds?: number;
+  label?: string;
+};
+
 /** The capped video player on its own, so other sections can place it. */
-export function VideoPlayer({ className = "" }: { className?: string }) {
+export function VideoPlayer({
+  className = "",
+  src = VIDEO_SRC,
+  poster = POSTER_SRC,
+  captions = CAPTIONS_SRC,
+  maxSeconds = 0,
+  label = "Play client testimonial",
+}: PlayerProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [playing, setPlaying] = useState(false);
+  // Native controls stay once playback has started. Hiding them on every
+  // `pause` broke scrubbing: Safari pauses while you drag the timeline, the
+  // controls vanished mid-drag, and the video stayed paused.
+  const [started, setStarted] = useState(false);
 
   function play() {
     const v = videoRef.current;
     if (!v) return;
     v.play();
     setPlaying(true);
+    setStarted(true);
   }
 
   function onTimeUpdate() {
     const v = videoRef.current;
-    if (v && v.currentTime >= MAX_SECONDS) {
+    if (v && maxSeconds > 0 && v.currentTime >= maxSeconds) {
       v.pause();
-      v.currentTime = MAX_SECONDS;
+      v.currentTime = maxSeconds;
       setPlaying(false);
     }
   }
@@ -37,22 +57,24 @@ export function VideoPlayer({ className = "" }: { className?: string }) {
       <video
         ref={videoRef}
         className={styles.video}
-        poster={POSTER_SRC}
+        poster={poster}
         playsInline
-        controls={playing}
+        controls={started}
         onTimeUpdate={onTimeUpdate}
         onEnded={() => setPlaying(false)}
         onPause={() => setPlaying(false)}
-        onPlay={() => setPlaying(true)}
+        onPlay={() => { setPlaying(true); setStarted(true); }}
       >
-        <source src={VIDEO_SRC} type="video/mp4" />
-        <track
-          default
-          kind="subtitles"
-          srcLang="en"
-          label="English"
-          src={CAPTIONS_SRC}
-        />
+        <source src={src} type="video/mp4" />
+        {captions && (
+          <track
+            default
+            kind="subtitles"
+            srcLang="en"
+            label="English"
+            src={captions}
+          />
+        )}
       </video>
 
       {!playing && (
@@ -60,7 +82,7 @@ export function VideoPlayer({ className = "" }: { className?: string }) {
           type="button"
           className={styles.playBtn}
           onClick={play}
-          aria-label="Play client testimonial"
+          aria-label={label}
         >
           <span className={styles.playRing} aria-hidden="true" />
           <svg viewBox="0 0 24 24" aria-hidden="true">
