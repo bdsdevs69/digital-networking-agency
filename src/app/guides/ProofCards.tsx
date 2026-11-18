@@ -13,7 +13,7 @@ export type Proof = {
 // Keyed by guide slug — add an entry to surface cards on another guide.
 export const PROOF: Record<string, { title: string; items: Proof[] }> = {
   "how-to-get-featured-on-msn": {
-    title: "Our client features on MSN",
+    title: "Our client feature on MSN",
     items: [
       {
         outlet: "MSN",
@@ -21,13 +21,6 @@ export const PROOF: Record<string, { title: string; items: Proof[] }> = {
         headline: "The entrepreneurs everyone is talking about in 2026",
         href: "https://www.msn.com/en-us/news/other/the-entrepreneurs-everyone-is-talking-about-in-2026/ar-AA25j5ca",
         img: "/placement-entrepreneurs-msn.webp"
-      },
-      {
-        outlet: "MSN",
-        kind: "Full feature",
-        headline: "Beverly D Flaxington | Business owner, bestselling author, international public speaker & college professor",
-        href: "https://www.msn.com/en-us/news/other/beverly-d-flaxington--business-owner-bestselling-author--college-professor-/ar-AA2cHdsl",
-        img: "/placement-flaxington.jpg"
       }
     ]
   }
@@ -42,7 +35,9 @@ export function ProofCards({ slug }: { slug: string }) {
       <span className={styles.proofTag}>Proof</span>
       <h2 className={styles.proofTitle}>{block.title}</h2>
       <p className={styles.proofLede}>
-        Live articles, not a logo wall. Click either one to read it on MSN.
+        {block.items.length > 1
+          ? "Live articles, not a logo wall. Click either one to read it on MSN."
+          : "A live article, not a logo wall. Click it to read it on MSN."}
       </p>
 
       <div className={styles.proofGrid}>

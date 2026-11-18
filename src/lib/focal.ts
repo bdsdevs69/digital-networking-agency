@@ -22,6 +22,7 @@ const FOCAL: Record<string, string> = {
   "placement-albright": "50% 18%",
   "placement-kelly": "50% 15%",
   "placement-flaxington": "50% 22%",
+  "beverly-flaxington": "50% 26%",
   "wayne-allyn-root": "48% 20%",
   "lauretta-zucchetti-tsj": "50% 36%"
 };

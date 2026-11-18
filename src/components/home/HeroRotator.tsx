@@ -32,8 +32,8 @@ export function HeroRotator({ items }: { items: RotItem[] }) {
           key={it.outlet}
           className={`${s.rotItem} ${s[`rot--${it.style}`]}`}
           data-state={n === i ? "in" : n === (i - 1 + items.length) % items.length ? "out" : "wait"}
-          // long names shrink so every outlet fits the column
-          style={{ fontSize: `${Math.min(1, 12 / (it.outlet.length + 1))}em` }}
+          // long names shrink so every outlet fits the column (Anton is condensed)
+          style={{ fontSize: `${Math.min(1, 13 / (it.outlet.length + 1))}em` }}
         >
           {it.outlet}.
         </span>

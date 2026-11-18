@@ -44,7 +44,6 @@ export default function CaseStudiesIndex() {
   ];
   const rank = (slug: string) => { const i = ORDER.indexOf(slug); return i === -1 ? ORDER.length : i; };
   const [featured, ...rest] = [...CASE_STUDIES].sort((a, b) => rank(a.slug) - rank(b.slug));
-  const outlets = Array.from(new Set(CASE_STUDIES.flatMap((c) => (c.features?.length ? c.features.map((f) => f.outlet) : [c.outlet]))));
 
   return (
     <main className={styles.page}>
@@ -64,15 +63,13 @@ export default function CaseStudiesIndex() {
             that matter — every story permanent, searchable, and approved by the
             client before it went live.
           </p>
-          <div className={styles.outStrip}>
-            <span>Featured in</span>
-            {outlets.map((o) => (
-              <em key={o}>{o}</em>
-            ))}
-          </div>
+          <p className={styles.notAll}>
+            A handful of the stories we&rsquo;ve told. We&rsquo;ve placed far more clients, in far more places, than fit on one page.
+          </p>
         </div>
       </header>
 
+      <section className={`v-paper v-panel ${styles.sheet}`} aria-label="Client case studies">
       <div className={`v-wrap ${styles.list}`}>
         {/* featured story — large split card */}
         <Link href={`/case-studies/${featured.slug}`} className={styles.feature}>
@@ -82,7 +79,7 @@ export default function CaseStudiesIndex() {
               alt={`${featured.name} featured in ${featured.outlet}`}
               style={{ objectPosition: focal(featured.image) }}
             />
-            <span className={styles.outletTag}>{featured.outlet}{featured.features && featured.features.length > 1 ? ` +${featured.features.length - 1}` : ""}</span>
+            <span className={styles.outletTag}>{featured.outlet}</span>
           </span>
           <span className={styles.featBody}>
             <span className={styles.featEy}>Featured story</span>
@@ -109,7 +106,7 @@ export default function CaseStudiesIndex() {
                   loading="lazy"
                   style={{ objectPosition: focal(c.image) }}
                 />
-                <span className={styles.outletTag}>{c.outlet}{c.features && c.features.length > 1 ? ` +${c.features.length - 1}` : ""}</span>
+                <span className={styles.outletTag}>{c.outlet}</span>
               </span>
               <span className={styles.cardBody}>
                 <span className={styles.cardName}>{c.name}</span>
@@ -123,6 +120,7 @@ export default function CaseStudiesIndex() {
           ))}
         />
       </div>
+      </section>
     </main>
   );
 }

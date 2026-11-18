@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { Archivo, Instrument_Sans, Playfair_Display, Syne, Bodoni_Moda, Unbounded } from "next/font/google";
+import { Anton, Archivo, Instrument_Sans, Playfair_Display, Syne, Bodoni_Moda, Unbounded } from "next/font/google";
 import "./globals.css";
 import "./v3.css";
 import { NavMenu } from "@/components/landing/NavMenu";
@@ -37,6 +37,8 @@ const fPress = Playfair_Display({
 const fMast = Bodoni_Moda({ subsets: ["latin"], weight: ["700", "900"], style: ["normal", "italic"], display: "swap", variable: "--font-bodoni" });
 // wide, sharp face for the footer wordmark
 const fSyne = Syne({ subsets: ["latin"], weight: ["800"], display: "swap", variable: "--font-syne" });
+// the condensed poster caps Publisive uses for outlet names; here for client names and the hero
+const fAnton = Anton({ subsets: ["latin"], weight: ["400"], display: "swap", variable: "--font-anton" });
 const fFunk = Unbounded({ subsets: ["latin"], weight: ["700", "900"], display: "swap", variable: "--font-unbounded" });
 
 export const metadata: Metadata = {
@@ -142,7 +144,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${fDisplay.variable} ${fBody.variable} ${fPress.variable} ${fFunk.variable} ${fSyne.variable} ${fMast.variable}`}
+      className={`${fDisplay.variable} ${fBody.variable} ${fPress.variable} ${fFunk.variable} ${fSyne.variable} ${fMast.variable} ${fAnton.variable}`}
       suppressHydrationWarning
     >
       <head>

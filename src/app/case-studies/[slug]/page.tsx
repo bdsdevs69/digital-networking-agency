@@ -101,26 +101,34 @@ export default async function CaseStudyPage({
 
         <div className={styles.detailHead}>
           <div className={styles.detailText}>
-            <span className={styles.detailOutlet}>Featured in {c.features && c.features.length > 1 ? c.features.map((f) => f.outlet).join(" · ") : c.outlet}</span>
+            <span className={styles.detailOutlet}>Client case study</span>
             <h1>{c.name}</h1>
             <p className={styles.detailRole}>{c.role}</p>
             <p className={styles.detailQuote}>{c.quote}</p>
-            <a className="v-btn v-btn--lg" href={c.url} target="_blank" rel="noopener noreferrer">
-              Read it live on {c.outlet} <span aria-hidden="true">&#8599;</span>
-            </a>
+            {c.url && (
+              <a className="v-btn v-btn--lg" href={c.url} target="_blank" rel="noopener noreferrer">
+                Read it live on {c.outlet} <span aria-hidden="true">&#8599;</span>
+              </a>
+            )}
           </div>
-          <a className={styles.detailShot} href={c.url} target="_blank" rel="noopener noreferrer">
-            <img src={c.image} alt={`${c.name} featured in ${c.outlet}`} style={{ objectPosition: focal(c.image) }} />
-            <span className={styles.live}>Live on {c.features && c.features.length > 1 ? `${c.features.filter((f) => f.url).length} publications` : c.outlet}</span>
-          </a>
+          {c.url ? (
+            <a className={styles.detailShot} href={c.url} target="_blank" rel="noopener noreferrer">
+              <img src={c.image} alt={`${c.name} featured in ${c.outlet}`} style={{ objectPosition: focal(c.image) }} />
+              <span className={styles.live}>Live on {c.outlet}</span>
+            </a>
+          ) : (
+            <div className={styles.detailShot}>
+              <img src={c.image} alt={c.name} style={{ objectPosition: focal(c.image) }} />
+            </div>
+          )}
         </div>
 
         {c.features && c.features.length > 1 ? (
           <section className={styles.coverage} aria-label="The coverage">
             <div className={styles.coverageHead}>
-              <span className="v-label v-label--lime">The coverage</span>
+              <span className="v-label v-label--lime">This campaign</span>
               <h2>
-                {c.features.length} publications.{" "}
+                {c.features.length} features in this story.{" "}
                 <span className="v-hl">{c.features.every((f) => f.url) ? "All live." : `${c.features.filter((f) => f.url).length} live.`}</span>
               </h2>
             </div>
@@ -164,14 +172,14 @@ export default async function CaseStudyPage({
           ))}
         </div>
 
-        <section className={styles.more} aria-label="More case studies">
+        <section className={`${styles.more} v-paper`} aria-label="More case studies">
           <h2>More case studies</h2>
           <div className={styles.moreGrid}>
             {others.map((x) => (
               <Link key={x.slug} href={`/case-studies/${x.slug}`}>
                 <img src={x.image} alt={x.name} loading="lazy" style={{ objectPosition: focal(x.image) }} />
                 <span>{x.name}</span>
-                <small>{x.outlet}</small>
+                <small>{x.role}</small>
               </Link>
             ))}
           </div>

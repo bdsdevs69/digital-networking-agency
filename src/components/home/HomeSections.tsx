@@ -7,9 +7,9 @@ import { focal } from "@/lib/focal";
 import s from "./home.module.css";
 import { Rail } from "./Rail";
 import { HeroRotator, type RotItem } from "./HeroRotator";
-import { MastName } from "./MastName";
+import { HeroLoop } from "./HeroLoop";
 import { FunkyCta } from "@/components/FunkyCta";
-import { VideoPlayer } from "@/components/VideoTestimonial";
+import { ClientVideosView, type ClientVideo } from "./ClientVideos";
 import { guideHref } from "@/lib/merged";
 
 const TRUSTPILOT = "https://www.trustpilot.com/review/digitalnetworkingagency.com";
@@ -26,6 +26,7 @@ export const Arrow = () => (
 // the headline cycles through the same five outlets, in this order
 const ROTATE: RotItem[] = [
   // each set in a style that echoes the real masthead
+  { outlet: "Forbes", style: "serif" },
   { outlet: "USA Today", style: "sans" },
   { outlet: "Entrepreneur", style: "serif" },
   { outlet: "MSN", style: "sans" },
@@ -34,84 +35,169 @@ const ROTATE: RotItem[] = [
   { outlet: "Times Square Journal", style: "sansItalic" },
 ];
 
+// short silent loops cut from the client review videos (full videos live in #clients)
+const HERO_LOOPS = [
+  { name: "Krishan Thakker", src: "/hero-loop-krishan.mp4", poster: "/hero-loop-krishan.jpg" },
+  { name: "Lauretta Zucchetti", src: "/hero-loop-lauretta.mp4", poster: "/hero-loop-lauretta.jpg" },
+  { name: "Beverly D. Flaxington", src: "/hero-loop-beverly.mp4", poster: "/hero-loop-beverly.jpg" },
+];
+
+type WallTile =
+  | { kind: "press"; outlet: string; headline: string; href: string; img: string }
+  | { kind: "video"; name: string; src: string; poster: string }
+  | { kind: "stat"; big: string; small: string };
+
+function Tile({ t, hidden }: { t: WallTile; hidden?: boolean }) {
+  const tab = hidden ? -1 : undefined;
+  if (t.kind === "stat") {
+    return (
+      <div className={s.wStat}>
+        <b>{t.big}</b>
+        <span>{t.small}</span>
+      </div>
+    );
+  }
+  if (t.kind === "video") {
+    return (
+      <a className={`${s.wTile} ${s.wVideo}`} href="#clients" tabIndex={tab} aria-label={hidden ? undefined : `Watch ${t.name}'s video review`}>
+        <HeroLoop src={t.src} poster={t.poster} />
+        <span className={s.wShade} aria-hidden="true" />
+        <span className={s.wBadge}><i aria-hidden="true" /> Client video</span>
+        <span className={s.wCap}>
+          <strong>{t.name}</strong>
+          <em>Watch the review &rarr;</em>
+        </span>
+      </a>
+    );
+  }
+  return (
+    <a className={s.wTile} href={t.href} target="_blank" rel="noopener noreferrer" tabIndex={tab}>
+      <img src={t.img} alt="" loading="lazy" style={{ objectPosition: focal(t.img) }} />
+      <span className={s.wShade} aria-hidden="true" />
+      <span className={s.wCap}>
+        <b>{t.outlet}</b>
+        <span>{t.headline}</span>
+      </span>
+    </a>
+  );
+}
+
 export async function HomeHero() {
   const tp = await getTrustpilotData();
   const dated = clientPlacements
     .map((p) => ({ ...p, date: new Date(p.meta) }))
     .filter((p) => !Number.isNaN(p.date.getTime()))
     .sort((a, b) => b.date.getTime() - a.date.getTime());
-  // Pieces kept off "In this edition" (still in the work rail and the wire).
-  const EDITION_SKIP = ["nyweekly.com/business/the-shape-of-an-absence"];
-  const edition = dated.filter((p) => p.img && !EDITION_SKIP.some((k) => p.href.includes(k))).slice(0, 5);
+  // Pieces kept off the hero wall (still in the work rail and the wire).
+  const WALL_SKIP = ["nyweekly.com/business/the-shape-of-an-absence"];
+  const press: WallTile[] = dated
+    .filter((p) => p.img && !WALL_SKIP.some((k) => p.href.includes(k)))
+    .map((p) => ({ kind: "press", outlet: p.outlet, headline: p.headline, href: p.href, img: p.img! }));
+  const videos: WallTile[] = HERO_LOOPS.map((v) => ({ kind: "video", ...v }));
+  const stats: WallTile[] = [
+    { kind: "stat", big: "1,100+", small: "publications we pitch to" },
+    { kind: "stat", big: `${tp.score.toFixed(1)}★`, small: "on Trustpilot, from verified clients" },
+    { kind: "stat", big: "100%", small: "of articles approved by the client first" },
+  ];
+  // three columns, each led by different work, a video and a stat mixed in
+  const cols: WallTile[][] = [[], [], []];
+  press.forEach((p, i) => cols[i % 3].push(p));
+  videos.forEach((v, i) => cols[i].splice(1 + (i % 2) * 2, 0, v));
+  stats.forEach((st, i) => cols[(i + 1) % 3].splice(3 + i, 0, st));
+  const faces = CASE_STUDIES.slice(0, 7);
 
   return (
-    <section className={s.news}>
-      <div>
-        {/* the front page, edge to edge */}
-        <div className={s.sheet}>
-          <header className={s.mastHead}>
-            <MastName />
-          </header>
-
-          <div className={s.front}>
-            <div className={s.lead}>
-              {/* the full phrase stays in the h1 for search; the eye sees the rotating outlet */}
-              <h1 className={s.newsH1}>
-                <span className={s.h1Top}>Get featured in</span>
-                <HeroRotator items={ROTATE} />
-                <span className="sr-only">
-                  the press people trust — {ROTATE.map((r) => r.outlet).join(", ")}
-                </span>
-              </h1>
-              <p className={s.newsLede}>
-                We write your story and get it published in the outlets your clients already read.
-                You approve every word.
-              </p>
-              <div className={s.newsActions}>
-                <FunkyCta href="/contact" label="Get featured" />
-                <a href="#work" className={s.newsLink}>
-                  See the work <Arrow />
-                </a>
-              </div>
-
-              <a className={s.newsTrust} href={TRUSTPILOT} target="_blank" rel="noopener noreferrer">
-                <span aria-hidden="true">★★★★★</span> Rated {tp.score.toFixed(1)} on Trustpilot
-              </a>
-            </div>
-
-            <aside className={s.edition} aria-label="In this edition">
-              <p className={s.editionHead}>In this edition</p>
-              {edition.map((p) => (
-                <a key={p.href} className={s.story} href={p.href} target="_blank" rel="noopener noreferrer">
-                  <span className={s.storyPic}>
-                    <img src={p.img!} alt="" loading="lazy" style={{ objectPosition: focal(p.img) }} />
-                  </span>
-                  <span className={s.storyTxt}>
-                    <span className={s.storyOutlet}>{p.outlet} &middot; {p.date.toLocaleDateString("en-US", { month: "short", day: "numeric" })}</span>
-                    <span className={s.storyHead}>{p.headline}</span>
-                  </span>
-                </a>
-              ))}
-            </aside>
+    <section className={s.hx} aria-labelledby="hx-title">
+      <div className={s.hxInner}>
+        <div className={s.hxCopy}>
+          <span className={s.hxKicker}>
+            <i aria-hidden="true" /> <em>Digital Networking Agency &middot;</em> PR that gets printed
+          </span>
+          {/* the full phrase stays in the h1 for search; the eye sees the rotating outlet */}
+          <h1 id="hx-title" className={s.hxH1}>
+            <span className={s.hxTop}>Get featured in</span>
+            <HeroRotator items={ROTATE} />
+            <span className="sr-only">
+              the press people trust — {ROTATE.map((r) => r.outlet).join(", ")}
+            </span>
+          </h1>
+          <p className={s.hxLede}>
+            We write your story and get it published in the outlets your clients already read.
+            You approve every word.
+          </p>
+          <div className={s.hxActions}>
+            <FunkyCta href="/contact" label="Get featured" />
+            <a href="#clients" className={s.hxWatch}>
+              <span aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
+              </span>
+              Watch our clients
+            </a>
           </div>
 
-          {/* the wire: real placements, newest first */}
-          <div className={s.breaking}>
-            <span className={s.breakingTag}>
-              <i aria-hidden="true" /> Just published
+          <div className={s.hxProof}>
+            <Link href="/case-studies" className={s.hxFaces} aria-label="See the client case studies">
+              {faces.map((c) => (
+                <img key={c.slug} src={c.image} alt="" loading="lazy" style={{ objectPosition: focal(c.image) }} />
+              ))}
+              <span aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
+              </span>
+            </Link>
+            <span className={s.hxProofTxt}>
+              <Link href="/case-studies" className={s.hxProofLink}>Real clients. Real press. See their stories</Link>
+              <a href={TRUSTPILOT} target="_blank" rel="noopener noreferrer">
+                <span aria-hidden="true">★★★★★</span> Rated {tp.score.toFixed(1)} on Trustpilot
+              </a>
             </span>
-            <div className={s.breakingRow}>
-              <div className={s.breakingTrack}>
-                {[...dated, ...dated].map((p, i) => (
-                  <a key={i} href={p.href} target="_blank" rel="noopener noreferrer" tabIndex={i >= dated.length ? -1 : undefined} aria-hidden={i >= dated.length || undefined}>
-                    <span className={s.wireOutlet}>{p.outlet}</span>
-                    <span className={s.wireHead}>{p.headline}</span>
-                    <span className={s.wireDate}>{p.date.toLocaleDateString("en-US", { month: "short", day: "numeric" })}</span>
-                    <span className={s.wireGo} aria-hidden="true">↗</span>
-                  </a>
-                ))}
+          </div>
+        </div>
+
+        {/* a spinning sticker between the copy and the wall */}
+        <a href="#clients" className={s.hxSticker} aria-label="Watch our clients' video reviews">
+          <svg viewBox="0 0 200 200" aria-hidden="true">
+            <defs>
+              <path id="hxRing" d="M100,100 m-76,0 a76,76 0 1,1 152,0 a76,76 0 1,1 -152,0" />
+            </defs>
+            <text>
+              <textPath href="#hxRing">REAL CLIENTS ✦ REAL PRESS ✦ REAL CLIENTS ✦ REAL PRESS ✦ </textPath>
+            </text>
+          </svg>
+          <span aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
+          </span>
+        </a>
+
+        {/* the press wall: real client features, moving */}
+        <div className={s.wall}>
+          <div className={s.wallTilt}>
+            {cols.map((col, ci) => (
+              <div className={s.wallCol} key={ci}>
+                <div className={s.wallTrack} style={{ ["--dur" as string]: `${[46, 58, 52][ci]}s` }}>
+                  {col.map((tile, i) => <Tile key={`a${i}`} t={tile} />)}
+                  {col.map((tile, i) => <Tile key={`b${i}`} t={tile} hidden />)}
+                </div>
               </div>
-            </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* the wire: real placements, newest first */}
+      <div className={s.breaking}>
+        <span className={s.breakingTag}>
+          <i aria-hidden="true" /> Just published
+        </span>
+        <div className={s.breakingRow}>
+          <div className={s.breakingTrack}>
+            {[...dated, ...dated].map((p, i) => (
+              <a key={i} href={p.href} target="_blank" rel="noopener noreferrer" tabIndex={i >= dated.length ? -1 : undefined} aria-hidden={i >= dated.length || undefined}>
+                <span className={s.wireOutlet}>{p.outlet}</span>
+                <span className={s.wireHead}>{p.headline}</span>
+                <span className={s.wireDate}>{p.date.toLocaleDateString("en-US", { month: "short", day: "numeric" })}</span>
+                <span className={s.wireGo} aria-hidden="true">↗</span>
+              </a>
+            ))}
           </div>
         </div>
       </div>
@@ -124,7 +210,7 @@ export function LogoMarquee() {
   const half = Math.ceil(PRESS_LOGOS.length / 2);
   const rows = [PRESS_LOGOS.slice(0, half), PRESS_LOGOS.slice(half)];
   return (
-    <section className={s.logos} aria-labelledby="logos-title">
+    <section className={`${s.logos} v-paper v-panel`} aria-labelledby="logos-title">
       <div className="v-wrap">
         <h2 id="logos-title" className={s.logosTitle}>
           Our clients get media mentions <span className="v-hl">that matter.</span>
@@ -256,110 +342,51 @@ export async function Numbers() {
   );
 }
 
-/* ═══ THE VIDEO STORIES — a client on camera, and the feature behind it ═══
-   Krishan and Lauretta each get one; same card, different video. */
-type StoryProps = {
-  slug: string; id: string; first: string;
-  title: React.ReactNode;
-  roleLine: string;
-  clip: { headline: string; date: string };
-  facts: React.ReactNode[];
-  video: { src?: string; poster?: string; captions?: string | null; maxSeconds?: number; portrait?: boolean };
-};
+/* ═══ CLIENT VIDEOS — every review video in one section ═══════
+   One stage and a tab per client, so a new video is a new entry here,
+   not a new homepage section. Order = tab order; the first one loads. */
+const CLIENT_VIDEOS: (Omit<ClientVideo, "name" | "image" | "outlet" | "url">)[] = [
+  {
+    slug: "krishan-thakker", first: "Krishan",
+    roleLine: "President, South Asian Bar Association of Florida",
+    clip: { headline: "Beyond the Brief: Krishan Thakker on Law, Leadership, and Social Impact", date: "Nov 6, 2025" },
+    facts: [
+      ["16+", "years advising global companies"],
+      ["4", "regions of clients — India, the US, the Middle East, Africa"],
+      ["1", "profile of the person, not just the practice"],
+    ],
+    video: { src: "/client-testimonial.mp4", poster: "/testimonial-poster.webp", captions: "/client-testimonial.vtt", length: "0:27", focus: "50% 45%" },
+  },
+  {
+    slug: "lauretta-zucchetti", first: "Lauretta",
+    roleLine: "Author, speaker & transpersonal coach · ex-Apple sales executive",
+    clip: { headline: "From Italy to Apple and Back to Herself: Lauretta Zucchetti on Unlearning Who She Was Taught to Be", date: "Nov 13, 2026" },
+    facts: [
+      ["4", "years running in Apple\u2019s President\u2019s Club"],
+      ["2", "features — MSN first, then Times Square Journal"],
+      ["1", "story told whole, from Italy to Apple to the work she does now"],
+    ],
+    video: { src: "/lauretta-zucchetti-review.mp4", poster: "/lauretta-zucchetti-poster.jpg", captions: null, length: "0:54", portrait: true, focus: "50% 35%" },
+  },
+  {
+    slug: "beverly-d-flaxington", first: "Beverly",
+    roleLine: "Business owner · Bestselling author · Professor, Suffolk University",
+    clip: { headline: "Beverly D Flaxington | Business owner, bestselling author, international public speaker & college professor", date: "Sep 22, 2026" },
+    facts: [
+      ["8", "books — and a three-time Amazon bestselling author"],
+      ["1,000+", "animals rescued"],
+      ["1", "feature tying the business, the teaching and the books together"],
+    ],
+    video: { src: "/beverly-flaxington-review.mp4", poster: "/beverly-flaxington-poster.jpg", captions: null, length: "0:39", focus: "55% 40%" },
+  },
+];
 
-function Story({ slug, id, first, title, roleLine, clip, facts, video }: StoryProps) {
-  const k = CASE_STUDIES.find((c) => c.slug === slug);
-  if (!k) return null;
-  return (
-    <section className={`v-sec ${s.ks}`} id={id} aria-labelledby={`${id}-title`}>
-      <div className="v-wrap">
-        <div className={s.ksHead}>
-          <span className="v-label v-label--lime">In their words · Case study</span>
-          <h2 id={`${id}-title`} className={s.ksTitle}>{title}</h2>
-        </div>
-
-        <div className={`${s.ksGrid} ${video.portrait ? s.ksGridTall : ""}`}>
-          <div className={s.ksVideo}>
-            <VideoPlayer
-              className={`${s.ksPlayer} ${video.portrait ? s.ksPlayerTall : ""}`}
-              src={video.src}
-              poster={video.poster}
-              captions={video.captions}
-              maxSeconds={video.maxSeconds}
-              label={`Play ${k.name}'s review`}
-            />
-            <p className={s.ksCaption}>
-              <span className={s.ksLiveDot} aria-hidden="true" />
-              {k.name} on working with DNA
-            </p>
-          </div>
-
-          <article className={s.ksCard}>
-            <div className={s.ksWho}>
-              <img src={k.image} alt={k.name} loading="lazy" style={{ objectPosition: focal(k.image) }} />
-              <span>
-                <strong>{k.name}</strong>
-                {roleLine}
-              </span>
-            </div>
-
-            <a className={s.ksClip} href={k.url} target="_blank" rel="noopener noreferrer">
-              <span className={s.ksClipTop}>
-                <span className={s.ksMast}>{k.outlet}</span>
-                <span>{clip.date}</span>
-              </span>
-              <span className={s.ksClipHead}>{clip.headline}</span>
-              <span className={s.ksClipGo}>
-                Read it live <i aria-hidden="true">↗</i>
-              </span>
-            </a>
-
-            <ul className={s.ksFacts}>
-              {facts.map((f, i) => <li key={i}>{f}</li>)}
-            </ul>
-
-            <Link href={`/case-studies/${k.slug}`} className={s.ksMore}>
-              Read {first}&rsquo;s case study <Arrow />
-            </Link>
-          </article>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-export function KrishanStory() {
-  return (
-    <Story
-      slug="krishan-thakker" id="krishan" first="Krishan"
-      title={<>Hear it from <span className="v-hl">the client.</span></>}
-      roleLine="President, South Asian Bar Association of Florida"
-      clip={{ headline: "Beyond the Brief: Krishan Thakker on Law, Leadership, and Social Impact", date: "Nov 6, 2025" }}
-      facts={[
-        <><b>16+</b> years advising global companies</>,
-        <><b>4</b> regions of clients — India, the US, the Middle East, Africa</>,
-        <><b>1</b> profile of the person, not just the practice</>,
-      ]}
-      video={{}}
-    />
-  );
-}
-
-export function LaurettaStory() {
-  return (
-    <Story
-      slug="lauretta-zucchetti" id="lauretta" first="Lauretta"
-      title={<>And one more, <span className="v-hl">in her own words.</span></>}
-      roleLine="Author, speaker & transpersonal coach · ex-Apple sales executive"
-      clip={{ headline: "From Italy to Apple and Back to Herself: Lauretta Zucchetti on Unlearning Who She Was Taught to Be", date: "Nov 13, 2026" }}
-      facts={[
-        <><b>4</b> years running in Apple&rsquo;s President&rsquo;s Club</>,
-        <><b>2</b> features — MSN first, then Times Square Journal</>,
-        <><b>1</b> story told whole, from Italy to Apple to the work she does now</>,
-      ]}
-      video={{ src: "/lauretta-zucchetti-review.mp4", poster: "/lauretta-zucchetti-poster.jpg", captions: null, portrait: true }}
-    />
-  );
+export function ClientVideos() {
+  const clients: ClientVideo[] = CLIENT_VIDEOS.flatMap((v) => {
+    const k = CASE_STUDIES.find((c) => c.slug === v.slug);
+    return k ? [{ ...v, name: k.name, image: k.image, outlet: k.outlet, url: k.url }] : [];
+  });
+  return <ClientVideosView clients={clients} />;
 }
 
 /* ═══ KIRK — one story, four mastheads ═══════════════════════
@@ -516,7 +543,7 @@ const PHASES = [
 
 export function Process() {
   return (
-    <section className="v-sec">
+    <section className="v-sec v-paper v-panel">
       <div className="v-wrap">
         <div className="v-head">
           <div>
@@ -686,7 +713,7 @@ export function Guides() {
     (g): g is NonNullable<typeof g> => Boolean(g)
   );
   return (
-    <section className="v-sec">
+    <section className="v-sec v-paper v-panel">
       <div className="v-wrap">
         <div className="v-head">
           <div>

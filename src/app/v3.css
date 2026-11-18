@@ -18,9 +18,22 @@
 .v-light { background: var(--lime-soft); color: var(--lime-ink); }
 /* a pale-lime section as a rounded sheet sitting on the black (ScaleLab cards),
    so the two colours frame each other instead of cutting into stripes */
-.v-panel { margin-inline: clamp(10px, 1.4vw, 20px); border-radius: clamp(24px, 3vw, 40px); overflow: hidden; }
+.v-panel { margin-inline: clamp(10px, 1.4vw, 20px); border-radius: clamp(24px, 3vw, 40px); overflow: hidden; overflow: clip; }
 .v-light .v-muted { color: rgba(11,11,12,.62); }
 .v-light .v-label { color: rgba(11,11,12,.55); }
+/* a warm paper sheet: same rounded panel as .v-light, but off-white. The
+   theme tokens are re-pointed inside it so components written for the dark
+   page read correctly without their own overrides. */
+.v-paper {
+  --ink: #0b0b0c; --muted: #5c5c62; --faint: #85858b;
+  --line: rgba(11,11,12,.08); --line-2: rgba(11,11,12,.14);
+  --bg-2: #ffffff; --bg-3: #ffffff; --bg-4: #ece9e0;
+  background: #f4f1ea; color: var(--ink);
+}
+.v-panel + .v-panel { margin-top: clamp(10px, 1.4vw, 20px); }
+.v-paper .v-label { color: rgba(11,11,12,.55); }
+.v-paper .v-label--lime { color: var(--lime-ink); }
+.v-paper .v-muted, .v-paper .v-lede { color: var(--muted); }
 
 /* ── Type ───────────────────────────────────────────────────── */
 .v-h1, .v-h2, .v-h3 {
@@ -34,7 +47,7 @@
 .v-h2 { font-size: clamp(2.07rem, 4.43vw, 3.77rem); }
 .v-h3 { font-size: clamp(1.28rem, 1.89vw, 1.67rem); letter-spacing: -0.02em; line-height: 1.08; }
 .v-hl { color: var(--lime); }                       /* ForYou-style highlight word */
-.v-light .v-hl { color: var(--lime-ink); background: var(--lime); padding: 0 .12em; }
+.v-light .v-hl, .v-paper .v-hl { color: var(--lime-ink); background: var(--lime); padding: 0 .12em; }
 .v-lede { font-size: clamp(1.05rem, 1.35vw, 1.3rem); line-height: 1.55; color: var(--muted); max-width: 52ch; margin: 0; }
 .v-muted { color: var(--muted); }
 .v-press { font-family: var(--f-press); font-weight: 700; letter-spacing: -0.01em; }
@@ -67,6 +80,8 @@
 .v-btn:hover svg { transform: translateX(3px); }
 .v-btn--ghost { background: rgba(255,255,255,.06); color: var(--ink); border-color: var(--line-2); }
 .v-btn--ghost:hover { background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.28); }
+.v-paper .v-btn--ghost { background: #fff; }
+.v-paper .v-btn--ghost:hover { background: var(--lime); border-color: var(--lime); color: var(--lime-ink); }
 .v-btn--dark { background: var(--lime-ink); color: var(--lime); }
 .v-btn--dark:hover { background: #1c1c1f; }
 .v-btn--lg { padding: 15px 26px; font-size: 15px; }
@@ -287,7 +302,7 @@ html.intro-play .v-hero-after { animation-delay: 1.3s !important; }
 [data-count] { font-variant-numeric: tabular-nums; }
 
 /* on the pale-lime sheets, the lime highlighter sweeps in as the heading reveals */
-.v-light .v-hl {
+.v-light .v-hl, .v-paper .v-hl {
   background: linear-gradient(var(--lime), var(--lime)) no-repeat 0 0 / 100% 100%;
   transition: background-size .9s .25s var(--ease);
 }

@@ -154,13 +154,13 @@ export const CASE_STUDIES: CaseStudy[] = [
       "name": "Beverly D. Flaxington",
       "outlet": "MSN",
       "role": "Business owner · Bestselling author · Professor, Suffolk University",
-      "image": "/placement-flaxington.jpg",
-      "url": "https://www.msn.com/en-us/news/other/beverly-d-flaxington--business-owner-bestselling-author--college-professor-/ar-AA2cHdsl",
+      "image": "/beverly-flaxington.jpg",
+      "url": "",
       "quote": "A life that won't fit one job title — business owner, bestselling author, professor and animal rescuer — told as one story about understanding people.",
       "client": "Beverly D. Flaxington started in financial services and built a business around helping people communicate and grow. She is a certified hypnotherapist, Hypnosis Trainer, Behavioral Analyst and Values Analyst; has taught Leadership and Teaming to graduate students at Suffolk University since 2008 (Adjunct Professor of the Year, and she has never missed a class); has written eight books and is a three-time Amazon bestselling author; and has rescued more than a thousand animals.",
       "goal": "With that many roles, Beverly's challenge was coherence: anyone looking her up found pieces, not the person. The aim was one feature that connected her business, teaching, writing and rescue work into a single, credible story.",
-      "did": "We found the thread that ties it all together — people, and looking beneath what's on the surface — and built the feature around it: the colleague whose sign read \"The Doctor is In\", adopters who turned out to be her clients, the 60-hour weeks alongside teaching, writing and raising three children. We wrote it to editorial standard, Beverly approved every word, and it runs on MSN.",
-      "result": "The feature is live on MSN as \"Beverly D Flaxington | Business owner, bestselling author, international public speaker & college professor,\" published September 22, 2026 — one permanent, searchable place that shows the whole person behind \"The Human Behavior Coach\"."
+      "did": "We found the thread that ties it all together — people, and looking beneath what's on the surface — and built the feature around it: the colleague whose sign read \"The Doctor is In\", adopters who turned out to be her clients, the 60-hour weeks alongside teaching, writing and raising three children. We wrote it to editorial standard, Beverly approved every word, and it ran on MSN.",
+      "result": "The feature ran on MSN as \"Beverly D Flaxington | Business owner, bestselling author, international public speaker & college professor,\" published September 22, 2026 — one place that shows the whole person behind \"The Human Behavior Coach\"."
   },
   {
       "slug": "shams-merchant",

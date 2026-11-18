@@ -6,8 +6,7 @@ import {
   HomeHero,
   KirkJourney,
   RootJourney,
-  KrishanStory,
-  LaurettaStory,
+  ClientVideos,
   Numbers,
   LogoMarquee,
   Process,
@@ -32,10 +31,9 @@ export default function Home() {
       <LogoMarquee />
       <WorkGrid />
       <Numbers />
-      <KrishanStory />
+      <ClientVideos />
       <KirkJourney />
       <RootJourney />
-      <LaurettaStory />
       <Process />
       <Services />
       <Reviews />
