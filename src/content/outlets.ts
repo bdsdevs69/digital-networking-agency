@@ -22,7 +22,8 @@ export const OUTLETS: Outlet[] = [
     slug: "forbes",
     guideSlug: "get-featured-in-forbes",
     name: "Forbes",
-    title: "Get Featured in Forbes | Digital Networking Agency",
+    title: "Get Featured in Forbes: How to Get Published | DNA PR",
+    metaDescription: "How to get featured in Forbes and get published there: the routes that exist, what each one asks of you, and how we help you build a story worth running.",
     subhead: "The name everyone recognises",
     value:
       "We develop your story and pitch it toward Forbes on your behalf. You approve every word before anything is submitted.",

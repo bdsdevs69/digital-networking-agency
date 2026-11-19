@@ -8,6 +8,7 @@ import styles from "../getfeatured.module.css";
 import { clampDescription, clampTitle } from "@/lib/meta";
 import { getGuide } from "@/content/guides";
 import { REGIONS } from "@/content/regions";
+import { SERVICES } from "@/content/services";
 import { extractFaq } from "@/lib/faq";
 import { autoLink } from "@/lib/autolink";
 import { stripFaqSection, unwrapSelfLinks } from "@/lib/merged";
@@ -335,6 +336,25 @@ export default async function OutletLanding({
                 {places.map((r) => (
                   <Link key={r.slug} href={`/pr-in/${r.slug}`}>
                     {r.h1}
+                  </Link>
+                ))}
+              </div>
+            </section>
+          ) : null;
+        })()}
+
+        {/* Industry pages that place clients in this outlet */}
+        {(() => {
+          const industries = SERVICES.filter((s) =>
+            s.body.includes(`href="/get-featured-in/${o.slug}"`),
+          );
+          return industries.length ? (
+            <section className={styles.block}>
+              <h2>Industries that read {o.name}</h2>
+              <div className={styles.outletGrid}>
+                {industries.map((s) => (
+                  <Link key={s.slug} href={`/pr-for/${s.slug}`}>
+                    {s.h1}
                   </Link>
                 ))}
               </div>
