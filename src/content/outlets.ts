@@ -267,6 +267,7 @@ export const OUTLETS: Outlet[] = [
     slug: "entrepreneur",
     guideSlug: "how-to-get-featured-in-entrepreneur",
     name: "Entrepreneur",
+    metaDescription: "How to get featured in Entrepreneur magazine: staff coverage, the Leadership Network and what it costs, paid press releases, and the stories editors run.",
     title: "Get Featured in Entrepreneur Magazine | DNA PR",
     subhead: "The title founders name without thinking",
     value:
@@ -276,7 +277,7 @@ export const OUTLETS: Outlet[] = [
     why:
       "Its readers are founders and operators, so a feature reaches people who might actually buy from you — not just people impressed by the logo. Recognised instantly, and specific enough to mean something.",
     audience: "Founders, operators and small-business owners.",
-    routes: "Four things get called an Entrepreneur feature. Staff editorial is a writer or editor choosing to cover you, and it cannot be bought. The Entrepreneur Leadership Network is an official paid membership with an application step and tiered annual pricing, and what it gives you is a bylined column on entrepreneur.com rather than a journalist writing about you. Sponsored and partner content is paid, labelled as such, and priced at brand-marketing levels. The fourth is agency-assisted pitching, which is what we do: develop the angle, write it to editorial standard, and put it in front of the right writer. For a normal client, pitching is plausible with a genuine tactical story, the Leadership Network is a budget decision, and no one controls the editorial outcome.",
+    routes: "Four things get called an Entrepreneur feature. Staff editorial is a writer or editor choosing to cover you, and it cannot be bought. The Entrepreneur Leadership Network is an official paid membership with an application step, listed on Entrepreneur’s own page (checked 19 November 2026) at $3,000 a year, and what it gives you is a bylined column on entrepreneur.com rather than a journalist writing about you. Sponsored and partner content is paid, labelled as such, and priced at brand-marketing levels. The fourth is agency-assisted pitching, which is what we do: develop the angle, write it to editorial standard, and put it in front of the right writer. For a normal client, pitching is plausible with a genuine tactical story, the Leadership Network is a budget decision, and no one controls the editorial outcome.",
     story: "Entrepreneur publishes practical material for people who are building something, so the test is what the reader can do afterwards. The angles that work are tactical and specific: what your first hundred customers changed about your pricing, the hiring mistake you made twice and the system that stopped it, a counterintuitive read on how your industry really makes money. A founder who can show numbers from inside their own business and draw a usable lesson from them is exactly the shape of piece that runs. It sits in the growth, leadership or money sections rather than news. A launch announcement is not a story here, and neither is a profile of how far you have come with no takeaway attached.",
   },
   {
@@ -284,8 +285,8 @@ export const OUTLETS: Outlet[] = [
     guideSlug: "how-to-get-featured-in-business-insider",
     name: "Business Insider",
     prep: "on",
-    metaDescription: "How to get featured on Business Insider: what its contributor and first-person routes accept, what it turns away, and how to build a story its editors run.",
-    title: "How to Get Featured on Business Insider | DNA PR",
+    metaDescription: "How to get featured on Business Insider: writing for it as a contributor or freelancer, why guest posts fail, and the kind of story its editors run.",
+    title: "Get Featured on Business Insider (Write for BI) | DNA PR",
     subhead: "Hard to get, and worth it for that reason",
     value:
       "We build the story and the press record that make coverage at this level plausible, then pitch on your behalf. We are honest with you about the odds before we start.",
@@ -318,6 +319,7 @@ export const OUTLETS: Outlet[] = [
     slug: "fast-company",
     guideSlug: "how-to-get-featured-in-fast-company",
     name: "Fast Company",
+    metaDescription: "How to get into Fast Company: staff coverage, the Work Life submissions route and its rules, the fee-based Executive Board, and what its editors run.",
     title: "Get Featured in Fast Company | Digital Networking Agency",
     subhead: "For the idea, not the announcement",
     value:
@@ -327,7 +329,7 @@ export const OUTLETS: Outlet[] = [
     why:
       "Its readers are creative and strategic professionals. A feature here frames you as someone doing something structurally different, not just successfully.",
     audience: "Innovative, design-led and future-of-work businesses.",
-    routes: "Three different things happen at Fast Company and they are not interchangeable. Staff editorial is a writer or editor choosing your story: free, competitive, and decided by nobody outside that newsroom. The title also runs a paid executive membership community that gives accepted members a route to publish bylined pieces, which is application-based with criteria and pricing published at source and worth reading there rather than taking on trust. Sponsored content is advertising produced to the magazine's standard and labelled on the page. Its annual recognition lists run on their own published windows and entry rules. We work the earned route and pitch it properly, and we will name which of the paid products you are actually being offered when someone else sells you one.",
+    routes: "Three different things happen at Fast Company and they are not interchangeable. Staff editorial is a writer or editor choosing your story: free, competitive, and decided by nobody outside that newsroom. The title also runs the Fast Company Executive Board, which its help centre (checked 19 November 2026) describes as fee-based and by application only, with eligibility thresholds such as a senior role at a company generating $3M+ in annual revenue. Separately, the Work Life section accepts complete, unpaid contributed articles from industry professionals, and Fast Company says its other sections do not regularly review submissions. Sponsored content is advertising produced to the magazine's standard and labelled on the page. Its annual recognition lists run on their own published windows and entry rules. We work the earned route and pitch it properly, and we will name which of the paid products you are actually being offered when someone else sells you one.",
     story: "Fast Company rewards an argument rather than an announcement. A workable angle usually starts with something you changed in how the business operates and the reasoning behind it: how you restructured a team, why you priced against the grain, what a design decision revealed about the people using the thing. The proof a reader expects is specific and unflattering in places, because the tension is what makes it publishable: what you tried, what you observed afterwards, what you would not repeat. It sits in the work, design, technology or leadership coverage rather than anywhere resembling company news. The test is whether someone outside your sector would repeat the idea to a colleague. If the piece only works as evidence that you are doing well, it is not ready.",
   },
   {
