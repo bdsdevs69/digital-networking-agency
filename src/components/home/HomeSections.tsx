@@ -87,10 +87,8 @@ export function HomeHero() {
     .map((p) => ({ ...p, date: new Date(p.meta) }))
     .filter((p) => !Number.isNaN(p.date.getTime()))
     .sort((a, b) => b.date.getTime() - a.date.getTime());
-  // Pieces kept off the hero wall (still in the work rail and the wire).
-  const WALL_SKIP = ["nyweekly.com/business/the-shape-of-an-absence"];
   const press: WallTile[] = dated
-    .filter((p) => p.img && !WALL_SKIP.some((k) => p.href.includes(k)))
+    .filter((p) => p.img)
     .map((p) => ({ kind: "press", outlet: p.outlet, headline: p.headline, href: p.href, img: p.img! }));
   const videos: WallTile[] = HERO_LOOPS.map((v) => ({ kind: "video", ...v }));
   const stats: WallTile[] = [
@@ -98,14 +96,21 @@ export function HomeHero() {
     { kind: "stat", big: "24h", small: "reply time on every enquiry, Mon–Fri" },
     { kind: "stat", big: "100%", small: "of articles approved by the client first" },
   ];
-  // three columns, each led by different work, a video and a stat mixed in
-  // five columns running behind the whole hero; each led by different work,
-  // with the client videos and the stats mixed in
-  const N = 5;
-  const cols: WallTile[][] = Array.from({ length: N }, () => []);
-  press.forEach((p, i) => cols[i % N].push(p));
-  videos.forEach((v, i) => cols[(i * 2 + 1) % N].splice(1, 0, v));
-  stats.forEach((st, i) => cols[(i * 2) % N].splice(2, 0, st));
+  // nine narrow columns running behind the whole hero. Every client feature
+  // is in the mix, with the client videos and stats slotted in. Column c,
+  // row k takes all[(k * N + c) % len], so no column repeats a tile and the
+  // videos land in the first five columns too (all that phones show).
+  const N = 9;
+  const PER = 7;
+  const all: WallTile[] = [...press];
+  const slots: [number, WallTile][] = [
+    [2, stats[0]], [6, videos[0]], [8, videos[1]], [10, stats[1]],
+    [14, videos[2]], [20, stats[2]], [22, videos[3]],
+  ];
+  for (const [at, tile] of slots) all.splice(Math.min(at, all.length), 0, tile);
+  const cols: WallTile[][] = Array.from({ length: N }, (_, c) =>
+    Array.from({ length: PER }, (_, k) => all[(k * N + c) % all.length]),
+  );
   const faces = CASE_STUDIES.slice(0, 7);
 
   return (
@@ -115,7 +120,7 @@ export function HomeHero() {
         <div className={s.wallTilt}>
           {cols.map((col, ci) => (
             <div className={s.wallCol} key={ci}>
-              <div className={s.wallTrack} style={{ ["--dur" as string]: `${[46, 58, 52, 62, 50][ci]}s` }}>
+              <div className={s.wallTrack} style={{ ["--dur" as string]: `${[52, 64, 56, 68, 54, 62, 58, 66, 60][ci]}s` }}>
                 {col.map((tile, i) => <Tile key={`a${i}`} t={tile} />)}
                 {col.map((tile, i) => <Tile key={`b${i}`} t={tile} hidden />)}
               </div>
