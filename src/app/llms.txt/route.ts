@@ -44,7 +44,7 @@ export function GET() {
   lines.push(`- [Publications](${SITE}/publications): The outlets DNA places clients in, by category.`);
   lines.push(`- [Compare](${SITE}/compare): Honest comparison of PR agency vs wire service vs DIY vs DNA.`);
   lines.push(`- [Case studies](${SITE}/case-studies): Real client placements with links to the live articles.`);
-  lines.push(`- [Reviews](${SITE}/reviews): Verified Trustpilot reviews.`);
+  lines.push(`- [Reviews](${SITE}/reviews): Client reviews and video testimonials.`);
   lines.push(`- [Contact](${SITE}/contact): Enquiry form.`);
   if (VISA_PAGE) lines.push(`- [${VISA_PAGE.h1}](${SITE}/pr-for-eb1a-o1-visa): ${VISA_PAGE.description}`);
   if (TOP_LISTS_PAGE) lines.push(`- [${TOP_LISTS_PAGE.h1}](${SITE}/get-featured-in-top-lists): ${TOP_LISTS_PAGE.description}`);

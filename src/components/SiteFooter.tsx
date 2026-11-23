@@ -2,6 +2,7 @@ import Link from "next/link";
 import styles from "./SiteFooter.module.css";
 import { GLOSSARY } from "@/content/glossary";
 import { FooterWord } from "./FooterWord";
+import { TrustBox } from "./TrustBox";
 
 const EMAIL = "sam@digitalnetworkingagency.com";
 const WHATSAPP = "https://wa.me/13302276337";
@@ -98,7 +99,7 @@ export function SiteFooter() {
               </p>
               <div className={styles.brandActions}>
                 <a className={styles.pill} href={TRUSTPILOT} target="_blank" rel="noopener noreferrer">
-                  <span className={styles.stars} aria-hidden="true">★★★★★</span> Trustpilot
+                  Our reviews on Trustpilot
                 </a>
                 <div className={styles.socials}>
                   <a href={INSTAGRAM} target="_blank" rel="noopener noreferrer" aria-label="Instagram">
@@ -136,6 +137,8 @@ export function SiteFooter() {
               <h3>Contact</h3>
               <a className={styles.info} href="tel:+13302276337"><i>{Ico.phone}</i>+1 (330) 227-6337</a>
               <span className={styles.info}><i>{Ico.pin}</i>6545 Market Ave N, Suite 100, Canton, OH 44721</span>
+              {/* Trustpilot's official Review Collector — the one widget the free plan allows */}
+              <TrustBox className={styles.trustBox} />
             </div>
           </div>
 

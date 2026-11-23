@@ -1,13 +1,11 @@
 import { HeroCtas } from "@/components/landing/HeroCtas";
 import { PlacementsCarousel, type Placement } from "@/components/landing/PlacementsCarousel";
 import { TestimonialsCarousel } from "@/components/landing/TestimonialsCarousel";
-import { getTrustpilotData } from "@/lib/trustpilot";
 import Link from "next/link";
 import { GuidesCarousel } from "./GuidesCarousel";
 import { GUIDES } from "@/content/guides";
 
 export async function HeroSection() {
-  const tp = await getTrustpilotData();
   return (
     <section className="hero" id="top">
       <div className="hero-orb1" />
@@ -52,8 +50,8 @@ export async function HeroSection() {
             <div className="hero-badge-lbl">Top-Tier Placements</div>
           </div>
           <div className="hero-badge hero-badge--b">
-            <span className="hero-stars">★★★★★</span>
-            <div className="hero-badge-lbl">Rated {tp.score.toFixed(1)} on Trustpilot</div>
+            <div className="hero-badge-num">100%</div>
+            <div className="hero-badge-lbl">Approved by you first</div>
           </div>
         </div>
       </div>
@@ -291,6 +289,15 @@ export const clientPlacements: Placement[] = [
       meta: "November 13, 2025",
       href: "https://finance.yahoo.com/news/grit-org-unintentionally-built-youtube-184500003.html",
       img: "/placement-brian-harbin-2.jpg",
+      logo: null,
+      logoWhite: true
+    },
+    {
+      outlet: "Times Square Journal",
+      headline: "Building Something Great Is Hard. Jon Small Chose the Part That’s Harder",
+      meta: "November 19, 2026",
+      href: "https://timesquarejournal.com/business/building-something-great-is-hard-jon-small-chose-the-part-thats-harder",
+      img: "/jon-small-tsj.jpg",
       logo: null,
       logoWhite: true
     },
@@ -576,9 +583,11 @@ export function PressMarquee() {
   );
 }
 
-/** Every client review on the site: the hand-collected ones plus live 5★
- *  Trustpilot reviews, deduped by name and opening text. One source, so the
- *  homepage and the reviews section can never drift apart. */
+/** Every client review on the site, collected from clients directly. One
+ *  source, so the homepage and the reviews pages can never drift apart.
+ *  Trustpilot reviews are NOT pulled in: their brand guidelines only allow
+ *  showing them (or the TrustScore, stars or review count) through official
+ *  TrustBox widgets — they sent a warning on 23 Nov 2026. */
 export async function getAllReviews() {
   const reviews = [
     {
@@ -643,33 +652,7 @@ export async function getAllReviews() {
     }
   ];
 
-  // Pull in live 5-star Trustpilot reviews and append them — deduped against the
-  // existing list by name and by opening text so nothing shows up twice. Refreshes
-  // automatically via the page's ISR revalidation.
-  const normName = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
-  const textKey = (s: string) =>
-    s.toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 50);
-  const seenNames = new Set(reviews.map((r) => normName(r.name)));
-  const seenText = new Set(reviews.map((r) => textKey(r.text)));
-
-  const tp = await getTrustpilotData();
-  const tpReviews = tp.reviews
-    .filter((r) => r.rating === 5)
-    .filter((r) => {
-      const nk = normName(r.author);
-      const tk = textKey(r.body);
-      if (seenNames.has(nk) || seenText.has(tk)) return false;
-      seenNames.add(nk);
-      seenText.add(tk);
-      return true;
-    })
-    .map((r) => ({
-      name: r.author,
-      meta: "Verified Trustpilot review",
-      text: r.body
-    }));
-
-  return [...reviews, ...tpReviews];
+  return reviews;
 }
 
 export async function TestimonialsSection() {

@@ -15,7 +15,7 @@ import {
   WorkGrid
 } from "@/components/home/HomeSections";
 
-// Refresh the homepage (and its Trustpilot rating and reviews) every 6 hours.
+// Refresh the homepage every 6 hours.
 export const revalidate = 21600;
 
 // The homepage was the only route without a canonical.

@@ -9,6 +9,6 @@ export default function Image() {
     kicker: "REVIEWS",
     lead: "Trusted by",
     highlight: "our clients.",
-    sub: "Verified client reviews on Trustpilot.",
+    sub: "What our clients say, in their own words.",
   });
 }

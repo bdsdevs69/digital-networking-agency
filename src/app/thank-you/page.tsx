@@ -30,7 +30,7 @@ export default function ThankYouPage() {
               <Link href="/case-studies">See client features we have placed</Link>
             </li>
             <li>
-              <Link href="/reviews">Read what clients say on Trustpilot</Link>
+              <Link href="/reviews">Read what our clients say</Link>
             </li>
             <li>
               <Link href="/guides/how-to-write-a-founder-story">How to write a founder story worth publishing</Link>

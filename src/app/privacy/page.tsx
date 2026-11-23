@@ -74,7 +74,7 @@ export default function PrivacyPage() {
               pixel described above.
             </li>
             <li>
-              <strong>Trustpilot</strong> &mdash; we display our public review
+              <strong>Trustpilot</strong> &mdash; we link to our public review
               profile. Reviews are hosted by Trustpilot, not by us.
             </li>
           </ul>

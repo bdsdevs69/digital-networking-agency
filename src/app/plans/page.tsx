@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getTrustpilotData } from "@/lib/trustpilot";
+import { getAllReviews } from "@/components/landing/sections";
 import { clientPlacements } from "@/components/landing/sections";
 import { LogoMarquee } from "@/components/home/HomeSections";
 import { Rail } from "@/components/home/Rail";
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false }
 };
 
-// Refresh the page (and its Trustpilot reviews) on the same cadence as the review fetch.
+// Refresh the page every 6 hours.
 export const revalidate = 21600; // REVALIDATE_SECONDS
 
 const plans = [
@@ -122,8 +122,8 @@ const COMPARE: { row: string; v: [string, string, string] }[] = [
 ];
 
 export default async function PlansPage() {
-  const trustpilot = await getTrustpilotData();
-  const reviews = trustpilot.reviews.slice(0, 3);
+  // client reviews given to us directly — Trustpilot's guidelines bar showing theirs outside official widgets
+  const reviews = (await getAllReviews()).slice(0, 3);
   const cell = (v: string) =>
     v === "yes" ? <span className={s.yes} aria-label="Included">✓</span>
     : v === "no" ? <span className={s.no} aria-label="Not included">—</span>
@@ -264,24 +264,22 @@ export default async function PlansPage() {
         <div className="v-wrap">
           <div className="v-head">
             <div>
-              <span className="v-label v-label--lime">Verified on Trustpilot</span>
+              <span className="v-label v-label--lime">Client reviews</span>
               <h2 className="v-h2">
-                Rated {trustpilot.score.toFixed(1)} <span className="v-hl">by clients.</span>
+                In their <span className="v-hl">own words.</span>
               </h2>
             </div>
-            <a className="v-btn v-btn--ghost" href={trustpilot.profileUrl} target="_blank" rel="noopener noreferrer">
-              Read every review <Arrow />
-            </a>
+            <Link className="v-btn v-btn--ghost" href="/reviews">
+              Read more reviews <Arrow />
+            </Link>
           </div>
           <div className={s.reviews}>
             {reviews.map((r, i) => (
-              <figure key={`${r.author}-${i}`} className={s.review}>
-                <span className={s.stars} aria-label={`${r.rating} out of 5 stars`}>{"★".repeat(Math.round(r.rating))}</span>
-                <strong className={s.rTitle}>{r.title}</strong>
-                <blockquote className={s.rBody}>{r.body}</blockquote>
+              <figure key={`${r.name}-${i}`} className={s.review}>
+                <blockquote className={s.rBody}>{r.text}</blockquote>
                 <figcaption className={s.rWho}>
-                  <span className={s.rAv} aria-hidden="true">{r.author.charAt(0).toUpperCase()}</span>
-                  {r.author}
+                  <span className={s.rAv} aria-hidden="true">{r.name.charAt(0).toUpperCase()}</span>
+                  {r.name}
                 </figcaption>
               </figure>
             ))}

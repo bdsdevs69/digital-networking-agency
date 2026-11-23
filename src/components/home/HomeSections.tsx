@@ -2,7 +2,6 @@ import Link from "next/link";
 import { clientPlacements, getAllReviews, PRESS_LOGOS } from "@/components/landing/sections";
 import { CASE_STUDIES } from "@/content/caseStudies";
 import { GUIDES } from "@/content/guides";
-import { getTrustpilotData } from "@/lib/trustpilot";
 import { focal } from "@/lib/focal";
 import s from "./home.module.css";
 import { Rail } from "./Rail";
@@ -11,8 +10,6 @@ import { HeroLoop } from "./HeroLoop";
 import { FunkyCta } from "@/components/FunkyCta";
 import { ClientVideosView, type ClientVideo } from "./ClientVideos";
 import { guideHref } from "@/lib/merged";
-
-const TRUSTPILOT = "https://www.trustpilot.com/review/digitalnetworkingagency.com";
 
 export const Arrow = () => (
   <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -24,6 +21,8 @@ export const Arrow = () => (
    Under the headline, a fan of press clippings — real client features,
    the outlet that ran them, the real headline, the live link. */
 // the headline cycles through the same five outlets, in this order
+const TRUSTPILOT = "https://www.trustpilot.com/review/digitalnetworkingagency.com";
+
 const ROTATE: RotItem[] = [
   // each set in a style that echoes the real masthead
   { outlet: "Forbes", style: "serif" },
@@ -40,6 +39,7 @@ const HERO_LOOPS = [
   { name: "Krishan Thakker", src: "/hero-loop-krishan.mp4", poster: "/hero-loop-krishan.jpg" },
   { name: "Lauretta Zucchetti", src: "/hero-loop-lauretta.mp4", poster: "/hero-loop-lauretta.jpg" },
   { name: "Beverly D. Flaxington", src: "/hero-loop-beverly.mp4", poster: "/hero-loop-beverly.jpg" },
+  { name: "Jon Small", src: "/hero-loop-jon.mp4", poster: "/hero-loop-jon.jpg" },
 ];
 
 type WallTile =
@@ -82,8 +82,7 @@ function Tile({ t, hidden }: { t: WallTile; hidden?: boolean }) {
   );
 }
 
-export async function HomeHero() {
-  const tp = await getTrustpilotData();
+export function HomeHero() {
   const dated = clientPlacements
     .map((p) => ({ ...p, date: new Date(p.meta) }))
     .filter((p) => !Number.isNaN(p.date.getTime()))
@@ -96,18 +95,50 @@ export async function HomeHero() {
   const videos: WallTile[] = HERO_LOOPS.map((v) => ({ kind: "video", ...v }));
   const stats: WallTile[] = [
     { kind: "stat", big: "1,100+", small: "publications we pitch to" },
-    { kind: "stat", big: `${tp.score.toFixed(1)}★`, small: "on Trustpilot, from verified clients" },
+    { kind: "stat", big: "24h", small: "reply time on every enquiry, Mon–Fri" },
     { kind: "stat", big: "100%", small: "of articles approved by the client first" },
   ];
   // three columns, each led by different work, a video and a stat mixed in
-  const cols: WallTile[][] = [[], [], []];
-  press.forEach((p, i) => cols[i % 3].push(p));
-  videos.forEach((v, i) => cols[i].splice(1 + (i % 2) * 2, 0, v));
-  stats.forEach((st, i) => cols[(i + 1) % 3].splice(3 + i, 0, st));
+  // five columns running behind the whole hero; each led by different work,
+  // with the client videos and the stats mixed in
+  const N = 5;
+  const cols: WallTile[][] = Array.from({ length: N }, () => []);
+  press.forEach((p, i) => cols[i % N].push(p));
+  videos.forEach((v, i) => cols[(i * 2 + 1) % N].splice(1, 0, v));
+  stats.forEach((st, i) => cols[(i * 2) % N].splice(2, 0, st));
   const faces = CASE_STUDIES.slice(0, 7);
 
   return (
     <section className={s.hx} aria-labelledby="hx-title">
+      {/* the press wall: real client features drifting behind the whole hero */}
+      <div className={s.wall}>
+        <div className={s.wallTilt}>
+          {cols.map((col, ci) => (
+            <div className={s.wallCol} key={ci}>
+              <div className={s.wallTrack} style={{ ["--dur" as string]: `${[46, 58, 52, 62, 50][ci]}s` }}>
+                {col.map((tile, i) => <Tile key={`a${i}`} t={tile} />)}
+                {col.map((tile, i) => <Tile key={`b${i}`} t={tile} hidden />)}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      <span className={s.hxShade} aria-hidden="true" />
+      {/* a spinning sticker over the wall, bottom right */}
+      <a href="#clients" className={s.hxSticker} aria-label="Watch our clients' video reviews">
+        <svg viewBox="0 0 200 200" aria-hidden="true">
+          <defs>
+            <path id="hxRing" d="M100,100 m-76,0 a76,76 0 1,1 152,0 a76,76 0 1,1 -152,0" />
+          </defs>
+          <text>
+            <textPath href="#hxRing">REAL CLIENTS ✦ REAL PRESS ✦ REAL CLIENTS ✦ REAL PRESS ✦ </textPath>
+          </text>
+        </svg>
+        <span aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
+        </span>
+      </a>
+
       <div className={s.hxInner}>
         <div className={s.hxCopy}>
           <span className={s.hxKicker}>
@@ -146,39 +177,8 @@ export async function HomeHero() {
             </Link>
             <span className={s.hxProofTxt}>
               <Link href="/case-studies" className={s.hxProofLink}>Real clients. Real press. See their stories</Link>
-              <a href={TRUSTPILOT} target="_blank" rel="noopener noreferrer">
-                <span aria-hidden="true">★★★★★</span> Rated {tp.score.toFixed(1)} on Trustpilot
-              </a>
+              <Link href="/reviews">Read what our clients say</Link>
             </span>
-          </div>
-        </div>
-
-        {/* a spinning sticker between the copy and the wall */}
-        <a href="#clients" className={s.hxSticker} aria-label="Watch our clients' video reviews">
-          <svg viewBox="0 0 200 200" aria-hidden="true">
-            <defs>
-              <path id="hxRing" d="M100,100 m-76,0 a76,76 0 1,1 152,0 a76,76 0 1,1 -152,0" />
-            </defs>
-            <text>
-              <textPath href="#hxRing">REAL CLIENTS ✦ REAL PRESS ✦ REAL CLIENTS ✦ REAL PRESS ✦ </textPath>
-            </text>
-          </svg>
-          <span aria-hidden="true">
-            <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
-          </span>
-        </a>
-
-        {/* the press wall: real client features, moving */}
-        <div className={s.wall}>
-          <div className={s.wallTilt}>
-            {cols.map((col, ci) => (
-              <div className={s.wallCol} key={ci}>
-                <div className={s.wallTrack} style={{ ["--dur" as string]: `${[46, 58, 52][ci]}s` }}>
-                  {col.map((tile, i) => <Tile key={`a${i}`} t={tile} />)}
-                  {col.map((tile, i) => <Tile key={`b${i}`} t={tile} hidden />)}
-                </div>
-              </div>
-            ))}
           </div>
         </div>
       </div>
@@ -314,8 +314,7 @@ export function WorkGrid() {
 }
 
 /* ═══ NUMBERS — only figures already stated elsewhere on the site ═══ */
-export async function Numbers() {
-  const tp = await getTrustpilotData();
+export function Numbers() {
   return (
     <section className="v-sec v-sec--tight">
       <div className="v-wrap">
@@ -329,8 +328,8 @@ export async function Numbers() {
             <span className={s.numLbl}>Of articles approved by the client before they go live</span>
           </div>
           <div className={s.num}>
-            <span className={s.numVal}><span data-count={tp.score.toFixed(1)}>{tp.score.toFixed(1)}</span><em>★</em></span>
-            <span className={s.numLbl}>Rating on Trustpilot, from verified clients</span>
+            <span className={s.numVal}><span data-count="5">5</span></span>
+            <span className={s.numLbl}>Steps from the first call to a live link</span>
           </div>
           <div className={s.num}>
             <span className={s.numVal}><span data-count="24">24</span><em>h</em></span>
@@ -378,6 +377,17 @@ const CLIENT_VIDEOS: (Omit<ClientVideo, "name" | "image" | "outlet" | "url">)[] 
       ["1", "feature tying the business, the teaching and the books together"],
     ],
     video: { src: "/beverly-flaxington-review.mp4", poster: "/beverly-flaxington-poster.jpg", captions: null, length: "0:39", focus: "55% 40%" },
+  },
+  {
+    slug: "jon-small", first: "Jon",
+    roleLine: "Co-founder & CEO, EdSails",
+    clip: { headline: "Building Something Great Is Hard. Jon Small Chose the Part That’s Harder", date: "Nov 19, 2026" },
+    facts: [
+      ["$200M", "exit at Revolution Prep, after turning it around from under $10M"],
+      ["$1.7B", "Nerdy valuation he helped reach through its IPO"],
+      ["4", "founder exits supported with co-founder Eric Hoffman"],
+    ],
+    video: { src: "/jon-small-review.mp4", poster: "/jon-small-poster.jpg", captions: null, length: "0:32", focus: "60% 40%" },
   },
 ];
 
@@ -670,9 +680,14 @@ export async function Reviews() {
           </>
         }
         foot={
-          <Link href="/reviews" className={s.railMore}>
-            All reviews <Arrow />
-          </Link>
+          <span className={s.reviewFoot}>
+            <Link href="/reviews" className={s.railMore}>
+              All reviews <Arrow />
+            </Link>
+            <a href={TRUSTPILOT} target="_blank" rel="noopener noreferrer" className={s.railMore}>
+              Read every review on Trustpilot <span aria-hidden="true">&#8599;</span>
+            </a>
+          </span>
         }
       >
         {reviews.map((r) => {

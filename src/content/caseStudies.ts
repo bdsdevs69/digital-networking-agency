@@ -111,6 +111,19 @@ export const CASE_STUDIES: CaseStudy[] = [
       "result": "The profile ran in the Wall Street Times as \"Beyond the Brief: Krishan Thakker on Law, Leadership, and Social Impact.\" It stays live and searchable — the first thing someone finds about the person, not just the practice. Krish talks about the experience in his own words in the video on our homepage."
   },
   {
+      "slug": "jon-small",
+      "name": "Jon Small",
+      "outlet": "Times Square Journal",
+      "role": "Co-founder & CEO, EdSails · Edtech go-to-market",
+      "image": "/jon-small-tsj.jpg",
+      "url": "https://timesquarejournal.com/business/building-something-great-is-hard-jon-small-chose-the-part-thats-harder",
+      "quote": "From music school to a $200 million exit at Revolution Prep, then EdSails — the edtech go-to-market firm that has never had to market itself.",
+      "client": "Jon Small is the co-founder and CEO of EdSails, a go-to-market firm for education technology that he runs with his longtime partner, Eric Hoffman. Trained first in music, he moved into edtech after his master's degree, more than fifteen years ago. At Revolution Prep he rose from VP of Sales to President and, with Eric, turned a stagnant business earning under $10 million into a cash-flow-positive company above $25 million that Apax Partners acquired for $200 million. At Varsity Tutors, now Nerdy, he launched two divisions that produced nearly $10 million in their first year and helped carry the valuation from $400 million to $1.7 billion through its IPO. He also served as CEO of StudyPoint.",
+      "goal": "EdSails has never advertised itself. Clients came by word of mouth faster than Jon and Eric could take them on, so a record of turnarounds, exits and an unusual way of working had no single public place that told it. The aim was one feature that showed who Jon is, what EdSails does and why it works the way it does.",
+      "did": "We built the story around the idea the firm is named for — be a sail, not an anchor — and Jon's own view of the job: building a great product is hard, but getting it to the schools and learners who need it is harder. The piece covers the path from music to edtech, the Revolution Prep turnaround behind the $200 million exit, the Move Measure Multiply method he and Eric invented, and how EdSails works: every customer conversation handled by Jon or Eric, commission only on revenue actually collected, and month-to-month terms. We wrote it to editorial standard, Jon approved every word, and it ran in Times Square Journal.",
+      "result": "The feature ran in Times Square Journal on November 19, 2026 as \"Building Something Great Is Hard. Jon Small Chose the Part That's Harder.\" It stays live and searchable — one place that tells the whole story behind EdSails."
+  },
+  {
       "slug": "lauretta-zucchetti",
       "name": "Lauretta Zucchetti",
       "outlet": "Times Square Journal",

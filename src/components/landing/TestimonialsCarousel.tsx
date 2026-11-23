@@ -99,9 +99,6 @@ export function TestimonialsCarousel({ reviews }: { reviews: Review[] }) {
               style={{ flex: `0 0 ${cardPct}%` }}
             >
               <figure className="tst-card">
-                <div className="tst-stars" aria-label="Rated 5 out of 5 stars">
-                  ★★★★★
-                </div>
                 <div className="tst-mark">&ldquo;</div>
                 <blockquote className="tst-quote">{r.text}</blockquote>
                 <figcaption className="tst-by">

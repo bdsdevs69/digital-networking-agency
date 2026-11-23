@@ -82,3 +82,13 @@
 @media (max-width: 620px) { .grid { grid-template-columns: 1fr; } }
 
 .avatarImg { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; flex: 0 0 auto; box-shadow: 0 0 0 2px var(--lime); }
+
+/* plain text link to the Trustpilot profile — no stars, score or logo (their guidelines) */
+.tpLink { display: inline-flex; align-items: center; gap: 8px; padding: 12px 20px; border-radius: 999px; border: 1px solid var(--line-2); color: var(--ink); text-decoration: none; font: 700 15px var(--f-body); transition: border-color .25s, background-color .25s, color .25s; }
+.tpLink:hover { background: var(--lime); border-color: var(--lime); color: var(--lime-ink); }
+.quoteMark { font: 800 3.4rem/.6 var(--f-press); color: var(--lime-ink); opacity: .35; height: .5em; }
+.card:nth-child(5) .quoteMark { color: var(--lime); opacity: 1; }
+.card:nth-child(5) .author { color: #f5f5f2; }
+figure.card { margin: 0; }
+.card blockquote.cardBody { margin: 0; }
+
