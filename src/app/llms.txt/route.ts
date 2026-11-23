@@ -51,7 +51,7 @@ export function GET() {
   if (GLOSSARY) lines.push(`- [${GLOSSARY.h1}](${SITE}/glossary): ${GLOSSARY.description}`);
   lines.push("");
   lines.push("## Get featured in a specific publication");
-  for (const o of OUTLETS) {
+  for (const o of OUTLETS.filter((x) => !x.noindex)) {
     lines.push(`- [${o.name}](${SITE}/get-featured-in/${o.slug}): ${o.subhead}`);
   }
   lines.push("");

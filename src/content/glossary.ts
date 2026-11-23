@@ -97,7 +97,7 @@ export const GLOSSARY: Glossary | null = {
       "term": "Feature",
       "id": "feature",
       "definition": "A longer article that explores a person, company or subject in depth, as opposed to a short news story reporting an event. The word is used loosely in the PR industry: an earned profile, a paid placement and a contributor piece may all be sold as a feature. Always ask which route sits behind the word before you buy one.",
-      "link": "/guides/press-release-vs-feature-article"
+      "link": "/guides/do-i-need-a-press-release"
     },
     {
       "term": "Guaranteed placement",
@@ -169,7 +169,7 @@ export const GLOSSARY: Glossary | null = {
       "term": "Press release",
       "id": "press-release",
       "definition": "An official announcement written by an organisation and issued to the media, often through a wire service. It is your own account in your own words. Publications may use it as the starting point for a story, reproduce it or ignore it. A release reposted on news sites through distribution is still a release, not independent coverage of you.",
-      "link": "/guides/press-release-vs-feature-article"
+      "link": "/guides/do-i-need-a-press-release"
     },
     {
       "term": "Publicist",

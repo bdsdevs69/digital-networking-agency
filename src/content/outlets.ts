@@ -4,6 +4,7 @@
 export type Outlet = {
   slug: string; // /get-featured-in/<slug>
   guideSlug?: string; // /guides/<guideSlug> — only outlets with a long guide
+  noindex?: boolean; // live for sales links, kept out of search (no search demand)
   name: string; // "USA Today"
   title: string; // meta title
   subhead: string; // hero subhead
@@ -819,6 +820,7 @@ export const OUTLETS: Outlet[] = [
   {
     slug: "business-journals",
     guideSlug: "how-to-get-featured-in-the-business-journals",
+    noindex: true,
     name: "The Business Journals",
     title: "Get Featured in The Business Journals | Digital Networking Agency",
     subhead: "Local business newsrooms across many US metros",
@@ -1105,6 +1107,7 @@ export const OUTLETS: Outlet[] = [
   {
     slug: "law-and-crime",
     guideSlug: "how-to-get-featured-in-law-and-crime",
+    noindex: true,
     name: "Law & Crime",
     title: "Get Featured in Law & Crime | Digital Networking Agency",
     subhead: "Legal news and true crime, with real editors",
@@ -1433,6 +1436,7 @@ export const OUTLETS: Outlet[] = [
   },
   {
     slug: "us-business-news",
+    noindex: true,
     name: "US Business News",
     title: "Get Featured in US Business News | Digital Networking Agency",
     subhead: "National business coverage",
@@ -1503,6 +1507,7 @@ export const OUTLETS: Outlet[] = [
   },
   {
     slug: "california-observer",
+    noindex: true,
     name: "California Observer",
     title: "Get Featured in California Observer | Digital Networking Agency",
     subhead: "California news and culture",

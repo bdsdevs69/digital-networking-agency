@@ -10,8 +10,8 @@
 type Target = { re: RegExp; href: string };
 
 const TARGETS: Target[] = [
-  { re: /\bUSA Today op-eds?\b/, href: "/guides/usa-today-op-ed-submission" },
-  { re: /\bContributor Content\b/, href: "/guides/usa-today-op-ed-submission" },
+  { re: /\bUSA Today op-eds?\b/, href: "/get-featured-in/usa-today" },
+  { re: /\bContributor Content\b/, href: "/get-featured-in/usa-today" },
   { re: /\bHARO\b/, href: "/guides/haro-alternatives" },
   { re: /\b(?:PR agency (?:costs?|pricing)|cost of PR)\b/i, href: "/guides/how-much-does-a-pr-agency-cost" },
   { re: /\b(?:startup PR|PR for startups)\b/i, href: "/pr-for/startups" },

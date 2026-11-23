@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SERVICES, getService } from "@/content/services";
-import { GUIDES } from "@/content/guides";
+import { GUIDES, getGuide } from "@/content/guides";
 import styles from "../../guides/guides.module.css";
-import { guideHref } from "@/lib/merged";
+import { guideHref, isFoldedGuide, SERVICE_GUIDE, stripFaqSection, unwrapSelfLinks } from "@/lib/merged";
+import { extractFaq } from "@/lib/faq";
 
 const SITE = "https://www.digitalnetworkingagency.com";
 const AUTHOR = "Sam Harris";
@@ -135,11 +136,22 @@ export default async function ServicePage({
     "actors-and-filmmakers": "how-to-get-press-as-an-actor-or-filmmaker",
     nonprofits: "how-to-get-press-for-your-nonprofit",
   };
-  const primary = GUIDES.find((g) => g.slug === GUIDE_FOR_SERVICE[service.slug]);
+  const self = `/pr-for/${service.slug}`;
+  const primary = GUIDES.find((g) => g.slug === GUIDE_FOR_SERVICE[service.slug] && !isFoldedGuide(g.slug));
   const related = [
     ...(primary ? [primary] : []),
-    ...GUIDES.filter((g) => g.slug !== primary?.slug).slice(0, primary ? 3 : 4),
+    ...GUIDES.filter((g) => g.slug !== primary?.slug && !isFoldedGuide(g.slug)).slice(0, primary ? 3 : 4),
   ];
+
+  // This industry's how-to guide used to live at its own URL and compete with
+  // this page; it now renders here. Its heading ids are prefixed so they cannot
+  // collide with this page's own, and its FAQ joins the questions below it.
+  const guide = SERVICE_GUIDE[service.slug] ? getGuide(SERVICE_GUIDE[service.slug]) : undefined;
+  const guideBody = guide
+    ? unwrapSelfLinks(stripFaqSection(guide.body), self).replace(/ id="/g, ' id="guide-')
+    : "";
+  const ownQ = new Set(extractFaq(service.body).map((f) => f.q.toLowerCase()));
+  const guideFaqs = guide ? extractFaq(guide.body).filter((f) => !ownQ.has(f.q.toLowerCase())) : [];
 
   return (
     <div className={styles.page}>
@@ -176,8 +188,26 @@ export default async function ServicePage({
 
           <div
             className={styles.body}
-            dangerouslySetInnerHTML={{ __html: service.body }}
+            dangerouslySetInnerHTML={{ __html: unwrapSelfLinks(service.body, self) }}
           />
+
+          {guide ? (
+            <section className={styles.body} id="guide">
+              <h2>{guide.h1}</h2>
+              <div dangerouslySetInnerHTML={{ __html: guideBody }} />
+              {guideFaqs.length ? (
+                <>
+                  <h2 id="more-questions">More questions</h2>
+                  {guideFaqs.map((f) => (
+                    <div key={f.q}>
+                      <h3>{f.q}</h3>
+                      <p>{f.a}</p>
+                    </div>
+                  ))}
+                </>
+              ) : null}
+            </section>
+          ) : null}
         </article>
 
         <aside className={styles.cta}>

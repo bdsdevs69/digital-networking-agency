@@ -8,7 +8,7 @@ import { ProofCards } from "../ProofCards";
 import { clampDescription, clampTitle } from "@/lib/meta";
 import { extractFaq } from "@/lib/faq";
 import { autoLink } from "@/lib/autolink";
-import { isMergedGuide, guideHref } from "@/lib/merged";
+import { isMergedGuide, isFoldedGuide, guideHref } from "@/lib/merged";
 
 const SITE = "https://www.digitalnetworkingagency.com";
 const AUTHOR = "Sam Harris";
@@ -283,7 +283,7 @@ export default async function GuidePage({
       <nav className={styles.more} aria-label="More guides">
         <h2>More guides</h2>
         <ul>
-          {GUIDES.filter((g) => g.slug !== guide.slug).map((g) => (
+          {GUIDES.filter((g) => g.slug !== guide.slug && !isFoldedGuide(g.slug)).map((g) => (
             <li key={g.slug}>
               <Link href={guideHref(g.slug)}>{g.h1}</Link>
             </li>

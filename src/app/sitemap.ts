@@ -137,7 +137,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-  const outletRoutes: MetadataRoute.Sitemap = OUTLETS.map((o) => ({
+  const outletRoutes: MetadataRoute.Sitemap = OUTLETS.filter((o) => !o.noindex).map((o) => ({
     url: `${SITE}/get-featured-in/${o.slug}`,
     lastModified: UPDATED.outlets,
     changeFrequency: "monthly",

@@ -35,6 +35,7 @@ export async function generateMetadata({
   return {
     title: clampTitle(o.title),
     description,
+    ...(o.noindex ? { robots: { index: false, follow: true } } : {}),
     alternates: { canonical: url },
     openGraph: {
       title: clampTitle(o.title),

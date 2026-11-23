@@ -1,0 +1,25 @@
+{
+  "service": {
+    "startups": "how-to-get-press-for-your-startup",
+    "saas-companies": "how-to-get-press-for-your-saas-company",
+    "coaches": "how-to-get-press-as-a-coach",
+    "consultants": "how-to-get-press-as-a-consultant",
+    "real-estate-agents": "how-to-get-press-as-a-real-estate-agent",
+    "attorneys": "how-to-get-press-as-an-attorney",
+    "financial-advisors": "how-to-get-press-as-a-financial-advisor",
+    "medical-practices": "how-to-get-press-for-your-medical-practice",
+    "ecommerce-brands": "how-to-get-press-for-your-ecommerce-brand",
+    "authors": "how-to-get-press-as-an-author",
+    "speakers": "how-to-get-press-as-a-speaker",
+    "artists": "how-to-get-press-as-an-artist",
+    "actors-and-filmmakers": "how-to-get-press-as-an-actor-or-filmmaker",
+    "nonprofits": "how-to-get-press-for-your-nonprofit",
+    "agencies": "white-label-pr-for-agencies"
+  },
+  "retired": {
+    "usa-today-op-ed-submission": "/get-featured-in/usa-today",
+    "why-canadian-newspapers-share-content": "/guides/how-to-get-press-in-canada",
+    "earned-vs-paid-vs-sponsored-media": "/guides/what-is-earned-media",
+    "press-release-vs-feature-article": "/guides/do-i-need-a-press-release"
+  }
+}

@@ -16,9 +16,30 @@ function mergedGuideRedirects() {
   }));
 }
 
+// Industry guides merged into their /pr-for/ page, and overlapping guides
+// retired into the page that already covers them.
+function serviceAndRetiredRedirects() {
+  const merged = JSON.parse(readFileSync(join(process.cwd(), "src/content/merged-guides.json"), "utf8")) as {
+    service: Record<string, string>;
+    retired: Record<string, string>;
+  };
+  return [
+    ...Object.entries(merged.service).map(([service, guide]) => ({
+      source: `/guides/${guide}`,
+      destination: `/pr-for/${service}`,
+      permanent: true,
+    })),
+    ...Object.entries(merged.retired).map(([guide, destination]) => ({
+      source: `/guides/${guide}`,
+      destination,
+      permanent: true,
+    })),
+  ];
+}
+
 const nextConfig: NextConfig = {
   async redirects() {
-    return mergedGuideRedirects();
+    return [...mergedGuideRedirects(), ...serviceAndRetiredRedirects()];
   },
 };
 

@@ -3,7 +3,7 @@ import { BlogIndex, type BlogItem } from "@/components/blog/BlogIndex";
 import s from "@/components/blog/blog.module.css";
 import { COMPARISONS } from "@/content/comparisons";
 import { GUIDES } from "@/content/guides";
-import { isMergedGuide, MERGED_GUIDE_TO_OUTLET } from "@/lib/merged";
+import { guideHref, isFoldedGuide } from "@/lib/merged";
 import { TOP_LISTS_PAGE, VISA_PAGE } from "@/content/landings";
 import { OUTLETS } from "@/content/outlets";
 import { REGIONS } from "@/content/regions";
@@ -80,8 +80,8 @@ export default function GuidesIndex() {
       : isIndustry(sl) ? "Industries"
       : "How PR works";
 
-  const guideItems: BlogItem[] = GUIDES.map((g) => ({
-    href: isMergedGuide(g.slug) ? `/get-featured-in/${MERGED_GUIDE_TO_OUTLET[g.slug]}` : `/guides/${g.slug}`,
+  const guideItems: BlogItem[] = GUIDES.filter((g) => !isFoldedGuide(g.slug)).map((g) => ({
+    href: guideHref(g.slug),
     title: g.h1,
     desc: g.description,
     cat: catFor(g.slug),
@@ -117,10 +117,10 @@ export default function GuidesIndex() {
     name: "PR & Media Guides",
     url: `${SITE}/guides`,
     description: metadata.description as string,
-    hasPart: GUIDES.map((g) => ({
+    hasPart: GUIDES.filter((g) => !isFoldedGuide(g.slug)).map((g) => ({
       "@type": "Article",
       headline: g.h1,
-      url: isMergedGuide(g.slug) ? `${SITE}/get-featured-in/${MERGED_GUIDE_TO_OUTLET[g.slug]}` : `${SITE}/guides/${g.slug}`,
+      url: `${SITE}${guideHref(g.slug)}`,
     })),
   };
 
